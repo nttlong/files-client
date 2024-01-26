@@ -1,0 +1,1 @@
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\AppDeskConnector\AppDeskConnector.csproj;x64
