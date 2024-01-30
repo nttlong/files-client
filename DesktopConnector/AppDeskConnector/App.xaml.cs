@@ -1,4 +1,5 @@
-﻿namespace AppDeskConnector
+﻿
+namespace AppDeskConnector
 {
     public partial class App : Application
     {
@@ -7,6 +8,11 @@
             InitializeComponent();
 
             MainPage = new AppShell();
+        }
+
+        private void InitializeComponent()
+        {
+            throw new NotImplementedException();
         }
     }
 }

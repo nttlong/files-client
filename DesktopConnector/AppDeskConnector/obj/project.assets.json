@@ -15,6 +15,51 @@
           }
         }
       },
+      "H.GeneratedIcons.System.Drawing/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "H.GeneratedIcons.System.Drawing": "2.0.124"
+        },
+        "compile": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon.PopupMenus/2.0.60": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -207,6 +252,47 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Microsoft.Win32.SystemEvents/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Drawing.Common/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
         }
       },
       "Xamarin.Android.Glide/4.13.2.2": {
@@ -1952,6 +2038,51 @@
           }
         }
       },
+      "H.GeneratedIcons.System.Drawing/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "H.GeneratedIcons.System.Drawing": "2.0.124"
+        },
+        "compile": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon.PopupMenus/2.0.60": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -2144,6 +2275,41 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Microsoft.Win32.SystemEvents/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Drawing.Common/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
         }
       },
       "Xamarin.Android.Glide/4.13.2.2": {
@@ -3889,6 +4055,51 @@
           }
         }
       },
+      "H.GeneratedIcons.System.Drawing/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "H.GeneratedIcons.System.Drawing": "2.0.124"
+        },
+        "compile": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon.PopupMenus/2.0.60": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -4081,6 +4292,41 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Microsoft.Win32.SystemEvents/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Drawing.Common/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
         }
       },
       "Xamarin.Android.Glide/4.13.2.2": {
@@ -5826,6 +6072,51 @@
           }
         }
       },
+      "H.GeneratedIcons.System.Drawing/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "H.GeneratedIcons.System.Drawing": "2.0.124"
+        },
+        "compile": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon.PopupMenus/2.0.60": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -6018,6 +6309,41 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Microsoft.Win32.SystemEvents/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Drawing.Common/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
         }
       },
       "Xamarin.Android.Glide/4.13.2.2": {
@@ -7763,6 +8089,51 @@
           }
         }
       },
+      "H.GeneratedIcons.System.Drawing/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "H.GeneratedIcons.System.Drawing": "2.0.124"
+        },
+        "compile": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon.PopupMenus/2.0.60": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -7955,6 +8326,41 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Microsoft.Win32.SystemEvents/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Drawing.Common/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
         }
       },
       "Xamarin.Android.Glide/4.13.2.2": {
@@ -9700,6 +10106,51 @@
           }
         }
       },
+      "H.GeneratedIcons.System.Drawing/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "H.GeneratedIcons.System.Drawing": "2.0.124"
+        },
+        "compile": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon.PopupMenus/2.0.60": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -9892,6 +10343,41 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Microsoft.Win32.SystemEvents/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Drawing.Common/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
         }
       },
       "Xamarin.Android.Glide/4.13.2.2": {
@@ -11637,6 +12123,51 @@
           }
         }
       },
+      "H.GeneratedIcons.System.Drawing/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "H.GeneratedIcons.System.Drawing": "2.0.124"
+        },
+        "compile": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon.PopupMenus/2.0.60": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -11829,6 +12360,41 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Microsoft.Win32.SystemEvents/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Drawing.Common/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
         }
       },
       "Xamarin.Android.Glide/4.13.2.2": {
@@ -13574,6 +14140,51 @@
           }
         }
       },
+      "H.GeneratedIcons.System.Drawing/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "H.GeneratedIcons.System.Drawing": "2.0.124"
+        },
+        "compile": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon.PopupMenus/2.0.60": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -13766,6 +14377,41 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Microsoft.Win32.SystemEvents/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Drawing.Common/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
         }
       },
       "Xamarin.Android.Glide/4.13.2.2": {
@@ -15498,6 +16144,51 @@
       }
     },
     "net7.0-ios16.1": {
+      "H.GeneratedIcons.System.Drawing/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "H.GeneratedIcons.System.Drawing": "2.0.124"
+        },
+        "compile": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon.PopupMenus/2.0.60": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -15690,10 +16381,96 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Microsoft.Win32.SystemEvents/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Drawing.Common/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
         }
       }
     },
     "net7.0-ios16.1/android-arm": {
+      "H.GeneratedIcons.System.Drawing/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "H.GeneratedIcons.System.Drawing": "2.0.124"
+        },
+        "compile": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon.PopupMenus/2.0.60": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -15886,10 +16663,90 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Microsoft.Win32.SystemEvents/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Drawing.Common/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
         }
       }
     },
     "net7.0-ios16.1/android-arm64": {
+      "H.GeneratedIcons.System.Drawing/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "H.GeneratedIcons.System.Drawing": "2.0.124"
+        },
+        "compile": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon.PopupMenus/2.0.60": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -16082,10 +16939,90 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Microsoft.Win32.SystemEvents/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Drawing.Common/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
         }
       }
     },
     "net7.0-ios16.1/android-x64": {
+      "H.GeneratedIcons.System.Drawing/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "H.GeneratedIcons.System.Drawing": "2.0.124"
+        },
+        "compile": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon.PopupMenus/2.0.60": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -16278,10 +17215,90 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Microsoft.Win32.SystemEvents/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Drawing.Common/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
         }
       }
     },
     "net7.0-ios16.1/android-x86": {
+      "H.GeneratedIcons.System.Drawing/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "H.GeneratedIcons.System.Drawing": "2.0.124"
+        },
+        "compile": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon.PopupMenus/2.0.60": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -16474,10 +17491,90 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Microsoft.Win32.SystemEvents/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Drawing.Common/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
         }
       }
     },
     "net7.0-ios16.1/iossimulator-x64": {
+      "H.GeneratedIcons.System.Drawing/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "H.GeneratedIcons.System.Drawing": "2.0.124"
+        },
+        "compile": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon.PopupMenus/2.0.60": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -16670,10 +17767,90 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Microsoft.Win32.SystemEvents/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Drawing.Common/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
         }
       }
     },
     "net7.0-ios16.1/maccatalyst-x64": {
+      "H.GeneratedIcons.System.Drawing/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "H.GeneratedIcons.System.Drawing": "2.0.124"
+        },
+        "compile": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon.PopupMenus/2.0.60": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -16866,10 +18043,90 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Microsoft.Win32.SystemEvents/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Drawing.Common/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
         }
       }
     },
     "net7.0-ios16.1/win10-x64": {
+      "H.GeneratedIcons.System.Drawing/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "H.GeneratedIcons.System.Drawing": "2.0.124"
+        },
+        "compile": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon.PopupMenus/2.0.60": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -17062,10 +18319,90 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Microsoft.Win32.SystemEvents/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Drawing.Common/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
         }
       }
     },
     "net7.0-maccatalyst16.1": {
+      "H.GeneratedIcons.System.Drawing/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "H.GeneratedIcons.System.Drawing": "2.0.124"
+        },
+        "compile": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon.PopupMenus/2.0.60": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -17258,10 +18595,96 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Microsoft.Win32.SystemEvents/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Drawing.Common/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
         }
       }
     },
     "net7.0-maccatalyst16.1/android-arm": {
+      "H.GeneratedIcons.System.Drawing/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "H.GeneratedIcons.System.Drawing": "2.0.124"
+        },
+        "compile": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon.PopupMenus/2.0.60": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -17454,10 +18877,90 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Microsoft.Win32.SystemEvents/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Drawing.Common/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
         }
       }
     },
     "net7.0-maccatalyst16.1/android-arm64": {
+      "H.GeneratedIcons.System.Drawing/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "H.GeneratedIcons.System.Drawing": "2.0.124"
+        },
+        "compile": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon.PopupMenus/2.0.60": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -17650,10 +19153,90 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Microsoft.Win32.SystemEvents/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Drawing.Common/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
         }
       }
     },
     "net7.0-maccatalyst16.1/android-x64": {
+      "H.GeneratedIcons.System.Drawing/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "H.GeneratedIcons.System.Drawing": "2.0.124"
+        },
+        "compile": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon.PopupMenus/2.0.60": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -17846,10 +19429,90 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Microsoft.Win32.SystemEvents/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Drawing.Common/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
         }
       }
     },
     "net7.0-maccatalyst16.1/android-x86": {
+      "H.GeneratedIcons.System.Drawing/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "H.GeneratedIcons.System.Drawing": "2.0.124"
+        },
+        "compile": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon.PopupMenus/2.0.60": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -18042,10 +19705,90 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Microsoft.Win32.SystemEvents/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Drawing.Common/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
         }
       }
     },
     "net7.0-maccatalyst16.1/iossimulator-x64": {
+      "H.GeneratedIcons.System.Drawing/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "H.GeneratedIcons.System.Drawing": "2.0.124"
+        },
+        "compile": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon.PopupMenus/2.0.60": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -18238,10 +19981,90 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Microsoft.Win32.SystemEvents/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Drawing.Common/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
         }
       }
     },
     "net7.0-maccatalyst16.1/maccatalyst-x64": {
+      "H.GeneratedIcons.System.Drawing/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "H.GeneratedIcons.System.Drawing": "2.0.124"
+        },
+        "compile": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon.PopupMenus/2.0.60": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -18434,10 +20257,90 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Microsoft.Win32.SystemEvents/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Drawing.Common/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
         }
       }
     },
     "net7.0-maccatalyst16.1/win10-x64": {
+      "H.GeneratedIcons.System.Drawing/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "H.GeneratedIcons.System.Drawing": "2.0.124"
+        },
+        "compile": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon.PopupMenus/2.0.60": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -18631,9 +20534,117 @@
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
+      },
+      "Microsoft.Win32.SystemEvents/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Drawing.Common/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
       }
     },
     "net7.0-windows10.0.19041": {
+      "CommunityToolkit.Mvvm/7.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "H.GeneratedIcons.System.Drawing/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "H.GeneratedIcons.System.Drawing": "2.0.124"
+        },
+        "compile": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon.PopupMenus/2.0.60": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "HappyStudio.Mvvm.Input.Wpf/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "7.1.2"
+        },
+        "compile": {
+          "lib/net5.0-windows7.0/HappyStudio.Mvvm.Input.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/HappyStudio.Mvvm.Input.Wpf.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -18864,6 +20875,28 @@
           }
         }
       },
+      "Microsoft.Win32.SystemEvents/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
       "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
         "type": "package",
         "build": {
@@ -18954,9 +20987,101 @@
             "rid": "win10-x86"
           }
         }
+      },
+      "System.Drawing.Common/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
       }
     },
     "net7.0-windows10.0.19041/android-arm": {
+      "CommunityToolkit.Mvvm/7.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "H.GeneratedIcons.System.Drawing/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "H.GeneratedIcons.System.Drawing": "2.0.124"
+        },
+        "compile": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon.PopupMenus/2.0.60": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "HappyStudio.Mvvm.Input.Wpf/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "7.1.2"
+        },
+        "compile": {
+          "lib/net5.0-windows7.0/HappyStudio.Mvvm.Input.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/HappyStudio.Mvvm.Input.Wpf.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -19173,6 +21298,22 @@
           }
         }
       },
+      "Microsoft.Win32.SystemEvents/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
       "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
         "type": "package",
         "build": {
@@ -19248,10 +21389,102 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "System.Drawing.Common/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
         }
       }
     },
     "net7.0-windows10.0.19041/android-arm64": {
+      "CommunityToolkit.Mvvm/7.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "H.GeneratedIcons.System.Drawing/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "H.GeneratedIcons.System.Drawing": "2.0.124"
+        },
+        "compile": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon.PopupMenus/2.0.60": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "HappyStudio.Mvvm.Input.Wpf/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "7.1.2"
+        },
+        "compile": {
+          "lib/net5.0-windows7.0/HappyStudio.Mvvm.Input.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/HappyStudio.Mvvm.Input.Wpf.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -19468,6 +21701,22 @@
           }
         }
       },
+      "Microsoft.Win32.SystemEvents/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
       "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
         "type": "package",
         "build": {
@@ -19543,10 +21792,102 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "System.Drawing.Common/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
         }
       }
     },
     "net7.0-windows10.0.19041/android-x64": {
+      "CommunityToolkit.Mvvm/7.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "H.GeneratedIcons.System.Drawing/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "H.GeneratedIcons.System.Drawing": "2.0.124"
+        },
+        "compile": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon.PopupMenus/2.0.60": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "HappyStudio.Mvvm.Input.Wpf/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "7.1.2"
+        },
+        "compile": {
+          "lib/net5.0-windows7.0/HappyStudio.Mvvm.Input.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/HappyStudio.Mvvm.Input.Wpf.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -19763,6 +22104,22 @@
           }
         }
       },
+      "Microsoft.Win32.SystemEvents/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
       "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
         "type": "package",
         "build": {
@@ -19838,10 +22195,102 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "System.Drawing.Common/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
         }
       }
     },
     "net7.0-windows10.0.19041/android-x86": {
+      "CommunityToolkit.Mvvm/7.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "H.GeneratedIcons.System.Drawing/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "H.GeneratedIcons.System.Drawing": "2.0.124"
+        },
+        "compile": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon.PopupMenus/2.0.60": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "HappyStudio.Mvvm.Input.Wpf/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "7.1.2"
+        },
+        "compile": {
+          "lib/net5.0-windows7.0/HappyStudio.Mvvm.Input.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/HappyStudio.Mvvm.Input.Wpf.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -20058,6 +22507,22 @@
           }
         }
       },
+      "Microsoft.Win32.SystemEvents/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
       "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
         "type": "package",
         "build": {
@@ -20133,10 +22598,102 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "System.Drawing.Common/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
         }
       }
     },
     "net7.0-windows10.0.19041/iossimulator-x64": {
+      "CommunityToolkit.Mvvm/7.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "H.GeneratedIcons.System.Drawing/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "H.GeneratedIcons.System.Drawing": "2.0.124"
+        },
+        "compile": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon.PopupMenus/2.0.60": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "HappyStudio.Mvvm.Input.Wpf/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "7.1.2"
+        },
+        "compile": {
+          "lib/net5.0-windows7.0/HappyStudio.Mvvm.Input.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/HappyStudio.Mvvm.Input.Wpf.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -20353,6 +22910,22 @@
           }
         }
       },
+      "Microsoft.Win32.SystemEvents/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
       "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
         "type": "package",
         "build": {
@@ -20428,10 +23001,102 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "System.Drawing.Common/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
         }
       }
     },
     "net7.0-windows10.0.19041/maccatalyst-x64": {
+      "CommunityToolkit.Mvvm/7.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "H.GeneratedIcons.System.Drawing/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "H.GeneratedIcons.System.Drawing": "2.0.124"
+        },
+        "compile": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon.PopupMenus/2.0.60": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "HappyStudio.Mvvm.Input.Wpf/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "7.1.2"
+        },
+        "compile": {
+          "lib/net5.0-windows7.0/HappyStudio.Mvvm.Input.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/HappyStudio.Mvvm.Input.Wpf.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -20648,6 +23313,22 @@
           }
         }
       },
+      "Microsoft.Win32.SystemEvents/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
       "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
         "type": "package",
         "build": {
@@ -20724,9 +23405,101 @@
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
+      },
+      "System.Drawing.Common/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
       }
     },
     "net7.0-windows10.0.19041/win10-x64": {
+      "CommunityToolkit.Mvvm/7.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "H.GeneratedIcons.System.Drawing/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon/2.0.124": {
+        "type": "package",
+        "dependencies": {
+          "H.GeneratedIcons.System.Drawing": "2.0.124"
+        },
+        "compile": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "H.NotifyIcon.PopupMenus/2.0.60": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/H.NotifyIcon.PopupMenus.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "HappyStudio.Mvvm.Input.Wpf/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "7.1.2"
+        },
+        "compile": {
+          "lib/net5.0-windows7.0/HappyStudio.Mvvm.Input.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/HappyStudio.Mvvm.Input.Wpf.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -20946,6 +23719,22 @@
           }
         }
       },
+      "Microsoft.Win32.SystemEvents/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
       "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
         "type": "package",
         "build": {
@@ -21025,10 +23814,55 @@
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
+      },
+      "System.Drawing.Common/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
       }
     }
   },
   "libraries": {
+    "CommunityToolkit.Mvvm/7.1.2": {
+      "sha512": "/zEpNH3FIBFY2iZRBi+S3Sia3q2yJgy1IQHnWRW7MdhQIe3IGcA1TGqJdbtjiJBmNy4v7kkPdNzgYlvvNDjXZg==",
+      "type": "package",
+      "path": "communitytoolkit.mvvm/7.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "License.md",
+        "ThirdPartyNotices.txt",
+        "analyzers/dotnet/cs/CommunityToolkit.Mvvm.SourceGenerators.dll",
+        "analyzers/dotnet/cs/CommunityToolkit.Mvvm.SourceGenerators.pdb",
+        "analyzers/dotnet/cs/CommunityToolkit.Mvvm.SourceGenerators.xml",
+        "communitytoolkit.mvvm.7.1.2.nupkg.sha512",
+        "communitytoolkit.mvvm.nuspec",
+        "lib/net5.0/CommunityToolkit.Mvvm.dll",
+        "lib/net5.0/CommunityToolkit.Mvvm.pdb",
+        "lib/net5.0/CommunityToolkit.Mvvm.xml",
+        "lib/netstandard2.0/CommunityToolkit.Mvvm.dll",
+        "lib/netstandard2.0/CommunityToolkit.Mvvm.pdb",
+        "lib/netstandard2.0/CommunityToolkit.Mvvm.xml",
+        "lib/netstandard2.1/CommunityToolkit.Mvvm.dll",
+        "lib/netstandard2.1/CommunityToolkit.Mvvm.pdb",
+        "lib/netstandard2.1/CommunityToolkit.Mvvm.xml"
+      ]
+    },
     "GoogleGson/2.9.1.1": {
       "sha512": "OreKEL2Yx2u8YhRqv0e+j45cEzoe+fyMEzGN+M/vfBDPsIXQcA6lGdHXO07bTrGn6NNwxY67dyIfbyXx3A7cDA==",
       "type": "package",
@@ -21045,6 +23879,86 @@
         "lib/net6.0-android31.0/GoogleGson.aar",
         "lib/net6.0-android31.0/GoogleGson.dll",
         "lib/net6.0-android31.0/GoogleGson.xml"
+      ]
+    },
+    "H.GeneratedIcons.System.Drawing/2.0.124": {
+      "sha512": "HP8OdWxrujKbLlmpcnNd+B9MGygGZ4g7RbzlBUmwNvJPVUfL7H+OQoiiCKUT/pfLzX75Nt0smE1RIJ/+SLeFfg==",
+      "type": "package",
+      "path": "h.generatedicons.system.drawing/2.0.124",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "h.generatedicons.system.drawing.2.0.124.nupkg.sha512",
+        "h.generatedicons.system.drawing.nuspec",
+        "lib/net462/H.GeneratedIcons.System.Drawing.dll",
+        "lib/net462/H.GeneratedIcons.System.Drawing.xml",
+        "lib/net6.0/H.GeneratedIcons.System.Drawing.dll",
+        "lib/net6.0/H.GeneratedIcons.System.Drawing.xml",
+        "lib/net7.0/H.GeneratedIcons.System.Drawing.dll",
+        "lib/net7.0/H.GeneratedIcons.System.Drawing.xml",
+        "lib/net8.0/H.GeneratedIcons.System.Drawing.dll",
+        "lib/net8.0/H.GeneratedIcons.System.Drawing.xml",
+        "lib/netstandard2.0/H.GeneratedIcons.System.Drawing.dll",
+        "lib/netstandard2.0/H.GeneratedIcons.System.Drawing.xml",
+        "nuget_icon.png"
+      ]
+    },
+    "H.NotifyIcon/2.0.124": {
+      "sha512": "wifXuToNRNBxW0RIb2H8gLlUeDOjScuakbwFyk7y/OFPZs15PF1uSMuOORzgSDUfT+NHjeaKlNHlinzLw7Ct9Q==",
+      "type": "package",
+      "path": "h.notifyicon/2.0.124",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "h.notifyicon.2.0.124.nupkg.sha512",
+        "h.notifyicon.nuspec",
+        "lib/net462/H.NotifyIcon.dll",
+        "lib/net462/H.NotifyIcon.xml",
+        "lib/net6.0/H.NotifyIcon.dll",
+        "lib/net6.0/H.NotifyIcon.xml",
+        "lib/net7.0/H.NotifyIcon.dll",
+        "lib/net7.0/H.NotifyIcon.xml",
+        "lib/net8.0/H.NotifyIcon.dll",
+        "lib/net8.0/H.NotifyIcon.xml",
+        "lib/netstandard2.0/H.NotifyIcon.dll",
+        "lib/netstandard2.0/H.NotifyIcon.xml",
+        "nuget_icon.png"
+      ]
+    },
+    "H.NotifyIcon.PopupMenus/2.0.60": {
+      "sha512": "snJBYCKjzZ9BU0+E8drg3X+5eDq0NLP5lHnyKq3bdM0p3VFQXGIANTlvKwDmeyAEDMW5qK6zIWjB0gaxTSKXqw==",
+      "type": "package",
+      "path": "h.notifyicon.popupmenus/2.0.60",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "h.notifyicon.popupmenus.2.0.60.nupkg.sha512",
+        "h.notifyicon.popupmenus.nuspec",
+        "lib/net451/H.NotifyIcon.PopupMenus.dll",
+        "lib/net451/H.NotifyIcon.PopupMenus.xml",
+        "lib/net5.0/H.NotifyIcon.PopupMenus.dll",
+        "lib/net5.0/H.NotifyIcon.PopupMenus.xml",
+        "lib/net6.0/H.NotifyIcon.PopupMenus.dll",
+        "lib/net6.0/H.NotifyIcon.PopupMenus.xml",
+        "lib/netstandard2.0/H.NotifyIcon.PopupMenus.dll",
+        "lib/netstandard2.0/H.NotifyIcon.PopupMenus.xml",
+        "nuget_icon.png"
+      ]
+    },
+    "HappyStudio.Mvvm.Input.Wpf/1.0.1": {
+      "sha512": "/crvIG4KuGGxjz/yTabB52QTnnZaV6PWQLiFKQZkax+GuXTNC0+M/XeJyhp3no4Crr5GJQIMiFd7haWb69QagA==",
+      "type": "package",
+      "path": "happystudio.mvvm.input.wpf/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "happystudio.mvvm.input.wpf.1.0.1.nupkg.sha512",
+        "happystudio.mvvm.input.wpf.nuspec",
+        "lib/net5.0-windows7.0/HappyStudio.Mvvm.Input.Wpf.dll"
       ]
     },
     "Microsoft.Extensions.Configuration/7.0.0": {
@@ -21476,6 +24390,41 @@
         "tools/net7.0/illink.deps.json",
         "tools/net7.0/illink.dll",
         "tools/net7.0/illink.runtimeconfig.json"
+      ]
+    },
+    "Microsoft.Win32.SystemEvents/8.0.0": {
+      "sha512": "9opKRyOKMCi2xJ7Bj7kxtZ1r9vbzosMvRrdEhVhDz8j8MoBGgB+WmC94yH839NPH+BclAjtQ/pyagvi/8gDLkw==",
+      "type": "package",
+      "path": "microsoft.win32.systemevents/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Win32.SystemEvents.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Win32.SystemEvents.targets",
+        "lib/net462/Microsoft.Win32.SystemEvents.dll",
+        "lib/net462/Microsoft.Win32.SystemEvents.xml",
+        "lib/net6.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/net6.0/Microsoft.Win32.SystemEvents.xml",
+        "lib/net7.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/net7.0/Microsoft.Win32.SystemEvents.xml",
+        "lib/net8.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/net8.0/Microsoft.Win32.SystemEvents.xml",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
+        "microsoft.win32.systemevents.8.0.0.nupkg.sha512",
+        "microsoft.win32.systemevents.nuspec",
+        "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.xml",
+        "runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.xml",
+        "runtimes/win/lib/net8.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/net8.0/Microsoft.Win32.SystemEvents.xml",
+        "useSharedDesignerContext.txt"
       ]
     },
     "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
@@ -22309,6 +25258,46 @@
         "tools/net5.0/zh-TW/Microsoft.Build.Msix.resources.dll",
         "tools/x64/GenXbf.dll",
         "tools/x86/GenXbf.dll"
+      ]
+    },
+    "System.Drawing.Common/8.0.0": {
+      "sha512": "JkbHJjtI/dWc5dfmEdJlbe3VwgZqCkZRtfuWFh5GOv0f+gGCfBtzMpIVkmdkj2AObO9y+oiOi81UGwH3aBYuqA==",
+      "type": "package",
+      "path": "system.drawing.common/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Drawing.Common.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Drawing.Common.targets",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net462/System.Drawing.Common.dll",
+        "lib/net462/System.Drawing.Common.pdb",
+        "lib/net462/System.Drawing.Common.xml",
+        "lib/net6.0/System.Drawing.Common.dll",
+        "lib/net6.0/System.Drawing.Common.pdb",
+        "lib/net6.0/System.Drawing.Common.xml",
+        "lib/net7.0/System.Drawing.Common.dll",
+        "lib/net7.0/System.Drawing.Common.pdb",
+        "lib/net7.0/System.Drawing.Common.xml",
+        "lib/net8.0/System.Drawing.Common.dll",
+        "lib/net8.0/System.Drawing.Common.pdb",
+        "lib/net8.0/System.Drawing.Common.xml",
+        "lib/netstandard2.0/System.Drawing.Common.dll",
+        "lib/netstandard2.0/System.Drawing.Common.pdb",
+        "lib/netstandard2.0/System.Drawing.Common.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "system.drawing.common.8.0.0.nupkg.sha512",
+        "system.drawing.common.nuspec",
+        "useSharedDesignerContext.txt"
       ]
     },
     "Xamarin.Android.Glide/4.13.2.2": {
@@ -24311,6 +27300,8 @@
   },
   "projectFileDependencyGroups": {
     "net7.0-android33.0": [
+      "H.NotifyIcon >= 2.0.124",
+      "H.NotifyIcon.PopupMenus >= 2.0.60",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -24331,6 +27322,8 @@
       "Xamarin.Google.Crypto.Tink.Android >= 1.7.0.1"
     ],
     "net7.0-ios16.1": [
+      "H.NotifyIcon >= 2.0.124",
+      "H.NotifyIcon.PopupMenus >= 2.0.60",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -24340,6 +27333,8 @@
       "Microsoft.NET.ILLink.Tasks >= 7.0.100-1.23211.1"
     ],
     "net7.0-maccatalyst16.1": [
+      "H.NotifyIcon >= 2.0.124",
+      "H.NotifyIcon.PopupMenus >= 2.0.60",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -24349,6 +27344,9 @@
       "Microsoft.NET.ILLink.Tasks >= 7.0.100-1.23211.1"
     ],
     "net7.0-windows10.0.19041": [
+      "H.NotifyIcon >= 2.0.124",
+      "H.NotifyIcon.PopupMenus >= 2.0.60",
+      "HappyStudio.Mvvm.Input.Wpf >= 1.0.1",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -24419,6 +27417,14 @@
       "net7.0-android33.0": {
         "targetAlias": "net7.0-android",
         "dependencies": {
+          "H.NotifyIcon": {
+            "target": "Package",
+            "version": "[2.0.124, )"
+          },
+          "H.NotifyIcon.PopupMenus": {
+            "target": "Package",
+            "version": "[2.0.60, )"
+          },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",
             "version": "[7.0.0, )",
@@ -24590,6 +27596,14 @@
       "net7.0-ios16.1": {
         "targetAlias": "net7.0-ios",
         "dependencies": {
+          "H.NotifyIcon": {
+            "target": "Package",
+            "version": "[2.0.124, )"
+          },
+          "H.NotifyIcon.PopupMenus": {
+            "target": "Package",
+            "version": "[2.0.60, )"
+          },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",
             "version": "[7.0.0, )",
@@ -24694,6 +27708,14 @@
       "net7.0-maccatalyst16.1": {
         "targetAlias": "net7.0-maccatalyst",
         "dependencies": {
+          "H.NotifyIcon": {
+            "target": "Package",
+            "version": "[2.0.124, )"
+          },
+          "H.NotifyIcon.PopupMenus": {
+            "target": "Package",
+            "version": "[2.0.60, )"
+          },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",
             "version": "[7.0.0, )",
@@ -24799,6 +27821,18 @@
       "net7.0-windows10.0.19041": {
         "targetAlias": "net7.0-windows10.0.19041.0",
         "dependencies": {
+          "H.NotifyIcon": {
+            "target": "Package",
+            "version": "[2.0.124, )"
+          },
+          "H.NotifyIcon.PopupMenus": {
+            "target": "Package",
+            "version": "[2.0.60, )"
+          },
+          "HappyStudio.Mvvm.Input.Wpf": {
+            "target": "Package",
+            "version": "[1.0.1, )"
+          },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",
             "version": "[7.0.0, )",

@@ -61,6 +61,14 @@
         "net7.0-android33.0": {
           "targetAlias": "net7.0-android",
           "dependencies": {
+            "H.NotifyIcon": {
+              "target": "Package",
+              "version": "[2.0.124, )"
+            },
+            "H.NotifyIcon.PopupMenus": {
+              "target": "Package",
+              "version": "[2.0.60, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[7.0.0, )",
@@ -232,6 +240,14 @@
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
           "dependencies": {
+            "H.NotifyIcon": {
+              "target": "Package",
+              "version": "[2.0.124, )"
+            },
+            "H.NotifyIcon.PopupMenus": {
+              "target": "Package",
+              "version": "[2.0.60, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[7.0.0, )",
@@ -336,6 +352,14 @@
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
           "dependencies": {
+            "H.NotifyIcon": {
+              "target": "Package",
+              "version": "[2.0.124, )"
+            },
+            "H.NotifyIcon.PopupMenus": {
+              "target": "Package",
+              "version": "[2.0.60, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[7.0.0, )",
@@ -441,6 +465,18 @@
         "net7.0-windows10.0.19041": {
           "targetAlias": "net7.0-windows10.0.19041.0",
           "dependencies": {
+            "H.NotifyIcon": {
+              "target": "Package",
+              "version": "[2.0.124, )"
+            },
+            "H.NotifyIcon.PopupMenus": {
+              "target": "Package",
+              "version": "[2.0.60, )"
+            },
+            "HappyStudio.Mvvm.Input.Wpf": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[7.0.0, )",

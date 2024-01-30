@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AppDeskConnector")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+c1633592a15025c9b59b2e396528495351b412ca")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+cf1a2e9f378b4cd3ebb84a9dfd32363d0a69a62a")]
 [assembly: System.Reflection.AssemblyProductAttribute("AppDeskConnector")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AppDeskConnector")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
