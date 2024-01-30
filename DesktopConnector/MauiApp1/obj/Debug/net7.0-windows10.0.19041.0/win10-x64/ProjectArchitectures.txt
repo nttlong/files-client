@@ -1,1 +1,6 @@
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxDesk.Services\CodxDesk.Services.csproj;neutral
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxDesk.Services\CodxDesk.Services.csproj;neutral
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxDesk.WinUI\CodxDesk.WinUI.csproj;neutral
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\MauiApp1.csproj;x64
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiLib1\Hardcodet.Wpf.TaskbarNotification.Interop.csproj;neutral
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiLib1\Hardcodet.Wpf.TaskbarNotification.Interop.csproj;neutral

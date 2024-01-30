@@ -268,3 +268,8 @@ C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\D
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-ios\iossimulator-x64\MauiApp1.pdb
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-ios\iossimulator-x64\MauiApp1.genruntimeconfig.cache
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-ios\iossimulator-x64\ref\MauiApp1.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\bin\Debug\net7.0-ios\iossimulator-x64\PInvoke.Kernel32.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\bin\Debug\net7.0-ios\iossimulator-x64\PInvoke.User32.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\bin\Debug\net7.0-ios\iossimulator-x64\PInvoke.Windows.Core.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\bin\Debug\net7.0-ios\iossimulator-x64\PInvoke.Windows.ShellScalingApi.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\bin\Debug\net7.0-ios\iossimulator-x64\Validation.dll

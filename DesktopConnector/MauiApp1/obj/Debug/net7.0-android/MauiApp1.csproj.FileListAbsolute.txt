@@ -1035,3 +1035,8 @@ C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\D
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-android\android\assets\PInvoke.Kernel32.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-android\android\assets\PInvoke.User32.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-android\android\assets\PInvoke.Windows.Core.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-android\android\assets\PInvoke.Windows.ShellScalingApi.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-android\android\assets\Validation.dll

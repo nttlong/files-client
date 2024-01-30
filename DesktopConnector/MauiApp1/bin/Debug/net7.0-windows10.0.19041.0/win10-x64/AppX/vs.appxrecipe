@@ -29,29 +29,41 @@
     <AppXManifest Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-01-29T10:48:18.933</Modified>
+      <Modified>2024-01-30T10:49:06.129</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-01-26T09:01:19.286</Modified>
+      <Modified>2024-01-30T10:49:05.605</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiApp1.runtimeconfig.json">
       <PackagePath>MauiApp1.runtimeconfig.json</PackagePath>
-      <Modified>2024-01-26T08:59:23.921</Modified>
+      <Modified>2024-01-30T10:27:45.917</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiApp1.dll">
       <PackagePath>MauiApp1.dll</PackagePath>
-      <Modified>2024-01-26T09:01:17.618</Modified>
+      <Modified>2024-01-30T10:49:04.279</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxDesk.Services\bin\Debug\net7.0-windows10.0.19041.0\CodxDesk.Services.dll">
+      <PackagePath>CodxDesk.Services.dll</PackagePath>
+      <Modified>2024-01-30T09:59:05.299</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxDesk.WinUI\bin\Debug\net7.0-windows10.0.19041.0\CodxDesk.WinUI.dll">
+      <PackagePath>CodxDesk.WinUI.dll</PackagePath>
+      <Modified>2024-01-30T10:08:13.694</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiLib1\bin\Debug\net7.0-windows10.0.19041.0\Hardcodet.Wpf.TaskbarNotification.Interop.dll">
+      <PackagePath>Hardcodet.Wpf.TaskbarNotification.Interop.dll</PackagePath>
+      <Modified>2024-01-30T09:31:14.872</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MauiApp1.exe</PackagePath>
-      <Modified>2024-01-26T09:01:17.633</Modified>
+      <Modified>2024-01-30T10:49:04.337</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiApp1.deps.json">
       <PackagePath>MauiApp1.deps.json</PackagePath>
-      <Modified>2024-01-26T09:01:19.027</Modified>
+      <Modified>2024-01-30T10:27:45.725</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.15\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -857,6 +869,14 @@
       <PackagePath>Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll</PackagePath>
       <Modified>2023-11-02T20:38:16.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\.nuget\packages\microsoft.toolkit.uwp.notifications\7.1.3\lib\net5.0-windows10.0.17763\Microsoft.Toolkit.Uwp.Notifications.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.Notifications.dll</PackagePath>
+      <Modified>2022-11-01T17:32:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\.nuget\packages\microsoft.win32.systemevents\4.7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll">
+      <PackagePath>Microsoft.Win32.SystemEvents.dll</PackagePath>
+      <Modified>2019-11-15T08:54:18.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\lib\net6.0-windows10.0.18362.0\Microsoft.InteractiveExperiences.Projection.dll">
       <PackagePath>Microsoft.InteractiveExperiences.Projection.dll</PackagePath>
       <Modified>2022-12-07T05:51:52.000</Modified>
@@ -913,6 +933,30 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
       <Modified>2022-11-08T19:31:22.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\.nuget\packages\pinvoke.kernel32\0.7.124\lib\netstandard2.0\PInvoke.Kernel32.dll">
+      <PackagePath>PInvoke.Kernel32.dll</PackagePath>
+      <Modified>2022-06-30T13:22:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\.nuget\packages\pinvoke.user32\0.7.124\lib\netstandard2.0\PInvoke.User32.dll">
+      <PackagePath>PInvoke.User32.dll</PackagePath>
+      <Modified>2022-06-30T13:22:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\.nuget\packages\pinvoke.windows.core\0.7.124\lib\netstandard2.0\PInvoke.Windows.Core.dll">
+      <PackagePath>PInvoke.Windows.Core.dll</PackagePath>
+      <Modified>2022-06-30T13:22:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\.nuget\packages\pinvoke.windows.shellscalingapi\0.7.124\lib\netstandard2.0\PInvoke.Windows.ShellScalingApi.dll">
+      <PackagePath>PInvoke.Windows.ShellScalingApi.dll</PackagePath>
+      <Modified>2022-06-30T13:22:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\.nuget\packages\system.drawing.common\4.7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll">
+      <PackagePath>System.Drawing.Common.dll</PackagePath>
+      <Modified>2019-11-15T08:54:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\.nuget\packages\validation\2.4.15\lib\netstandard1.3\Validation.dll">
+      <PackagePath>Validation.dll</PackagePath>
+      <Modified>2017-03-14T21:41:02.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\.nuget\packages\microsoft.graphics.win2d\1.0.5.1\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
       <Modified>2023-05-31T20:12:36.000</Modified>
@@ -957,217 +1001,1213 @@
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
       <Modified>2024-01-26T08:58:58.416</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\fa-solid-900.ttf">
+      <PackagePath>fa-solid-900.ttf</PackagePath>
+      <Modified>2024-01-29T10:52:02.997</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
-      <Modified>2024-01-26T08:58:46.180</Modified>
+      <Modified>2024-01-29T10:52:02.990</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
-      <Modified>2024-01-26T08:58:46.182</Modified>
+      <Modified>2024-01-29T10:52:02.992</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\add_icon.scale-100.png">
+      <PackagePath>add_icon.scale-100.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.944</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\add_icon.scale-125.png">
+      <PackagePath>add_icon.scale-125.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.994</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\add_icon.scale-150.png">
+      <PackagePath>add_icon.scale-150.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.024</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\add_icon.scale-200.png">
+      <PackagePath>add_icon.scale-200.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.129</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\add_icon.scale-400.png">
+      <PackagePath>add_icon.scale-400.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.134</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\add_location.scale-100.png">
+      <PackagePath>add_location.scale-100.png</PackagePath>
+      <Modified>2024-01-29T10:52:02.997</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2024-01-26T08:58:58.483</Modified>
+      <Modified>2024-01-30T10:27:33.018</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2024-01-26T08:58:59.008</Modified>
+      <Modified>2024-01-30T10:27:33.581</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2024-01-26T08:58:59.020</Modified>
+      <Modified>2024-01-30T10:27:33.622</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2024-01-26T08:58:59.032</Modified>
+      <Modified>2024-01-30T10:27:33.634</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2024-01-26T08:58:59.050</Modified>
+      <Modified>2024-01-30T10:27:33.653</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2024-01-26T08:58:59.123</Modified>
+      <Modified>2024-01-30T10:27:33.729</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2024-01-26T08:58:58.714</Modified>
+      <Modified>2024-01-30T10:27:33.377</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2024-01-26T08:58:58.721</Modified>
+      <Modified>2024-01-30T10:27:33.380</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2024-01-26T08:58:58.756</Modified>
+      <Modified>2024-01-30T10:27:33.405</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2024-01-26T08:58:58.727</Modified>
+      <Modified>2024-01-30T10:27:33.393</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2024-01-26T08:58:58.734</Modified>
+      <Modified>2024-01-30T10:27:33.396</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2024-01-26T08:58:58.682</Modified>
+      <Modified>2024-01-30T10:27:33.350</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2024-01-26T08:58:58.687</Modified>
+      <Modified>2024-01-30T10:27:33.354</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2024-01-26T08:58:58.707</Modified>
+      <Modified>2024-01-30T10:27:33.375</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2024-01-26T08:58:58.694</Modified>
+      <Modified>2024-01-30T10:27:33.358</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2024-01-26T08:58:58.698</Modified>
+      <Modified>2024-01-30T10:27:33.365</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2024-01-26T08:58:58.503</Modified>
+      <Modified>2024-01-30T10:27:33.081</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2024-01-26T08:58:58.552</Modified>
+      <Modified>2024-01-30T10:27:33.212</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2024-01-26T08:58:58.562</Modified>
+      <Modified>2024-01-30T10:27:33.236</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2024-01-26T08:58:58.578</Modified>
+      <Modified>2024-01-30T10:27:33.291</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2024-01-26T08:58:58.587</Modified>
+      <Modified>2024-01-30T10:27:33.330</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2024-01-26T08:58:58.600</Modified>
+      <Modified>2024-01-30T10:27:33.333</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2024-01-26T08:58:58.613</Modified>
+      <Modified>2024-01-30T10:27:33.335</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2024-01-26T08:58:58.675</Modified>
+      <Modified>2024-01-30T10:27:33.348</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2024-01-26T08:58:58.641</Modified>
+      <Modified>2024-01-30T10:27:33.338</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2024-01-26T08:58:58.654</Modified>
+      <Modified>2024-01-30T10:27:33.341</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2024-01-26T08:58:58.861</Modified>
+      <Modified>2024-01-30T10:27:33.452</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2024-01-26T08:58:58.869</Modified>
+      <Modified>2024-01-30T10:27:33.457</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2024-01-26T08:58:58.878</Modified>
+      <Modified>2024-01-30T10:27:33.463</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2024-01-26T08:58:58.891</Modified>
+      <Modified>2024-01-30T10:27:33.472</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2024-01-26T08:58:58.914</Modified>
+      <Modified>2024-01-30T10:27:33.489</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2024-01-26T08:58:58.822</Modified>
+      <Modified>2024-01-30T10:27:33.427</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2024-01-26T08:58:58.827</Modified>
+      <Modified>2024-01-30T10:27:33.431</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2024-01-26T08:58:58.831</Modified>
+      <Modified>2024-01-30T10:27:33.435</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2024-01-26T08:58:58.838</Modified>
+      <Modified>2024-01-30T10:27:33.440</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2024-01-26T08:58:58.855</Modified>
+      <Modified>2024-01-30T10:27:33.448</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2024-01-26T08:58:58.782</Modified>
+      <Modified>2024-01-30T10:27:33.408</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2024-01-26T08:58:58.794</Modified>
+      <Modified>2024-01-30T10:27:33.411</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2024-01-26T08:58:58.805</Modified>
+      <Modified>2024-01-30T10:27:33.414</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2024-01-26T08:58:58.810</Modified>
+      <Modified>2024-01-30T10:27:33.419</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2024-01-26T08:58:58.817</Modified>
+      <Modified>2024-01-30T10:27:33.424</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2024-01-26T08:58:58.922</Modified>
+      <Modified>2024-01-30T10:27:33.495</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2024-01-26T08:58:58.932</Modified>
+      <Modified>2024-01-30T10:27:33.502</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2024-01-26T08:58:58.945</Modified>
+      <Modified>2024-01-30T10:27:33.510</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2024-01-26T08:58:58.962</Modified>
+      <Modified>2024-01-30T10:27:33.524</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2024-01-26T08:58:58.998</Modified>
+      <Modified>2024-01-30T10:27:33.557</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\checkmark_icon.scale-100.png">
+      <PackagePath>checkmark_icon.scale-100.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.919</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\checkmark_icon.scale-125.png">
+      <PackagePath>checkmark_icon.scale-125.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.953</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\checkmark_icon.scale-150.png">
+      <PackagePath>checkmark_icon.scale-150.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.956</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\checkmark_icon.scale-200.png">
+      <PackagePath>checkmark_icon.scale-200.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.994</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\checkmark_icon.scale-400.png">
+      <PackagePath>checkmark_icon.scale-400.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.049</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\compass_background.scale-100.png">
+      <PackagePath>compass_background.scale-100.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.194</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\compass_background.scale-125.png">
+      <PackagePath>compass_background.scale-125.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.213</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\compass_background.scale-150.png">
+      <PackagePath>compass_background.scale-150.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.251</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\compass_background.scale-200.png">
+      <PackagePath>compass_background.scale-200.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.277</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\compass_background.scale-400.png">
+      <PackagePath>compass_background.scale-400.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.362</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\compass_needle.scale-100.png">
+      <PackagePath>compass_needle.scale-100.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.922</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\compass_needle.scale-125.png">
+      <PackagePath>compass_needle.scale-125.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.001</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\compass_needle.scale-150.png">
+      <PackagePath>compass_needle.scale-150.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.017</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\compass_needle.scale-200.png">
+      <PackagePath>compass_needle.scale-200.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.073</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\compass_needle.scale-400.png">
+      <PackagePath>compass_needle.scale-400.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.127</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\current_info.scale-100.png">
+      <PackagePath>current_info.scale-100.png</PackagePath>
+      <Modified>2024-01-29T10:52:02.999</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-01-26T08:58:58.576</Modified>
+      <Modified>2024-01-30T10:27:32.913</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-01-26T08:58:58.596</Modified>
+      <Modified>2024-01-30T10:27:32.975</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-01-26T08:58:58.627</Modified>
+      <Modified>2024-01-30T10:27:33.039</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-01-26T08:58:58.677</Modified>
+      <Modified>2024-01-30T10:27:33.094</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-01-26T08:58:58.764</Modified>
+      <Modified>2024-01-30T10:27:33.188</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_cloudy_20_filled.scale-100.png">
+      <PackagePath>fluent_weather_cloudy_20_filled.scale-100.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.193</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_cloudy_20_filled.scale-125.png">
+      <PackagePath>fluent_weather_cloudy_20_filled.scale-125.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.201</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_cloudy_20_filled.scale-150.png">
+      <PackagePath>fluent_weather_cloudy_20_filled.scale-150.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.202</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_cloudy_20_filled.scale-200.png">
+      <PackagePath>fluent_weather_cloudy_20_filled.scale-200.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.230</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_cloudy_20_filled.scale-400.png">
+      <PackagePath>fluent_weather_cloudy_20_filled.scale-400.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.255</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_drizzle_20_filled.scale-100.png">
+      <PackagePath>fluent_weather_drizzle_20_filled.scale-100.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.954</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_drizzle_20_filled.scale-125.png">
+      <PackagePath>fluent_weather_drizzle_20_filled.scale-125.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.993</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_drizzle_20_filled.scale-150.png">
+      <PackagePath>fluent_weather_drizzle_20_filled.scale-150.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.018</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_drizzle_20_filled.scale-200.png">
+      <PackagePath>fluent_weather_drizzle_20_filled.scale-200.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.099</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_drizzle_20_filled.scale-400.png">
+      <PackagePath>fluent_weather_drizzle_20_filled.scale-400.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.197</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_fog_20_filled.scale-100.png">
+      <PackagePath>fluent_weather_fog_20_filled.scale-100.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.901</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_fog_20_filled.scale-125.png">
+      <PackagePath>fluent_weather_fog_20_filled.scale-125.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.944</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_fog_20_filled.scale-150.png">
+      <PackagePath>fluent_weather_fog_20_filled.scale-150.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.956</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_fog_20_filled.scale-200.png">
+      <PackagePath>fluent_weather_fog_20_filled.scale-200.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.009</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_fog_20_filled.scale-400.png">
+      <PackagePath>fluent_weather_fog_20_filled.scale-400.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.050</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_hail_day_20_filled.scale-100.png">
+      <PackagePath>fluent_weather_hail_day_20_filled.scale-100.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.955</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_hail_day_20_filled.scale-125.png">
+      <PackagePath>fluent_weather_hail_day_20_filled.scale-125.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.993</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_hail_day_20_filled.scale-150.png">
+      <PackagePath>fluent_weather_hail_day_20_filled.scale-150.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.014</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_hail_day_20_filled.scale-200.png">
+      <PackagePath>fluent_weather_hail_day_20_filled.scale-200.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.060</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_hail_day_20_filled.scale-400.png">
+      <PackagePath>fluent_weather_hail_day_20_filled.scale-400.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.156</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_hail_night_20_filled.scale-100.png">
+      <PackagePath>fluent_weather_hail_night_20_filled.scale-100.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.942</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_hail_night_20_filled.scale-125.png">
+      <PackagePath>fluent_weather_hail_night_20_filled.scale-125.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.958</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_hail_night_20_filled.scale-150.png">
+      <PackagePath>fluent_weather_hail_night_20_filled.scale-150.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.991</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_hail_night_20_filled.scale-200.png">
+      <PackagePath>fluent_weather_hail_night_20_filled.scale-200.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.013</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_hail_night_20_filled.scale-400.png">
+      <PackagePath>fluent_weather_hail_night_20_filled.scale-400.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.061</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_haze_20_filled.scale-100.png">
+      <PackagePath>fluent_weather_haze_20_filled.scale-100.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.920</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_haze_20_filled.scale-125.png">
+      <PackagePath>fluent_weather_haze_20_filled.scale-125.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.006</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_haze_20_filled.scale-150.png">
+      <PackagePath>fluent_weather_haze_20_filled.scale-150.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.022</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_haze_20_filled.scale-200.png">
+      <PackagePath>fluent_weather_haze_20_filled.scale-200.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.079</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_haze_20_filled.scale-400.png">
+      <PackagePath>fluent_weather_haze_20_filled.scale-400.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.196</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_moon_16_filled.scale-100.png">
+      <PackagePath>fluent_weather_moon_16_filled.scale-100.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.878</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_moon_16_filled.scale-125.png">
+      <PackagePath>fluent_weather_moon_16_filled.scale-125.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.880</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_moon_16_filled.scale-150.png">
+      <PackagePath>fluent_weather_moon_16_filled.scale-150.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.881</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_moon_16_filled.scale-200.png">
+      <PackagePath>fluent_weather_moon_16_filled.scale-200.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.883</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_moon_16_filled.scale-400.png">
+      <PackagePath>fluent_weather_moon_16_filled.scale-400.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.886</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_moon_off_16_filled.scale-100.png">
+      <PackagePath>fluent_weather_moon_off_16_filled.scale-100.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.881</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_moon_off_16_filled.scale-125.png">
+      <PackagePath>fluent_weather_moon_off_16_filled.scale-125.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.882</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_moon_off_16_filled.scale-150.png">
+      <PackagePath>fluent_weather_moon_off_16_filled.scale-150.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.883</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_moon_off_16_filled.scale-200.png">
+      <PackagePath>fluent_weather_moon_off_16_filled.scale-200.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.885</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_moon_off_16_filled.scale-400.png">
+      <PackagePath>fluent_weather_moon_off_16_filled.scale-400.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.889</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_partly_cloudy.scale-100.png">
+      <PackagePath>fluent_weather_partly_cloudy.scale-100.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.898</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_partly_cloudy.scale-125.png">
+      <PackagePath>fluent_weather_partly_cloudy.scale-125.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.956</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_partly_cloudy.scale-150.png">
+      <PackagePath>fluent_weather_partly_cloudy.scale-150.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.995</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_partly_cloudy.scale-200.png">
+      <PackagePath>fluent_weather_partly_cloudy.scale-200.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.012</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_partly_cloudy.scale-400.png">
+      <PackagePath>fluent_weather_partly_cloudy.scale-400.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.064</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_partly_cloudy_night_20_filled.scale-100.png">
+      <PackagePath>fluent_weather_partly_cloudy_night_20_filled.scale-100.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.899</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_partly_cloudy_night_20_filled.scale-125.png">
+      <PackagePath>fluent_weather_partly_cloudy_night_20_filled.scale-125.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.918</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_partly_cloudy_night_20_filled.scale-150.png">
+      <PackagePath>fluent_weather_partly_cloudy_night_20_filled.scale-150.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.957</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_partly_cloudy_night_20_filled.scale-200.png">
+      <PackagePath>fluent_weather_partly_cloudy_night_20_filled.scale-200.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.001</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_partly_cloudy_night_20_filled.scale-400.png">
+      <PackagePath>fluent_weather_partly_cloudy_night_20_filled.scale-400.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.004</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_20_filled.scale-100.png">
+      <PackagePath>fluent_weather_rain_20_filled.scale-100.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.954</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_20_filled.scale-125.png">
+      <PackagePath>fluent_weather_rain_20_filled.scale-125.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.993</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_20_filled.scale-150.png">
+      <PackagePath>fluent_weather_rain_20_filled.scale-150.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.057</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_20_filled.scale-200.png">
+      <PackagePath>fluent_weather_rain_20_filled.scale-200.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.195</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_20_filled.scale-400.png">
+      <PackagePath>fluent_weather_rain_20_filled.scale-400.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.200</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_showers_day_20_filled.scale-100.png">
+      <PackagePath>fluent_weather_rain_showers_day_20_filled.scale-100.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.942</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_showers_day_20_filled.scale-125.png">
+      <PackagePath>fluent_weather_rain_showers_day_20_filled.scale-125.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.997</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_showers_day_20_filled.scale-150.png">
+      <PackagePath>fluent_weather_rain_showers_day_20_filled.scale-150.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.018</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_showers_day_20_filled.scale-200.png">
+      <PackagePath>fluent_weather_rain_showers_day_20_filled.scale-200.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.047</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_showers_day_20_filled.scale-400.png">
+      <PackagePath>fluent_weather_rain_showers_day_20_filled.scale-400.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.072</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_showers_night_20_filled.scale-100.png">
+      <PackagePath>fluent_weather_rain_showers_night_20_filled.scale-100.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.920</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_showers_night_20_filled.scale-125.png">
+      <PackagePath>fluent_weather_rain_showers_night_20_filled.scale-125.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.991</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_showers_night_20_filled.scale-150.png">
+      <PackagePath>fluent_weather_rain_showers_night_20_filled.scale-150.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.014</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_showers_night_20_filled.scale-200.png">
+      <PackagePath>fluent_weather_rain_showers_night_20_filled.scale-200.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.018</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_showers_night_20_filled.scale-400.png">
+      <PackagePath>fluent_weather_rain_showers_night_20_filled.scale-400.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.081</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_snow_20_filled.scale-100.png">
+      <PackagePath>fluent_weather_rain_snow_20_filled.scale-100.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.902</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_snow_20_filled.scale-125.png">
+      <PackagePath>fluent_weather_rain_snow_20_filled.scale-125.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.953</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_snow_20_filled.scale-150.png">
+      <PackagePath>fluent_weather_rain_snow_20_filled.scale-150.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.994</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_snow_20_filled.scale-200.png">
+      <PackagePath>fluent_weather_rain_snow_20_filled.scale-200.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.015</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_snow_20_filled.scale-400.png">
+      <PackagePath>fluent_weather_rain_snow_20_filled.scale-400.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.059</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snowflake_20_filled.scale-100.png">
+      <PackagePath>fluent_weather_snowflake_20_filled.scale-100.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.888</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snowflake_20_filled.scale-125.png">
+      <PackagePath>fluent_weather_snowflake_20_filled.scale-125.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.917</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snowflake_20_filled.scale-150.png">
+      <PackagePath>fluent_weather_snowflake_20_filled.scale-150.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.969</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snowflake_20_filled.scale-200.png">
+      <PackagePath>fluent_weather_snowflake_20_filled.scale-200.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.023</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snowflake_20_filled.scale-400.png">
+      <PackagePath>fluent_weather_snowflake_20_filled.scale-400.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.056</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snow_20_filled.scale-100.png">
+      <PackagePath>fluent_weather_snow_20_filled.scale-100.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.195</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snow_20_filled.scale-125.png">
+      <PackagePath>fluent_weather_snow_20_filled.scale-125.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.200</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snow_20_filled.scale-150.png">
+      <PackagePath>fluent_weather_snow_20_filled.scale-150.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.209</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snow_20_filled.scale-200.png">
+      <PackagePath>fluent_weather_snow_20_filled.scale-200.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.260</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snow_20_filled.scale-400.png">
+      <PackagePath>fluent_weather_snow_20_filled.scale-400.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.264</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snow_shower_day_20_filled.scale-100.png">
+      <PackagePath>fluent_weather_snow_shower_day_20_filled.scale-100.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.912</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snow_shower_day_20_filled.scale-125.png">
+      <PackagePath>fluent_weather_snow_shower_day_20_filled.scale-125.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.956</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snow_shower_day_20_filled.scale-150.png">
+      <PackagePath>fluent_weather_snow_shower_day_20_filled.scale-150.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.023</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snow_shower_day_20_filled.scale-200.png">
+      <PackagePath>fluent_weather_snow_shower_day_20_filled.scale-200.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.060</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snow_shower_day_20_filled.scale-400.png">
+      <PackagePath>fluent_weather_snow_shower_day_20_filled.scale-400.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.066</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snow_shower_night_20_filled.scale-100.png">
+      <PackagePath>fluent_weather_snow_shower_night_20_filled.scale-100.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.130</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snow_shower_night_20_filled.scale-125.png">
+      <PackagePath>fluent_weather_snow_shower_night_20_filled.scale-125.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.137</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snow_shower_night_20_filled.scale-150.png">
+      <PackagePath>fluent_weather_snow_shower_night_20_filled.scale-150.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.213</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snow_shower_night_20_filled.scale-200.png">
+      <PackagePath>fluent_weather_snow_shower_night_20_filled.scale-200.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.230</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snow_shower_night_20_filled.scale-400.png">
+      <PackagePath>fluent_weather_snow_shower_night_20_filled.scale-400.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.278</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_squalls_20_filled.scale-100.png">
+      <PackagePath>fluent_weather_squalls_20_filled.scale-100.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.049</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_squalls_20_filled.scale-125.png">
+      <PackagePath>fluent_weather_squalls_20_filled.scale-125.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.130</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_squalls_20_filled.scale-150.png">
+      <PackagePath>fluent_weather_squalls_20_filled.scale-150.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.192</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_squalls_20_filled.scale-200.png">
+      <PackagePath>fluent_weather_squalls_20_filled.scale-200.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.199</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_squalls_20_filled.scale-400.png">
+      <PackagePath>fluent_weather_squalls_20_filled.scale-400.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.253</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_20_filled.scale-100.png">
+      <PackagePath>fluent_weather_sunny_20_filled.scale-100.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.942</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_20_filled.scale-125.png">
+      <PackagePath>fluent_weather_sunny_20_filled.scale-125.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.998</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_20_filled.scale-150.png">
+      <PackagePath>fluent_weather_sunny_20_filled.scale-150.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.009</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_20_filled.scale-200.png">
+      <PackagePath>fluent_weather_sunny_20_filled.scale-200.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.055</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_20_filled.scale-400.png">
+      <PackagePath>fluent_weather_sunny_20_filled.scale-400.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.198</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_high_20_filled.scale-100.png">
+      <PackagePath>fluent_weather_sunny_high_20_filled.scale-100.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.903</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_high_20_filled.scale-125.png">
+      <PackagePath>fluent_weather_sunny_high_20_filled.scale-125.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.954</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_high_20_filled.scale-150.png">
+      <PackagePath>fluent_weather_sunny_high_20_filled.scale-150.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.957</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_high_20_filled.scale-200.png">
+      <PackagePath>fluent_weather_sunny_high_20_filled.scale-200.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.991</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_high_20_filled.scale-400.png">
+      <PackagePath>fluent_weather_sunny_high_20_filled.scale-400.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.016</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_low_20_filled.scale-100.png">
+      <PackagePath>fluent_weather_sunny_low_20_filled.scale-100.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.942</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_low_20_filled.scale-125.png">
+      <PackagePath>fluent_weather_sunny_low_20_filled.scale-125.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.998</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_low_20_filled.scale-150.png">
+      <PackagePath>fluent_weather_sunny_low_20_filled.scale-150.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.128</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_low_20_filled.scale-200.png">
+      <PackagePath>fluent_weather_sunny_low_20_filled.scale-200.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.129</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_low_20_filled.scale-400.png">
+      <PackagePath>fluent_weather_sunny_low_20_filled.scale-400.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.232</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_thunderstorm_20_filled.scale-100.png">
+      <PackagePath>fluent_weather_thunderstorm_20_filled.scale-100.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.899</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_thunderstorm_20_filled.scale-125.png">
+      <PackagePath>fluent_weather_thunderstorm_20_filled.scale-125.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.900</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_thunderstorm_20_filled.scale-150.png">
+      <PackagePath>fluent_weather_thunderstorm_20_filled.scale-150.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.902</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_thunderstorm_20_filled.scale-200.png">
+      <PackagePath>fluent_weather_thunderstorm_20_filled.scale-200.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.955</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_thunderstorm_20_filled.scale-400.png">
+      <PackagePath>fluent_weather_thunderstorm_20_filled.scale-400.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.996</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\humidity_icon.scale-100.png">
+      <PackagePath>humidity_icon.scale-100.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.899</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\humidity_icon.scale-125.png">
+      <PackagePath>humidity_icon.scale-125.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.901</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\humidity_icon.scale-150.png">
+      <PackagePath>humidity_icon.scale-150.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.902</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\humidity_icon.scale-200.png">
+      <PackagePath>humidity_icon.scale-200.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.917</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\humidity_icon.scale-400.png">
+      <PackagePath>humidity_icon.scale-400.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.971</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\rain_icon.scale-100.png">
+      <PackagePath>rain_icon.scale-100.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.898</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\rain_icon.scale-125.png">
+      <PackagePath>rain_icon.scale-125.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.900</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\rain_icon.scale-150.png">
+      <PackagePath>rain_icon.scale-150.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.921</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\rain_icon.scale-200.png">
+      <PackagePath>rain_icon.scale-200.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.968</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\rain_icon.scale-400.png">
+      <PackagePath>rain_icon.scale-400.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.019</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\search_icon.scale-100.png">
+      <PackagePath>search_icon.scale-100.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.081</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\search_icon.scale-125.png">
+      <PackagePath>search_icon.scale-125.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.214</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\search_icon.scale-150.png">
+      <PackagePath>search_icon.scale-150.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.229</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\search_icon.scale-200.png">
+      <PackagePath>search_icon.scale-200.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.261</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\search_icon.scale-400.png">
+      <PackagePath>search_icon.scale-400.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.276</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\sm_solid_umbrella.scale-100.png">
+      <PackagePath>sm_solid_umbrella.scale-100.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.303</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\sm_solid_umbrella.scale-125.png">
+      <PackagePath>sm_solid_umbrella.scale-125.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.368</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\sm_solid_umbrella.scale-150.png">
+      <PackagePath>sm_solid_umbrella.scale-150.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.369</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\sm_solid_umbrella.scale-200.png">
+      <PackagePath>sm_solid_umbrella.scale-200.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.370</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\sm_solid_umbrella.scale-400.png">
+      <PackagePath>sm_solid_umbrella.scale-400.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.371</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\solid_humidity.scale-100.png">
+      <PackagePath>solid_humidity.scale-100.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.099</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\solid_humidity.scale-125.png">
+      <PackagePath>solid_humidity.scale-125.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.193</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\solid_humidity.scale-150.png">
+      <PackagePath>solid_humidity.scale-150.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.201</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\solid_humidity.scale-200.png">
+      <PackagePath>solid_humidity.scale-200.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.235</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\solid_humidity.scale-400.png">
+      <PackagePath>solid_humidity.scale-400.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.261</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\solid_umbrella.scale-100.png">
+      <PackagePath>solid_umbrella.scale-100.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.290</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\solid_umbrella.scale-125.png">
+      <PackagePath>solid_umbrella.scale-125.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.325</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\solid_umbrella.scale-150.png">
+      <PackagePath>solid_umbrella.scale-150.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.325</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\solid_umbrella.scale-200.png">
+      <PackagePath>solid_umbrella.scale-200.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.330</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\solid_umbrella.scale-400.png">
+      <PackagePath>solid_umbrella.scale-400.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.331</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\solid_wind.scale-100.png">
+      <PackagePath>solid_wind.scale-100.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.017</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\solid_wind.scale-125.png">
+      <PackagePath>solid_wind.scale-125.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.034</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\solid_wind.scale-150.png">
+      <PackagePath>solid_wind.scale-150.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.059</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\solid_wind.scale-200.png">
+      <PackagePath>solid_wind.scale-200.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.068</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\solid_wind.scale-400.png">
+      <PackagePath>solid_wind.scale-400.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.075</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\sunrise_icon.scale-100.png">
+      <PackagePath>sunrise_icon.scale-100.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.189</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\sunrise_icon.scale-125.png">
+      <PackagePath>sunrise_icon.scale-125.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.209</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\sunrise_icon.scale-150.png">
+      <PackagePath>sunrise_icon.scale-150.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.246</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\sunrise_icon.scale-200.png">
+      <PackagePath>sunrise_icon.scale-200.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.247</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\sunrise_icon.scale-400.png">
+      <PackagePath>sunrise_icon.scale-400.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.248</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\sunset_icon.scale-100.png">
+      <PackagePath>sunset_icon.scale-100.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.133</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\sunset_icon.scale-125.png">
+      <PackagePath>sunset_icon.scale-125.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.134</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\sunset_icon.scale-150.png">
+      <PackagePath>sunset_icon.scale-150.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.135</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\sunset_icon.scale-200.png">
+      <PackagePath>sunset_icon.scale-200.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.136</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\sunset_icon.scale-400.png">
+      <PackagePath>sunset_icon.scale-400.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.137</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_favorites.scale-100.png">
+      <PackagePath>tab_favorites.scale-100.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.899</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_favorites.scale-125.png">
+      <PackagePath>tab_favorites.scale-125.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.903</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_favorites.scale-150.png">
+      <PackagePath>tab_favorites.scale-150.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.989</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_favorites.scale-200.png">
+      <PackagePath>tab_favorites.scale-200.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.048</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_favorites.scale-400.png">
+      <PackagePath>tab_favorites.scale-400.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.074</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_favorites_on.scale-100.png">
+      <PackagePath>tab_favorites_on.scale-100.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.944</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_favorites_on.scale-125.png">
+      <PackagePath>tab_favorites_on.scale-125.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.992</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_favorites_on.scale-150.png">
+      <PackagePath>tab_favorites_on.scale-150.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.014</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_favorites_on.scale-200.png">
+      <PackagePath>tab_favorites_on.scale-200.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.022</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_favorites_on.scale-400.png">
+      <PackagePath>tab_favorites_on.scale-400.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.061</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_home.scale-100.png">
+      <PackagePath>tab_home.scale-100.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.898</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_home.scale-125.png">
+      <PackagePath>tab_home.scale-125.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.006</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_home.scale-150.png">
+      <PackagePath>tab_home.scale-150.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.008</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_home.scale-200.png">
+      <PackagePath>tab_home.scale-200.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.058</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_home.scale-400.png">
+      <PackagePath>tab_home.scale-400.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.129</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_home_on.scale-100.png">
+      <PackagePath>tab_home_on.scale-100.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.941</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_home_on.scale-125.png">
+      <PackagePath>tab_home_on.scale-125.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.956</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_home_on.scale-150.png">
+      <PackagePath>tab_home_on.scale-150.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.996</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_home_on.scale-200.png">
+      <PackagePath>tab_home_on.scale-200.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.009</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_home_on.scale-400.png">
+      <PackagePath>tab_home_on.scale-400.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.055</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_map.scale-100.png">
+      <PackagePath>tab_map.scale-100.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.912</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_map.scale-125.png">
+      <PackagePath>tab_map.scale-125.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.968</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_map.scale-150.png">
+      <PackagePath>tab_map.scale-150.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.024</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_map.scale-200.png">
+      <PackagePath>tab_map.scale-200.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.054</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_map.scale-400.png">
+      <PackagePath>tab_map.scale-400.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.058</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_map_on.scale-100.png">
+      <PackagePath>tab_map_on.scale-100.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.899</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_map_on.scale-125.png">
+      <PackagePath>tab_map_on.scale-125.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.902</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_map_on.scale-150.png">
+      <PackagePath>tab_map_on.scale-150.png</PackagePath>
+      <Modified>2024-01-30T10:27:32.989</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_map_on.scale-200.png">
+      <PackagePath>tab_map_on.scale-200.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.012</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_map_on.scale-400.png">
+      <PackagePath>tab_map_on.scale-400.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.023</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_settings.scale-100.png">
+      <PackagePath>tab_settings.scale-100.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.155</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_settings.scale-125.png">
+      <PackagePath>tab_settings.scale-125.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.201</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_settings.scale-150.png">
+      <PackagePath>tab_settings.scale-150.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.202</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_settings.scale-200.png">
+      <PackagePath>tab_settings.scale-200.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.253</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_settings.scale-400.png">
+      <PackagePath>tab_settings.scale-400.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.263</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_settings_on.scale-100.png">
+      <PackagePath>tab_settings_on.scale-100.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.276</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_settings_on.scale-125.png">
+      <PackagePath>tab_settings_on.scale-125.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.325</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_settings_on.scale-150.png">
+      <PackagePath>tab_settings_on.scale-150.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.326</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_settings_on.scale-200.png">
+      <PackagePath>tab_settings_on.scale-200.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.328</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_settings_on.scale-400.png">
+      <PackagePath>tab_settings_on.scale-400.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.330</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\umbrella_icon.scale-100.png">
+      <PackagePath>umbrella_icon.scale-100.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.133</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\umbrella_icon.scale-125.png">
+      <PackagePath>umbrella_icon.scale-125.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.135</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\umbrella_icon.scale-150.png">
+      <PackagePath>umbrella_icon.scale-150.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.136</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\umbrella_icon.scale-200.png">
+      <PackagePath>umbrella_icon.scale-200.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.138</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\umbrella_icon.scale-400.png">
+      <PackagePath>umbrella_icon.scale-400.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.205</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather_cloudy.scale-100.png">
+      <PackagePath>weather_cloudy.scale-100.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.236</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather_cloudy.scale-125.png">
+      <PackagePath>weather_cloudy.scale-125.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.247</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather_cloudy.scale-150.png">
+      <PackagePath>weather_cloudy.scale-150.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.249</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather_cloudy.scale-200.png">
+      <PackagePath>weather_cloudy.scale-200.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.250</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather_cloudy.scale-400.png">
+      <PackagePath>weather_cloudy.scale-400.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.263</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather_partly_cloudy_day.scale-100.png">
+      <PackagePath>weather_partly_cloudy_day.scale-100.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.199</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather_partly_cloudy_day.scale-125.png">
+      <PackagePath>weather_partly_cloudy_day.scale-125.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.207</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather_partly_cloudy_day.scale-150.png">
+      <PackagePath>weather_partly_cloudy_day.scale-150.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.244</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather_partly_cloudy_day.scale-200.png">
+      <PackagePath>weather_partly_cloudy_day.scale-200.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.260</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather_partly_cloudy_day.scale-400.png">
+      <PackagePath>weather_partly_cloudy_day.scale-400.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.349</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather_partly_cloudy_night.scale-100.png">
+      <PackagePath>weather_partly_cloudy_night.scale-100.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.356</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather_partly_cloudy_night.scale-125.png">
+      <PackagePath>weather_partly_cloudy_night.scale-125.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.358</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather_partly_cloudy_night.scale-150.png">
+      <PackagePath>weather_partly_cloudy_night.scale-150.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.364</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather_partly_cloudy_night.scale-200.png">
+      <PackagePath>weather_partly_cloudy_night.scale-200.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.377</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather_partly_cloudy_night.scale-400.png">
+      <PackagePath>weather_partly_cloudy_night.scale-400.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.415</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\wind_icon.scale-100.png">
+      <PackagePath>wind_icon.scale-100.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.068</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\wind_icon.scale-125.png">
+      <PackagePath>wind_icon.scale-125.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.069</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\wind_icon.scale-150.png">
+      <PackagePath>wind_icon.scale-150.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.075</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\wind_icon.scale-200.png">
+      <PackagePath>wind_icon.scale-200.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.148</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\wind_icon.scale-400.png">
+      <PackagePath>wind_icon.scale-400.png</PackagePath>
+      <Modified>2024-01-30T10:27:33.211</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp1\Assets\WP.ico">
+      <PackagePath>Assets\WP.ico</PackagePath>
+      <Modified>2024-01-18T09:43:33.199</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

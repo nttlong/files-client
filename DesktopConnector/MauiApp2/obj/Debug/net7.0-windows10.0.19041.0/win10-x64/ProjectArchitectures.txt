@@ -1,0 +1,1 @@
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp2\MauiApp2.csproj;x64

@@ -97,6 +97,10 @@
               "version": "[7.0.100-1.23211.1, )",
               "autoReferenced": true
             },
+            "PInvoke.User32": {
+              "target": "Package",
+              "version": "[0.7.124, )"
+            },
             "Xamarin.Android.Glide": {
               "target": "Package",
               "version": "[4.13.2.2, )",
@@ -267,6 +271,10 @@
               "target": "Package",
               "version": "[7.0.100-1.23211.1, )",
               "autoReferenced": true
+            },
+            "PInvoke.User32": {
+              "target": "Package",
+              "version": "[0.7.124, )"
             }
           },
           "imports": [
@@ -371,6 +379,10 @@
               "target": "Package",
               "version": "[7.0.100-1.23211.1, )",
               "autoReferenced": true
+            },
+            "PInvoke.User32": {
+              "target": "Package",
+              "version": "[0.7.124, )"
             }
           },
           "imports": [
@@ -474,6 +486,10 @@
               "target": "Package",
               "version": "[1.2.221209.1, )",
               "autoReferenced": true
+            },
+            "PInvoke.User32": {
+              "target": "Package",
+              "version": "[0.7.124, )"
             }
           },
           "imports": [

@@ -1,0 +1,13 @@
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiLib1\obj\Debug\net7.0-windows10.0.19041.0\Hardcodet.Wpf.TaskbarNotification.Interop.csproj.AssemblyReference.cache
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiLib1\obj\Debug\net7.0-windows10.0.19041.0\Hardcodet.Wpf.TaskbarNotification.Interop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiLib1\obj\Debug\net7.0-windows10.0.19041.0\Hardcodet.Wpf.TaskbarNotification.Interop.AssemblyInfoInputs.cache
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiLib1\obj\Debug\net7.0-windows10.0.19041.0\Hardcodet.Wpf.TaskbarNotification.Interop.AssemblyInfo.cs
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiLib1\obj\Debug\net7.0-windows10.0.19041.0\Hardcodet.Wpf.TaskbarNotification.Interop.csproj.CoreCompileInputs.cache
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiLib1\obj\Debug\net7.0-windows10.0.19041.0\Hardcodet.Wpf.TaskbarNotification.Interop.sourcelink.json
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiLib1\bin\Debug\net7.0-windows10.0.19041.0\Hardcodet.Wpf.TaskbarNotification.Interop.deps.json
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiLib1\bin\Debug\net7.0-windows10.0.19041.0\Hardcodet.Wpf.TaskbarNotification.Interop.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiLib1\bin\Debug\net7.0-windows10.0.19041.0\Hardcodet.Wpf.TaskbarNotification.Interop.pdb
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiLib1\obj\Debug\net7.0-windows10.0.19041.0\Hardcodet.Wpf.TaskbarNotification.Interop.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiLib1\obj\Debug\net7.0-windows10.0.19041.0\refint\Hardcodet.Wpf.TaskbarNotification.Interop.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiLib1\obj\Debug\net7.0-windows10.0.19041.0\Hardcodet.Wpf.TaskbarNotification.Interop.pdb
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiLib1\obj\Debug\net7.0-windows10.0.19041.0\ref\Hardcodet.Wpf.TaskbarNotification.Interop.dll
