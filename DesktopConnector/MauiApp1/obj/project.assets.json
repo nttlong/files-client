@@ -334,27 +334,13 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "CodxDesk.Services": "1.0.0",
-          "Hardcodet.Wpf.TaskbarNotification.Interop": "1.0.0"
+          "CodxDesk.Services": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CodxDesk.WinUI.dll": {}
         },
         "runtime": {
           "bin/placeholder/CodxDesk.WinUI.dll": {}
-        }
-      },
-      "Hardcodet.Wpf.TaskbarNotification.Interop/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "PInvoke.User32": "0.7.124"
-        },
-        "compile": {
-          "bin/placeholder/Hardcodet.Wpf.TaskbarNotification.Interop.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Hardcodet.Wpf.TaskbarNotification.Interop.dll": {}
         }
       }
     },
@@ -691,27 +677,13 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "CodxDesk.Services": "1.0.0",
-          "Hardcodet.Wpf.TaskbarNotification.Interop": "1.0.0"
+          "CodxDesk.Services": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CodxDesk.WinUI.dll": {}
         },
         "runtime": {
           "bin/placeholder/CodxDesk.WinUI.dll": {}
-        }
-      },
-      "Hardcodet.Wpf.TaskbarNotification.Interop/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "PInvoke.User32": "0.7.124"
-        },
-        "compile": {
-          "bin/placeholder/Hardcodet.Wpf.TaskbarNotification.Interop.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Hardcodet.Wpf.TaskbarNotification.Interop.dll": {}
         }
       }
     },
@@ -1048,27 +1020,13 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "CodxDesk.Services": "1.0.0",
-          "Hardcodet.Wpf.TaskbarNotification.Interop": "1.0.0"
+          "CodxDesk.Services": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CodxDesk.WinUI.dll": {}
         },
         "runtime": {
           "bin/placeholder/CodxDesk.WinUI.dll": {}
-        }
-      },
-      "Hardcodet.Wpf.TaskbarNotification.Interop/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "PInvoke.User32": "0.7.124"
-        },
-        "compile": {
-          "bin/placeholder/Hardcodet.Wpf.TaskbarNotification.Interop.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Hardcodet.Wpf.TaskbarNotification.Interop.dll": {}
         }
       }
     },
@@ -1673,27 +1631,13 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "CodxDesk.Services": "1.0.0",
-          "Hardcodet.Wpf.TaskbarNotification.Interop": "1.0.0"
+          "CodxDesk.Services": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CodxDesk.WinUI.dll": {}
         },
         "runtime": {
           "bin/placeholder/CodxDesk.WinUI.dll": {}
-        }
-      },
-      "Hardcodet.Wpf.TaskbarNotification.Interop/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "PInvoke.User32": "0.7.124"
-        },
-        "compile": {
-          "bin/placeholder/Hardcodet.Wpf.TaskbarNotification.Interop.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Hardcodet.Wpf.TaskbarNotification.Interop.dll": {}
         }
       }
     },
@@ -2230,27 +2174,13 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "CodxDesk.Services": "1.0.0",
-          "Hardcodet.Wpf.TaskbarNotification.Interop": "1.0.0"
+          "CodxDesk.Services": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CodxDesk.WinUI.dll": {}
         },
         "runtime": {
           "bin/placeholder/CodxDesk.WinUI.dll": {}
-        }
-      },
-      "Hardcodet.Wpf.TaskbarNotification.Interop/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "PInvoke.User32": "0.7.124"
-        },
-        "compile": {
-          "bin/placeholder/Hardcodet.Wpf.TaskbarNotification.Interop.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Hardcodet.Wpf.TaskbarNotification.Interop.dll": {}
         }
       }
     },
@@ -2793,27 +2723,13 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "CodxDesk.Services": "1.0.0",
-          "Hardcodet.Wpf.TaskbarNotification.Interop": "1.0.0"
+          "CodxDesk.Services": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CodxDesk.WinUI.dll": {}
         },
         "runtime": {
           "bin/placeholder/CodxDesk.WinUI.dll": {}
-        }
-      },
-      "Hardcodet.Wpf.TaskbarNotification.Interop/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "PInvoke.User32": "0.7.124"
-        },
-        "compile": {
-          "bin/placeholder/Hardcodet.Wpf.TaskbarNotification.Interop.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Hardcodet.Wpf.TaskbarNotification.Interop.dll": {}
         }
       }
     }
@@ -4630,11 +4546,6 @@
       "type": "project",
       "path": "../CodxDesk.WinUI/CodxDesk.WinUI.csproj",
       "msbuildProject": "../CodxDesk.WinUI/CodxDesk.WinUI.csproj"
-    },
-    "Hardcodet.Wpf.TaskbarNotification.Interop/1.0.0": {
-      "type": "project",
-      "path": "../MauiLib1/Hardcodet.Wpf.TaskbarNotification.Interop.csproj",
-      "msbuildProject": "../MauiLib1/Hardcodet.Wpf.TaskbarNotification.Interop.csproj"
     }
   },
   "projectFileDependencyGroups": {

@@ -18,4 +18,3 @@ C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiLib1\obj\D
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiLib1\obj\Debug\net7.0-ios\refint\Hardcodet.Wpf.TaskbarNotification.Interop.dll
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiLib1\obj\Debug\net7.0-ios\Hardcodet.Wpf.TaskbarNotification.Interop.pdb
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiLib1\obj\Debug\net7.0-ios\ref\Hardcodet.Wpf.TaskbarNotification.Interop.dll
-C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiLib1\obj\Debug\net7.0-ios\build-signature\signature

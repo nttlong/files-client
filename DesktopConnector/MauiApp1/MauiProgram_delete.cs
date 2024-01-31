@@ -33,9 +33,9 @@ namespace MauiApp1
             
             services.AddSingleton<ITrayService, TrayService>();
             services.AddSingleton<INotificationService, NotificationService>();
-#elif MACCATALYST
-            services.AddSingleton<ITrayService, TrayService>();
-            services.AddSingleton<INotificationService, MacCatalyst.NotificationService>();
+//#elif MACCATALYST
+//            services.AddSingleton<ITrayService, TrayService>();
+//            services.AddSingleton<INotificationService, MacCatalyst.NotificationService>();
 #endif
             //services.AddSingleton<HomeViewModel>();
             //services.AddSingleton<HomePage>();

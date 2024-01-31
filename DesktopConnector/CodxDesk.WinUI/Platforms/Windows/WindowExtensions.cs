@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CodxDesk.WinUI.Platforms.Windows
 {
-    public static class WindowExtensions
+    public static class CodxDeskWindowExtensions
     {
         public static IntPtr Hwnd { get; set; }
 

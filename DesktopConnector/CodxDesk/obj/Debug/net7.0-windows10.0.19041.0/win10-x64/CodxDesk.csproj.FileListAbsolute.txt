@@ -328,3 +328,12 @@ C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxDesk\obj\D
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxDesk\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxDesk\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxDesk\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxDesk\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\CodxDesk.Services.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxDesk\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\CodxDesk.WinUI.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxDesk\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Hardcodet.Wpf.TaskbarNotification.Interop.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxDesk\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\CodxDesk.Services.pdb
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxDesk\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\CodxDesk.WinUI.pdb
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxDesk\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Hardcodet.Wpf.TaskbarNotification.Interop.pdb
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxDesk\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Toolkit.Uwp.Notifications.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxDesk\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Win32.SystemEvents.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxDesk\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\System.Drawing.Common.dll

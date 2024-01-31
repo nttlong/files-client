@@ -1,0 +1,725 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "XNotificationServiceWindows/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "7.0.0",
+          "Microsoft.Extensions.DependencyInjection": "7.0.0",
+          "Microsoft.Extensions.Logging": "7.0.0",
+          "Microsoft.Maui.Graphics": "7.0.101",
+          "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop": "7.0.101",
+          "Microsoft.Toolkit.Uwp.Notifications": "7.1.3",
+          "Microsoft.WindowsAppSDK": "1.2.221209.1",
+          "XNotificationService": "1.0.0",
+          "XWindows": "1.0.0",
+          "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.31"
+        },
+        "runtime": {
+          "XNotificationServiceWindows.dll": {}
+        }
+      },
+      "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.31": {
+        "runtime": {
+          "Microsoft.Windows.SDK.NET.dll": {
+            "assemblyVersion": "10.0.19041.24",
+            "fileVersion": "10.0.19041.31"
+          },
+          "WinRT.Runtime.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.4.44211"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration/7.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Primitives": "7.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.Configuration.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/7.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "7.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/7.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging/7.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "7.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Options": "7.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.Logging.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/7.0.0": {
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options/7.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Primitives": "7.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/7.0.0": {
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "Microsoft.Graphics.Win2D/1.0.5.1": {
+        "dependencies": {
+          "Microsoft.WindowsAppSDK": "1.2.221209.1"
+        },
+        "runtime": {
+          "lib/net5.0-windows10.0.17763.0/Microsoft.Graphics.Canvas.Interop.dll": {
+            "assemblyVersion": "1.0.26.0",
+            "fileVersion": "1.0.26.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win10-arm64/native/Microsoft.Graphics.Canvas.dll": {
+            "rid": "win10-arm64",
+            "assetType": "native",
+            "fileVersion": "1.0.5.0"
+          },
+          "runtimes/win10-x64/native/Microsoft.Graphics.Canvas.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "1.0.5.0"
+          },
+          "runtimes/win10-x86/native/Microsoft.Graphics.Canvas.dll": {
+            "rid": "win10-x86",
+            "assetType": "native",
+            "fileVersion": "1.0.5.0"
+          }
+        }
+      },
+      "Microsoft.Maui.Graphics/7.0.101": {
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "7.0.97.4"
+          }
+        }
+      },
+      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.101": {
+        "dependencies": {
+          "Microsoft.Graphics.Win2D": "1.0.5.1",
+          "Microsoft.Maui.Graphics": "7.0.101",
+          "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756",
+          "Microsoft.WindowsAppSDK": "1.2.221209.1"
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "7.0.97.4"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/5.0.0": {},
+      "Microsoft.Toolkit.Uwp.Notifications/7.1.3": {
+        "dependencies": {
+          "Microsoft.Win32.Registry": "5.0.0",
+          "System.Drawing.Common": "4.7.0",
+          "System.Reflection.Emit": "4.7.0",
+          "System.ValueTuple": "4.5.0"
+        },
+        "runtime": {
+          "lib/net5.0-windows10.0.17763/Microsoft.Toolkit.Uwp.Notifications.dll": {
+            "assemblyVersion": "7.1.0.0",
+            "fileVersion": "7.1.3.1"
+          }
+        }
+      },
+      "Microsoft.Win32.Registry/5.0.0": {
+        "dependencies": {
+          "System.Security.AccessControl": "5.0.0",
+          "System.Security.Principal.Windows": "5.0.0"
+        }
+      },
+      "Microsoft.Win32.SystemEvents/4.7.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        }
+      },
+      "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {},
+      "Microsoft.WindowsAppSDK/1.2.221209.1": {
+        "dependencies": {
+          "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756"
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362.0/Microsoft.InteractiveExperiences.Projection.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.22622.1033"
+          },
+          "lib/net6.0-windows10.0.18362.0/Microsoft.WinUI.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.2212"
+          },
+          "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.AppLifecycle.Projection.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.0"
+          },
+          "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.AppNotifications.Builder.Projection.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.0"
+          },
+          "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.AppNotifications.Projection.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.0"
+          },
+          "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.0"
+          },
+          "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.ApplicationModel.Resources.Projection.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.0"
+          },
+          "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.0"
+          },
+          "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.PushNotifications.Projection.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.0"
+          },
+          "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.Security.AccessControl.Projection.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.0"
+          },
+          "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.System.Power.Projection.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.0"
+          },
+          "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.System.Projection.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.0"
+          },
+          "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.Widgets.Projection.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net6.0-windows10.0.18362.0/Microsoft.WindowsAppRuntime.Bootstrap.Net.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win10-arm64/native/Microsoft.WindowsAppRuntime.Bootstrap.dll": {
+            "rid": "win10-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x64/native/Microsoft.WindowsAppRuntime.Bootstrap.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x86/native/Microsoft.WindowsAppRuntime.Bootstrap.dll": {
+            "rid": "win10-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "PInvoke.Kernel32/0.7.124": {
+        "dependencies": {
+          "PInvoke.Windows.Core": "0.7.124",
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/PInvoke.Kernel32.dll": {
+            "assemblyVersion": "0.7.0.0",
+            "fileVersion": "0.7.124.52293"
+          }
+        }
+      },
+      "PInvoke.User32/0.7.124": {
+        "dependencies": {
+          "PInvoke.Kernel32": "0.7.124",
+          "PInvoke.Windows.Core": "0.7.124",
+          "PInvoke.Windows.ShellScalingApi": "0.7.124",
+          "Validation": "2.4.15"
+        },
+        "runtime": {
+          "lib/netstandard2.0/PInvoke.User32.dll": {
+            "assemblyVersion": "0.7.0.0",
+            "fileVersion": "0.7.124.52293"
+          }
+        }
+      },
+      "PInvoke.Windows.Core/0.7.124": {
+        "dependencies": {
+          "System.Memory": "4.5.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/PInvoke.Windows.Core.dll": {
+            "assemblyVersion": "0.7.0.0",
+            "fileVersion": "0.7.124.52293"
+          }
+        }
+      },
+      "PInvoke.Windows.ShellScalingApi/0.7.124": {
+        "dependencies": {
+          "PInvoke.Windows.Core": "0.7.124"
+        },
+        "runtime": {
+          "lib/netstandard2.0/PInvoke.Windows.ShellScalingApi.dll": {
+            "assemblyVersion": "0.7.0.0",
+            "fileVersion": "0.7.124.52293"
+          }
+        }
+      },
+      "System.Drawing.Common/4.7.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0",
+          "Microsoft.Win32.SystemEvents": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "4.0.0.1",
+            "fileVersion": "4.6.26919.2"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.700.19.56404"
+          },
+          "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        }
+      },
+      "System.Memory/4.5.4": {},
+      "System.Reflection.Emit/4.7.0": {},
+      "System.Security.AccessControl/5.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0",
+          "System.Security.Principal.Windows": "5.0.0"
+        }
+      },
+      "System.Security.Principal.Windows/5.0.0": {},
+      "System.Threading.Tasks.Extensions/4.5.4": {},
+      "System.ValueTuple/4.5.0": {},
+      "Validation/2.4.15": {
+        "runtime": {
+          "lib/netstandard1.3/Validation.dll": {
+            "assemblyVersion": "2.4.0.0",
+            "fileVersion": "2.4.15.30595"
+          }
+        }
+      },
+      "Vanara.Core/3.4.17": {
+        "runtime": {
+          "lib/net6.0/Vanara.Core.dll": {
+            "assemblyVersion": "3.4.17.0",
+            "fileVersion": "3.4.17.0"
+          }
+        },
+        "resources": {
+          "lib/net6.0/fr/Vanara.Core.resources.dll": {
+            "locale": "fr"
+          }
+        }
+      },
+      "Vanara.PInvoke.Gdi32/3.4.17": {
+        "dependencies": {
+          "Vanara.Core": "3.4.17",
+          "Vanara.PInvoke.Shared": "3.4.17"
+        },
+        "runtime": {
+          "lib/net6.0/Vanara.PInvoke.Gdi32.dll": {
+            "assemblyVersion": "3.4.17.0",
+            "fileVersion": "3.4.17.0"
+          }
+        }
+      },
+      "Vanara.PInvoke.Kernel32/3.4.17": {
+        "dependencies": {
+          "Vanara.Core": "3.4.17",
+          "Vanara.PInvoke.Shared": "3.4.17"
+        },
+        "runtime": {
+          "lib/net6.0/Vanara.PInvoke.Kernel32.dll": {
+            "assemblyVersion": "3.4.17.0",
+            "fileVersion": "3.4.17.0"
+          }
+        }
+      },
+      "Vanara.PInvoke.Shared/3.4.17": {
+        "dependencies": {
+          "Microsoft.Win32.Registry": "5.0.0",
+          "Vanara.Core": "3.4.17"
+        },
+        "runtime": {
+          "lib/net6.0/Vanara.PInvoke.Shared.dll": {
+            "assemblyVersion": "3.4.17.0",
+            "fileVersion": "3.4.17.0"
+          }
+        }
+      },
+      "Vanara.PInvoke.User32/3.4.17": {
+        "dependencies": {
+          "Vanara.Core": "3.4.17",
+          "Vanara.PInvoke.Gdi32": "3.4.17",
+          "Vanara.PInvoke.Kernel32": "3.4.17",
+          "Vanara.PInvoke.Shared": "3.4.17"
+        },
+        "runtime": {
+          "lib/net6.0/Vanara.PInvoke.User32.dll": {
+            "assemblyVersion": "3.4.17.0",
+            "fileVersion": "3.4.17.0"
+          }
+        }
+      },
+      "XNotificationService/1.0.0": {
+        "runtime": {
+          "XNotificationService.dll": {}
+        }
+      },
+      "XWindows/1.0.0": {
+        "dependencies": {
+          "PInvoke.User32": "0.7.124",
+          "Vanara.PInvoke.User32": "3.4.17"
+        },
+        "runtime": {
+          "XWindows.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "XNotificationServiceWindows/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.31": {
+      "type": "runtimepack",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.Configuration/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tldQUBWt/xeH2K7/hMPPo5g8zuLc3Ro9I5d4o/XrxvxOCA2EZBtW7bCHHTc49fcBtvB8tLAb/Qsmfrq+2SJ4vA==",
+      "path": "microsoft.extensions.configuration/7.0.0",
+      "hashPath": "microsoft.extensions.configuration.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-f34u2eaqIjNO9YLHBz8rozVZ+TcFiFs0F3r7nUJd7FRkVSxk8u4OpoK226mi49MwexHOR2ibP9MFvRUaLilcQQ==",
+      "path": "microsoft.extensions.configuration.abstractions/7.0.0",
+      "hashPath": "microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-elNeOmkeX3eDVG6pYVeV82p29hr+UKDaBhrZyWvWLw/EVZSYEkZlQdkp0V39k/Xehs2Qa0mvoCvkVj3eQxNQ1Q==",
+      "path": "microsoft.extensions.dependencyinjection/7.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-h3j/QfmFN4S0w4C2A6X7arXij/M/OVw3uQHSOFxnND4DyAzO1F9eMX7Eti7lU/OkSthEE0WzRsfT/Dmx86jzCw==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/7.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Nw2muoNrOG5U5qa2ZekXwudUn2BJcD41e65zwmDHb1fQegTX66UokLWZkJRpqSSHXDOWZ5V0iqhbxOEky91atA==",
+      "path": "microsoft.extensions.logging/7.0.0",
+      "hashPath": "microsoft.extensions.logging.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kmn78+LPVMOWeITUjIlfxUPDsI0R6G0RkeAMBmQxAJ7vBJn4q2dTva7pWi65ceN5vPGjJ9q/Uae2WKgvfktJAw==",
+      "path": "microsoft.extensions.logging.abstractions/7.0.0",
+      "hashPath": "microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lP1yBnTTU42cKpMozuafbvNtQ7QcBjr/CcK3bYOGEMH55Fjt+iecXjT6chR7vbgCMqy3PG3aNQSZgo/EuY/9qQ==",
+      "path": "microsoft.extensions.options/7.0.0",
+      "hashPath": "microsoft.extensions.options.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-um1KU5kxcRp3CNuI8o/GrZtD4AIOXDk+RLsytjZ9QPok3ttLUelLKpilVPuaFT3TFjOhSibUAso0odbOaCDj3Q==",
+      "path": "microsoft.extensions.primitives/7.0.0",
+      "hashPath": "microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.Graphics.Win2D/1.0.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9DVEVvyQWWz8kqhsFBAx9Zv4KRIAcmxuT7kFpK1Fgh6czSiMB+CQW0DlhZXT44Mtv41FRXG47lhEv+7a2YyiLA==",
+      "path": "microsoft.graphics.win2d/1.0.5.1",
+      "hashPath": "microsoft.graphics.win2d.1.0.5.1.nupkg.sha512"
+    },
+    "Microsoft.Maui.Graphics/7.0.101": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2+dHQpufctgN66Y+otNnBu9o+ODYlHvc2ufQ185wB2GqhklQeeko4xFsZSj3weDif4Idg0cgAY84qU3cQ0OcTw==",
+      "path": "microsoft.maui.graphics/7.0.101",
+      "hashPath": "microsoft.maui.graphics.7.0.101.nupkg.sha512"
+    },
+    "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.101": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-P6uBnryY3b3rpLiKj173UIf4z/dWJqntEabUiPBlJgXIcR4+u8IQg00cADNw+OsSD1yZwSwL+4pEFp5YyiOf/A==",
+      "path": "microsoft.maui.graphics.win2d.winui.desktop/7.0.101",
+      "hashPath": "microsoft.maui.graphics.win2d.winui.desktop.7.0.101.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VyPlqzH2wavqquTcYpkIIAQ6WdenuKoFN0BdYBbCWsclXacSOHNQn66Gt4z5NBqEYW0FAPm5rlvki9ZiCij5xQ==",
+      "path": "microsoft.netcore.platforms/5.0.0",
+      "hashPath": "microsoft.netcore.platforms.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Toolkit.Uwp.Notifications/7.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-A1dglAzb24gjehmb7DwGd07mfyZ1gacAK7ObE0KwDlRc3mayH2QW7cSOy3TkkyELjLg19OQBuhPOj4SpXET9lg==",
+      "path": "microsoft.toolkit.uwp.notifications/7.1.3",
+      "hashPath": "microsoft.toolkit.uwp.notifications.7.1.3.nupkg.sha512"
+    },
+    "Microsoft.Win32.Registry/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dDoKi0PnDz31yAyETfRntsLArTlVAVzUzCIvvEDsDsucrl33Dl8pIJG06ePTJTI3tGpeyHS9Cq7Foc/s4EeKcg==",
+      "path": "microsoft.win32.registry/5.0.0",
+      "hashPath": "microsoft.win32.registry.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mtVirZr++rq+XCDITMUdnETD59XoeMxSpLRIII7JRI6Yj0LEDiO1pPn0ktlnIj12Ix8bfvQqQDMMIF9wC98oCA==",
+      "path": "microsoft.win32.systemevents/4.7.0",
+      "hashPath": "microsoft.win32.systemevents.4.7.0.nupkg.sha512"
+    },
+    "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7ZL2sFSioYm1Ry067Kw1hg0SCcW5kuVezC2SwjGbcPE61Nn+gTbH86T73G3LcEOVj0S3IZzNuE/29gZvOLS7VA==",
+      "path": "microsoft.windows.sdk.buildtools/10.0.22621.756",
+      "hashPath": "microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512"
+    },
+    "Microsoft.WindowsAppSDK/1.2.221209.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1Y8KDCmUqytdduubaQhRz6aqaP7YhVSPE/fHeqLMsK3DrV+eBThrqkM6R/8N2lu0mwkNfKSTSAhixrTR72nyWA==",
+      "path": "microsoft.windowsappsdk/1.2.221209.1",
+      "hashPath": "microsoft.windowsappsdk.1.2.221209.1.nupkg.sha512"
+    },
+    "PInvoke.Kernel32/0.7.124": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3yQudp7J20HH8oW2WsGdNlcRCJAG6Slens3n4P7c6m53m0SkXLyD5ry/bXYAFXYeIym9b0LIOvrmKjmzptmkWw==",
+      "path": "pinvoke.kernel32/0.7.124",
+      "hashPath": "pinvoke.kernel32.0.7.124.nupkg.sha512"
+    },
+    "PInvoke.User32/0.7.124": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Xgrt/IFJWZhLT0S0MdP4ZU48gqgKVs+O+WmXb9Qge1T+me3oR5fhOl812qvLm2+D6DoHPxbUWTIc8MrH5i78Vw==",
+      "path": "pinvoke.user32/0.7.124",
+      "hashPath": "pinvoke.user32.0.7.124.nupkg.sha512"
+    },
+    "PInvoke.Windows.Core/0.7.124": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-er/PkwUBie3nXlwiKOfOxmdAj6ae8eFCLUgI5g6+9RAbyMoXMQnwAPx1atq0ZxU2LeozBdWtMQjogqcMNJhg1w==",
+      "path": "pinvoke.windows.core/0.7.124",
+      "hashPath": "pinvoke.windows.core.0.7.124.nupkg.sha512"
+    },
+    "PInvoke.Windows.ShellScalingApi/0.7.124": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mVKSSuvBcJUwWvfGAfJK05AXH0QEbiDdxYqN4wjCZBeXv4ewM2/N6U2wt5uCac8RFIvsd9MAsIdTnjMLqdkNZg==",
+      "path": "pinvoke.windows.shellscalingapi/0.7.124",
+      "hashPath": "pinvoke.windows.shellscalingapi.0.7.124.nupkg.sha512"
+    },
+    "System.Drawing.Common/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-v+XbyYHaZjDfn0ENmJEV1VYLgGgCTx1gnfOBcppowbpOAriglYgGCvFCPr2EEZyBvXlpxbEsTwkOlInl107ahA==",
+      "path": "system.drawing.common/4.7.0",
+      "hashPath": "system.drawing.common.4.7.0.nupkg.sha512"
+    },
+    "System.Memory/4.5.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
+      "path": "system.memory/4.5.4",
+      "hashPath": "system.memory.4.5.4.nupkg.sha512"
+    },
+    "System.Reflection.Emit/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VR4kk8XLKebQ4MZuKuIni/7oh+QGFmZW3qORd1GvBq/8026OpW501SzT/oypwiQl4TvT8ErnReh/NzY9u+C6wQ==",
+      "path": "system.reflection.emit/4.7.0",
+      "hashPath": "system.reflection.emit.4.7.0.nupkg.sha512"
+    },
+    "System.Security.AccessControl/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dagJ1mHZO3Ani8GH0PHpPEe/oYO+rVdbQjvjJkBRNQkX4t0r1iaeGn8+/ybkSLEan3/slM0t59SVdHzuHf2jmw==",
+      "path": "system.security.accesscontrol/5.0.0",
+      "hashPath": "system.security.accesscontrol.5.0.0.nupkg.sha512"
+    },
+    "System.Security.Principal.Windows/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-t0MGLukB5WAVU9bO3MGzvlGnyJPgUlcwerXn1kzBRjwLKixT96XV0Uza41W49gVd8zEMFu9vQEFlv0IOrytICA==",
+      "path": "system.security.principal.windows/5.0.0",
+      "hashPath": "system.security.principal.windows.5.0.0.nupkg.sha512"
+    },
+    "System.Threading.Tasks.Extensions/4.5.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zteT+G8xuGu6mS+mzDzYXbzS7rd3K6Fjb9RiZlYlJPam2/hU7JCBZBVEcywNuR+oZ1ncTvc/cq0faRr3P01OVg==",
+      "path": "system.threading.tasks.extensions/4.5.4",
+      "hashPath": "system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+    },
+    "System.ValueTuple/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "path": "system.valuetuple/4.5.0",
+      "hashPath": "system.valuetuple.4.5.0.nupkg.sha512"
+    },
+    "Validation/2.4.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KQFOtJKKhaXzuSiZhkFaFzQEdYsA+EN/XqKZDYwsGDOrS0Nxu6qzCvNTsDF4xtkiZbBA6u7I59QnsuP2O2fZgg==",
+      "path": "validation/2.4.15",
+      "hashPath": "validation.2.4.15.nupkg.sha512"
+    },
+    "Vanara.Core/3.4.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-M4P620feiOJLiEo8kG5oQ3fpP1905gtus7FA7/B07LyZJ6bXrqHdoaVkt/XuMTDaDpBlQF4/JECt0EjWcem22Q==",
+      "path": "vanara.core/3.4.17",
+      "hashPath": "vanara.core.3.4.17.nupkg.sha512"
+    },
+    "Vanara.PInvoke.Gdi32/3.4.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/dpW/7gjSIyRFgX11JT6hZMHldiVv7EkTOuvUglYxe9xiMA5jwLZeGbqxUf34e9P7Sk04Bb0f6cfsEYfoVXCWg==",
+      "path": "vanara.pinvoke.gdi32/3.4.17",
+      "hashPath": "vanara.pinvoke.gdi32.3.4.17.nupkg.sha512"
+    },
+    "Vanara.PInvoke.Kernel32/3.4.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-paX5z+13cf7aKzIa8chZrVoRC1KYHJPlCKfn7XJZtyqt/dNaJvOeQdIvT5W9hyPrJVn0c25nYwJdFYMnQQJzgA==",
+      "path": "vanara.pinvoke.kernel32/3.4.17",
+      "hashPath": "vanara.pinvoke.kernel32.3.4.17.nupkg.sha512"
+    },
+    "Vanara.PInvoke.Shared/3.4.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pMipZE3oLA+g2VtlL3g0yrpykl6O1dm50srGY8EEq/6YchMu9RglpeaS64GV2uLmH74b6MP1sawVEmEhfZcfag==",
+      "path": "vanara.pinvoke.shared/3.4.17",
+      "hashPath": "vanara.pinvoke.shared.3.4.17.nupkg.sha512"
+    },
+    "Vanara.PInvoke.User32/3.4.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Cg6uDb2BtyeOxkeC/Q/9Z+PddDc21/398fdB1C2G7DoAchBYIzo01BuAGDN/3EwENa8cLugYhiMvmCkUYjyAhQ==",
+      "path": "vanara.pinvoke.user32/3.4.17",
+      "hashPath": "vanara.pinvoke.user32.3.4.17.nupkg.sha512"
+    },
+    "XNotificationService/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "XWindows/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -163,105 +163,6 @@
           }
         }
       },
-      "PInvoke.Kernel32/0.7.124": {
-        "type": "package",
-        "dependencies": {
-          "PInvoke.Windows.Core": "0.7.124",
-          "System.Threading.Tasks.Extensions": "4.5.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/PInvoke.Kernel32.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/PInvoke.Kernel32.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "PInvoke.User32/0.7.124": {
-        "type": "package",
-        "dependencies": {
-          "PInvoke.Kernel32": "0.7.124",
-          "PInvoke.Windows.Core": "0.7.124",
-          "PInvoke.Windows.ShellScalingApi": "0.7.124",
-          "Validation": "2.4.15"
-        },
-        "compile": {
-          "lib/netstandard2.0/PInvoke.User32.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/PInvoke.User32.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "PInvoke.Windows.Core/0.7.124": {
-        "type": "package",
-        "dependencies": {
-          "System.Memory": "4.5.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/PInvoke.Windows.Core.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/PInvoke.Windows.Core.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "PInvoke.Windows.ShellScalingApi/0.7.124": {
-        "type": "package",
-        "dependencies": {
-          "PInvoke.Windows.Core": "0.7.124"
-        },
-        "compile": {
-          "lib/netstandard2.0/PInvoke.Windows.ShellScalingApi.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/PInvoke.Windows.ShellScalingApi.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "System.Memory/4.5.4": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.1/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.1/_._": {}
-        }
-      },
-      "System.Threading.Tasks.Extensions/4.5.4": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.1/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.1/_._": {}
-        }
-      },
-      "Validation/2.4.15": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard1.3/Validation.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard1.3/Validation.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "CodxDesk.Services/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -270,19 +171,6 @@
         },
         "runtime": {
           "bin/placeholder/CodxDesk.Services.dll": {}
-        }
-      },
-      "Hardcodet.Wpf.TaskbarNotification.Interop/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "PInvoke.User32": "0.7.124"
-        },
-        "compile": {
-          "bin/placeholder/Hardcodet.Wpf.TaskbarNotification.Interop.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Hardcodet.Wpf.TaskbarNotification.Interop.dll": {}
         }
       }
     },
@@ -458,131 +346,6 @@
         "runtime": {
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
-          }
-        }
-      },
-      "PInvoke.Kernel32/0.7.124": {
-        "type": "package",
-        "dependencies": {
-          "PInvoke.Windows.Core": "0.7.124",
-          "System.Threading.Tasks.Extensions": "4.5.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/PInvoke.Kernel32.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/PInvoke.Kernel32.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "PInvoke.User32/0.7.124": {
-        "type": "package",
-        "dependencies": {
-          "PInvoke.Kernel32": "0.7.124",
-          "PInvoke.Windows.Core": "0.7.124",
-          "PInvoke.Windows.ShellScalingApi": "0.7.124",
-          "Validation": "2.4.15"
-        },
-        "compile": {
-          "lib/netstandard2.0/PInvoke.User32.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/PInvoke.User32.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "PInvoke.Windows.Core/0.7.124": {
-        "type": "package",
-        "dependencies": {
-          "System.Memory": "4.5.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/PInvoke.Windows.Core.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/PInvoke.Windows.Core.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "PInvoke.Windows.ShellScalingApi/0.7.124": {
-        "type": "package",
-        "dependencies": {
-          "PInvoke.Windows.Core": "0.7.124"
-        },
-        "compile": {
-          "lib/netstandard2.0/PInvoke.Windows.ShellScalingApi.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/PInvoke.Windows.ShellScalingApi.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "System.Buffers/4.5.1": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
-        }
-      },
-      "System.Memory/4.5.4": {
-        "type": "package",
-        "dependencies": {
-          "System.Buffers": "4.5.1",
-          "System.Runtime.CompilerServices.Unsafe": "4.5.3"
-        },
-        "compile": {
-          "ref/netcoreapp2.1/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.1/_._": {}
-        }
-      },
-      "System.Runtime.CompilerServices.Unsafe/4.5.3": {
-        "type": "package",
-        "compile": {
-          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "System.Threading.Tasks.Extensions/4.5.4": {
-        "type": "package",
-        "compile": {
-          "ref/MonoAndroid10/_._": {}
-        },
-        "runtime": {
-          "lib/MonoAndroid10/_._": {}
-        }
-      },
-      "Validation/2.4.15": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard1.3/Validation.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard1.3/Validation.dll": {
-            "related": ".xml"
           }
         }
       },
@@ -2323,19 +2086,6 @@
         "runtime": {
           "bin/placeholder/CodxDesk.Services.dll": {}
         }
-      },
-      "Hardcodet.Wpf.TaskbarNotification.Interop/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "PInvoke.User32": "0.7.124"
-        },
-        "compile": {
-          "bin/placeholder/Hardcodet.Wpf.TaskbarNotification.Interop.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Hardcodet.Wpf.TaskbarNotification.Interop.dll": {}
-        }
       }
     },
     "net7.0-ios16.1": {
@@ -2512,105 +2262,6 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "PInvoke.Kernel32/0.7.124": {
-        "type": "package",
-        "dependencies": {
-          "PInvoke.Windows.Core": "0.7.124",
-          "System.Threading.Tasks.Extensions": "4.5.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/PInvoke.Kernel32.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/PInvoke.Kernel32.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "PInvoke.User32/0.7.124": {
-        "type": "package",
-        "dependencies": {
-          "PInvoke.Kernel32": "0.7.124",
-          "PInvoke.Windows.Core": "0.7.124",
-          "PInvoke.Windows.ShellScalingApi": "0.7.124",
-          "Validation": "2.4.15"
-        },
-        "compile": {
-          "lib/netstandard2.0/PInvoke.User32.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/PInvoke.User32.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "PInvoke.Windows.Core/0.7.124": {
-        "type": "package",
-        "dependencies": {
-          "System.Memory": "4.5.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/PInvoke.Windows.Core.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/PInvoke.Windows.Core.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "PInvoke.Windows.ShellScalingApi/0.7.124": {
-        "type": "package",
-        "dependencies": {
-          "PInvoke.Windows.Core": "0.7.124"
-        },
-        "compile": {
-          "lib/netstandard2.0/PInvoke.Windows.ShellScalingApi.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/PInvoke.Windows.ShellScalingApi.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "System.Memory/4.5.4": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.1/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.1/_._": {}
-        }
-      },
-      "System.Threading.Tasks.Extensions/4.5.4": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.1/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.1/_._": {}
-        }
-      },
-      "Validation/2.4.15": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard1.3/Validation.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard1.3/Validation.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "CodxDesk.Services/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -2619,19 +2270,6 @@
         },
         "runtime": {
           "bin/placeholder/CodxDesk.Services.dll": {}
-        }
-      },
-      "Hardcodet.Wpf.TaskbarNotification.Interop/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "PInvoke.User32": "0.7.124"
-        },
-        "compile": {
-          "bin/placeholder/Hardcodet.Wpf.TaskbarNotification.Interop.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Hardcodet.Wpf.TaskbarNotification.Interop.dll": {}
         }
       }
     },
@@ -2809,105 +2447,6 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "PInvoke.Kernel32/0.7.124": {
-        "type": "package",
-        "dependencies": {
-          "PInvoke.Windows.Core": "0.7.124",
-          "System.Threading.Tasks.Extensions": "4.5.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/PInvoke.Kernel32.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/PInvoke.Kernel32.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "PInvoke.User32/0.7.124": {
-        "type": "package",
-        "dependencies": {
-          "PInvoke.Kernel32": "0.7.124",
-          "PInvoke.Windows.Core": "0.7.124",
-          "PInvoke.Windows.ShellScalingApi": "0.7.124",
-          "Validation": "2.4.15"
-        },
-        "compile": {
-          "lib/netstandard2.0/PInvoke.User32.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/PInvoke.User32.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "PInvoke.Windows.Core/0.7.124": {
-        "type": "package",
-        "dependencies": {
-          "System.Memory": "4.5.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/PInvoke.Windows.Core.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/PInvoke.Windows.Core.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "PInvoke.Windows.ShellScalingApi/0.7.124": {
-        "type": "package",
-        "dependencies": {
-          "PInvoke.Windows.Core": "0.7.124"
-        },
-        "compile": {
-          "lib/netstandard2.0/PInvoke.Windows.ShellScalingApi.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/PInvoke.Windows.ShellScalingApi.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "System.Memory/4.5.4": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.1/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.1/_._": {}
-        }
-      },
-      "System.Threading.Tasks.Extensions/4.5.4": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.1/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.1/_._": {}
-        }
-      },
-      "Validation/2.4.15": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard1.3/Validation.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard1.3/Validation.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "CodxDesk.Services/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -2916,19 +2455,6 @@
         },
         "runtime": {
           "bin/placeholder/CodxDesk.Services.dll": {}
-        }
-      },
-      "Hardcodet.Wpf.TaskbarNotification.Interop/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "PInvoke.User32": "0.7.124"
-        },
-        "compile": {
-          "bin/placeholder/Hardcodet.Wpf.TaskbarNotification.Interop.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Hardcodet.Wpf.TaskbarNotification.Interop.dll": {}
         }
       }
     },
@@ -3233,105 +2759,6 @@
           }
         }
       },
-      "PInvoke.Kernel32/0.7.124": {
-        "type": "package",
-        "dependencies": {
-          "PInvoke.Windows.Core": "0.7.124",
-          "System.Threading.Tasks.Extensions": "4.5.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/PInvoke.Kernel32.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/PInvoke.Kernel32.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "PInvoke.User32/0.7.124": {
-        "type": "package",
-        "dependencies": {
-          "PInvoke.Kernel32": "0.7.124",
-          "PInvoke.Windows.Core": "0.7.124",
-          "PInvoke.Windows.ShellScalingApi": "0.7.124",
-          "Validation": "2.4.15"
-        },
-        "compile": {
-          "lib/netstandard2.0/PInvoke.User32.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/PInvoke.User32.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "PInvoke.Windows.Core/0.7.124": {
-        "type": "package",
-        "dependencies": {
-          "System.Memory": "4.5.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/PInvoke.Windows.Core.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/PInvoke.Windows.Core.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "PInvoke.Windows.ShellScalingApi/0.7.124": {
-        "type": "package",
-        "dependencies": {
-          "PInvoke.Windows.Core": "0.7.124"
-        },
-        "compile": {
-          "lib/netstandard2.0/PInvoke.Windows.ShellScalingApi.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/PInvoke.Windows.ShellScalingApi.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "System.Memory/4.5.4": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.1/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.1/_._": {}
-        }
-      },
-      "System.Threading.Tasks.Extensions/4.5.4": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.1/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.1/_._": {}
-        }
-      },
-      "Validation/2.4.15": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard1.3/Validation.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard1.3/Validation.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "CodxDesk.Services/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -3340,19 +2767,6 @@
         },
         "runtime": {
           "bin/placeholder/CodxDesk.Services.dll": {}
-        }
-      },
-      "Hardcodet.Wpf.TaskbarNotification.Interop/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "PInvoke.User32": "0.7.124"
-        },
-        "compile": {
-          "bin/placeholder/Hardcodet.Wpf.TaskbarNotification.Interop.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Hardcodet.Wpf.TaskbarNotification.Interop.dll": {}
         }
       }
     }
@@ -4611,233 +4025,6 @@
         "tools/net5.0/zh-TW/Microsoft.Build.Msix.resources.dll",
         "tools/x64/GenXbf.dll",
         "tools/x86/GenXbf.dll"
-      ]
-    },
-    "PInvoke.Kernel32/0.7.124": {
-      "sha512": "3yQudp7J20HH8oW2WsGdNlcRCJAG6Slens3n4P7c6m53m0SkXLyD5ry/bXYAFXYeIym9b0LIOvrmKjmzptmkWw==",
-      "type": "package",
-      "path": "pinvoke.kernel32/0.7.124",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net45/PInvoke.Kernel32.dll",
-        "lib/net45/PInvoke.Kernel32.xml",
-        "lib/net46/PInvoke.Kernel32.dll",
-        "lib/net46/PInvoke.Kernel32.xml",
-        "lib/netstandard2.0/PInvoke.Kernel32.dll",
-        "lib/netstandard2.0/PInvoke.Kernel32.xml",
-        "lib/uap10.0.19041/PInvoke.Kernel32.dll",
-        "lib/uap10.0.19041/PInvoke.Kernel32.pri",
-        "lib/uap10.0.19041/PInvoke.Kernel32.xml",
-        "pinvoke.kernel32.0.7.124.nupkg.sha512",
-        "pinvoke.kernel32.nuspec"
-      ]
-    },
-    "PInvoke.User32/0.7.124": {
-      "sha512": "Xgrt/IFJWZhLT0S0MdP4ZU48gqgKVs+O+WmXb9Qge1T+me3oR5fhOl812qvLm2+D6DoHPxbUWTIc8MrH5i78Vw==",
-      "type": "package",
-      "path": "pinvoke.user32/0.7.124",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net45/PInvoke.User32.dll",
-        "lib/net45/PInvoke.User32.xml",
-        "lib/netstandard2.0/PInvoke.User32.dll",
-        "lib/netstandard2.0/PInvoke.User32.xml",
-        "lib/uap10.0.19041/PInvoke.User32.dll",
-        "lib/uap10.0.19041/PInvoke.User32.pri",
-        "lib/uap10.0.19041/PInvoke.User32.xml",
-        "pinvoke.user32.0.7.124.nupkg.sha512",
-        "pinvoke.user32.nuspec"
-      ]
-    },
-    "PInvoke.Windows.Core/0.7.124": {
-      "sha512": "er/PkwUBie3nXlwiKOfOxmdAj6ae8eFCLUgI5g6+9RAbyMoXMQnwAPx1atq0ZxU2LeozBdWtMQjogqcMNJhg1w==",
-      "type": "package",
-      "path": "pinvoke.windows.core/0.7.124",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net45/PInvoke.Windows.Core.dll",
-        "lib/net45/PInvoke.Windows.Core.xml",
-        "lib/netstandard2.0/PInvoke.Windows.Core.dll",
-        "lib/netstandard2.0/PInvoke.Windows.Core.xml",
-        "lib/uap10.0.19041/PInvoke.Windows.Core.dll",
-        "lib/uap10.0.19041/PInvoke.Windows.Core.pri",
-        "lib/uap10.0.19041/PInvoke.Windows.Core.xml",
-        "pinvoke.windows.core.0.7.124.nupkg.sha512",
-        "pinvoke.windows.core.nuspec"
-      ]
-    },
-    "PInvoke.Windows.ShellScalingApi/0.7.124": {
-      "sha512": "mVKSSuvBcJUwWvfGAfJK05AXH0QEbiDdxYqN4wjCZBeXv4ewM2/N6U2wt5uCac8RFIvsd9MAsIdTnjMLqdkNZg==",
-      "type": "package",
-      "path": "pinvoke.windows.shellscalingapi/0.7.124",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net45/PInvoke.Windows.ShellScalingApi.dll",
-        "lib/net45/PInvoke.Windows.ShellScalingApi.xml",
-        "lib/netstandard2.0/PInvoke.Windows.ShellScalingApi.dll",
-        "lib/netstandard2.0/PInvoke.Windows.ShellScalingApi.xml",
-        "lib/uap10.0.19041/PInvoke.Windows.ShellScalingApi.dll",
-        "lib/uap10.0.19041/PInvoke.Windows.ShellScalingApi.pri",
-        "lib/uap10.0.19041/PInvoke.Windows.ShellScalingApi.xml",
-        "pinvoke.windows.shellscalingapi.0.7.124.nupkg.sha512",
-        "pinvoke.windows.shellscalingapi.nuspec"
-      ]
-    },
-    "System.Buffers/4.5.1": {
-      "sha512": "Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg==",
-      "type": "package",
-      "path": "system.buffers/4.5.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/net461/System.Buffers.dll",
-        "lib/net461/System.Buffers.xml",
-        "lib/netcoreapp2.0/_._",
-        "lib/netstandard1.1/System.Buffers.dll",
-        "lib/netstandard1.1/System.Buffers.xml",
-        "lib/netstandard2.0/System.Buffers.dll",
-        "lib/netstandard2.0/System.Buffers.xml",
-        "lib/uap10.0.16299/_._",
-        "ref/net45/System.Buffers.dll",
-        "ref/net45/System.Buffers.xml",
-        "ref/netcoreapp2.0/_._",
-        "ref/netstandard1.1/System.Buffers.dll",
-        "ref/netstandard1.1/System.Buffers.xml",
-        "ref/netstandard2.0/System.Buffers.dll",
-        "ref/netstandard2.0/System.Buffers.xml",
-        "ref/uap10.0.16299/_._",
-        "system.buffers.4.5.1.nupkg.sha512",
-        "system.buffers.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
-    "System.Memory/4.5.4": {
-      "sha512": "1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
-      "type": "package",
-      "path": "system.memory/4.5.4",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/net461/System.Memory.dll",
-        "lib/net461/System.Memory.xml",
-        "lib/netcoreapp2.1/_._",
-        "lib/netstandard1.1/System.Memory.dll",
-        "lib/netstandard1.1/System.Memory.xml",
-        "lib/netstandard2.0/System.Memory.dll",
-        "lib/netstandard2.0/System.Memory.xml",
-        "ref/netcoreapp2.1/_._",
-        "system.memory.4.5.4.nupkg.sha512",
-        "system.memory.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
-    "System.Runtime.CompilerServices.Unsafe/4.5.3": {
-      "sha512": "3TIsJhD1EiiT0w2CcDMN/iSSwnNnsrnbzeVHSKkaEgV85txMprmuO+Yq2AdSbeVGcg28pdNDTPK87tJhX7VFHw==",
-      "type": "package",
-      "path": "system.runtime.compilerservices.unsafe/4.5.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
-        "lib/net461/System.Runtime.CompilerServices.Unsafe.xml",
-        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll",
-        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.xml",
-        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
-        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
-        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
-        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
-        "ref/net461/System.Runtime.CompilerServices.Unsafe.dll",
-        "ref/net461/System.Runtime.CompilerServices.Unsafe.xml",
-        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
-        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
-        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
-        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
-        "system.runtime.compilerservices.unsafe.4.5.3.nupkg.sha512",
-        "system.runtime.compilerservices.unsafe.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
-    "System.Threading.Tasks.Extensions/4.5.4": {
-      "sha512": "zteT+G8xuGu6mS+mzDzYXbzS7rd3K6Fjb9RiZlYlJPam2/hU7JCBZBVEcywNuR+oZ1ncTvc/cq0faRr3P01OVg==",
-      "type": "package",
-      "path": "system.threading.tasks.extensions/4.5.4",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/MonoAndroid10/_._",
-        "lib/MonoTouch10/_._",
-        "lib/net461/System.Threading.Tasks.Extensions.dll",
-        "lib/net461/System.Threading.Tasks.Extensions.xml",
-        "lib/netcoreapp2.1/_._",
-        "lib/netstandard1.0/System.Threading.Tasks.Extensions.dll",
-        "lib/netstandard1.0/System.Threading.Tasks.Extensions.xml",
-        "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll",
-        "lib/netstandard2.0/System.Threading.Tasks.Extensions.xml",
-        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll",
-        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.xml",
-        "lib/xamarinios10/_._",
-        "lib/xamarinmac20/_._",
-        "lib/xamarintvos10/_._",
-        "lib/xamarinwatchos10/_._",
-        "ref/MonoAndroid10/_._",
-        "ref/MonoTouch10/_._",
-        "ref/netcoreapp2.1/_._",
-        "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._",
-        "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._",
-        "system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-        "system.threading.tasks.extensions.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
-    "Validation/2.4.15": {
-      "sha512": "KQFOtJKKhaXzuSiZhkFaFzQEdYsA+EN/XqKZDYwsGDOrS0Nxu6qzCvNTsDF4xtkiZbBA6u7I59QnsuP2O2fZgg==",
-      "type": "package",
-      "path": "validation/2.4.15",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "README.md",
-        "lib/net20/Validation.dll",
-        "lib/net20/Validation.xml",
-        "lib/net40/Validation.dll",
-        "lib/net40/Validation.xml",
-        "lib/net45/Validation.dll",
-        "lib/net45/Validation.xml",
-        "lib/netstandard1.0/Validation.dll",
-        "lib/netstandard1.0/Validation.xml",
-        "lib/netstandard1.3/Validation.dll",
-        "lib/netstandard1.3/Validation.xml",
-        "lib/portable-net40+sl5+win8+wp8+wpa81/Validation.dll",
-        "lib/portable-net40+sl5+win8+wp8+wpa81/Validation.xml",
-        "lib/portable-net45+win8+wp8+wpa81/Validation.dll",
-        "lib/portable-net45+win8+wp8+wpa81/Validation.xml",
-        "tools/2013/RequiresNotNull.snippet",
-        "tools/2013/RequiresNotNullOrEmpty.snippet",
-        "tools/2015/RequiresNotNull.snippet",
-        "tools/2015/RequiresNotNullOrEmpty.snippet",
-        "tools/install_snippets.cmd",
-        "tools/uninstall_snippets.cmd",
-        "validation.2.4.15.nupkg.sha512",
-        "validation.nuspec"
       ]
     },
     "Xamarin.Android.Glide/4.13.2.2": {
@@ -6841,17 +6028,11 @@
       "type": "project",
       "path": "../CodxDesk.Services/CodxDesk.Services.csproj",
       "msbuildProject": "../CodxDesk.Services/CodxDesk.Services.csproj"
-    },
-    "Hardcodet.Wpf.TaskbarNotification.Interop/1.0.0": {
-      "type": "project",
-      "path": "../MauiLib1/Hardcodet.Wpf.TaskbarNotification.Interop.csproj",
-      "msbuildProject": "../MauiLib1/Hardcodet.Wpf.TaskbarNotification.Interop.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "CodxDesk.Services >= 1.0.0",
-      "Hardcodet.Wpf.TaskbarNotification.Interop >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -6859,7 +6040,6 @@
     ],
     "net7.0-android33.0": [
       "CodxDesk.Services >= 1.0.0",
-      "Hardcodet.Wpf.TaskbarNotification.Interop >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -6878,7 +6058,6 @@
     ],
     "net7.0-ios16.1": [
       "CodxDesk.Services >= 1.0.0",
-      "Hardcodet.Wpf.TaskbarNotification.Interop >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -6888,7 +6067,6 @@
     ],
     "net7.0-maccatalyst16.1": [
       "CodxDesk.Services >= 1.0.0",
-      "Hardcodet.Wpf.TaskbarNotification.Interop >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -6898,7 +6076,6 @@
     ],
     "net7.0-windows10.0.19041": [
       "CodxDesk.Services >= 1.0.0",
-      "Hardcodet.Wpf.TaskbarNotification.Interop >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -6947,9 +6124,6 @@
           "projectReferences": {
             "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\CodxDesk.Services\\CodxDesk.Services.csproj": {
               "projectPath": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\CodxDesk.Services\\CodxDesk.Services.csproj"
-            },
-            "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\MauiLib1\\Hardcodet.Wpf.TaskbarNotification.Interop.csproj": {
-              "projectPath": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\MauiLib1\\Hardcodet.Wpf.TaskbarNotification.Interop.csproj"
             }
           }
         },
@@ -6958,9 +6132,6 @@
           "projectReferences": {
             "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\CodxDesk.Services\\CodxDesk.Services.csproj": {
               "projectPath": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\CodxDesk.Services\\CodxDesk.Services.csproj"
-            },
-            "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\MauiLib1\\Hardcodet.Wpf.TaskbarNotification.Interop.csproj": {
-              "projectPath": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\MauiLib1\\Hardcodet.Wpf.TaskbarNotification.Interop.csproj"
             }
           }
         },
@@ -6969,9 +6140,6 @@
           "projectReferences": {
             "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\CodxDesk.Services\\CodxDesk.Services.csproj": {
               "projectPath": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\CodxDesk.Services\\CodxDesk.Services.csproj"
-            },
-            "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\MauiLib1\\Hardcodet.Wpf.TaskbarNotification.Interop.csproj": {
-              "projectPath": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\MauiLib1\\Hardcodet.Wpf.TaskbarNotification.Interop.csproj"
             }
           }
         },
@@ -6980,9 +6148,6 @@
           "projectReferences": {
             "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\CodxDesk.Services\\CodxDesk.Services.csproj": {
               "projectPath": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\CodxDesk.Services\\CodxDesk.Services.csproj"
-            },
-            "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\MauiLib1\\Hardcodet.Wpf.TaskbarNotification.Interop.csproj": {
-              "projectPath": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\MauiLib1\\Hardcodet.Wpf.TaskbarNotification.Interop.csproj"
             }
           }
         },
@@ -6991,9 +6156,6 @@
           "projectReferences": {
             "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\CodxDesk.Services\\CodxDesk.Services.csproj": {
               "projectPath": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\CodxDesk.Services\\CodxDesk.Services.csproj"
-            },
-            "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\MauiLib1\\Hardcodet.Wpf.TaskbarNotification.Interop.csproj": {
-              "projectPath": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\MauiLib1\\Hardcodet.Wpf.TaskbarNotification.Interop.csproj"
             }
           }
         }

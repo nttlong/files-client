@@ -1,0 +1,12 @@
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\XnotificationService\bin\Debug\net7.0\XnotificationService.deps.json
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\XnotificationService\bin\Debug\net7.0\XnotificationService.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\XnotificationService\bin\Debug\net7.0\XnotificationService.pdb
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\XnotificationService\obj\Debug\net7.0\XnotificationService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\XnotificationService\obj\Debug\net7.0\XnotificationService.AssemblyInfoInputs.cache
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\XnotificationService\obj\Debug\net7.0\XnotificationService.AssemblyInfo.cs
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\XnotificationService\obj\Debug\net7.0\XnotificationService.csproj.CoreCompileInputs.cache
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\XnotificationService\obj\Debug\net7.0\XnotificationService.sourcelink.json
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\XnotificationService\obj\Debug\net7.0\XnotificationService.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\XnotificationService\obj\Debug\net7.0\refint\XnotificationService.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\XnotificationService\obj\Debug\net7.0\XnotificationService.pdb
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\XnotificationService\obj\Debug\net7.0\ref\XnotificationService.dll

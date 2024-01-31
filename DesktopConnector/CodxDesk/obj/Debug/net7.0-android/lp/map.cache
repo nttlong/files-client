@@ -155,3 +155,9 @@ maui.aar
 Microsoft.Maui.aar
 Microsoft.Maui.Essentials.aar
 Xamarin.Google.Crypto.Tink.Android.aar
+CodxDesk.Services.dll
+CodxDesk.WinUI.dll
+Hardcodet.Wpf.TaskbarNotification.Interop.dll
+CodxDesk.Services.aar
+CodxDesk.WinUI.aar
+Hardcodet.Wpf.TaskbarNotification.Interop.aar

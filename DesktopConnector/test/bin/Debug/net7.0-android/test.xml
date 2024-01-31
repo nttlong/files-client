@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>test</name>
+    </assembly>
+    <members>
+        <member name="T:test.ViewModels.ListDetailDetailViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:test.ViewModels.ListDetailDetailViewModel.Item">
+            <inheritdoc cref="F:test.ViewModels.ListDetailDetailViewModel.item"/>
+        </member>
+        <member name="T:test.ViewModels.ListDetailViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:test.ViewModels.ListDetailViewModel.IsRefreshing">
+            <inheritdoc cref="F:test.ViewModels.ListDetailViewModel.isRefreshing"/>
+        </member>
+        <member name="P:test.ViewModels.ListDetailViewModel.Items">
+            <inheritdoc cref="F:test.ViewModels.ListDetailViewModel.items"/>
+        </member>
+        <member name="F:test.ViewModels.ListDetailViewModel.refreshingCommand">
+            <summary>The backing field for <see cref="P:test.ViewModels.ListDetailViewModel.RefreshingCommand"/>.</summary>
+        </member>
+        <member name="P:test.ViewModels.ListDetailViewModel.RefreshingCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:test.ViewModels.ListDetailViewModel.OnRefreshing"/>.</summary>
+        </member>
+        <member name="F:test.ViewModels.ListDetailViewModel.loadMoreCommand">
+            <summary>The backing field for <see cref="P:test.ViewModels.ListDetailViewModel.LoadMoreCommand"/>.</summary>
+        </member>
+        <member name="P:test.ViewModels.ListDetailViewModel.LoadMoreCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:test.ViewModels.ListDetailViewModel.LoadMore"/>.</summary>
+        </member>
+        <member name="F:test.ViewModels.ListDetailViewModel.goToDetailsCommand">
+            <summary>The backing field for <see cref="P:test.ViewModels.ListDetailViewModel.GoToDetailsCommand"/>.</summary>
+        </member>
+        <member name="P:test.ViewModels.ListDetailViewModel.GoToDetailsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:test.ViewModels.ListDetailViewModel.GoToDetails(test.Models.SampleItem)"/>.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Item">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Item" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsRefreshing">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsRefreshing" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Items">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Items" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Item">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Item" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsRefreshing">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsRefreshing" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Items">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Items" generated properties.</summary>
+        </member>
+    </members>
+</doc>

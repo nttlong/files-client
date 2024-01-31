@@ -19,7 +19,6 @@
 
 	<ItemGroup>
 	  <ProjectReference Include="..\CodxDesk.Services\CodxDesk.Services.csproj" />
-	  <ProjectReference Include="..\MauiLib1\Hardcodet.Wpf.TaskbarNotification.Interop.csproj" />
 	</ItemGroup>
 
 </Project>
