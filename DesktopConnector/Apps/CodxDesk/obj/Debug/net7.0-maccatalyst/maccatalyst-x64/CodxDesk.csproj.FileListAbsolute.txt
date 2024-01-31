@@ -276,3 +276,4 @@ C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CodxDesk\
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CodxDesk\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\XWindows.pdb
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CodxDesk\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\XNotificationService.pdb
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CodxDesk\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Toolkit.Uwp.Notifications.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CodxDesk\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\app_icon.png

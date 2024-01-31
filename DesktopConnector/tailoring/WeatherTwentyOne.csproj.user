@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <IsFirstTimeProjectOpen>False</IsFirstTimeProjectOpen>
+    <ActiveDebugFramework>net7.0-windows10.0.19041.0</ActiveDebugFramework>
+    <ActiveDebugProfile>Windows Machine</ActiveDebugProfile>
+    <SplashScreenSource>D:\Net\test2\WeatherTwentyOne\src\WeatherTwentyOne\Resources\Images\app_image.png</SplashScreenSource>
+    <Source>D:\Net\test2\WeatherTwentyOne\src\WeatherTwentyOne\Resources\Images\app_image.png</Source>
+    <SmallTileSource>D:\Net\test2\WeatherTwentyOne\src\WeatherTwentyOne\Resources\Images\app_image.png</SmallTileSource>
+    <MediumTileSource>D:\Net\test2\WeatherTwentyOne\src\WeatherTwentyOne\Resources\Images\app_image.png</MediumTileSource>
+    <WideTileSource>D:\Net\test2\WeatherTwentyOne\src\WeatherTwentyOne\Resources\Images\app_image.png</WideTileSource>
+    <LargeTileSource>D:\Net\test2\WeatherTwentyOne\src\WeatherTwentyOne\Resources\Images\app_image.png</LargeTileSource>
+    <AppIconSource>D:\Net\test2\WeatherTwentyOne\src\WeatherTwentyOne\Resources\Images\app_image.png</AppIconSource>
+    <PackageLogoSource>D:\Net\test2\WeatherTwentyOne\src\WeatherTwentyOne\Resources\Images\app_image.png</PackageLogoSource>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Update="Platforms\Windows\Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+</Project>

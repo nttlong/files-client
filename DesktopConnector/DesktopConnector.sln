@@ -21,15 +21,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "test", "test\test.csproj", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{47CD8193-8773-4854-B16C-35ADEF844D3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XWindows", "XWindows\XWindows.csproj", "{2EB38CC7-A442-44EE-BB67-F084ABB0C4AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XWindows", "XWindows\XWindows.csproj", "{2EB38CC7-A442-44EE-BB67-F084ABB0C4AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XNotificationService", "XnotificationService\XNotificationService.csproj", "{1A41BF30-AD61-43C4-9C39-4209B4F1924B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XNotificationService", "XnotificationService\XNotificationService.csproj", "{1A41BF30-AD61-43C4-9C39-4209B4F1924B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XNotificationServiceWindows", "XnotificationServiceWindows\XNotificationServiceWindows.csproj", "{0B560FCB-A5EC-4A07-8CA3-E562E45E7FEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XNotificationServiceWindows", "XnotificationServiceWindows\XNotificationServiceWindows.csproj", "{0B560FCB-A5EC-4A07-8CA3-E562E45E7FEF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apps", "Apps", "{1E0F60A3-714E-4348-A15D-80DA017C9639}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodxDesk", "Apps\CodxDesk\CodxDesk.csproj", "{B2A01107-1CC2-495D-98DE-8174158AAA89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodxDesk", "Apps\CodxDesk\CodxDesk.csproj", "{B2A01107-1CC2-495D-98DE-8174158AAA89}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tailoring", "tailoring", "{0FA8A00D-4652-4C91-B0F6-546481AE0B20}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherTwentyOne", "tailoring\WeatherTwentyOne.csproj", "{923B4943-BACE-4183-8537-ACADD7BD8C3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -97,6 +101,12 @@ Global
 		{B2A01107-1CC2-495D-98DE-8174158AAA89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2A01107-1CC2-495D-98DE-8174158AAA89}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B2A01107-1CC2-495D-98DE-8174158AAA89}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{923B4943-BACE-4183-8537-ACADD7BD8C3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{923B4943-BACE-4183-8537-ACADD7BD8C3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{923B4943-BACE-4183-8537-ACADD7BD8C3B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{923B4943-BACE-4183-8537-ACADD7BD8C3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{923B4943-BACE-4183-8537-ACADD7BD8C3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{923B4943-BACE-4183-8537-ACADD7BD8C3B}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -106,6 +116,7 @@ Global
 		{1A41BF30-AD61-43C4-9C39-4209B4F1924B} = {47CD8193-8773-4854-B16C-35ADEF844D3E}
 		{0B560FCB-A5EC-4A07-8CA3-E562E45E7FEF} = {47CD8193-8773-4854-B16C-35ADEF844D3E}
 		{B2A01107-1CC2-495D-98DE-8174158AAA89} = {1E0F60A3-714E-4348-A15D-80DA017C9639}
+		{923B4943-BACE-4183-8537-ACADD7BD8C3B} = {0FA8A00D-4652-4C91-B0F6-546481AE0B20}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6340613F-0DD5-4AFA-AE1A-9ED192B81810}

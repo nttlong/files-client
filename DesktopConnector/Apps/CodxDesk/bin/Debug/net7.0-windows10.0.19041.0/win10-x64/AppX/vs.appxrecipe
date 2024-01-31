@@ -18,7 +18,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CodxDesk\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
-    <RegisteredManifestChecksum>432597366A3863776041E74993DACDE5E3DD515E8A019870657FAC278AB33CFA</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>82C17BF73912377C781832F4A78B144235643B9A08AAF96D0389CA4E2108EF1E</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>7ee37059-fa8a-44af-93c6-27acedfb09bf_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>7ee37059-fa8a-44af-93c6-27acedfb09bf_9zz4h110yvjzm!App</RegisteredUserModeAppID>
     <RegisteredPackageID>7ee37059-fa8a-44af-93c6-27acedfb09bf</RegisteredPackageID>
@@ -29,37 +29,37 @@
     <AppXManifest Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CodxDesk\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-01-31T06:30:08.450</Modified>
+      <Modified>2024-01-31T07:22:48.905</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CodxDesk\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-01-31T06:30:07.870</Modified>
+      <Modified>2024-01-31T07:19:58.843</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CodxDesk\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\CodxDesk.runtimeconfig.json">
       <PackagePath>CodxDesk.runtimeconfig.json</PackagePath>
-      <Modified>2024-01-31T06:30:07.777</Modified>
+      <Modified>2024-01-31T07:13:56.096</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CodxDesk\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\CodxDesk.dll">
       <PackagePath>CodxDesk.dll</PackagePath>
-      <Modified>2024-01-31T06:30:06.130</Modified>
+      <Modified>2024-01-31T07:22:47.148</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\XnotificationServiceWindows\bin\Debug\net7.0-windows10.0.19041.0\XNotificationServiceWindows.dll">
       <PackagePath>XNotificationServiceWindows.dll</PackagePath>
-      <Modified>2024-01-31T06:28:02.576</Modified>
+      <Modified>2024-01-31T07:17:02.598</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\XWindows\bin\Debug\net7.0-windows10.0.19041.0\XWindows.dll">
       <PackagePath>XWindows.dll</PackagePath>
-      <Modified>2024-01-31T06:27:59.818</Modified>
+      <Modified>2024-01-31T07:17:01.148</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CodxDesk\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>CodxDesk.exe</PackagePath>
-      <Modified>2024-01-31T06:30:06.186</Modified>
+      <Modified>2024-01-31T07:22:47.206</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CodxDesk\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\CodxDesk.deps.json">
       <PackagePath>CodxDesk.deps.json</PackagePath>
-      <Modified>2024-01-31T06:30:07.637</Modified>
+      <Modified>2024-01-31T07:13:55.960</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.15\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>

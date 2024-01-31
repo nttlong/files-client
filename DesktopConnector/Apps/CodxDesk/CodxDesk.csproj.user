@@ -11,7 +11,8 @@
     <LargeTileSource>C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CodxDesk\Resources\Images\app_icon.png</LargeTileSource>
     <AppIconSource>C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CodxDesk\Resources\Images\app_icon.png</AppIconSource>
     <SplashScreenSource>C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CodxDesk\Resources\Images\app_icon.png</SplashScreenSource>
-    <PackageLogoSource>C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CodxDesk\Resources\Images\WP.png</PackageLogoSource>
+    <PackageLogoSource>C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CodxDesk\Resources\Images\app_icon.png</PackageLogoSource>
+    <BadgeLogoSource>C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CodxDesk\Resources\Images\app_icon.png</BadgeLogoSource>
   </PropertyGroup>
   <ItemGroup>
     <MauiXaml Update="App.xaml">

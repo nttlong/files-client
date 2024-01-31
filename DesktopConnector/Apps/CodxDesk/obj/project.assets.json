@@ -35553,6 +35553,7 @@
       "Microsoft.Maui.Graphics >= 7.0.101",
       "Microsoft.NET.ILLink.Analyzers >= 7.0.100-1.23211.1",
       "Microsoft.NET.ILLink.Tasks >= 7.0.100-1.23211.1",
+      "Microsoft.Toolkit.Uwp.Notifications >= 7.1.3",
       "XNotificationServiceWindows >= 1.0.0",
       "Xamarin.Android.Glide >= 4.13.2.2",
       "Xamarin.AndroidX.Browser >= 1.4.0.3",
@@ -35574,6 +35575,7 @@
       "Microsoft.Maui.Graphics >= 7.0.101",
       "Microsoft.NET.ILLink.Analyzers >= 7.0.100-1.23211.1",
       "Microsoft.NET.ILLink.Tasks >= 7.0.100-1.23211.1",
+      "Microsoft.Toolkit.Uwp.Notifications >= 7.1.3",
       "XNotificationServiceWindows >= 1.0.0"
     ],
     "net7.0-maccatalyst16.1": [
@@ -35584,6 +35586,7 @@
       "Microsoft.Maui.Graphics >= 7.0.101",
       "Microsoft.NET.ILLink.Analyzers >= 7.0.100-1.23211.1",
       "Microsoft.NET.ILLink.Tasks >= 7.0.100-1.23211.1",
+      "Microsoft.Toolkit.Uwp.Notifications >= 7.1.3",
       "XNotificationServiceWindows >= 1.0.0"
     ],
     "net7.0-windows10.0.19041": [
@@ -35593,6 +35596,7 @@
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.101",
       "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop >= 7.0.101",
+      "Microsoft.Toolkit.Uwp.Notifications >= 7.1.3",
       "Microsoft.WindowsAppSDK >= 1.2.221209.1",
       "XNotificationServiceWindows >= 1.0.0"
     ]
@@ -35709,6 +35713,10 @@
             "target": "Package",
             "version": "[7.0.100-1.23211.1, )",
             "autoReferenced": true
+          },
+          "Microsoft.Toolkit.Uwp.Notifications": {
+            "target": "Package",
+            "version": "[7.1.3, )"
           },
           "Xamarin.Android.Glide": {
             "target": "Package",
@@ -35880,6 +35888,10 @@
             "target": "Package",
             "version": "[7.0.100-1.23211.1, )",
             "autoReferenced": true
+          },
+          "Microsoft.Toolkit.Uwp.Notifications": {
+            "target": "Package",
+            "version": "[7.1.3, )"
           }
         },
         "imports": [
@@ -35984,6 +35996,10 @@
             "target": "Package",
             "version": "[7.0.100-1.23211.1, )",
             "autoReferenced": true
+          },
+          "Microsoft.Toolkit.Uwp.Notifications": {
+            "target": "Package",
+            "version": "[7.1.3, )"
           }
         },
         "imports": [
@@ -36082,6 +36098,10 @@
             "target": "Package",
             "version": "[7.0.101, )",
             "autoReferenced": true
+          },
+          "Microsoft.Toolkit.Uwp.Notifications": {
+            "target": "Package",
+            "version": "[7.1.3, )"
           },
           "Microsoft.WindowsAppSDK": {
             "target": "Package",

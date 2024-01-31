@@ -10,16 +10,17 @@ namespace XWindows
     public static class XWindowsExtension
     {
         public static IntPtr Hwnd { get; set; }
+        public static IntPtr HwndIcon { get; set; }
 
         public static void SetIcon(string iconFilename)
         {
             if (Hwnd == IntPtr.Zero)
                 return;
 
-            var hIcon = PInvoke.User32.LoadImage(IntPtr.Zero, iconFilename,
+            HwndIcon = PInvoke.User32.LoadImage(IntPtr.Zero, iconFilename,
                PInvoke.User32.ImageType.IMAGE_ICON, 16, 16, PInvoke.User32.LoadImageFlags.LR_LOADFROMFILE);
 
-            PInvoke.User32.SendMessage(Hwnd, PInvoke.User32.WindowMessage.WM_SETICON, (IntPtr)0, hIcon);
+            PInvoke.User32.SendMessage(Hwnd, PInvoke.User32.WindowMessage.WM_SETICON, (IntPtr)0, HwndIcon);
         }
 
         public static void BringToFront()
@@ -34,6 +35,7 @@ namespace XWindows
         {
             PInvoke.User32.ShowWindow(Hwnd, PInvoke.User32.WindowShowStyle.SW_MINIMIZE);
             PInvoke.User32.ShowWindow(Hwnd, PInvoke.User32.WindowShowStyle.SW_HIDE);
+            PInvoke.User32.SendMessage(Hwnd, PInvoke.User32.WindowMessage.WM_SETICON, (IntPtr)0, HwndIcon);
         }
     }
 }

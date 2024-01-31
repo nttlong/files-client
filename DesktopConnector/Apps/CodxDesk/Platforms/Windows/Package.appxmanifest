@@ -4,11 +4,13 @@
   xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
   xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest"
   xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"
+  xmlns:desktop="http://schemas.microsoft.com/appx/manifest/desktop/windows10"
+  xmlns:com="http://schemas.microsoft.com/appx/manifest/com/windows10"
   IgnorableNamespaces="uap rescap">
 
   <Identity Name="maui-package-name-placeholder" Publisher="CN=User Name" Version="0.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="15F94A82-AA82-4D5E-9531-D68A0E39EE49" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="1B9E86D6-B259-4EDD-B941-687A3D0FCE11" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>$placeholder$</DisplayName>
@@ -36,11 +38,33 @@
         <uap:DefaultTile Square71x71Logo="$placeholder$.png" Wide310x150Logo="$placeholder$.png" Square310x310Logo="$placeholder$.png" />
         <uap:SplashScreen Image="$placeholder$.png" />
       </uap:VisualElements>
+      <Extensions>
+
+        <!-- Specify which CLSID to activate when toast clicked -->
+        <desktop:Extension Category="windows.toastNotificationActivation">
+
+          <!-- Change Id to your ApplicationIdGuid, which can be found in your .Net Maui csproj -->
+          <desktop:ToastNotificationActivation ToastActivatorCLSID="7ee37059-fa8a-44af-93c6-27acedfb09bf" />
+        </desktop:Extension>
+
+        <!--Register COM CLSID LocalServer32 registry key-->
+        <com:Extension Category="windows.comServer">
+          <com:ComServer>
+
+            <!-- Change Executable to the EXE of your project -->
+            <com:ExeServer Executable="CodxDesk.exe" Arguments="-ToastActivated" DisplayName="Toast activator">
+
+              <!-- Change Id to your ApplicationIdGuid, which can be found in your .Net Maui csproj -->
+              <com:Class Id="7ee37059-fa8a-44af-93c6-27acedfb09bf" DisplayName="Toast activator"/>
+            </com:ExeServer>
+          </com:ComServer>
+        </com:Extension>
+      </Extensions>
     </Application>
   </Applications>
 
   <Capabilities>
     <rescap:Capability Name="runFullTrust" />
   </Capabilities>
-
+  
 </Package>

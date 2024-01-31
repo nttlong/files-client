@@ -1063,3 +1063,4 @@ C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CodxDesk\
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CodxDesk\obj\Debug\net7.0-android\android\assets\XWindows.pdb
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CodxDesk\obj\Debug\net7.0-android\android\assets\Microsoft.Toolkit.Uwp.Notifications.dll
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CodxDesk\obj\Debug\net7.0-android\android\assets\Microsoft.Toolkit.Uwp.Notifications.pdb
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CodxDesk\obj\Debug\net7.0-android\resizetizer\r\drawable\app_icon.png

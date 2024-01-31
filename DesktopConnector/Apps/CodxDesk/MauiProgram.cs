@@ -11,6 +11,7 @@ namespace CodxDesk
             var url = new Uri("ms-appx:///Resources/AppIcon/appicon.svg");
             var fx = url.AbsolutePath;
             var builder = MauiApp.CreateBuilder();
+
             builder
                 .UseMauiApp<App>()
                 .ConfigureFonts(fonts => {
@@ -24,9 +25,9 @@ namespace CodxDesk
                 
                 lifecycle.AddWindows(windows => windows.OnWindowCreated((del) => {
                     del.ExtendsContentIntoTitleBar = true;
-                    //XWindows.XWindowsExtension.Hwnd= ((Microsoft.Maui.MauiWinUIWindow)del).WindowHandle;
-                    //XWindows.XWindowsExtension.SetIcon(@"C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CodxDesk\Resources\AppIcon\trayicon.ico");
-                    //XWindows.XWindowsExtension.MinimizeToTray();
+                    XWindows.XWindowsExtension.Hwnd= ((Microsoft.Maui.MauiWinUIWindow)del).WindowHandle;
+                    XWindows.XWindowsExtension.SetIcon(@"C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CodxDesk\Resources\AppIcon\trayicon.ico");
+                    XWindows.XWindowsExtension.MinimizeToTray();
                 }));
 #endif
             });
