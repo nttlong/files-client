@@ -4,6 +4,14 @@
     <IsFirstTimeProjectOpen>False</IsFirstTimeProjectOpen>
     <ActiveDebugFramework>net7.0-windows10.0.19041.0</ActiveDebugFramework>
     <ActiveDebugProfile>Windows Machine</ActiveDebugProfile>
+    <Source>C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CodxDesk\Resources\Images\WP.png</Source>
+    <SmallTileSource>C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CodxDesk\Resources\Images\app_icon.png</SmallTileSource>
+    <MediumTileSource>C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CodxDesk\Resources\Images\app_icon.png</MediumTileSource>
+    <WideTileSource>C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CodxDesk\Resources\Images\app_icon.png</WideTileSource>
+    <LargeTileSource>C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CodxDesk\Resources\Images\app_icon.png</LargeTileSource>
+    <AppIconSource>C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CodxDesk\Resources\Images\app_icon.png</AppIconSource>
+    <SplashScreenSource>C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CodxDesk\Resources\Images\app_icon.png</SplashScreenSource>
+    <PackageLogoSource>C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CodxDesk\Resources\Images\WP.png</PackageLogoSource>
   </PropertyGroup>
   <ItemGroup>
     <MauiXaml Update="App.xaml">

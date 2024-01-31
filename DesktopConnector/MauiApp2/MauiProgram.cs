@@ -6,6 +6,7 @@ namespace MauiApp2
     {
         public static MauiApp CreateMauiApp()
         {
+            var url = new Uri("ms-appx:///Resources/AppIcon/appicon.svg");
             var builder = MauiApp.CreateBuilder();
             builder
                 .UseMauiApp<App>()

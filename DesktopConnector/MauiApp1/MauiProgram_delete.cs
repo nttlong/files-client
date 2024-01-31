@@ -20,8 +20,10 @@ namespace MauiApp1
                 });
             builder.ConfigureLifecycleEvents(lifecycle => {
 #if WINDOWS
-                
+                var fx=NotificationService();
+               
 
+                
                 lifecycle.AddWindows(windows => windows.OnWindowCreated((del) => {
                     del.ExtendsContentIntoTitleBar = true;
                 }));

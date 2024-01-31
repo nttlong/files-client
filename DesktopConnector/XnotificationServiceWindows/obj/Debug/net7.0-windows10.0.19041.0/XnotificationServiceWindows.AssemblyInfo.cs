@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XNotificationServiceWindows")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ad3a0c9cbe5a9d6634efeed6790420f396e437f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+893bde334539c949a7d61c30b6a91fe9180345e5")]
 [assembly: System.Reflection.AssemblyProductAttribute("XNotificationServiceWindows")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XNotificationServiceWindows")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -9,6 +9,7 @@ namespace XNotificationService
     public interface ITrayService
     {
         void Initialize();
+        void Start();
 
         Action ClickHandler { get; set; }
     }

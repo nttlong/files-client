@@ -18,10 +18,16 @@ namespace XNotificationServiceWindows
         public void Initialize()
         {
             tray = new WindowsTrayIcon("Platforms/Windows/trayicon.ico");
+            
             tray.LeftClick = () => {
                 XWindowsExtension.BringToFront();
                 ClickHandler?.Invoke();
             };
+        }
+
+        public void Start()
+        {
+            Console.WriteLine("OK");
         }
     }
 }

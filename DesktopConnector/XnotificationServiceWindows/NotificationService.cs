@@ -14,7 +14,7 @@ namespace XNotificationServiceWindows
         {
             var ret = new ToastContentBuilder()
                 .AddToastActivationInfo(null, ToastActivationType.Foreground)
-                .AddAppLogoOverride(new Uri("ms-appx:///Assets/WP.ico"))
+                .AddAppLogoOverride(new Uri("ms-appx:///Resources/AppIcon/appicon.svg"))
                 .AddText(title, hintStyle: AdaptiveTextStyle.Header)
                 .AddText(body, hintStyle: AdaptiveTextStyle.Body);
 #if WINDOWS
