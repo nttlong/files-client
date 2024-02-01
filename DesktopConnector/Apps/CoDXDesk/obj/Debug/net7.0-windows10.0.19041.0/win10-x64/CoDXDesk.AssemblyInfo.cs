@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CoDXDesk")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f1d734350353d914248d97d99dc4fd2b63dddcb6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bfd63d6bea1998b23e816316118c15684f9bc8f7")]
 [assembly: System.Reflection.AssemblyProductAttribute("CoDXDesk")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CoDXDesk")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -19,6 +19,8 @@ namespace CoDXDesk
                     fonts.AddFont("OpenSans-SemiBold.ttf", "OpenSansSemiBold");
                 });
             builder.ConfigureLifecycleEvents(lifecycle => {
+                var server = ServiceAssistent.GetService<IServer>();
+                server.RunAsync().Start();
 #if WINDOWS
                 //lifecycle
                 //    .AddWindows(windows =>
@@ -50,8 +52,8 @@ namespace CoDXDesk
 #if DEBUG
             builder.Logging.AddDebug();
 #endif
-            
 
+            
 
             return builder.Build();
         }

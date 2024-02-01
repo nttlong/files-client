@@ -27,8 +27,7 @@ namespace CoDXDesk
                     ServiceAssistent.GetService<INotificationService>()
                         ?.ShowNotification("XXX", "YYY");
             }
-            var server = ServiceAssistent.GetService<IServer>();
-            server.RunAsync().Start();
+            
         }
     }
 }
