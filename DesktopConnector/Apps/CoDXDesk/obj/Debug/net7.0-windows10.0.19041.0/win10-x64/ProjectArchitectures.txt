@@ -1,0 +1,2 @@
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CoDXDesk\CoDXDesk.csproj;x64
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\UIImplements.csproj;neutral

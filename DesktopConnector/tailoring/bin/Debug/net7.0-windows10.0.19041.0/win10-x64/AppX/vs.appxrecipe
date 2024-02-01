@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-02-01T02:18:55.391</Modified>
+      <Modified>2024-02-01T03:40:34.151</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\WeatherTwentyOne.dll">
       <PackagePath>WeatherTwentyOne.dll</PackagePath>
-      <Modified>2024-02-01T02:18:53.780</Modified>
+      <Modified>2024-02-01T03:40:32.023</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>WeatherTwentyOne.exe</PackagePath>
-      <Modified>2024-02-01T02:18:53.780</Modified>
+      <Modified>2024-02-01T03:40:32.098</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\Platforms\Windows\app.ico">
       <PackagePath>Platforms\Windows\app.ico</PackagePath>
