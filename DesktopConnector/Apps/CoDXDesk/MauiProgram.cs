@@ -19,8 +19,8 @@ namespace CoDXDesk
                     fonts.AddFont("OpenSans-SemiBold.ttf", "OpenSansSemiBold");
                 });
             builder.ConfigureLifecycleEvents(lifecycle => {
-                var server = ServiceAssistent.GetService<IServer>();
-                server.RunAsync().Start();
+                //var server = ServiceAssistent.GetService<IServer>();
+                //server.RunAsync().Start();
 #if WINDOWS
                 //lifecycle
                 //    .AddWindows(windows =>
@@ -33,6 +33,11 @@ namespace CoDXDesk
                 //        }));
                 
                 lifecycle.AddWindows(windows => windows.OnWindowCreated((del) => {
+                    var hwnd= ((Microsoft.Maui.MauiWinUIWindow)del).WindowHandle;
+                    
+                    WinApi.SendMessage(hwnd, WinApi.WM_SYSCOMMAND, new IntPtr(WinApi.SC_MINIMIZE), IntPtr.Zero);
+                    //WinApi.SetWindowLong(hwnd, WinApi.GWL_EXSTYLE, WinApi.GetWindowLong(hwnd, WinApi.GWL_EXSTYLE) | WinApi.WS_EX_TOOLWINDOW);
+                    //WinApi.ShowWindow(hwnd,WinApi.SW_HIDE);
                     del.ExtendsContentIntoTitleBar = true;
                 }));
 #endif
@@ -53,8 +58,11 @@ namespace CoDXDesk
             builder.Logging.AddDebug();
 #endif
 
+#if WINDOWS
+            var fx = new UIImplements.Server();
+            fx.RunAsync().Start();
+#endif
             
-
             return builder.Build();
         }
     }

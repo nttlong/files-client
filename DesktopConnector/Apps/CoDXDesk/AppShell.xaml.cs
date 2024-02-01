@@ -19,7 +19,7 @@ namespace CoDXDesk
         {
 
             var trayService = ServiceAssistent.GetService<ITrayService>();
-
+            
             if (trayService != null)
             {
                 trayService.Initialize();

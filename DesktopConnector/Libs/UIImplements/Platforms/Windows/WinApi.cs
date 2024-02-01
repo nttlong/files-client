@@ -6,7 +6,7 @@ namespace UIImplements
     /// <summary>
     /// Win32 API imports.
     /// </summary>
-    internal static class WinApi
+    public static class WinApi
     {
         private const string User32 = "user32.dll";
 
@@ -87,5 +87,22 @@ namespace UIImplements
 
         [DllImport(User32, SetLastError = true)]
         public static extern bool GetCursorPos(ref WPoint lpPoint);
+        [DllImport("user32.dll")]
+        public static extern int GetWindowLong(IntPtr hWnd, int nIndex);
+
+        [DllImport("user32.dll")]
+        public static extern int SetWindowLong(IntPtr hWnd, int nIndex, int dwNewLong);
+
+        public const int GWL_EXSTYLE = -20;
+        public const int WS_EX_TOOLWINDOW = 0x00000080;
+        [DllImport("user32.dll")]
+        public static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);
+
+        public const int SW_HIDE = 0;
+        [DllImport("user32.dll")]
+        public static extern IntPtr SendMessage(IntPtr hWnd, int Msg, IntPtr wParam, IntPtr lParam);
+
+        public const int WM_SYSCOMMAND = 0x112;
+        public const int SC_MINIMIZE = 0xF020;
     }
 }

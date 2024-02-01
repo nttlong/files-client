@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UIProviders")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f1d734350353d914248d97d99dc4fd2b63dddcb6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d2932c8ac8cfb10b157f2f232800da154847ea1")]
 [assembly: System.Reflection.AssemblyProductAttribute("UIProviders")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UIProviders")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

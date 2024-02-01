@@ -1,4 +1,6 @@
-﻿namespace CoDXDesk
+﻿using UIImplements;
+using UIProviders;
+namespace CoDXDesk
 {
     public partial class MainPage : ContentPage
     {
@@ -7,9 +9,34 @@
         public MainPage()
         {
             InitializeComponent();
+
             
+            //this.IsVisible = false;
         }
+
         
+        protected override void OnAppearing()
+        {
+            var fx = this.Window;
+            //base.OnAppearing();
+#if WINDOWS
+            var win = ((Microsoft.Maui.Controls.Window)this.Window);
+            var hwnd = ((Microsoft.Maui.MauiWinUIWindow)((Microsoft.Maui.Handlers.ElementHandler)win.Handler).PlatformView).WindowHandle;
+            WinApi.ShowWindow(hwnd,WinApi.SW_HIDE);
+#endif
+            //((Microsoft.Maui.MauiWinUIWindow)del).WindowHandle
+            //this.IsVisible = false;
+        }
+        protected override void ChangeVisualState()
+        {
+            //var fx = this.Window;
+            //base.ChangeVisualState();
+#if WINDOWS
+            var win = ((Microsoft.Maui.Controls.Window)this.Window);
+            var hwnd = ((Microsoft.Maui.MauiWinUIWindow)((Microsoft.Maui.Handlers.ElementHandler)win.Handler).PlatformView).WindowHandle;
+            WinApi.ShowWindow(hwnd,WinApi.SW_HIDE);
+#endif
+        }
         private void OnClosed(object sender, EventArgs e)
         {
 
