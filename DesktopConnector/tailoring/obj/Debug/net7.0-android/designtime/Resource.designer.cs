@@ -8,9 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("WeatherTwentyOne.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("CoDXDesk.Resource", IsApplication=true)]
 
-namespace WeatherTwentyOne
+namespace CoDXDesk
 {
 	
 	
@@ -25,63 +25,63 @@ namespace WeatherTwentyOne
 		
 		public static void UpdateIdValues()
 		{
-			global::Microsoft.Maui.Controls.Compatibility.Resource.Attribute.actionBarSize = global::WeatherTwentyOne.Resource.Attribute.actionBarSize;
-			global::Microsoft.Maui.Controls.Compatibility.Resource.Attribute.collectionViewStyle = global::WeatherTwentyOne.Resource.Attribute.collectionViewStyle;
-			global::Microsoft.Maui.Controls.Compatibility.Resource.Attribute.scrollViewStyle = global::WeatherTwentyOne.Resource.Attribute.scrollViewStyle;
-			global::Microsoft.Maui.Controls.Compatibility.Resource.Drawable.abc_ic_clear_material = global::WeatherTwentyOne.Resource.Drawable.abc_ic_clear_material;
-			global::Microsoft.Maui.Controls.Compatibility.Resource.Drawable.abc_ic_search_api_material = global::WeatherTwentyOne.Resource.Drawable.abc_ic_search_api_material;
-			global::Microsoft.Maui.Controls.Compatibility.Resource.Style.collectionViewTheme = global::WeatherTwentyOne.Resource.Style.collectionViewTheme;
-			global::Microsoft.Maui.Controls.Compatibility.Resource.Style.scrollViewTheme = global::WeatherTwentyOne.Resource.Style.scrollViewTheme;
-			global::Microsoft.Maui.Controls.Resource.Animation.enterfromleft = global::WeatherTwentyOne.Resource.Animation.enterfromleft;
-			global::Microsoft.Maui.Controls.Resource.Animation.enterfromright = global::WeatherTwentyOne.Resource.Animation.enterfromright;
-			global::Microsoft.Maui.Controls.Resource.Animation.exittoleft = global::WeatherTwentyOne.Resource.Animation.exittoleft;
-			global::Microsoft.Maui.Controls.Resource.Animation.exittoright = global::WeatherTwentyOne.Resource.Animation.exittoright;
-			global::Microsoft.Maui.Controls.Resource.Attribute.actionBarSize = global::WeatherTwentyOne.Resource.Attribute.actionBarSize;
-			global::Microsoft.Maui.Controls.Resource.Attribute.appBarLayoutStyle = global::WeatherTwentyOne.Resource.Attribute.appBarLayoutStyle;
-			global::Microsoft.Maui.Controls.Resource.Attribute.bottomNavigationViewStyle = global::WeatherTwentyOne.Resource.Attribute.bottomNavigationViewStyle;
-			global::Microsoft.Maui.Controls.Resource.Attribute.toolbarStyle = global::WeatherTwentyOne.Resource.Attribute.toolbarStyle;
-			global::Microsoft.Maui.Controls.Resource.Drawable.abc_ic_clear_material = global::WeatherTwentyOne.Resource.Drawable.abc_ic_clear_material;
-			global::Microsoft.Maui.Controls.Resource.Drawable.abc_ic_menu_overflow_material = global::WeatherTwentyOne.Resource.Drawable.abc_ic_menu_overflow_material;
-			global::Microsoft.Maui.Controls.Resource.Drawable.abc_ic_search_api_material = global::WeatherTwentyOne.Resource.Drawable.abc_ic_search_api_material;
-			global::Microsoft.Maui.Controls.Resource.Id.navigationlayout_bottomtabs = global::WeatherTwentyOne.Resource.Id.navigationlayout_bottomtabs;
-			global::Microsoft.Maui.Controls.Resource.Id.navigationlayout_content = global::WeatherTwentyOne.Resource.Id.navigationlayout_content;
-			global::Microsoft.Maui.Controls.Resource.Id.navigationlayout_toptabs = global::WeatherTwentyOne.Resource.Id.navigationlayout_toptabs;
-			global::Microsoft.Maui.Controls.Resource.Id.shellcontent_appbar = global::WeatherTwentyOne.Resource.Id.shellcontent_appbar;
-			global::Microsoft.Maui.Controls.Resource.Id.flyoutcontent_appbar = global::WeatherTwentyOne.Resource.Id.flyoutcontent_appbar;
-			global::Microsoft.Maui.Controls.Resource.Layout.fragment_backstack = global::WeatherTwentyOne.Resource.Layout.fragment_backstack;
-			global::Microsoft.Maui.Controls.Resource.Layout.flyoutcontent = global::WeatherTwentyOne.Resource.Layout.flyoutcontent;
-			global::Microsoft.Maui.Controls.Resource.Layout.shellcontent = global::WeatherTwentyOne.Resource.Layout.shellcontent;
-			global::Microsoft.Maui.Controls.Resource.Dimension.design_bottom_navigation_height = global::WeatherTwentyOne.Resource.Dimension.design_bottom_navigation_height;
-			global::Microsoft.Maui.Controls.Resource.Style.ThemeOverlay_AppCompat_Light = global::WeatherTwentyOne.Resource.Style.ThemeOverlay_AppCompat_Light;
-			global::Microsoft.Maui.Controls.Resource.Styleable.Toolbar = global::WeatherTwentyOne.Resource.Styleable.Toolbar;
-			global::Microsoft.Maui.Controls.Resource.Styleable.Toolbar_titleTextColor = global::WeatherTwentyOne.Resource.Styleable.Toolbar_titleTextColor;
-			global::Microsoft.Maui.Controls.Resource.String.nav_app_bar_navigate_up_description = global::WeatherTwentyOne.Resource.String.nav_app_bar_navigate_up_description;
-			global::Microsoft.Maui.Controls.Resource.String.nav_app_bar_open_drawer_description = global::WeatherTwentyOne.Resource.String.nav_app_bar_open_drawer_description;
-			global::Microsoft.Maui.Controls.Resource.String.overflow_tab_title = global::WeatherTwentyOne.Resource.String.overflow_tab_title;
-			global::Microsoft.Maui.Resource.Attribute.actionBarSize = global::WeatherTwentyOne.Resource.Attribute.actionBarSize;
-			global::Microsoft.Maui.Resource.Attribute.colorSwitchThumbNormal = global::WeatherTwentyOne.Resource.Attribute.colorSwitchThumbNormal;
-			global::Microsoft.Maui.Resource.Attribute.maui_splash = global::WeatherTwentyOne.Resource.Attribute.maui_splash;
-			global::Microsoft.Maui.Resource.Attribute.scrollViewStyle = global::WeatherTwentyOne.Resource.Attribute.scrollViewStyle;
-			global::Microsoft.Maui.Resource.Animation.nav_default_enter_anim = global::WeatherTwentyOne.Resource.Animation.nav_default_enter_anim;
-			global::Microsoft.Maui.Resource.Animation.nav_default_exit_anim = global::WeatherTwentyOne.Resource.Animation.nav_default_exit_anim;
-			global::Microsoft.Maui.Resource.Animation.nav_default_pop_enter_anim = global::WeatherTwentyOne.Resource.Animation.nav_default_pop_enter_anim;
-			global::Microsoft.Maui.Resource.Animation.nav_default_pop_exit_anim = global::WeatherTwentyOne.Resource.Animation.nav_default_pop_exit_anim;
-			global::Microsoft.Maui.Resource.Drawable.abc_ic_clear_material = global::WeatherTwentyOne.Resource.Drawable.abc_ic_clear_material;
-			global::Microsoft.Maui.Resource.Id.navigation_layout = global::WeatherTwentyOne.Resource.Id.navigation_layout;
-			global::Microsoft.Maui.Resource.Id.navigationlayout_appbar = global::WeatherTwentyOne.Resource.Id.navigationlayout_appbar;
-			global::Microsoft.Maui.Resource.Id.navigationlayout_bottomtabs = global::WeatherTwentyOne.Resource.Id.navigationlayout_bottomtabs;
-			global::Microsoft.Maui.Resource.Id.navigationlayout_content = global::WeatherTwentyOne.Resource.Id.navigationlayout_content;
-			global::Microsoft.Maui.Resource.Id.navigationlayout_toptabs = global::WeatherTwentyOne.Resource.Id.navigationlayout_toptabs;
-			global::Microsoft.Maui.Resource.Id.nav_host = global::WeatherTwentyOne.Resource.Id.nav_host;
-			global::Microsoft.Maui.Resource.Id.nav_host_fragment_container = global::WeatherTwentyOne.Resource.Id.nav_host_fragment_container;
-			global::Microsoft.Maui.Resource.Id.search_button = global::WeatherTwentyOne.Resource.Id.search_button;
-			global::Microsoft.Maui.Resource.Id.search_close_btn = global::WeatherTwentyOne.Resource.Id.search_close_btn;
-			global::Microsoft.Maui.Resource.Layout.drawer_layout = global::WeatherTwentyOne.Resource.Layout.drawer_layout;
-			global::Microsoft.Maui.Resource.Layout.navigationlayout = global::WeatherTwentyOne.Resource.Layout.navigationlayout;
-			global::Microsoft.Maui.Resource.Layout.fragment_backstack = global::WeatherTwentyOne.Resource.Layout.fragment_backstack;
-			global::Microsoft.Maui.Resource.Style.Maui_MainTheme_NoActionBar = global::WeatherTwentyOne.Resource.Style.Maui_MainTheme_NoActionBar;
-			global::Microsoft.Maui.Resource.Style.ThemeOverlay_AppCompat_Light = global::WeatherTwentyOne.Resource.Style.ThemeOverlay_AppCompat_Light;
-			global::Microsoft.Maui.Resource.Style.scrollViewTheme = global::WeatherTwentyOne.Resource.Style.scrollViewTheme;
+			global::Microsoft.Maui.Controls.Compatibility.Resource.Attribute.actionBarSize = global::CoDXDesk.Resource.Attribute.actionBarSize;
+			global::Microsoft.Maui.Controls.Compatibility.Resource.Attribute.collectionViewStyle = global::CoDXDesk.Resource.Attribute.collectionViewStyle;
+			global::Microsoft.Maui.Controls.Compatibility.Resource.Attribute.scrollViewStyle = global::CoDXDesk.Resource.Attribute.scrollViewStyle;
+			global::Microsoft.Maui.Controls.Compatibility.Resource.Drawable.abc_ic_clear_material = global::CoDXDesk.Resource.Drawable.abc_ic_clear_material;
+			global::Microsoft.Maui.Controls.Compatibility.Resource.Drawable.abc_ic_search_api_material = global::CoDXDesk.Resource.Drawable.abc_ic_search_api_material;
+			global::Microsoft.Maui.Controls.Compatibility.Resource.Style.collectionViewTheme = global::CoDXDesk.Resource.Style.collectionViewTheme;
+			global::Microsoft.Maui.Controls.Compatibility.Resource.Style.scrollViewTheme = global::CoDXDesk.Resource.Style.scrollViewTheme;
+			global::Microsoft.Maui.Controls.Resource.Animation.enterfromleft = global::CoDXDesk.Resource.Animation.enterfromleft;
+			global::Microsoft.Maui.Controls.Resource.Animation.enterfromright = global::CoDXDesk.Resource.Animation.enterfromright;
+			global::Microsoft.Maui.Controls.Resource.Animation.exittoleft = global::CoDXDesk.Resource.Animation.exittoleft;
+			global::Microsoft.Maui.Controls.Resource.Animation.exittoright = global::CoDXDesk.Resource.Animation.exittoright;
+			global::Microsoft.Maui.Controls.Resource.Attribute.actionBarSize = global::CoDXDesk.Resource.Attribute.actionBarSize;
+			global::Microsoft.Maui.Controls.Resource.Attribute.appBarLayoutStyle = global::CoDXDesk.Resource.Attribute.appBarLayoutStyle;
+			global::Microsoft.Maui.Controls.Resource.Attribute.bottomNavigationViewStyle = global::CoDXDesk.Resource.Attribute.bottomNavigationViewStyle;
+			global::Microsoft.Maui.Controls.Resource.Attribute.toolbarStyle = global::CoDXDesk.Resource.Attribute.toolbarStyle;
+			global::Microsoft.Maui.Controls.Resource.Drawable.abc_ic_clear_material = global::CoDXDesk.Resource.Drawable.abc_ic_clear_material;
+			global::Microsoft.Maui.Controls.Resource.Drawable.abc_ic_menu_overflow_material = global::CoDXDesk.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Microsoft.Maui.Controls.Resource.Drawable.abc_ic_search_api_material = global::CoDXDesk.Resource.Drawable.abc_ic_search_api_material;
+			global::Microsoft.Maui.Controls.Resource.Id.navigationlayout_bottomtabs = global::CoDXDesk.Resource.Id.navigationlayout_bottomtabs;
+			global::Microsoft.Maui.Controls.Resource.Id.navigationlayout_content = global::CoDXDesk.Resource.Id.navigationlayout_content;
+			global::Microsoft.Maui.Controls.Resource.Id.navigationlayout_toptabs = global::CoDXDesk.Resource.Id.navigationlayout_toptabs;
+			global::Microsoft.Maui.Controls.Resource.Id.shellcontent_appbar = global::CoDXDesk.Resource.Id.shellcontent_appbar;
+			global::Microsoft.Maui.Controls.Resource.Id.flyoutcontent_appbar = global::CoDXDesk.Resource.Id.flyoutcontent_appbar;
+			global::Microsoft.Maui.Controls.Resource.Layout.fragment_backstack = global::CoDXDesk.Resource.Layout.fragment_backstack;
+			global::Microsoft.Maui.Controls.Resource.Layout.flyoutcontent = global::CoDXDesk.Resource.Layout.flyoutcontent;
+			global::Microsoft.Maui.Controls.Resource.Layout.shellcontent = global::CoDXDesk.Resource.Layout.shellcontent;
+			global::Microsoft.Maui.Controls.Resource.Dimension.design_bottom_navigation_height = global::CoDXDesk.Resource.Dimension.design_bottom_navigation_height;
+			global::Microsoft.Maui.Controls.Resource.Style.ThemeOverlay_AppCompat_Light = global::CoDXDesk.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Microsoft.Maui.Controls.Resource.Styleable.Toolbar = global::CoDXDesk.Resource.Styleable.Toolbar;
+			global::Microsoft.Maui.Controls.Resource.Styleable.Toolbar_titleTextColor = global::CoDXDesk.Resource.Styleable.Toolbar_titleTextColor;
+			global::Microsoft.Maui.Controls.Resource.String.nav_app_bar_navigate_up_description = global::CoDXDesk.Resource.String.nav_app_bar_navigate_up_description;
+			global::Microsoft.Maui.Controls.Resource.String.nav_app_bar_open_drawer_description = global::CoDXDesk.Resource.String.nav_app_bar_open_drawer_description;
+			global::Microsoft.Maui.Controls.Resource.String.overflow_tab_title = global::CoDXDesk.Resource.String.overflow_tab_title;
+			global::Microsoft.Maui.Resource.Attribute.actionBarSize = global::CoDXDesk.Resource.Attribute.actionBarSize;
+			global::Microsoft.Maui.Resource.Attribute.colorSwitchThumbNormal = global::CoDXDesk.Resource.Attribute.colorSwitchThumbNormal;
+			global::Microsoft.Maui.Resource.Attribute.maui_splash = global::CoDXDesk.Resource.Attribute.maui_splash;
+			global::Microsoft.Maui.Resource.Attribute.scrollViewStyle = global::CoDXDesk.Resource.Attribute.scrollViewStyle;
+			global::Microsoft.Maui.Resource.Animation.nav_default_enter_anim = global::CoDXDesk.Resource.Animation.nav_default_enter_anim;
+			global::Microsoft.Maui.Resource.Animation.nav_default_exit_anim = global::CoDXDesk.Resource.Animation.nav_default_exit_anim;
+			global::Microsoft.Maui.Resource.Animation.nav_default_pop_enter_anim = global::CoDXDesk.Resource.Animation.nav_default_pop_enter_anim;
+			global::Microsoft.Maui.Resource.Animation.nav_default_pop_exit_anim = global::CoDXDesk.Resource.Animation.nav_default_pop_exit_anim;
+			global::Microsoft.Maui.Resource.Drawable.abc_ic_clear_material = global::CoDXDesk.Resource.Drawable.abc_ic_clear_material;
+			global::Microsoft.Maui.Resource.Id.navigation_layout = global::CoDXDesk.Resource.Id.navigation_layout;
+			global::Microsoft.Maui.Resource.Id.navigationlayout_appbar = global::CoDXDesk.Resource.Id.navigationlayout_appbar;
+			global::Microsoft.Maui.Resource.Id.navigationlayout_bottomtabs = global::CoDXDesk.Resource.Id.navigationlayout_bottomtabs;
+			global::Microsoft.Maui.Resource.Id.navigationlayout_content = global::CoDXDesk.Resource.Id.navigationlayout_content;
+			global::Microsoft.Maui.Resource.Id.navigationlayout_toptabs = global::CoDXDesk.Resource.Id.navigationlayout_toptabs;
+			global::Microsoft.Maui.Resource.Id.nav_host = global::CoDXDesk.Resource.Id.nav_host;
+			global::Microsoft.Maui.Resource.Id.nav_host_fragment_container = global::CoDXDesk.Resource.Id.nav_host_fragment_container;
+			global::Microsoft.Maui.Resource.Id.search_button = global::CoDXDesk.Resource.Id.search_button;
+			global::Microsoft.Maui.Resource.Id.search_close_btn = global::CoDXDesk.Resource.Id.search_close_btn;
+			global::Microsoft.Maui.Resource.Layout.drawer_layout = global::CoDXDesk.Resource.Layout.drawer_layout;
+			global::Microsoft.Maui.Resource.Layout.navigationlayout = global::CoDXDesk.Resource.Layout.navigationlayout;
+			global::Microsoft.Maui.Resource.Layout.fragment_backstack = global::CoDXDesk.Resource.Layout.fragment_backstack;
+			global::Microsoft.Maui.Resource.Style.Maui_MainTheme_NoActionBar = global::CoDXDesk.Resource.Style.Maui_MainTheme_NoActionBar;
+			global::Microsoft.Maui.Resource.Style.ThemeOverlay_AppCompat_Light = global::CoDXDesk.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Microsoft.Maui.Resource.Style.scrollViewTheme = global::CoDXDesk.Resource.Style.scrollViewTheme;
 		}
 		
 		public partial class Animation

@@ -1,71 +1,71 @@
 is_global = true
-build_property.RootNamespace = WeatherTwentyOne
+build_property.RootNamespace = CoDXDesk
 build_property.ProjectDir = C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
 [C:/Users/admin.NTTLONG/source/repos/files-client/DesktopConnector/tailoring/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = WeatherTwentyOne.App.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CoDXDesk.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
 [C:/Users/admin.NTTLONG/source/repos/files-client/DesktopConnector/tailoring/Pages/FavoritesPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = WeatherTwentyOne.Pages.FavoritesPage.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CoDXDesk.Pages.FavoritesPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\FavoritesPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\FavoritesPage.xaml
 
 [C:/Users/admin.NTTLONG/source/repos/files-client/DesktopConnector/tailoring/Pages/HomePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = WeatherTwentyOne.Pages.HomePage.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CoDXDesk.Pages.HomePage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\HomePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\HomePage.xaml
 
 [C:/Users/admin.NTTLONG/source/repos/files-client/DesktopConnector/tailoring/Pages/MapPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = WeatherTwentyOne.Pages.MapPage.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CoDXDesk.Pages.MapPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\MapPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\MapPage.xaml
 
 [C:/Users/admin.NTTLONG/source/repos/files-client/DesktopConnector/tailoring/Pages/SettingsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = WeatherTwentyOne.Pages.SettingsPage.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CoDXDesk.Pages.SettingsPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\SettingsPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\SettingsPage.xaml
 
 [C:/Users/admin.NTTLONG/source/repos/files-client/DesktopConnector/tailoring/Resources/Styles/DefaultTheme.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = WeatherTwentyOne.Resources.Styles.DefaultTheme.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CoDXDesk.Resources.Styles.DefaultTheme.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\DefaultTheme.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\DefaultTheme.xaml
 
 [C:/Users/admin.NTTLONG/source/repos/files-client/DesktopConnector/tailoring/Views/CurrentWidget.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = WeatherTwentyOne.Views.CurrentWidget.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CoDXDesk.Views.CurrentWidget.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\CurrentWidget.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\CurrentWidget.xaml
 
 [C:/Users/admin.NTTLONG/source/repos/files-client/DesktopConnector/tailoring/Views/Next24HrWidget.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = WeatherTwentyOne.Views.Next24HrWidget.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CoDXDesk.Views.Next24HrWidget.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Next24HrWidget.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Next24HrWidget.xaml
 
 [C:/Users/admin.NTTLONG/source/repos/files-client/DesktopConnector/tailoring/Views/Next7DWidget.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = WeatherTwentyOne.Views.Next7DWidget.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CoDXDesk.Views.Next7DWidget.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Next7DWidget.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Next7DWidget.xaml
 
 [C:/Users/admin.NTTLONG/source/repos/files-client/DesktopConnector/tailoring/Views/WidgetsPanel.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = WeatherTwentyOne.Views.WidgetsPanel.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CoDXDesk.Views.WidgetsPanel.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\WidgetsPanel.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\WidgetsPanel.xaml
 
 [C:/Users/admin.NTTLONG/source/repos/files-client/DesktopConnector/tailoring/Views/WindLiveWidget.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = WeatherTwentyOne.Views.WindLiveWidget.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CoDXDesk.Views.WindLiveWidget.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\WindLiveWidget.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\WindLiveWidget.xaml

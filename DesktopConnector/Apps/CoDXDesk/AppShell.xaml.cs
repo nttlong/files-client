@@ -9,7 +9,10 @@ namespace CoDXDesk
             InitializeComponent();
             SetupTrayIcon();
         }
-
+        protected override async void OnDisappearing()
+        {
+            var result = await DisplayAlert("Unsaved Changes", "Do you want to save changes?", "Save", "Discard");
+        }
         private void SetupTrayIcon()
         {
 
@@ -20,7 +23,7 @@ namespace CoDXDesk
                 trayService.Initialize();
                 trayService.ClickHandler = () =>
                     ServiceAssistent.GetService<INotificationService>()
-                        ?.ShowNotification("Hello Build! 😻 From .NET MAUI", "How's your weather?  It's sunny where we are 🌞");
+                        ?.ShowNotification("XXX", "YYY");
             }
         }
     }

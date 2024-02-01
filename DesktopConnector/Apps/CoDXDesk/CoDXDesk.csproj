@@ -1,34 +1,84 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-	<PropertyGroup>
-		<TargetFrameworks>net7.0-android;net7.0-ios;net7.0-maccatalyst</TargetFrameworks>
-		<TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">$(TargetFrameworks);net7.0-windows10.0.19041.0</TargetFrameworks>
-		<!-- Uncomment to also build the tizen app. You will need to install tizen by following this: https://github.com/Samsung/Tizen.NET -->
-		<!-- <TargetFrameworks>$(TargetFrameworks);net7.0-tizen</TargetFrameworks> -->
-		<OutputType>Exe</OutputType>
-		<RootNamespace>CoDXDesk</RootNamespace>
-		<UseMaui>true</UseMaui>
-		<SingleProject>true</SingleProject>
-		<ImplicitUsings>enable</ImplicitUsings>
+  <PropertyGroup>
+    <CheckEolWorkloads>false</CheckEolWorkloads>
+    <TargetFrameworks>net7.0-android;net7.0-ios;net7.0-maccatalyst</TargetFrameworks>
+    <TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">$(TargetFrameworks);net7.0-windows10.0.19041.0</TargetFrameworks>
 
-		<!-- Display name -->
-		<ApplicationTitle>CoDXDesk</ApplicationTitle>
+    <OutputType>Exe</OutputType>
+    <SingleProject>true</SingleProject>
+    <UseMaui>true</UseMaui>
+    <RootNamespace>CodxDesk</RootNamespace>
+    <ApplicationTitle>Codx desktop connector</ApplicationTitle>
+    <ApplicationId>apps.lacviet.vn</ApplicationId>
+    <EnablePreviewMsixTooling>true</EnablePreviewMsixTooling>
+    <SingleProject>true</SingleProject>
+    <ApplicationVersion>1</ApplicationVersion>
 
-		<!-- App Identifier -->
-		<ApplicationId>com.companyname.codxdesk</ApplicationId>
-		<ApplicationIdGuid>c51f867e-3360-44d5-8c83-d731a857ca90</ApplicationIdGuid>
 
-		<!-- Versions -->
-		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
-		<ApplicationVersion>1</ApplicationVersion>
+    <!-- (Optional) Pin to a specific version -->
+    <!--<MauiVersion>6.0.101-preview.11.2349</MauiVersion>-->
 
-		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">11.0</SupportedOSPlatformVersion>
-		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'maccatalyst'">13.1</SupportedOSPlatformVersion>
-		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">21.0</SupportedOSPlatformVersion>
-		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</SupportedOSPlatformVersion>
-		<TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</TargetPlatformMinVersion>
-		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
-	</PropertyGroup>
+    <!-- Required for C# Hot Reload -->
+    <UseInterpreter Condition="'$(Configuration)' == 'Debug'">True</UseInterpreter>
+
+    <SupportedOSPlatformVersion Condition="'$(TargetFramework)' == 'net6.0-ios'">14.2</SupportedOSPlatformVersion>
+    <SupportedOSPlatformVersion Condition="'$(TargetFramework)' == 'net6.0-maccatalyst'">14.0</SupportedOSPlatformVersion>
+    <SupportedOSPlatformVersion Condition="'$(TargetFramework)' == 'net6.0-android'">21.0</SupportedOSPlatformVersion>
+    <SupportedOSPlatformVersion Condition="$(TargetFramework.Contains('-windows'))">10.0.17763.0</SupportedOSPlatformVersion>
+    <TargetPlatformMinVersion Condition="$(TargetFramework.Contains('-windows'))">10.0.17763.0</TargetPlatformMinVersion>
+    <EnableNETAnalyzers>False</EnableNETAnalyzers>
+    <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
+
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-android|AnyCPU'">
+    <ApplicationTitle>Codx desktop connector</ApplicationTitle>
+    <ApplicationId>codx.apps.vn</ApplicationId>
+    <ApplicationIdGuid>15e4fcd9-8b59-4cab-9c11-162153b052da</ApplicationIdGuid>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-ios|AnyCPU'">
+    <ApplicationTitle>Codx desktop connector</ApplicationTitle>
+    <ApplicationId>codx.apps.vn</ApplicationId>
+    <ApplicationIdGuid>15e4fcd9-8b59-4cab-9c11-162153b052da</ApplicationIdGuid>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-maccatalyst|AnyCPU'">
+    <ApplicationTitle>Codx desktop connector</ApplicationTitle>
+    <ApplicationId>codx.apps.vn</ApplicationId>
+    <ApplicationIdGuid>15e4fcd9-8b59-4cab-9c11-162153b052da</ApplicationIdGuid>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-windows10.0.19041.0|AnyCPU'">
+    <ApplicationTitle>Codx desktop connector</ApplicationTitle>
+    <ApplicationId>codx.apps.vn</ApplicationId>
+    <ApplicationIdGuid>15e4fcd9-8b59-4cab-9c11-162153b052da</ApplicationIdGuid>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net7.0-android|AnyCPU'">
+    <ApplicationTitle>Codx desktop connector</ApplicationTitle>
+    <ApplicationId>codx.apps.vn</ApplicationId>
+    <ApplicationIdGuid>15e4fcd9-8b59-4cab-9c11-162153b052da</ApplicationIdGuid>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net7.0-ios|AnyCPU'">
+    <ApplicationTitle>Codx desktop connector</ApplicationTitle>
+    <ApplicationId>codx.apps.vn</ApplicationId>
+    <ApplicationIdGuid>15e4fcd9-8b59-4cab-9c11-162153b052da</ApplicationIdGuid>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net7.0-maccatalyst|AnyCPU'">
+    <ApplicationTitle>Codx desktop connector</ApplicationTitle>
+    <ApplicationId>codx.apps.vn</ApplicationId>
+    <ApplicationIdGuid>15e4fcd9-8b59-4cab-9c11-162153b052da</ApplicationIdGuid>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net7.0-windows10.0.19041.0|AnyCPU'">
+    <ApplicationTitle>Codx desktop connector</ApplicationTitle>
+    <ApplicationId>codx.apps.vn</ApplicationId>
+    <ApplicationIdGuid>15e4fcd9-8b59-4cab-9c11-162153b052da</ApplicationIdGuid>
+  </PropertyGroup>
 
 	<ItemGroup>
 		<!-- App Icon -->
@@ -49,10 +99,14 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Platforms\MacCatalyst\app.ico" />
 	  <None Remove="Platforms\Windows\app.ico" />
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Content Include="Platforms\MacCatalyst\app.ico">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
 	  <Content Include="Platforms\Windows\app.ico">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </Content>
@@ -60,6 +114,7 @@
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
+		<PackageReference Include="Microsoft.Toolkit.Uwp.Notifications" Version="7.0.1" />
 	</ItemGroup>
 
 	<ItemGroup>

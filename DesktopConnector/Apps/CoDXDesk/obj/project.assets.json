@@ -209,7 +209,7 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Microsoft.Toolkit.Uwp.Notifications/7.1.3": {
+      "Microsoft.Toolkit.Uwp.Notifications/7.0.1": {
         "type": "package",
         "dependencies": {
           "System.ValueTuple": "4.5.0"
@@ -2091,7 +2091,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Microsoft.Toolkit.Uwp.Notifications": "7.1.3",
+          "Microsoft.Toolkit.Uwp.Notifications": "7.0.1",
           "PInvoke.User32": "0.7.124",
           "UIProviders": "1.0.0"
         },
@@ -2321,7 +2321,7 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Microsoft.Toolkit.Uwp.Notifications/7.1.3": {
+      "Microsoft.Toolkit.Uwp.Notifications/7.0.1": {
         "type": "package",
         "dependencies": {
           "System.ValueTuple": "4.5.0"
@@ -4203,7 +4203,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Microsoft.Toolkit.Uwp.Notifications": "7.1.3",
+          "Microsoft.Toolkit.Uwp.Notifications": "7.0.1",
           "PInvoke.User32": "0.7.124",
           "UIProviders": "1.0.0"
         },
@@ -4433,7 +4433,7 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Microsoft.Toolkit.Uwp.Notifications/7.1.3": {
+      "Microsoft.Toolkit.Uwp.Notifications/7.0.1": {
         "type": "package",
         "dependencies": {
           "System.ValueTuple": "4.5.0"
@@ -6315,7 +6315,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Microsoft.Toolkit.Uwp.Notifications": "7.1.3",
+          "Microsoft.Toolkit.Uwp.Notifications": "7.0.1",
           "PInvoke.User32": "0.7.124",
           "UIProviders": "1.0.0"
         },
@@ -6545,7 +6545,7 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Microsoft.Toolkit.Uwp.Notifications/7.1.3": {
+      "Microsoft.Toolkit.Uwp.Notifications/7.0.1": {
         "type": "package",
         "dependencies": {
           "System.ValueTuple": "4.5.0"
@@ -8427,7 +8427,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Microsoft.Toolkit.Uwp.Notifications": "7.1.3",
+          "Microsoft.Toolkit.Uwp.Notifications": "7.0.1",
           "PInvoke.User32": "0.7.124",
           "UIProviders": "1.0.0"
         },
@@ -8657,7 +8657,7 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Microsoft.Toolkit.Uwp.Notifications/7.1.3": {
+      "Microsoft.Toolkit.Uwp.Notifications/7.0.1": {
         "type": "package",
         "dependencies": {
           "System.ValueTuple": "4.5.0"
@@ -10539,7 +10539,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Microsoft.Toolkit.Uwp.Notifications": "7.1.3",
+          "Microsoft.Toolkit.Uwp.Notifications": "7.0.1",
           "PInvoke.User32": "0.7.124",
           "UIProviders": "1.0.0"
         },
@@ -10769,7 +10769,7 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Microsoft.Toolkit.Uwp.Notifications/7.1.3": {
+      "Microsoft.Toolkit.Uwp.Notifications/7.0.1": {
         "type": "package",
         "dependencies": {
           "System.ValueTuple": "4.5.0"
@@ -12651,7 +12651,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Microsoft.Toolkit.Uwp.Notifications": "7.1.3",
+          "Microsoft.Toolkit.Uwp.Notifications": "7.0.1",
           "PInvoke.User32": "0.7.124",
           "UIProviders": "1.0.0"
         },
@@ -12881,7 +12881,7 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Microsoft.Toolkit.Uwp.Notifications/7.1.3": {
+      "Microsoft.Toolkit.Uwp.Notifications/7.0.1": {
         "type": "package",
         "dependencies": {
           "System.ValueTuple": "4.5.0"
@@ -14763,7 +14763,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Microsoft.Toolkit.Uwp.Notifications": "7.1.3",
+          "Microsoft.Toolkit.Uwp.Notifications": "7.0.1",
           "PInvoke.User32": "0.7.124",
           "UIProviders": "1.0.0"
         },
@@ -14993,7 +14993,7 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Microsoft.Toolkit.Uwp.Notifications/7.1.3": {
+      "Microsoft.Toolkit.Uwp.Notifications/7.0.1": {
         "type": "package",
         "dependencies": {
           "System.ValueTuple": "4.5.0"
@@ -16875,7 +16875,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Microsoft.Toolkit.Uwp.Notifications": "7.1.3",
+          "Microsoft.Toolkit.Uwp.Notifications": "7.0.1",
           "PInvoke.User32": "0.7.124",
           "UIProviders": "1.0.0"
         },
@@ -17092,7 +17092,7 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Microsoft.Toolkit.Uwp.Notifications/7.1.3": {
+      "Microsoft.Toolkit.Uwp.Notifications/7.0.1": {
         "type": "package",
         "dependencies": {
           "System.ValueTuple": "4.5.0"
@@ -17220,7 +17220,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Microsoft.Toolkit.Uwp.Notifications": "7.1.3",
+          "Microsoft.Toolkit.Uwp.Notifications": "7.0.1",
           "PInvoke.User32": "0.7.124",
           "UIProviders": "1.0.0"
         },
@@ -17437,7 +17437,7 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Microsoft.Toolkit.Uwp.Notifications/7.1.3": {
+      "Microsoft.Toolkit.Uwp.Notifications/7.0.1": {
         "type": "package",
         "dependencies": {
           "System.ValueTuple": "4.5.0"
@@ -17565,7 +17565,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Microsoft.Toolkit.Uwp.Notifications": "7.1.3",
+          "Microsoft.Toolkit.Uwp.Notifications": "7.0.1",
           "PInvoke.User32": "0.7.124",
           "UIProviders": "1.0.0"
         },
@@ -17782,7 +17782,7 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Microsoft.Toolkit.Uwp.Notifications/7.1.3": {
+      "Microsoft.Toolkit.Uwp.Notifications/7.0.1": {
         "type": "package",
         "dependencies": {
           "System.ValueTuple": "4.5.0"
@@ -17910,7 +17910,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Microsoft.Toolkit.Uwp.Notifications": "7.1.3",
+          "Microsoft.Toolkit.Uwp.Notifications": "7.0.1",
           "PInvoke.User32": "0.7.124",
           "UIProviders": "1.0.0"
         },
@@ -18127,7 +18127,7 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Microsoft.Toolkit.Uwp.Notifications/7.1.3": {
+      "Microsoft.Toolkit.Uwp.Notifications/7.0.1": {
         "type": "package",
         "dependencies": {
           "System.ValueTuple": "4.5.0"
@@ -18255,7 +18255,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Microsoft.Toolkit.Uwp.Notifications": "7.1.3",
+          "Microsoft.Toolkit.Uwp.Notifications": "7.0.1",
           "PInvoke.User32": "0.7.124",
           "UIProviders": "1.0.0"
         },
@@ -18472,7 +18472,7 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Microsoft.Toolkit.Uwp.Notifications/7.1.3": {
+      "Microsoft.Toolkit.Uwp.Notifications/7.0.1": {
         "type": "package",
         "dependencies": {
           "System.ValueTuple": "4.5.0"
@@ -18600,7 +18600,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Microsoft.Toolkit.Uwp.Notifications": "7.1.3",
+          "Microsoft.Toolkit.Uwp.Notifications": "7.0.1",
           "PInvoke.User32": "0.7.124",
           "UIProviders": "1.0.0"
         },
@@ -18817,7 +18817,7 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Microsoft.Toolkit.Uwp.Notifications/7.1.3": {
+      "Microsoft.Toolkit.Uwp.Notifications/7.0.1": {
         "type": "package",
         "dependencies": {
           "System.ValueTuple": "4.5.0"
@@ -18945,7 +18945,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Microsoft.Toolkit.Uwp.Notifications": "7.1.3",
+          "Microsoft.Toolkit.Uwp.Notifications": "7.0.1",
           "PInvoke.User32": "0.7.124",
           "UIProviders": "1.0.0"
         },
@@ -19162,7 +19162,7 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Microsoft.Toolkit.Uwp.Notifications/7.1.3": {
+      "Microsoft.Toolkit.Uwp.Notifications/7.0.1": {
         "type": "package",
         "dependencies": {
           "System.ValueTuple": "4.5.0"
@@ -19290,7 +19290,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Microsoft.Toolkit.Uwp.Notifications": "7.1.3",
+          "Microsoft.Toolkit.Uwp.Notifications": "7.0.1",
           "PInvoke.User32": "0.7.124",
           "UIProviders": "1.0.0"
         },
@@ -19507,7 +19507,7 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Microsoft.Toolkit.Uwp.Notifications/7.1.3": {
+      "Microsoft.Toolkit.Uwp.Notifications/7.0.1": {
         "type": "package",
         "dependencies": {
           "System.ValueTuple": "4.5.0"
@@ -19635,7 +19635,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Microsoft.Toolkit.Uwp.Notifications": "7.1.3",
+          "Microsoft.Toolkit.Uwp.Notifications": "7.0.1",
           "PInvoke.User32": "0.7.124",
           "UIProviders": "1.0.0"
         },
@@ -19852,7 +19852,7 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Microsoft.Toolkit.Uwp.Notifications/7.1.3": {
+      "Microsoft.Toolkit.Uwp.Notifications/7.0.1": {
         "type": "package",
         "dependencies": {
           "System.ValueTuple": "4.5.0"
@@ -19980,7 +19980,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Microsoft.Toolkit.Uwp.Notifications": "7.1.3",
+          "Microsoft.Toolkit.Uwp.Notifications": "7.0.1",
           "PInvoke.User32": "0.7.124",
           "UIProviders": "1.0.0"
         },
@@ -20197,7 +20197,7 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Microsoft.Toolkit.Uwp.Notifications/7.1.3": {
+      "Microsoft.Toolkit.Uwp.Notifications/7.0.1": {
         "type": "package",
         "dependencies": {
           "System.ValueTuple": "4.5.0"
@@ -20325,7 +20325,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Microsoft.Toolkit.Uwp.Notifications": "7.1.3",
+          "Microsoft.Toolkit.Uwp.Notifications": "7.0.1",
           "PInvoke.User32": "0.7.124",
           "UIProviders": "1.0.0"
         },
@@ -20542,7 +20542,7 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Microsoft.Toolkit.Uwp.Notifications/7.1.3": {
+      "Microsoft.Toolkit.Uwp.Notifications/7.0.1": {
         "type": "package",
         "dependencies": {
           "System.ValueTuple": "4.5.0"
@@ -20670,7 +20670,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Microsoft.Toolkit.Uwp.Notifications": "7.1.3",
+          "Microsoft.Toolkit.Uwp.Notifications": "7.0.1",
           "PInvoke.User32": "0.7.124",
           "UIProviders": "1.0.0"
         },
@@ -20887,7 +20887,7 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Microsoft.Toolkit.Uwp.Notifications/7.1.3": {
+      "Microsoft.Toolkit.Uwp.Notifications/7.0.1": {
         "type": "package",
         "dependencies": {
           "System.ValueTuple": "4.5.0"
@@ -21015,7 +21015,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Microsoft.Toolkit.Uwp.Notifications": "7.1.3",
+          "Microsoft.Toolkit.Uwp.Notifications": "7.0.1",
           "PInvoke.User32": "0.7.124",
           "UIProviders": "1.0.0"
         },
@@ -21232,7 +21232,7 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Microsoft.Toolkit.Uwp.Notifications/7.1.3": {
+      "Microsoft.Toolkit.Uwp.Notifications/7.0.1": {
         "type": "package",
         "dependencies": {
           "System.ValueTuple": "4.5.0"
@@ -21360,7 +21360,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Microsoft.Toolkit.Uwp.Notifications": "7.1.3",
+          "Microsoft.Toolkit.Uwp.Notifications": "7.0.1",
           "PInvoke.User32": "0.7.124",
           "UIProviders": "1.0.0"
         },
@@ -21577,7 +21577,7 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Microsoft.Toolkit.Uwp.Notifications/7.1.3": {
+      "Microsoft.Toolkit.Uwp.Notifications/7.0.1": {
         "type": "package",
         "dependencies": {
           "System.ValueTuple": "4.5.0"
@@ -21705,7 +21705,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Microsoft.Toolkit.Uwp.Notifications": "7.1.3",
+          "Microsoft.Toolkit.Uwp.Notifications": "7.0.1",
           "PInvoke.User32": "0.7.124",
           "UIProviders": "1.0.0"
         },
@@ -21922,7 +21922,7 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Microsoft.Toolkit.Uwp.Notifications/7.1.3": {
+      "Microsoft.Toolkit.Uwp.Notifications/7.0.1": {
         "type": "package",
         "dependencies": {
           "System.ValueTuple": "4.5.0"
@@ -22050,7 +22050,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Microsoft.Toolkit.Uwp.Notifications": "7.1.3",
+          "Microsoft.Toolkit.Uwp.Notifications": "7.0.1",
           "PInvoke.User32": "0.7.124",
           "UIProviders": "1.0.0"
         },
@@ -22267,7 +22267,7 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Microsoft.Toolkit.Uwp.Notifications/7.1.3": {
+      "Microsoft.Toolkit.Uwp.Notifications/7.0.1": {
         "type": "package",
         "dependencies": {
           "System.ValueTuple": "4.5.0"
@@ -22395,7 +22395,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Microsoft.Toolkit.Uwp.Notifications": "7.1.3",
+          "Microsoft.Toolkit.Uwp.Notifications": "7.0.1",
           "PInvoke.User32": "0.7.124",
           "UIProviders": "1.0.0"
         },
@@ -22657,7 +22657,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.Toolkit.Uwp.Notifications/7.1.3": {
+      "Microsoft.Toolkit.Uwp.Notifications/7.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Win32.Registry": "4.7.0",
@@ -23008,7 +23008,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Microsoft.Toolkit.Uwp.Notifications": "7.1.3",
+          "Microsoft.Toolkit.Uwp.Notifications": "7.0.1",
           "PInvoke.User32": "0.7.124",
           "UIProviders": "1.0.0"
         },
@@ -23256,7 +23256,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.Toolkit.Uwp.Notifications/7.1.3": {
+      "Microsoft.Toolkit.Uwp.Notifications/7.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Win32.Registry": "4.7.0",
@@ -23553,7 +23553,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Microsoft.Toolkit.Uwp.Notifications": "7.1.3",
+          "Microsoft.Toolkit.Uwp.Notifications": "7.0.1",
           "PInvoke.User32": "0.7.124",
           "UIProviders": "1.0.0"
         },
@@ -23801,7 +23801,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.Toolkit.Uwp.Notifications/7.1.3": {
+      "Microsoft.Toolkit.Uwp.Notifications/7.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Win32.Registry": "4.7.0",
@@ -24098,7 +24098,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Microsoft.Toolkit.Uwp.Notifications": "7.1.3",
+          "Microsoft.Toolkit.Uwp.Notifications": "7.0.1",
           "PInvoke.User32": "0.7.124",
           "UIProviders": "1.0.0"
         },
@@ -24346,7 +24346,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.Toolkit.Uwp.Notifications/7.1.3": {
+      "Microsoft.Toolkit.Uwp.Notifications/7.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Win32.Registry": "4.7.0",
@@ -24643,7 +24643,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Microsoft.Toolkit.Uwp.Notifications": "7.1.3",
+          "Microsoft.Toolkit.Uwp.Notifications": "7.0.1",
           "PInvoke.User32": "0.7.124",
           "UIProviders": "1.0.0"
         },
@@ -24891,7 +24891,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.Toolkit.Uwp.Notifications/7.1.3": {
+      "Microsoft.Toolkit.Uwp.Notifications/7.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Win32.Registry": "4.7.0",
@@ -25188,7 +25188,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Microsoft.Toolkit.Uwp.Notifications": "7.1.3",
+          "Microsoft.Toolkit.Uwp.Notifications": "7.0.1",
           "PInvoke.User32": "0.7.124",
           "UIProviders": "1.0.0"
         },
@@ -25436,7 +25436,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.Toolkit.Uwp.Notifications/7.1.3": {
+      "Microsoft.Toolkit.Uwp.Notifications/7.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Win32.Registry": "4.7.0",
@@ -25733,7 +25733,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Microsoft.Toolkit.Uwp.Notifications": "7.1.3",
+          "Microsoft.Toolkit.Uwp.Notifications": "7.0.1",
           "PInvoke.User32": "0.7.124",
           "UIProviders": "1.0.0"
         },
@@ -25981,7 +25981,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.Toolkit.Uwp.Notifications/7.1.3": {
+      "Microsoft.Toolkit.Uwp.Notifications/7.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Win32.Registry": "4.7.0",
@@ -26278,7 +26278,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Microsoft.Toolkit.Uwp.Notifications": "7.1.3",
+          "Microsoft.Toolkit.Uwp.Notifications": "7.0.1",
           "PInvoke.User32": "0.7.124",
           "UIProviders": "1.0.0"
         },
@@ -26529,7 +26529,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.Toolkit.Uwp.Notifications/7.1.3": {
+      "Microsoft.Toolkit.Uwp.Notifications/7.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Win32.Registry": "4.7.0",
@@ -26829,7 +26829,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Microsoft.Toolkit.Uwp.Notifications": "7.1.3",
+          "Microsoft.Toolkit.Uwp.Notifications": "7.0.1",
           "PInvoke.User32": "0.7.124",
           "UIProviders": "1.0.0"
         },
@@ -27319,16 +27319,15 @@
         "version.txt"
       ]
     },
-    "Microsoft.Toolkit.Uwp.Notifications/7.1.3": {
-      "sha512": "A1dglAzb24gjehmb7DwGd07mfyZ1gacAK7ObE0KwDlRc3mayH2QW7cSOy3TkkyELjLg19OQBuhPOj4SpXET9lg==",
+    "Microsoft.Toolkit.Uwp.Notifications/7.0.1": {
+      "sha512": "PSLAITi9VDuryL/TDOIm2ndgnLNeUAErNvn6C73Ag9aNl1GfFQuWIFwpZWnvESaE87kgfSw+STUbaCoKurw8yQ==",
       "type": "package",
-      "path": "microsoft.toolkit.uwp.notifications/7.1.3",
+      "path": "microsoft.toolkit.uwp.notifications/7.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "Icon.png",
-        "License.md",
         "build/native/Microsoft.Toolkit.Uwp.Notifications.targets",
+        "images/nuget.png",
         "lib/native/Microsoft.Toolkit.Uwp.Notifications.pdb",
         "lib/native/Microsoft.Toolkit.Uwp.Notifications.pri",
         "lib/native/Microsoft.Toolkit.Uwp.Notifications.winmd",
@@ -27356,7 +27355,8 @@
         "lib/uap10.0.16299/Microsoft.Toolkit.Uwp.Notifications.pdb",
         "lib/uap10.0.16299/Microsoft.Toolkit.Uwp.Notifications.pri",
         "lib/uap10.0.16299/Microsoft.Toolkit.Uwp.Notifications.xml",
-        "microsoft.toolkit.uwp.notifications.7.1.3.nupkg.sha512",
+        "license.md",
+        "microsoft.toolkit.uwp.notifications.7.0.1.nupkg.sha512",
         "microsoft.toolkit.uwp.notifications.nuspec"
       ]
     },
@@ -30750,6 +30750,7 @@
       "Microsoft.Maui.Graphics >= 7.0.101",
       "Microsoft.NET.ILLink.Analyzers >= 7.0.100-1.23211.1",
       "Microsoft.NET.ILLink.Tasks >= 7.0.100-1.23211.1",
+      "Microsoft.Toolkit.Uwp.Notifications >= 7.0.1",
       "UIImplements >= 1.0.0",
       "UIProviders >= 1.0.0",
       "Xamarin.Android.Glide >= 4.13.2.2",
@@ -30772,6 +30773,7 @@
       "Microsoft.Maui.Graphics >= 7.0.101",
       "Microsoft.NET.ILLink.Analyzers >= 7.0.100-1.23211.1",
       "Microsoft.NET.ILLink.Tasks >= 7.0.100-1.23211.1",
+      "Microsoft.Toolkit.Uwp.Notifications >= 7.0.1",
       "UIImplements >= 1.0.0",
       "UIProviders >= 1.0.0"
     ],
@@ -30783,6 +30785,7 @@
       "Microsoft.Maui.Graphics >= 7.0.101",
       "Microsoft.NET.ILLink.Analyzers >= 7.0.100-1.23211.1",
       "Microsoft.NET.ILLink.Tasks >= 7.0.100-1.23211.1",
+      "Microsoft.Toolkit.Uwp.Notifications >= 7.0.1",
       "UIImplements >= 1.0.0",
       "UIProviders >= 1.0.0"
     ],
@@ -30793,6 +30796,7 @@
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.101",
       "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop >= 7.0.101",
+      "Microsoft.Toolkit.Uwp.Notifications >= 7.0.1",
       "Microsoft.WindowsAppSDK >= 1.2.221209.1",
       "UIImplements >= 1.0.0",
       "UIProviders >= 1.0.0"
@@ -30922,6 +30926,10 @@
             "target": "Package",
             "version": "[7.0.100-1.23211.1, )",
             "autoReferenced": true
+          },
+          "Microsoft.Toolkit.Uwp.Notifications": {
+            "target": "Package",
+            "version": "[7.0.1, )"
           },
           "Xamarin.Android.Glide": {
             "target": "Package",
@@ -31093,6 +31101,10 @@
             "target": "Package",
             "version": "[7.0.100-1.23211.1, )",
             "autoReferenced": true
+          },
+          "Microsoft.Toolkit.Uwp.Notifications": {
+            "target": "Package",
+            "version": "[7.0.1, )"
           }
         },
         "imports": [
@@ -31197,6 +31209,10 @@
             "target": "Package",
             "version": "[7.0.100-1.23211.1, )",
             "autoReferenced": true
+          },
+          "Microsoft.Toolkit.Uwp.Notifications": {
+            "target": "Package",
+            "version": "[7.0.1, )"
           }
         },
         "imports": [
@@ -31295,6 +31311,10 @@
             "target": "Package",
             "version": "[7.0.101, )",
             "autoReferenced": true
+          },
+          "Microsoft.Toolkit.Uwp.Notifications": {
+            "target": "Package",
+            "version": "[7.0.1, )"
           },
           "Microsoft.WindowsAppSDK": {
             "target": "Package",

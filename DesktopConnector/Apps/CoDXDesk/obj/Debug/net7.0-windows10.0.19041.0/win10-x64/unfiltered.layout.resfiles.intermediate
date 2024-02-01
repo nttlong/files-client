@@ -56,5 +56,6 @@ splashSplashScreen.scale-125.png
 splashSplashScreen.scale-150.png
 splashSplashScreen.scale-200.png
 splashSplashScreen.scale-400.png
+Platforms\MacCatalyst\app.ico
 Platforms\Windows\app.ico
 AboutAssets.txt

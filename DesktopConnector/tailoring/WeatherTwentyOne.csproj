@@ -7,9 +7,9 @@
     <OutputType>Exe</OutputType>
     <SingleProject>true</SingleProject>
     <UseMaui>true</UseMaui>
-    <RootNamespace>WeatherTwentyOne</RootNamespace>
-    <ApplicationTitle>WeatherTwentyOne</ApplicationTitle>
-    <ApplicationId>com.companyname.WeatherTwentyOne</ApplicationId>
+    <RootNamespace>CoDXDesk</RootNamespace>
+    <ApplicationTitle>Codx desk</ApplicationTitle>
+    <ApplicationId>codx.desk</ApplicationId>
     <EnablePreviewMsixTooling>true</EnablePreviewMsixTooling>
     <SingleProject>true</SingleProject>
     <ApplicationVersion>1</ApplicationVersion>

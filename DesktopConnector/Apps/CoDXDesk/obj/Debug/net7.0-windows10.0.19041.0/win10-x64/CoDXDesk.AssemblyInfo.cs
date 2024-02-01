@@ -11,14 +11,14 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.PackageName", "c51f867e-3360-44d5-8c83-d731a857ca90")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.PackageName", "com.companyname.WeatherTwentyOne")]
 [assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.PublisherName", "User Name")]
-[assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.Name", "CoDXDesk")]
-[assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.Version", "1.0.0.1")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.Name", "WeatherTwentyOne")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.Version", "0.0.0.1")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("CoDXDesk")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+ce62abe3e6839f16ba25f13d05a0f410984f0fe3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+519791d9b15b9c7f0b65b1ca7a9fefed8abe5eed")]
 [assembly: System.Reflection.AssemblyProductAttribute("CoDXDesk")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CoDXDesk")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

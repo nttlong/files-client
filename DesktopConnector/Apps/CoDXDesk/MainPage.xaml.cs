@@ -9,7 +9,15 @@
             InitializeComponent();
             
         }
+        
+        private void OnClosed(object sender, EventArgs e)
+        {
 
+        }
+        private void OnClosing(object sender, EventArgs e)
+        {
+
+        }
         private void OnCounterClicked(object sender, EventArgs e)
         {
             count++;
@@ -19,7 +27,7 @@
             else
                 CounterBtn.Text = $"Clicked {count} times";
 
-            SemanticScreenReader.Announce(CounterBtn.Text);
+            //SemanticScreenReader.Announce(CounterBtn.Text);
         }
         private void OnCounterClicked2(object sender, EventArgs e)
         {
@@ -30,7 +38,7 @@
             else
                 CounterBtn2.Text = $"Clicked {count} times";
 
-            SemanticScreenReader.Announce(CounterBtn.Text);
+            //SemanticScreenReader.Announce(CounterBtn.Text);
         }
 
     }

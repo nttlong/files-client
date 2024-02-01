@@ -29,13 +29,13 @@
     <AppXManifest Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-02-01T03:40:34.151</Modified>
+      <Modified>2024-02-01T06:57:51.343</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-02-01T02:17:19.137</Modified>
+      <Modified>2024-02-01T06:57:50.908</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\WeatherTwentyOne.runtimeconfig.json">
       <PackagePath>WeatherTwentyOne.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\WeatherTwentyOne.dll">
       <PackagePath>WeatherTwentyOne.dll</PackagePath>
-      <Modified>2024-02-01T03:40:32.023</Modified>
+      <Modified>2024-02-01T06:57:49.283</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>WeatherTwentyOne.exe</PackagePath>
-      <Modified>2024-02-01T03:40:32.098</Modified>
+      <Modified>2024-02-01T06:57:49.341</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\Platforms\Windows\app.ico">
       <PackagePath>Platforms\Windows\app.ico</PackagePath>
@@ -63,7 +63,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\WeatherTwentyOne.deps.json">
       <PackagePath>WeatherTwentyOne.deps.json</PackagePath>
-      <Modified>2024-02-01T02:17:18.836</Modified>
+      <Modified>2024-02-01T06:57:50.806</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.15\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>

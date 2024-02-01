@@ -27,7 +27,7 @@ namespace CoDXDesk
                 //                WindowExtensions.SetIcon("Platforms/Windows/trayicon.ico");
                 //            }
                 //        }));
-
+                
                 lifecycle.AddWindows(windows => windows.OnWindowCreated((del) => {
                     del.ExtendsContentIntoTitleBar = true;
                 }));
