@@ -2,6 +2,8 @@
 using UIImplements;
 using UIProviders;
 using Microsoft.Maui.LifecycleEvents;
+using System.Xml;
+using CodxDesk;
 namespace CoDXDesk
 {
     public static class MauiProgram
@@ -36,16 +38,20 @@ namespace CoDXDesk
 
             var services = builder.Services;
 #if WINDOWS
+            services.AddSingleton<IServer, Server>();
             services.AddSingleton<ITrayService, TrayService>();
             services.AddSingleton<INotificationService, NotificationService>();
 #elif MACCATALYST
             services.AddSingleton<ITrayService, TrayService>();
             services.AddSingleton<INotificationService, NotificationService>();
+            services.AddSingleton<IServer, Server>();
 #endif
 
 #if DEBUG
             builder.Logging.AddDebug();
 #endif
+            
+
 
             return builder.Build();
         }

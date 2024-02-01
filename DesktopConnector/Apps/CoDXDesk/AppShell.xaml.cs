@@ -1,5 +1,6 @@
 ﻿using UIProviders;
 using UIImplements;
+using CodxServer;
 namespace CoDXDesk
 {
     public partial class AppShell : Shell
@@ -8,6 +9,7 @@ namespace CoDXDesk
         {
             InitializeComponent();
             SetupTrayIcon();
+            
         }
         protected override async void OnDisappearing()
         {
@@ -25,6 +27,8 @@ namespace CoDXDesk
                     ServiceAssistent.GetService<INotificationService>()
                         ?.ShowNotification("XXX", "YYY");
             }
+            var server = ServiceAssistent.GetService<IServer>();
+            server.RunAsync().Start();
         }
     }
 }

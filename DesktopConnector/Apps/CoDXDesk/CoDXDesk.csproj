@@ -118,6 +118,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <ProjectReference Include="..\..\Libs\CodxServer\CodxServer.csproj" />
 	  <ProjectReference Include="..\..\Libs\UIImplements\UIImplements.csproj" />
 	  <ProjectReference Include="..\..\Libs\UIProviders\UIProviders.csproj" />
 	</ItemGroup>

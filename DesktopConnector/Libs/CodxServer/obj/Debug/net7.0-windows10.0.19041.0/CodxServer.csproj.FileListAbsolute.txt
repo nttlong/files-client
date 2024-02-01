@@ -1,0 +1,13 @@
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxServer\bin\Debug\net7.0-windows10.0.19041.0\CodxServer.deps.json
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxServer\bin\Debug\net7.0-windows10.0.19041.0\CodxServer.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxServer\bin\Debug\net7.0-windows10.0.19041.0\CodxServer.pdb
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxServer\obj\Debug\net7.0-windows10.0.19041.0\CodxServer.csproj.AssemblyReference.cache
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxServer\obj\Debug\net7.0-windows10.0.19041.0\CodxServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxServer\obj\Debug\net7.0-windows10.0.19041.0\CodxServer.AssemblyInfoInputs.cache
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxServer\obj\Debug\net7.0-windows10.0.19041.0\CodxServer.AssemblyInfo.cs
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxServer\obj\Debug\net7.0-windows10.0.19041.0\CodxServer.csproj.CoreCompileInputs.cache
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxServer\obj\Debug\net7.0-windows10.0.19041.0\CodxServer.sourcelink.json
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxServer\obj\Debug\net7.0-windows10.0.19041.0\CodxServer.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxServer\obj\Debug\net7.0-windows10.0.19041.0\refint\CodxServer.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxServer\obj\Debug\net7.0-windows10.0.19041.0\CodxServer.pdb
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxServer\obj\Debug\net7.0-windows10.0.19041.0\ref\CodxServer.dll

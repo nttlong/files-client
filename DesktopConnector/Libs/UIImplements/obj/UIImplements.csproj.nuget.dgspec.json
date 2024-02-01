@@ -117,6 +117,10 @@
             "PInvoke.User32": {
               "target": "Package",
               "version": "[0.7.124, )"
+            },
+            "WebSocketSharp-netstandard": {
+              "target": "Package",
+              "version": "[1.0.1, )"
             }
           },
           "imports": [
@@ -206,6 +210,10 @@
             "PInvoke.User32": {
               "target": "Package",
               "version": "[0.7.124, )"
+            },
+            "WebSocketSharp-netstandard": {
+              "target": "Package",
+              "version": "[1.0.1, )"
             },
             "Xamarin.Android.Glide": {
               "suppressParent": "All",
@@ -368,6 +376,10 @@
             "PInvoke.User32": {
               "target": "Package",
               "version": "[0.7.124, )"
+            },
+            "WebSocketSharp-netstandard": {
+              "target": "Package",
+              "version": "[1.0.1, )"
             }
           },
           "imports": [
@@ -464,6 +476,10 @@
             "PInvoke.User32": {
               "target": "Package",
               "version": "[0.7.124, )"
+            },
+            "WebSocketSharp-netstandard": {
+              "target": "Package",
+              "version": "[1.0.1, )"
             }
           },
           "imports": [
@@ -561,6 +577,10 @@
             "PInvoke.User32": {
               "target": "Package",
               "version": "[0.7.124, )"
+            },
+            "WebSocketSharp-netstandard": {
+              "target": "Package",
+              "version": "[1.0.1, )"
             }
           },
           "imports": [

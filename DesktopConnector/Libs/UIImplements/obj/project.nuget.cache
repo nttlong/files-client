@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "eGwxUxmomTER51+0zIooKx0ihWekN341zSi0Tz5JaXtgsYq2lNau4HuptmpITNHIhhYsnKQhNHVPshY4Hb2whA==",
+  "dgSpecHash": "0qF+yjHvkp8WDf9Exg6dPvoeCRdNlr/ORe4uOZUIJWRgz26jGzTfOoffY65i3Nm1URVxekZkg3j8eDEHVZfANw==",
   "success": true,
   "projectFilePath": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\UIImplements\\UIImplements.csproj",
   "expectedPackageFiles": [
@@ -38,6 +38,7 @@
     "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
     "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\validation\\2.4.15\\validation.2.4.15.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\websocketsharp-netstandard\\1.0.1\\websocketsharp-netstandard.1.0.1.nupkg.sha512",
     "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\xamarin.android.glide\\4.13.2.2\\xamarin.android.glide.4.13.2.2.nupkg.sha512",
     "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\xamarin.android.glide.annotations\\4.13.2.2\\xamarin.android.glide.annotations.4.13.2.2.nupkg.sha512",
     "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\xamarin.android.glide.disklrucache\\4.13.2.2\\xamarin.android.glide.disklrucache.4.13.2.2.nupkg.sha512",

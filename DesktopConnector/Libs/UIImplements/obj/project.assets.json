@@ -287,6 +287,19 @@
           }
         }
       },
+      "WebSocketSharp-netstandard/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/websocket-sharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/websocket-sharp.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "UIProviders/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -619,6 +632,19 @@
         },
         "runtime": {
           "lib/netstandard1.3/Validation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "WebSocketSharp-netstandard/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/websocket-sharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/websocket-sharp.dll": {
             "related": ".xml"
           }
         }
@@ -2660,6 +2686,19 @@
           }
         }
       },
+      "WebSocketSharp-netstandard/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/websocket-sharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/websocket-sharp.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "UIProviders/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -2965,6 +3004,19 @@
         },
         "runtime": {
           "lib/netstandard1.3/Validation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "WebSocketSharp-netstandard/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/websocket-sharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/websocket-sharp.dll": {
             "related": ".xml"
           }
         }
@@ -3542,6 +3594,19 @@
         },
         "runtime": {
           "lib/netstandard1.3/Validation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "WebSocketSharp-netstandard/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/websocket-sharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/websocket-sharp.dll": {
             "related": ".xml"
           }
         }
@@ -5410,6 +5475,23 @@
         "tools/uninstall_snippets.cmd",
         "validation.2.4.15.nupkg.sha512",
         "validation.nuspec"
+      ]
+    },
+    "WebSocketSharp-netstandard/1.0.1": {
+      "sha512": "knoinAv31vbdxXdypnzN2MPX5hyntVLWceq6OdWRXkr9zzqp/RWbxSuLFGbkW8De1061URgNAN43BUTlgMx1CA==",
+      "type": "package",
+      "path": "websocketsharp-netstandard/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/websocket-sharp.dll",
+        "lib/net35/websocket-sharp.xml",
+        "lib/net45/websocket-sharp.dll",
+        "lib/net45/websocket-sharp.xml",
+        "lib/netstandard2.0/websocket-sharp.dll",
+        "lib/netstandard2.0/websocket-sharp.xml",
+        "websocketsharp-netstandard.1.0.1.nupkg.sha512",
+        "websocketsharp-netstandard.nuspec"
       ]
     },
     "Xamarin.Android.Glide/4.13.2.2": {
@@ -7423,7 +7505,8 @@
       "Microsoft.Maui.Graphics >= 7.0.101",
       "Microsoft.Toolkit.Uwp.Notifications >= 7.0.1",
       "PInvoke.User32 >= 0.7.124",
-      "UIProviders >= 1.0.0"
+      "UIProviders >= 1.0.0",
+      "WebSocketSharp-netstandard >= 1.0.1"
     ],
     "net7.0-android33.0": [
       "Microsoft.Extensions.Configuration >= 7.0.0",
@@ -7433,6 +7516,7 @@
       "Microsoft.Toolkit.Uwp.Notifications >= 7.0.1",
       "PInvoke.User32 >= 0.7.124",
       "UIProviders >= 1.0.0",
+      "WebSocketSharp-netstandard >= 1.0.1",
       "Xamarin.Android.Glide >= 4.13.2.2",
       "Xamarin.AndroidX.Browser >= 1.4.0.3",
       "Xamarin.AndroidX.Legacy.Support.V4 >= 1.0.0.15",
@@ -7454,7 +7538,8 @@
       "Microsoft.NET.ILLink.Tasks >= 7.0.100-1.23211.1",
       "Microsoft.Toolkit.Uwp.Notifications >= 7.0.1",
       "PInvoke.User32 >= 0.7.124",
-      "UIProviders >= 1.0.0"
+      "UIProviders >= 1.0.0",
+      "WebSocketSharp-netstandard >= 1.0.1"
     ],
     "net7.0-maccatalyst16.1": [
       "Microsoft.Extensions.Configuration >= 7.0.0",
@@ -7465,7 +7550,8 @@
       "Microsoft.NET.ILLink.Tasks >= 7.0.100-1.23211.1",
       "Microsoft.Toolkit.Uwp.Notifications >= 7.0.1",
       "PInvoke.User32 >= 0.7.124",
-      "UIProviders >= 1.0.0"
+      "UIProviders >= 1.0.0",
+      "WebSocketSharp-netstandard >= 1.0.1"
     ],
     "net7.0-windows10.0.19041": [
       "Microsoft.Extensions.Configuration >= 7.0.0",
@@ -7476,7 +7562,8 @@
       "Microsoft.Toolkit.Uwp.Notifications >= 7.0.1",
       "Microsoft.WindowsAppSDK >= 1.2.221209.1",
       "PInvoke.User32 >= 0.7.124",
-      "UIProviders >= 1.0.0"
+      "UIProviders >= 1.0.0",
+      "WebSocketSharp-netstandard >= 1.0.1"
     ]
   },
   "packageFolders": {
@@ -7596,6 +7683,10 @@
           "PInvoke.User32": {
             "target": "Package",
             "version": "[0.7.124, )"
+          },
+          "WebSocketSharp-netstandard": {
+            "target": "Package",
+            "version": "[1.0.1, )"
           }
         },
         "imports": [
@@ -7685,6 +7776,10 @@
           "PInvoke.User32": {
             "target": "Package",
             "version": "[0.7.124, )"
+          },
+          "WebSocketSharp-netstandard": {
+            "target": "Package",
+            "version": "[1.0.1, )"
           },
           "Xamarin.Android.Glide": {
             "suppressParent": "All",
@@ -7847,6 +7942,10 @@
           "PInvoke.User32": {
             "target": "Package",
             "version": "[0.7.124, )"
+          },
+          "WebSocketSharp-netstandard": {
+            "target": "Package",
+            "version": "[1.0.1, )"
           }
         },
         "imports": [
@@ -7943,6 +8042,10 @@
           "PInvoke.User32": {
             "target": "Package",
             "version": "[0.7.124, )"
+          },
+          "WebSocketSharp-netstandard": {
+            "target": "Package",
+            "version": "[1.0.1, )"
           }
         },
         "imports": [
@@ -8040,6 +8143,10 @@
           "PInvoke.User32": {
             "target": "Package",
             "version": "[0.7.124, )"
+          },
+          "WebSocketSharp-netstandard": {
+            "target": "Package",
+            "version": "[1.0.1, )"
           }
         },
         "imports": [

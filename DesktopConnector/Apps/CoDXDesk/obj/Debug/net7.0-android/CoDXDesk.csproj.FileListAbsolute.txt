@@ -1055,3 +1055,9 @@ C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CoDXDesk\
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CoDXDesk\obj\Debug\net7.0-android\android\bin\codx.apps.vn.aab
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CoDXDesk\obj\Debug\net7.0-android\android\bin\codx.apps.vn.apks
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CoDXDesk\obj\Debug\net7.0-android\android\src\codx\apps\vn\R.java
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CoDXDesk\bin\Debug\net7.0-android\CodxServer.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CoDXDesk\bin\Debug\net7.0-android\CodxServer.pdb
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CoDXDesk\bin\Debug\net7.0-android\CodxServer.xml
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CoDXDesk\obj\Debug\net7.0-android\android\assets\CodxServer.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CoDXDesk\obj\Debug\net7.0-android\android\assets\CodxServer.pdb
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CoDXDesk\obj\Debug\net7.0-android\android\assets\websocket-sharp.dll

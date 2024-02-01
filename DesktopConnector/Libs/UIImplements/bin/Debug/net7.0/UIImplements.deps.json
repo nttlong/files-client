@@ -15,6 +15,7 @@
           "Microsoft.Toolkit.Uwp.Notifications": "7.0.1",
           "PInvoke.User32": "0.7.124",
           "UIProviders": "1.0.0",
+          "WebSocketSharp-netstandard": "1.0.1",
           "runtimepack.Microsoft.Maui.Core.Runtime.any": "7.0.101",
           "runtimepack.Microsoft.Maui.Controls.Runtime.any": "7.0.101",
           "runtimepack.Microsoft.Maui.Essentials.Runtime.any": "7.0.101"
@@ -217,6 +218,14 @@
           }
         }
       },
+      "WebSocketSharp-netstandard/1.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/websocket-sharp.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      },
       "UIProviders/1.0.0": {
         "runtime": {
           "UIProviders.dll": {}
@@ -370,6 +379,13 @@
       "sha512": "sha512-KQFOtJKKhaXzuSiZhkFaFzQEdYsA+EN/XqKZDYwsGDOrS0Nxu6qzCvNTsDF4xtkiZbBA6u7I59QnsuP2O2fZgg==",
       "path": "validation/2.4.15",
       "hashPath": "validation.2.4.15.nupkg.sha512"
+    },
+    "WebSocketSharp-netstandard/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-knoinAv31vbdxXdypnzN2MPX5hyntVLWceq6OdWRXkr9zzqp/RWbxSuLFGbkW8De1061URgNAN43BUTlgMx1CA==",
+      "path": "websocketsharp-netstandard/1.0.1",
+      "hashPath": "websocketsharp-netstandard.1.0.1.nupkg.sha512"
     },
     "UIProviders/1.0.0": {
       "type": "project",

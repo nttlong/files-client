@@ -34,6 +34,9 @@
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CoDXDesk\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\CoDXDesk.dll">
       <PackagePath>CoDXDesk.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxServer\bin\Debug\net7.0-windows10.0.19041.0\CodxServer.dll">
+      <PackagePath>CodxServer.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\bin\Debug\net7.0-windows10.0.19041.0\UIImplements.dll">
       <PackagePath>UIImplements.dll</PackagePath>
     </AppxPackagedFile>
@@ -717,6 +720,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\.nuget\packages\validation\2.4.15\lib\netstandard1.3\Validation.dll">
       <PackagePath>Validation.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\.nuget\packages\websocketsharp-netstandard\1.0.1\lib\netstandard2.0\websocket-sharp.dll">
+      <PackagePath>websocket-sharp.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\.nuget\packages\microsoft.graphics.win2d\1.0.5.1\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>

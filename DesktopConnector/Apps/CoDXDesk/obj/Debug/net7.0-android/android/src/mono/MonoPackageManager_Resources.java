@@ -25,6 +25,7 @@ public class MonoPackageManager_Resources {
 		"PInvoke.Windows.Core.dll",
 		"PInvoke.Windows.ShellScalingApi.dll",
 		"Validation.dll",
+		"websocket-sharp.dll",
 		"Xamarin.Android.Glide.dll",
 		"Xamarin.Android.Glide.Annotations.dll",
 		"Xamarin.Android.Glide.DiskLruCache.dll",
@@ -106,6 +107,7 @@ public class MonoPackageManager_Resources {
 		"Xamarin.Kotlin.StdLib.Jdk8.dll",
 		"Xamarin.KotlinX.Coroutines.Android.dll",
 		"Xamarin.KotlinX.Coroutines.Core.Jvm.dll",
+		"CodxServer.dll",
 		"UIImplements.dll",
 		"UIProviders.dll",
 	};

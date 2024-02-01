@@ -270,3 +270,6 @@ C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CoDXDesk\
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CoDXDesk\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\CoDXDesk.pdb
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CoDXDesk\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\CoDXDesk.genruntimeconfig.cache
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CoDXDesk\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\ref\CoDXDesk.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CoDXDesk\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\CodxServer.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CoDXDesk\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\CodxServer.pdb
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CoDXDesk\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\websocket-sharp.dll

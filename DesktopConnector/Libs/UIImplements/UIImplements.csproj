@@ -20,6 +20,7 @@
 	<ItemGroup>
 	  <PackageReference Include="Microsoft.Toolkit.Uwp.Notifications" Version="7.0.1" />
 	  <PackageReference Include="PInvoke.User32" Version="0.7.124" />
+	  <PackageReference Include="WebSocketSharp-netstandard" Version="1.0.1" />
 	</ItemGroup>
 
 	<ItemGroup>
