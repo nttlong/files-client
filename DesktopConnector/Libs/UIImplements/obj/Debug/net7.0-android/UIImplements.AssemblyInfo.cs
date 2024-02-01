@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UIImplements")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+baaf50e820600eb97b4bd48b4a1c0b5995fe09a3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+337288f57e750e14bdd0529c70adbdd33a7db02d")]
 [assembly: System.Reflection.AssemblyProductAttribute("UIImplements")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UIImplements")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
