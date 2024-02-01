@@ -53,8 +53,4 @@
 		<PackageReference Include="Microsoft.Toolkit.Uwp.Notifications" Version="7.1.3" />
 	</ItemGroup>
 
-	<ItemGroup>
-	  <ProjectReference Include="..\..\XnotificationServiceWindows\XNotificationServiceWindows.csproj" />
-	</ItemGroup>
-
 </Project>

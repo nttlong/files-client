@@ -1,0 +1,12 @@
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIProviders\bin\Debug\net7.0\UIProviders.deps.json
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIProviders\bin\Debug\net7.0\UIProviders.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIProviders\bin\Debug\net7.0\UIProviders.pdb
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIProviders\obj\Debug\net7.0\UIProviders.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIProviders\obj\Debug\net7.0\UIProviders.AssemblyInfoInputs.cache
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIProviders\obj\Debug\net7.0\UIProviders.AssemblyInfo.cs
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIProviders\obj\Debug\net7.0\UIProviders.csproj.CoreCompileInputs.cache
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIProviders\obj\Debug\net7.0\UIProviders.sourcelink.json
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIProviders\obj\Debug\net7.0\UIProviders.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIProviders\obj\Debug\net7.0\refint\UIProviders.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIProviders\obj\Debug\net7.0\UIProviders.pdb
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIProviders\obj\Debug\net7.0\ref\UIProviders.dll

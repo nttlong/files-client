@@ -37,8 +37,14 @@
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>WeatherTwentyOne.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\Platforms\Windows\trayicon.ico">
-      <PackagePath>Platforms\Windows\trayicon.ico</PackagePath>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\Platforms\Windows\app.ico">
+      <PackagePath>Platforms\Windows\app.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\Platforms\Windows\trayicon18.ico">
+      <PackagePath>Platforms\Windows\trayicon18.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\Platforms\Windows\trayicon2.ico">
+      <PackagePath>Platforms\Windows\trayicon2.ico</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\WeatherTwentyOne.deps.json">
       <PackagePath>WeatherTwentyOne.deps.json</PackagePath>
@@ -903,6 +909,147 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_delete.ico">
+      <PackagePath>appicon_delete.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_deleteLargeTile.scale-100.png">
+      <PackagePath>appicon_deleteLargeTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_deleteLargeTile.scale-125.png">
+      <PackagePath>appicon_deleteLargeTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_deleteLargeTile.scale-150.png">
+      <PackagePath>appicon_deleteLargeTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_deleteLargeTile.scale-200.png">
+      <PackagePath>appicon_deleteLargeTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_deleteLargeTile.scale-400.png">
+      <PackagePath>appicon_deleteLargeTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_deleteLogo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>appicon_deleteLogo.altform-lightunplated_targetsize-16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_deleteLogo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>appicon_deleteLogo.altform-lightunplated_targetsize-24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_deleteLogo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>appicon_deleteLogo.altform-lightunplated_targetsize-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_deleteLogo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>appicon_deleteLogo.altform-lightunplated_targetsize-32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_deleteLogo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>appicon_deleteLogo.altform-lightunplated_targetsize-48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_deleteLogo.altform-unplated_targetsize-16.png">
+      <PackagePath>appicon_deleteLogo.altform-unplated_targetsize-16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_deleteLogo.altform-unplated_targetsize-24.png">
+      <PackagePath>appicon_deleteLogo.altform-unplated_targetsize-24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_deleteLogo.altform-unplated_targetsize-256.png">
+      <PackagePath>appicon_deleteLogo.altform-unplated_targetsize-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_deleteLogo.altform-unplated_targetsize-32.png">
+      <PackagePath>appicon_deleteLogo.altform-unplated_targetsize-32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_deleteLogo.altform-unplated_targetsize-48.png">
+      <PackagePath>appicon_deleteLogo.altform-unplated_targetsize-48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_deleteLogo.scale-100.png">
+      <PackagePath>appicon_deleteLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_deleteLogo.scale-125.png">
+      <PackagePath>appicon_deleteLogo.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_deleteLogo.scale-150.png">
+      <PackagePath>appicon_deleteLogo.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_deleteLogo.scale-200.png">
+      <PackagePath>appicon_deleteLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_deleteLogo.scale-400.png">
+      <PackagePath>appicon_deleteLogo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_deleteLogo.targetsize-16.png">
+      <PackagePath>appicon_deleteLogo.targetsize-16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_deleteLogo.targetsize-24.png">
+      <PackagePath>appicon_deleteLogo.targetsize-24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_deleteLogo.targetsize-256.png">
+      <PackagePath>appicon_deleteLogo.targetsize-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_deleteLogo.targetsize-32.png">
+      <PackagePath>appicon_deleteLogo.targetsize-32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_deleteLogo.targetsize-48.png">
+      <PackagePath>appicon_deleteLogo.targetsize-48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_deleteMediumTile.scale-100.png">
+      <PackagePath>appicon_deleteMediumTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_deleteMediumTile.scale-125.png">
+      <PackagePath>appicon_deleteMediumTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_deleteMediumTile.scale-150.png">
+      <PackagePath>appicon_deleteMediumTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_deleteMediumTile.scale-200.png">
+      <PackagePath>appicon_deleteMediumTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_deleteMediumTile.scale-400.png">
+      <PackagePath>appicon_deleteMediumTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_deleteSmallTile.scale-100.png">
+      <PackagePath>appicon_deleteSmallTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_deleteSmallTile.scale-125.png">
+      <PackagePath>appicon_deleteSmallTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_deleteSmallTile.scale-150.png">
+      <PackagePath>appicon_deleteSmallTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_deleteSmallTile.scale-200.png">
+      <PackagePath>appicon_deleteSmallTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_deleteSmallTile.scale-400.png">
+      <PackagePath>appicon_deleteSmallTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_deleteStoreLogo.scale-100.png">
+      <PackagePath>appicon_deleteStoreLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_deleteStoreLogo.scale-125.png">
+      <PackagePath>appicon_deleteStoreLogo.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_deleteStoreLogo.scale-150.png">
+      <PackagePath>appicon_deleteStoreLogo.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_deleteStoreLogo.scale-200.png">
+      <PackagePath>appicon_deleteStoreLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_deleteStoreLogo.scale-400.png">
+      <PackagePath>appicon_deleteStoreLogo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_deleteWideTile.scale-100.png">
+      <PackagePath>appicon_deleteWideTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_deleteWideTile.scale-125.png">
+      <PackagePath>appicon_deleteWideTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_deleteWideTile.scale-150.png">
+      <PackagePath>appicon_deleteWideTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_deleteWideTile.scale-200.png">
+      <PackagePath>appicon_deleteWideTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_deleteWideTile.scale-400.png">
+      <PackagePath>appicon_deleteWideTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\app_icon.scale-100.png">
+      <PackagePath>app_icon.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\tailoring\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\app_image.scale-100.png">
       <PackagePath>app_image.scale-100.png</PackagePath>

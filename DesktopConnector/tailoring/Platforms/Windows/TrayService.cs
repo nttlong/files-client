@@ -12,7 +12,7 @@ public class TrayService : ITrayService
 
     public void Initialize()
     {
-        tray = new WindowsTrayIcon("Platforms/Windows/trayicon.ico");
+        tray = new WindowsTrayIcon("Platforms/Windows/app.ico");
         tray.LeftClick = () => {
             WindowExtensions.BringToFront();
             ClickHandler?.Invoke();

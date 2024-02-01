@@ -22,7 +22,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\XnotificationService\XNotificationService.csproj" />
 	  <ProjectReference Include="..\XWindows\XWindows.csproj" />
 	</ItemGroup>
 

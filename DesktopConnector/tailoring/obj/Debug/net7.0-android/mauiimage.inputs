@@ -50,4 +50,5 @@ File=Resources\Images\weather_cloudy.svg;Link=;BaseSize=;Resize=;TintColor=;Colo
 File=Resources\Images\weather_partly_cloudy_day.svg;Link=;BaseSize=;Resize=;TintColor=;Color=;IsAppIcon=;ForegroundScale=;ForegroundFile=
 File=Resources\Images\weather_partly_cloudy_night.svg;Link=;BaseSize=;Resize=;TintColor=;Color=;IsAppIcon=;ForegroundScale=;ForegroundFile=
 File=Resources\Images\wind_icon.svg;Link=;BaseSize=;Resize=;TintColor=;Color=;IsAppIcon=;ForegroundScale=;ForegroundFile=
+File=Platforms\Windows\app_icon.png;Link=;BaseSize=;Resize=;TintColor=;Color=;IsAppIcon=;ForegroundScale=;ForegroundFile=
 File=Resources\appicon.svg;Link=;BaseSize=;Resize=;TintColor=;Color=#081B25;IsAppIcon=True;ForegroundScale=;ForegroundFile=Resources\appiconfg.svg

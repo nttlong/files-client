@@ -28,11 +28,11 @@ namespace Hardcodet.Wpf.TaskbarNotification.Interop
         public WindowsTrayIcon(string iconFile)
 		{
             messageSink = new WindowMessageSink();
-
+            //iconFile = "Platforms/Windows/apptrayicon001.ico";
             // init icon data structure
             iconData = NotifyIconData.CreateDefault(messageSink.MessageWindowHandle, iconFile);
 
-            //IntPtr hIcon = PInvoke.User32.LoadImage(IntPtr.Zero, "dotnetbot.ico",
+            //IntPtr hIcon = PInvoke.User32.LoadImage(IntPtr.Zero, iconFile,
             //    PInvoke.User32.ImageType.IMAGE_ICON, 16, 16, PInvoke.User32.LoadImageFlags.LR_LOADFROMFILE);
 
             //PInvoke.User32.SendMessage(iconData.WindowHandle, PInvoke.User32.WindowMessage.WM_SETICON, (IntPtr)0, hIcon);

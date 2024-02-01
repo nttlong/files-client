@@ -1,0 +1,8 @@
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIWindows\obj\Debug\net7.0-maccatalyst\actool\_PartialAppManifest.items
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIWindows\obj\Debug\net7.0-maccatalyst\actool\_BundleResourceWithLogicalName.items
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIWindows\obj\Debug\net7.0-maccatalyst\actool\_ProcessedImageAssetsPath.items
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIWindows\obj\Debug\net7.0-maccatalyst\coremlc\_PartialAppManifest.items
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIWindows\obj\Debug\net7.0-maccatalyst\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIWindows\obj\Debug\net7.0-maccatalyst\coremlc\_ProcessedCoreMLModelsPath.items
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIWindows\obj\Debug\net7.0-maccatalyst\_ProcessedBundleResourcesPath.items
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIWindows\obj\Debug\net7.0-maccatalyst\_ProcessedContentPath.items

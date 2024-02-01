@@ -1,0 +1,13 @@
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIMacOs\bin\Debug\net7.0\UIMacOs.deps.json
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIMacOs\bin\Debug\net7.0\UIMacOs.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIMacOs\bin\Debug\net7.0\UIMacOs.pdb
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIMacOs\obj\Debug\net7.0\UIMacOs.csproj.AssemblyReference.cache
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIMacOs\obj\Debug\net7.0\UIMacOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIMacOs\obj\Debug\net7.0\UIMacOs.AssemblyInfoInputs.cache
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIMacOs\obj\Debug\net7.0\UIMacOs.AssemblyInfo.cs
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIMacOs\obj\Debug\net7.0\UIMacOs.csproj.CoreCompileInputs.cache
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIMacOs\obj\Debug\net7.0\UIMacOs.sourcelink.json
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIMacOs\obj\Debug\net7.0\UIMacOs.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIMacOs\obj\Debug\net7.0\refint\UIMacOs.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIMacOs\obj\Debug\net7.0\UIMacOs.pdb
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIMacOs\obj\Debug\net7.0\ref\UIMacOs.dll

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XWindows")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93660c4f634c6b54d88f6696a0eaf99455b5e166")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+47bc11cb91dc28d5c226138476c2dded6fc84c68")]
 [assembly: System.Reflection.AssemblyProductAttribute("XWindows")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XWindows")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,16 @@
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\bin\Debug\net7.0\UIImplements.deps.json
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\bin\Debug\net7.0\UIImplements.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\bin\Debug\net7.0\UIImplements.pdb
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\bin\Debug\net7.0\UIProviders.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\bin\Debug\net7.0\UIProviders.pdb
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\obj\Debug\net7.0\UIImplements.csproj.AssemblyReference.cache
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\obj\Debug\net7.0\UIImplements.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\obj\Debug\net7.0\UIImplements.AssemblyInfoInputs.cache
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\obj\Debug\net7.0\UIImplements.AssemblyInfo.cs
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\obj\Debug\net7.0\UIImplements.csproj.CoreCompileInputs.cache
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\obj\Debug\net7.0\UIImplements.sourcelink.json
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\obj\Debug\net7.0\UIImplements.csproj.CopyComplete
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\obj\Debug\net7.0\UIImplements.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\obj\Debug\net7.0\refint\UIImplements.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\obj\Debug\net7.0\UIImplements.pdb
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\obj\Debug\net7.0\ref\UIImplements.dll
