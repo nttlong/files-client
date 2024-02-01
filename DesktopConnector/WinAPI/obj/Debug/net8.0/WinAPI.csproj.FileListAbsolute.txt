@@ -1,6 +1,0 @@
-C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\WinAPI\obj\Debug\net8.0\WinAPI.csproj.AssemblyReference.cache
-C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\WinAPI\obj\Debug\net8.0\WinAPI.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\WinAPI\obj\Debug\net8.0\WinAPI.AssemblyInfoInputs.cache
-C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\WinAPI\obj\Debug\net8.0\WinAPI.AssemblyInfo.cs
-C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\WinAPI\obj\Debug\net8.0\WinAPI.csproj.CoreCompileInputs.cache
-C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\WinAPI\obj\Debug\net8.0\WinAPI.sourcelink.json
