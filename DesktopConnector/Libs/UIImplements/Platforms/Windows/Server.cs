@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
+using System.Net.WebSockets;
 using System.Text;
 using System.Threading.Tasks;
 using UIProviders;
@@ -11,17 +12,30 @@ namespace UIImplements
 {
     public class Server : IServer
     {
-        public Task RunAsync()
+        static WebSocketServer server = null;
+        public Task RunAsync(string url)
         {
             var ret = new Task(() =>
             {
-                
-                var server = new WebSocketServer("ws://127.0.0.1:8765");
-                server.AddWebSocketService<CodXDeskWebSocketBehavior>("/");
-                server.Start();
+                if (server == null)
+                {
+                    server = new WebSocketServer(url);
+                    server.AddWebSocketService<CodXDeskWebSocketBehavior>("/");
+                    server.Start();
+                }
             });
-
-            return ret;
+            Task.Delay(500);
+            new Task(() =>
+            {
+                using (var client = new ClientWebSocket())
+                {
+                    // Replace with the actual WebSocket server URL
+                    
+                    client.ConnectAsync(new Uri(url), CancellationToken.None).Wait();
+                }
+            }).Start();
+            
+                return ret;
         }
 
     }

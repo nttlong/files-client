@@ -13,13 +13,30 @@ namespace UIImplements
 {
     public class Server : IServer
     {
-        public async Task RunAsync()
+        static WebSocketServer server = null;
+        public Task RunAsync(string url)
         {
-            var server = new WebSocketServer("ws://localhost:8765");
-            server.AddWebSocketService<CodXDeskWebSocketBehavior>("/");
-            server.Start();
+            var ret = new Task(() =>
+            {
+                if (server == null)
+                {
+                    server = new WebSocketServer(url);
+                    server.AddWebSocketService<CodXDeskWebSocketBehavior>("/");
+                    server.Start();
+                }
+            });
+            Task.Delay(500);
+            new Task(() =>
+            {
+                using (var client = new ClientWebSocket())
+                {
+                    // Replace with the actual WebSocket server URL
 
-            await Task.Delay(-1); // Run forever until stopped
+                    client.ConnectAsync(new Uri(url), CancellationToken.None).Wait();
+                }
+            }).Start();
+
+            return ret;
         }
     }
 }

@@ -13,19 +13,10 @@ namespace UIImplements
         public void ShowNotification(string title,string body)
         {
             new ToastContentBuilder()
-                .AddText(title)
+            .AddText(title)
             .AddText(body)
             .Show();
-            //var ret = ToastContentBuilder.CreateProgressBarData
-            //   .AddToastActivationInfo(null, ToastActivationType.Foreground)
-            //   .AddAppLogoOverride(new Uri("ms-appx:///Assets/dotnet_bot.png"))
-            //   .AddText(title, hintStyle: AdaptiveTextStyle.Header)
-            //   .AddText(body, hintStyle: AdaptiveTextStyle.Body);
-            //#if WINDOWS_UWP
-
-
-//            ret.Show();
-//#endif
+            
         }
     }
 }

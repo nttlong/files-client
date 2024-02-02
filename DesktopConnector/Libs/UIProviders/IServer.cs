@@ -8,6 +8,6 @@ namespace UIProviders
 {
     public interface IServer
     {
-        Task RunAsync();
+        Task RunAsync(string url);
     }
 }
