@@ -16,6 +16,7 @@
           "Microsoft.Office.Interop.Word": "15.0.4797.1004",
           "Microsoft.Toolkit.Uwp.Notifications": "7.0.1",
           "NetOffice.Core": "1.7.4.11",
+          "NetOffice.Excel": "1.7.4.11",
           "NetOffice.Word": "1.7.4.11",
           "Newtonsoft.Json": "13.0.3",
           "PInvoke.User32": "0.7.124",
@@ -183,6 +184,17 @@
             "fileVersion": "1.7.3.0"
           },
           "lib/net45/VBIDEApi.dll": {
+            "assemblyVersion": "1.7.4.11",
+            "fileVersion": "1.7.3.0"
+          }
+        }
+      },
+      "NetOffice.Excel/1.7.4.11": {
+        "dependencies": {
+          "NetOffice.Core": "1.7.4.11"
+        },
+        "runtime": {
+          "lib/net45/ExcelApi.dll": {
             "assemblyVersion": "1.7.4.11",
             "fileVersion": "1.7.3.0"
           }
@@ -393,6 +405,13 @@
       "sha512": "sha512-voWeYFBjBET6y0kugZ7LUCJHBtT/ox/JFEscRdyqDXyooVdY246d19wVMr1ftXXD+30k5ZiClIGZbpOxHLFp0A==",
       "path": "netoffice.core/1.7.4.11",
       "hashPath": "netoffice.core.1.7.4.11.nupkg.sha512"
+    },
+    "NetOffice.Excel/1.7.4.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pEGj7uPzw8M0Dj1qj39f+/Z8cJNqBoosGM4u3OKw7o878MTurFTwfx5U+9VMv8NFB1XeNNuVyv857qZwO9eLKA==",
+      "path": "netoffice.excel/1.7.4.11",
+      "hashPath": "netoffice.excel.1.7.4.11.nupkg.sha512"
     },
     "NetOffice.Word/1.7.4.11": {
       "type": "package",

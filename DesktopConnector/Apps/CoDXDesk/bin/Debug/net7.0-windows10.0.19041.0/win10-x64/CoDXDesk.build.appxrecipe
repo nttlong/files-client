@@ -712,6 +712,9 @@
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\.nuget\packages\netoffice.core\1.7.4.11\lib\net45\VBIDEApi.dll">
       <PackagePath>VBIDEApi.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\.nuget\packages\netoffice.excel\1.7.4.11\lib\net45\ExcelApi.dll">
+      <PackagePath>ExcelApi.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\.nuget\packages\netoffice.word\1.7.4.11\lib\net45\WordApi.dll">
       <PackagePath>WordApi.dll</PackagePath>
     </AppxPackagedFile>

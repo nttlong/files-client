@@ -25,7 +25,7 @@ namespace UIImplements
             {"xml", "Word.Application"},
         };
 
-        public static Dictionary<string, string> NnotepadExtensions = new Dictionary<string, string>
+        public static Dictionary<string, string> NotepadExtensions = new Dictionary<string, string>
         {
             {"txt", "notepad.exe"},
             {"log", "notepad.exe"},

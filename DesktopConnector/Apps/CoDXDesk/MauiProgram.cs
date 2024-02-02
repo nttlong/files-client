@@ -38,7 +38,8 @@ namespace CoDXDesk
             services.AddSingleton<ILoggingService,LoggingService>();
             services.AddSingleton<IConfigService,ConfigService>();
             services.AddSingleton<IContentService,ContentService>();
-            services.AddSingleton<IWordService,WordService>();
+            services.AddSingleton<IOfficeService,OfficeService>();
+            
 #elif MACCATALYST
             services.AddSingleton<ITrayService, TrayService>();
             services.AddSingleton<INotificationService, NotificationService>();
@@ -46,7 +47,7 @@ namespace CoDXDesk
             services.AddSingleton<ILoggingService,LoggingService>();
             services.AddSingleton<IConfigService,ConfigService>();
             services.AddSingleton<IContentService,ContentService>();
-            services.AddSingleton<IWordService,WordService>();
+            services.AddSingleton<IOfficeService,OfficeService>();
 #endif
 
 #if DEBUG

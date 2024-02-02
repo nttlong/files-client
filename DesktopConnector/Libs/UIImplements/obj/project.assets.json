@@ -213,6 +213,22 @@
           }
         }
       },
+      "NetOffice.Excel/1.7.4.11": {
+        "type": "package",
+        "dependencies": {
+          "NetOffice.Core": "1.7.4.11"
+        },
+        "compile": {
+          "lib/net45/ExcelApi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/ExcelApi.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "NetOffice.Word/1.7.4.11": {
         "type": "package",
         "dependencies": {
@@ -608,6 +624,22 @@
             "related": ".xml"
           },
           "lib/net45/VBIDEApi.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NetOffice.Excel/1.7.4.11": {
+        "type": "package",
+        "dependencies": {
+          "NetOffice.Core": "1.7.4.11"
+        },
+        "compile": {
+          "lib/net45/ExcelApi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/ExcelApi.dll": {
             "related": ".xml"
           }
         }
@@ -2764,6 +2796,22 @@
           }
         }
       },
+      "NetOffice.Excel/1.7.4.11": {
+        "type": "package",
+        "dependencies": {
+          "NetOffice.Core": "1.7.4.11"
+        },
+        "compile": {
+          "lib/net45/ExcelApi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/ExcelApi.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "NetOffice.Word/1.7.4.11": {
         "type": "package",
         "dependencies": {
@@ -3158,6 +3206,22 @@
             "related": ".xml"
           },
           "lib/net45/VBIDEApi.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NetOffice.Excel/1.7.4.11": {
+        "type": "package",
+        "dependencies": {
+          "NetOffice.Core": "1.7.4.11"
+        },
+        "compile": {
+          "lib/net45/ExcelApi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/ExcelApi.dll": {
             "related": ".xml"
           }
         }
@@ -3744,6 +3808,22 @@
             "related": ".xml"
           },
           "lib/net45/VBIDEApi.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NetOffice.Excel/1.7.4.11": {
+        "type": "package",
+        "dependencies": {
+          "NetOffice.Core": "1.7.4.11"
+        },
+        "compile": {
+          "lib/net45/ExcelApi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/ExcelApi.dll": {
             "related": ".xml"
           }
         }
@@ -5446,6 +5526,29 @@
         "lib/net45/VBIDEApi.xml",
         "netoffice.core.1.7.4.11.nupkg.sha512",
         "netoffice.core.nuspec",
+        "tools/install.ps1"
+      ]
+    },
+    "NetOffice.Excel/1.7.4.11": {
+      "sha512": "pEGj7uPzw8M0Dj1qj39f+/Z8cJNqBoosGM4u3OKw7o878MTurFTwfx5U+9VMv8NFB1XeNNuVyv857qZwO9eLKA==",
+      "type": "package",
+      "path": "netoffice.excel/1.7.4.11",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/ExcelApi.dll",
+        "lib/net20/ExcelApi.xml",
+        "lib/net30/ExcelApi.dll",
+        "lib/net30/ExcelApi.xml",
+        "lib/net35/ExcelApi.dll",
+        "lib/net35/ExcelApi.xml",
+        "lib/net40/ExcelApi.dll",
+        "lib/net40/ExcelApi.xml",
+        "lib/net45/ExcelApi.dll",
+        "lib/net45/ExcelApi.xml",
+        "netoffice.excel.1.7.4.11.nupkg.sha512",
+        "netoffice.excel.nuspec",
         "tools/install.ps1"
       ]
     },
@@ -8001,6 +8104,7 @@
       "Microsoft.Office.Interop.Word >= 15.0.4797.1004",
       "Microsoft.Toolkit.Uwp.Notifications >= 7.0.1",
       "NetOffice.Core >= 1.7.4.11",
+      "NetOffice.Excel >= 1.7.4.11",
       "NetOffice.Word >= 1.7.4.11",
       "Newtonsoft.Json >= 13.0.3",
       "PInvoke.User32 >= 0.7.124",
@@ -8016,6 +8120,7 @@
       "Microsoft.Office.Interop.Word >= 15.0.4797.1004",
       "Microsoft.Toolkit.Uwp.Notifications >= 7.0.1",
       "NetOffice.Core >= 1.7.4.11",
+      "NetOffice.Excel >= 1.7.4.11",
       "NetOffice.Word >= 1.7.4.11",
       "Newtonsoft.Json >= 13.0.3",
       "PInvoke.User32 >= 0.7.124",
@@ -8044,6 +8149,7 @@
       "Microsoft.Office.Interop.Word >= 15.0.4797.1004",
       "Microsoft.Toolkit.Uwp.Notifications >= 7.0.1",
       "NetOffice.Core >= 1.7.4.11",
+      "NetOffice.Excel >= 1.7.4.11",
       "NetOffice.Word >= 1.7.4.11",
       "Newtonsoft.Json >= 13.0.3",
       "PInvoke.User32 >= 0.7.124",
@@ -8061,6 +8167,7 @@
       "Microsoft.Office.Interop.Word >= 15.0.4797.1004",
       "Microsoft.Toolkit.Uwp.Notifications >= 7.0.1",
       "NetOffice.Core >= 1.7.4.11",
+      "NetOffice.Excel >= 1.7.4.11",
       "NetOffice.Word >= 1.7.4.11",
       "Newtonsoft.Json >= 13.0.3",
       "PInvoke.User32 >= 0.7.124",
@@ -8078,6 +8185,7 @@
       "Microsoft.Toolkit.Uwp.Notifications >= 7.0.1",
       "Microsoft.WindowsAppSDK >= 1.2.221209.1",
       "NetOffice.Core >= 1.7.4.11",
+      "NetOffice.Excel >= 1.7.4.11",
       "NetOffice.Word >= 1.7.4.11",
       "Newtonsoft.Json >= 13.0.3",
       "PInvoke.User32 >= 0.7.124",
@@ -8222,6 +8330,10 @@
             "target": "Package",
             "version": "[1.7.4.11, )"
           },
+          "NetOffice.Excel": {
+            "target": "Package",
+            "version": "[1.7.4.11, )"
+          },
           "NetOffice.Word": {
             "target": "Package",
             "version": "[1.7.4.11, )"
@@ -8328,6 +8440,10 @@
             "version": "[7.0.1, )"
           },
           "NetOffice.Core": {
+            "target": "Package",
+            "version": "[1.7.4.11, )"
+          },
+          "NetOffice.Excel": {
             "target": "Package",
             "version": "[1.7.4.11, )"
           },
@@ -8513,6 +8629,10 @@
             "target": "Package",
             "version": "[1.7.4.11, )"
           },
+          "NetOffice.Excel": {
+            "target": "Package",
+            "version": "[1.7.4.11, )"
+          },
           "NetOffice.Word": {
             "target": "Package",
             "version": "[1.7.4.11, )"
@@ -8626,6 +8746,10 @@
             "version": "[7.0.1, )"
           },
           "NetOffice.Core": {
+            "target": "Package",
+            "version": "[1.7.4.11, )"
+          },
+          "NetOffice.Excel": {
             "target": "Package",
             "version": "[1.7.4.11, )"
           },
@@ -8746,6 +8870,10 @@
             "target": "Package",
             "version": "[1.7.4.11, )"
           },
+          "NetOffice.Excel": {
+            "target": "Package",
+            "version": "[1.7.4.11, )"
+          },
           "NetOffice.Word": {
             "target": "Package",
             "version": "[1.7.4.11, )"
@@ -8820,6 +8948,16 @@
       "warningLevel": 1,
       "message": "Package 'NetOffice.Core 1.7.4.11' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
       "libraryId": "NetOffice.Core",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'NetOffice.Excel 1.7.4.11' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "NetOffice.Excel",
       "targetGraphs": [
         "net7.0"
       ]

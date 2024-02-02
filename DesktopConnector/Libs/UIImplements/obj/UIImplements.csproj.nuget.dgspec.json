@@ -197,6 +197,10 @@
               "target": "Package",
               "version": "[1.7.4.11, )"
             },
+            "NetOffice.Excel": {
+              "target": "Package",
+              "version": "[1.7.4.11, )"
+            },
             "NetOffice.Word": {
               "target": "Package",
               "version": "[1.7.4.11, )"
@@ -303,6 +307,10 @@
               "version": "[7.0.1, )"
             },
             "NetOffice.Core": {
+              "target": "Package",
+              "version": "[1.7.4.11, )"
+            },
+            "NetOffice.Excel": {
               "target": "Package",
               "version": "[1.7.4.11, )"
             },
@@ -488,6 +496,10 @@
               "target": "Package",
               "version": "[1.7.4.11, )"
             },
+            "NetOffice.Excel": {
+              "target": "Package",
+              "version": "[1.7.4.11, )"
+            },
             "NetOffice.Word": {
               "target": "Package",
               "version": "[1.7.4.11, )"
@@ -601,6 +613,10 @@
               "version": "[7.0.1, )"
             },
             "NetOffice.Core": {
+              "target": "Package",
+              "version": "[1.7.4.11, )"
+            },
+            "NetOffice.Excel": {
               "target": "Package",
               "version": "[1.7.4.11, )"
             },
@@ -718,6 +734,10 @@
               "autoReferenced": true
             },
             "NetOffice.Core": {
+              "target": "Package",
+              "version": "[1.7.4.11, )"
+            },
+            "NetOffice.Excel": {
               "target": "Package",
               "version": "[1.7.4.11, )"
             },

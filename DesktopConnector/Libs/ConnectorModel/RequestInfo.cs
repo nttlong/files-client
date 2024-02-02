@@ -19,5 +19,6 @@
         public string? HashContent { get; set; }
         public string? FilePath { get; set; }
         public string? TrackFilePath { get; set; }
+        public string? RequestId { get; set; }
     }
 }

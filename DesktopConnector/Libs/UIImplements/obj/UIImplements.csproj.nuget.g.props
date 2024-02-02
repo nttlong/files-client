@@ -29,28 +29,33 @@
     <PkgValidation Condition=" '$(PkgValidation)' == '' ">C:\Users\admin.NTTLONG\.nuget\packages\validation\2.4.15</PkgValidation>
     <PkgNetOffice_Core Condition=" '$(PkgNetOffice_Core)' == '' ">C:\Users\admin.NTTLONG\.nuget\packages\netoffice.core\1.7.4.11</PkgNetOffice_Core>
     <PkgNetOffice_Word Condition=" '$(PkgNetOffice_Word)' == '' ">C:\Users\admin.NTTLONG\.nuget\packages\netoffice.word\1.7.4.11</PkgNetOffice_Word>
+    <PkgNetOffice_Excel Condition=" '$(PkgNetOffice_Excel)' == '' ">C:\Users\admin.NTTLONG\.nuget\packages\netoffice.excel\1.7.4.11</PkgNetOffice_Excel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(TargetFramework)' == 'net7.0-android' AND '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgValidation Condition=" '$(PkgValidation)' == '' ">C:\Users\admin.NTTLONG\.nuget\packages\validation\2.4.15</PkgValidation>
     <PkgNetOffice_Core Condition=" '$(PkgNetOffice_Core)' == '' ">C:\Users\admin.NTTLONG\.nuget\packages\netoffice.core\1.7.4.11</PkgNetOffice_Core>
     <PkgNetOffice_Word Condition=" '$(PkgNetOffice_Word)' == '' ">C:\Users\admin.NTTLONG\.nuget\packages\netoffice.word\1.7.4.11</PkgNetOffice_Word>
+    <PkgNetOffice_Excel Condition=" '$(PkgNetOffice_Excel)' == '' ">C:\Users\admin.NTTLONG\.nuget\packages\netoffice.excel\1.7.4.11</PkgNetOffice_Excel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(TargetFramework)' == 'net7.0-ios' AND '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgValidation Condition=" '$(PkgValidation)' == '' ">C:\Users\admin.NTTLONG\.nuget\packages\validation\2.4.15</PkgValidation>
     <PkgNetOffice_Core Condition=" '$(PkgNetOffice_Core)' == '' ">C:\Users\admin.NTTLONG\.nuget\packages\netoffice.core\1.7.4.11</PkgNetOffice_Core>
     <PkgNetOffice_Word Condition=" '$(PkgNetOffice_Word)' == '' ">C:\Users\admin.NTTLONG\.nuget\packages\netoffice.word\1.7.4.11</PkgNetOffice_Word>
+    <PkgNetOffice_Excel Condition=" '$(PkgNetOffice_Excel)' == '' ">C:\Users\admin.NTTLONG\.nuget\packages\netoffice.excel\1.7.4.11</PkgNetOffice_Excel>
     <PkgMicrosoft_NET_ILLink_Tasks Condition=" '$(PkgMicrosoft_NET_ILLink_Tasks)' == '' ">C:\Users\admin.NTTLONG\.nuget\packages\microsoft.net.illink.tasks\7.0.100-1.23211.1</PkgMicrosoft_NET_ILLink_Tasks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(TargetFramework)' == 'net7.0-maccatalyst' AND '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgValidation Condition=" '$(PkgValidation)' == '' ">C:\Users\admin.NTTLONG\.nuget\packages\validation\2.4.15</PkgValidation>
     <PkgNetOffice_Core Condition=" '$(PkgNetOffice_Core)' == '' ">C:\Users\admin.NTTLONG\.nuget\packages\netoffice.core\1.7.4.11</PkgNetOffice_Core>
     <PkgNetOffice_Word Condition=" '$(PkgNetOffice_Word)' == '' ">C:\Users\admin.NTTLONG\.nuget\packages\netoffice.word\1.7.4.11</PkgNetOffice_Word>
+    <PkgNetOffice_Excel Condition=" '$(PkgNetOffice_Excel)' == '' ">C:\Users\admin.NTTLONG\.nuget\packages\netoffice.excel\1.7.4.11</PkgNetOffice_Excel>
     <PkgMicrosoft_NET_ILLink_Tasks Condition=" '$(PkgMicrosoft_NET_ILLink_Tasks)' == '' ">C:\Users\admin.NTTLONG\.nuget\packages\microsoft.net.illink.tasks\7.0.100-1.23211.1</PkgMicrosoft_NET_ILLink_Tasks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(TargetFramework)' == 'net7.0-windows10.0.19041.0' AND '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgValidation Condition=" '$(PkgValidation)' == '' ">C:\Users\admin.NTTLONG\.nuget\packages\validation\2.4.15</PkgValidation>
     <PkgNetOffice_Core Condition=" '$(PkgNetOffice_Core)' == '' ">C:\Users\admin.NTTLONG\.nuget\packages\netoffice.core\1.7.4.11</PkgNetOffice_Core>
     <PkgNetOffice_Word Condition=" '$(PkgNetOffice_Word)' == '' ">C:\Users\admin.NTTLONG\.nuget\packages\netoffice.word\1.7.4.11</PkgNetOffice_Word>
+    <PkgNetOffice_Excel Condition=" '$(PkgNetOffice_Excel)' == '' ">C:\Users\admin.NTTLONG\.nuget\packages\netoffice.excel\1.7.4.11</PkgNetOffice_Excel>
     <PkgMicrosoft_WindowsAppSDK Condition=" '$(PkgMicrosoft_WindowsAppSDK)' == '' ">C:\Users\admin.NTTLONG\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1</PkgMicrosoft_WindowsAppSDK>
   </PropertyGroup>
 </Project>

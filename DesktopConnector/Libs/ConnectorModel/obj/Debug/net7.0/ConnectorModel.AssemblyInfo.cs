@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConnectorModel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a233ac4d2d4742597d4296026ace3069d4e062c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+50dc84fd27387cab9258fb1d6d91005474a5a562")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConnectorModel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConnectorModel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
