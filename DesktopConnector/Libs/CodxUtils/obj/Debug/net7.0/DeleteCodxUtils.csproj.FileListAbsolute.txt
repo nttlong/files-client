@@ -1,0 +1,16 @@
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxUtils\bin\Debug\net7.0\DeleteCodxUtils.deps.json
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxUtils\bin\Debug\net7.0\DeleteCodxUtils.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxUtils\bin\Debug\net7.0\DeleteCodxUtils.pdb
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxUtils\bin\Debug\net7.0\ConnectorModel.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxUtils\bin\Debug\net7.0\ConnectorModel.pdb
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxUtils\obj\Debug\net7.0\DeleteCodxUtils.csproj.AssemblyReference.cache
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxUtils\obj\Debug\net7.0\DeleteCodxUtils.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxUtils\obj\Debug\net7.0\DeleteCodxUtils.AssemblyInfoInputs.cache
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxUtils\obj\Debug\net7.0\DeleteCodxUtils.AssemblyInfo.cs
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxUtils\obj\Debug\net7.0\DeleteCodxUtils.csproj.CoreCompileInputs.cache
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxUtils\obj\Debug\net7.0\DeleteCodxUtils.sourcelink.json
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxUtils\obj\Debug\net7.0\DeleteCodxUtils.csproj.CopyComplete
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxUtils\obj\Debug\net7.0\DeleteCodxUtils.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxUtils\obj\Debug\net7.0\refint\DeleteCodxUtils.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxUtils\obj\Debug\net7.0\DeleteCodxUtils.pdb
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxUtils\obj\Debug\net7.0\ref\DeleteCodxUtils.dll

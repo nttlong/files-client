@@ -4,6 +4,8 @@ using UIProviders;
 using Microsoft.Maui.LifecycleEvents;
 using System.Xml;
 using CodxDesk;
+using Microsoft.Maui.Controls.PlatformConfiguration;
+
 namespace CoDXDesk
 {
     public static class MauiProgram
@@ -22,9 +24,6 @@ namespace CoDXDesk
                 ServiceAssistent.GetService<IServer>().RunAsync("ws://127.0.0.1:8765").Start();
 #if WINDOWS
                 lifecycle.AddWindows(windows => windows.OnWindowCreated((del) => {
-                    var hwnd= ((Microsoft.Maui.MauiWinUIWindow)del).WindowHandle;
-                    
-                    WinApi.SendMessage(hwnd, WinApi.WM_SYSCOMMAND, new IntPtr(WinApi.SC_MINIMIZE), IntPtr.Zero);
                     del.ExtendsContentIntoTitleBar = true;
                 }));
 
@@ -36,20 +35,28 @@ namespace CoDXDesk
             services.AddSingleton<IServer, Server>();
             services.AddSingleton<ITrayService, TrayService>();
             services.AddSingleton<INotificationService, NotificationService>();
+            services.AddSingleton<ILoggingService,LoggingService>();
+            services.AddSingleton<IConfigService,ConfigService>();
+            services.AddSingleton<IContentService,ContentService>();
+            services.AddSingleton<IWordService,WordService>();
 #elif MACCATALYST
             services.AddSingleton<ITrayService, TrayService>();
             services.AddSingleton<INotificationService, NotificationService>();
             services.AddSingleton<IServer, Server>();
+            services.AddSingleton<ILoggingService,LoggingService>();
+            services.AddSingleton<IConfigService,ConfigService>();
+            services.AddSingleton<IContentService,ContentService>();
+            services.AddSingleton<IWordService,WordService>();
 #endif
 
 #if DEBUG
             builder.Logging.AddDebug();
 #endif
 
-//#if WINDOWS
-//            var fx = new UIImplements.Server();
-//            fx.RunAsync().Start();
-//#endif
+            //#if WINDOWS
+            //            var fx = new UIImplements.Server();
+            //            fx.RunAsync().Start();
+            //#endif
             
             return builder.Build();
         }

@@ -13,6 +13,15 @@ namespace UIImplements
     public class Server : IServer
     {
         static WebSocketServer server = null;
+        static IConfigService configService = null;
+        public Server()
+        {
+            if (configService == null)
+            {
+                configService = ServiceAssistent.GetService<IConfigService>();
+            }
+            configService.initialize();
+        }
         public Task RunAsync(string url)
         {
             var ret = new Task(() =>

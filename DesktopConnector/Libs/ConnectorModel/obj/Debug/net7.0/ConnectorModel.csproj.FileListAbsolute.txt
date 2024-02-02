@@ -1,0 +1,12 @@
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\ConnectorModel\bin\Debug\net7.0\ConnectorModel.deps.json
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\ConnectorModel\bin\Debug\net7.0\ConnectorModel.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\ConnectorModel\bin\Debug\net7.0\ConnectorModel.pdb
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\ConnectorModel\obj\Debug\net7.0\ConnectorModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\ConnectorModel\obj\Debug\net7.0\ConnectorModel.AssemblyInfoInputs.cache
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\ConnectorModel\obj\Debug\net7.0\ConnectorModel.AssemblyInfo.cs
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\ConnectorModel\obj\Debug\net7.0\ConnectorModel.csproj.CoreCompileInputs.cache
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\ConnectorModel\obj\Debug\net7.0\ConnectorModel.sourcelink.json
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\ConnectorModel\obj\Debug\net7.0\ConnectorModel.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\ConnectorModel\obj\Debug\net7.0\refint\ConnectorModel.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\ConnectorModel\obj\Debug\net7.0\ConnectorModel.pdb
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\ConnectorModel\obj\Debug\net7.0\ref\ConnectorModel.dll

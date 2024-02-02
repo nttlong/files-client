@@ -4,6 +4,66 @@
     "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\UIImplements\\UIImplements.csproj": {}
   },
   "projects": {
+    "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\ConnectorModel\\ConnectorModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\ConnectorModel\\ConnectorModel.csproj",
+        "projectName": "ConnectorModel",
+        "projectPath": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\ConnectorModel\\ConnectorModel.csproj",
+        "packagesPath": "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\ConnectorModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin.NTTLONG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\UIImplements\\UIImplements.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -38,6 +98,9 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
+              "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\ConnectorModel\\ConnectorModel.csproj": {
+                "projectPath": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\ConnectorModel\\ConnectorModel.csproj"
+              },
               "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\UIProviders\\UIProviders.csproj": {
                 "projectPath": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\UIProviders\\UIProviders.csproj"
               }
@@ -46,6 +109,9 @@
           "net7.0-android33.0": {
             "targetAlias": "net7.0-android",
             "projectReferences": {
+              "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\ConnectorModel\\ConnectorModel.csproj": {
+                "projectPath": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\ConnectorModel\\ConnectorModel.csproj"
+              },
               "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\UIProviders\\UIProviders.csproj": {
                 "projectPath": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\UIProviders\\UIProviders.csproj"
               }
@@ -54,6 +120,9 @@
           "net7.0-ios16.1": {
             "targetAlias": "net7.0-ios",
             "projectReferences": {
+              "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\ConnectorModel\\ConnectorModel.csproj": {
+                "projectPath": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\ConnectorModel\\ConnectorModel.csproj"
+              },
               "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\UIProviders\\UIProviders.csproj": {
                 "projectPath": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\UIProviders\\UIProviders.csproj"
               }
@@ -62,6 +131,9 @@
           "net7.0-maccatalyst16.1": {
             "targetAlias": "net7.0-maccatalyst",
             "projectReferences": {
+              "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\ConnectorModel\\ConnectorModel.csproj": {
+                "projectPath": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\ConnectorModel\\ConnectorModel.csproj"
+              },
               "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\UIProviders\\UIProviders.csproj": {
                 "projectPath": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\UIProviders\\UIProviders.csproj"
               }
@@ -70,6 +142,9 @@
           "net7.0-windows10.0.19041": {
             "targetAlias": "net7.0-windows10.0.19041.0",
             "projectReferences": {
+              "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\ConnectorModel\\ConnectorModel.csproj": {
+                "projectPath": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\ConnectorModel\\ConnectorModel.csproj"
+              },
               "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\UIProviders\\UIProviders.csproj": {
                 "projectPath": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\UIProviders\\UIProviders.csproj"
               }
@@ -110,9 +185,25 @@
               "version": "[7.0.101, )",
               "autoReferenced": true
             },
+            "Microsoft.Office.Interop.Word": {
+              "target": "Package",
+              "version": "[15.0.4797.1004, )"
+            },
             "Microsoft.Toolkit.Uwp.Notifications": {
               "target": "Package",
               "version": "[7.0.1, )"
+            },
+            "NetOffice.Core": {
+              "target": "Package",
+              "version": "[1.7.4.11, )"
+            },
+            "NetOffice.Word": {
+              "target": "Package",
+              "version": "[1.7.4.11, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "PInvoke.User32": {
               "target": "Package",
@@ -203,9 +294,25 @@
               "version": "[7.0.101, )",
               "autoReferenced": true
             },
+            "Microsoft.Office.Interop.Word": {
+              "target": "Package",
+              "version": "[15.0.4797.1004, )"
+            },
             "Microsoft.Toolkit.Uwp.Notifications": {
               "target": "Package",
               "version": "[7.0.1, )"
+            },
+            "NetOffice.Core": {
+              "target": "Package",
+              "version": "[1.7.4.11, )"
+            },
+            "NetOffice.Word": {
+              "target": "Package",
+              "version": "[1.7.4.11, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "PInvoke.User32": {
               "target": "Package",
@@ -369,9 +476,25 @@
               "version": "[7.0.100-1.23211.1, )",
               "autoReferenced": true
             },
+            "Microsoft.Office.Interop.Word": {
+              "target": "Package",
+              "version": "[15.0.4797.1004, )"
+            },
             "Microsoft.Toolkit.Uwp.Notifications": {
               "target": "Package",
               "version": "[7.0.1, )"
+            },
+            "NetOffice.Core": {
+              "target": "Package",
+              "version": "[1.7.4.11, )"
+            },
+            "NetOffice.Word": {
+              "target": "Package",
+              "version": "[1.7.4.11, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "PInvoke.User32": {
               "target": "Package",
@@ -469,9 +592,25 @@
               "version": "[7.0.100-1.23211.1, )",
               "autoReferenced": true
             },
+            "Microsoft.Office.Interop.Word": {
+              "target": "Package",
+              "version": "[15.0.4797.1004, )"
+            },
             "Microsoft.Toolkit.Uwp.Notifications": {
               "target": "Package",
               "version": "[7.0.1, )"
+            },
+            "NetOffice.Core": {
+              "target": "Package",
+              "version": "[1.7.4.11, )"
+            },
+            "NetOffice.Word": {
+              "target": "Package",
+              "version": "[1.7.4.11, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "PInvoke.User32": {
               "target": "Package",
@@ -564,6 +703,10 @@
               "version": "[7.0.101, )",
               "autoReferenced": true
             },
+            "Microsoft.Office.Interop.Word": {
+              "target": "Package",
+              "version": "[15.0.4797.1004, )"
+            },
             "Microsoft.Toolkit.Uwp.Notifications": {
               "target": "Package",
               "version": "[7.0.1, )"
@@ -573,6 +716,18 @@
               "target": "Package",
               "version": "[1.2.221209.1, )",
               "autoReferenced": true
+            },
+            "NetOffice.Core": {
+              "target": "Package",
+              "version": "[1.7.4.11, )"
+            },
+            "NetOffice.Word": {
+              "target": "Package",
+              "version": "[1.7.4.11, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "PInvoke.User32": {
               "target": "Package",
@@ -661,7 +816,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\ConnectorModel\\ConnectorModel.csproj": {
+                "projectPath": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\ConnectorModel\\ConnectorModel.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

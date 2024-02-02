@@ -1,6 +1,6 @@
 ﻿using UIProviders;
 using UIImplements;
-using CodxServer;
+
 namespace CoDXDesk
 {
     public partial class AppShell : Shell

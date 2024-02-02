@@ -1,0 +1,14 @@
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxUtils\obj\Debug\net7.0-maccatalyst\actool\_PartialAppManifest.items
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxUtils\obj\Debug\net7.0-maccatalyst\actool\_BundleResourceWithLogicalName.items
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxUtils\obj\Debug\net7.0-maccatalyst\actool\_ProcessedImageAssetsPath.items
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxUtils\obj\Debug\net7.0-maccatalyst\coremlc\_PartialAppManifest.items
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxUtils\obj\Debug\net7.0-maccatalyst\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxUtils\obj\Debug\net7.0-maccatalyst\coremlc\_ProcessedCoreMLModelsPath.items
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxUtils\obj\Debug\net7.0-maccatalyst\_ProcessedBundleResourcesPath.items
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxUtils\obj\Debug\net7.0-maccatalyst\_ProcessedContentPath.items
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxUtils\obj\Debug\net7.0-maccatalyst\DeleteCodxUtils.csproj.AssemblyReference.cache
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxUtils\obj\Debug\net7.0-maccatalyst\DeleteCodxUtils.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxUtils\obj\Debug\net7.0-maccatalyst\DeleteCodxUtils.AssemblyInfoInputs.cache
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxUtils\obj\Debug\net7.0-maccatalyst\DeleteCodxUtils.AssemblyInfo.cs
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxUtils\obj\Debug\net7.0-maccatalyst\DeleteCodxUtils.csproj.CoreCompileInputs.cache
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxUtils\obj\Debug\net7.0-maccatalyst\DeleteCodxUtils.sourcelink.json

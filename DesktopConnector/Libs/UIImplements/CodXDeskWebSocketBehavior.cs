@@ -6,15 +6,45 @@ using System.Threading.Tasks;
 using WebSocketSharp.Server;
 using WebSocketSharp;
 using UIProviders;
+using ConnectorModel;
+
 namespace UIImplements
 {
     public class CodXDeskWebSocketBehavior : WebSocketBehavior
     {
+        private IConfigService config;
+        private INotificationService notifyService;
+        private IContentService contentService;
+        private IWordService wordService;
+
+        public CodXDeskWebSocketBehavior() {
+            config = ServiceAssistent.GetService<IConfigService>();
+            notifyService = ServiceAssistent.GetService<INotificationService>();
+            contentService = ServiceAssistent.GetService<IContentService>();
+            wordService = ServiceAssistent.GetService<IWordService>();
+        }
         protected override void OnMessage(MessageEventArgs e)
         {
-            ServiceAssistent.GetService<UIProviders.INotificationService>().ShowNotification("Da nhan duoc file", "File da nhan");
+            var requestId = Utils.DataHashing.HashText(e.Data);
+            
+            var info = Newtonsoft.Json.JsonConvert.DeserializeObject<RequestInfo>(e.Data);
+            if (DocSupports.AppWordMappingDict.ContainsKey(info.ResourceExt))
+            {
+                info.TrackFilePath = Path.Combine(this.config.GetTrackDir(), requestId + ".txt");
+                info.FilePath = Path.Combine(this.config.GetContentDir(), requestId);
 
-            Console.WriteLine(e.Data);
+                File.WriteAllText(info.TrackFilePath, e.Data);
+                notifyService.ShowNotification("Dowload", "...");
+                contentService.Download(info.Src, info.FilePath);
+                this.wordService.OpenFile(info.FilePath);
+            }
+            else
+            {
+                notifyService.ShowNotification("Error", "File type is not support");
+            }
+
+
+
         }
         protected override void OnOpen()
         {

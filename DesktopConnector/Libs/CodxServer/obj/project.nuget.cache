@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h4Uw/C82SqvZdKWbbh+JPaCQk8QAtwUDSKbZI/imcl0hcyhLr4eqkMsBodpckrPmft0ExZVHM99GNkvoicF1mA==",
+  "dgSpecHash": "XJsnNZZ1GNiZDLhwlzQQYR5/d8URFXFEH4xKu7bPWX0BDxahFaC9kF8x3mHI2ljr+MKX7Y6W0i0oqje1pKqqZw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\CodxServer\\CodxServer.csproj",
+  "projectFilePath": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\CodxServer\\DeleteCodxServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",

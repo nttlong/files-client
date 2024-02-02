@@ -7352,9 +7352,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\CodxServer\\CodxServer.csproj",
-      "projectName": "CodxServer",
-      "projectPath": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\CodxServer\\CodxServer.csproj",
+      "projectUniqueName": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\CodxServer\\DeleteCodxServer.csproj",
+      "projectName": "DeleteCodxServer",
+      "projectPath": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\CodxServer\\DeleteCodxServer.csproj",
       "packagesPath": "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\CodxServer\\obj\\",
       "projectStyle": "PackageReference",

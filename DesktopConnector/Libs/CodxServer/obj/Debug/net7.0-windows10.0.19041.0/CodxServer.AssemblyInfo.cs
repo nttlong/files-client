@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CodxServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02e369a5e18ca39480b5b2211ec60fc80d8a6681")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a233ac4d2d4742597d4296026ace3069d4e062c")]
 [assembly: System.Reflection.AssemblyProductAttribute("CodxServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CodxServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

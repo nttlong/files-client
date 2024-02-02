@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "ConnectorModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/ConnectorModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ConnectorModel.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ConnectorModel/1.0.0": {
+      "type": "project",
+      "path": "../ConnectorModel/ConnectorModel.csproj",
+      "msbuildProject": "../ConnectorModel/ConnectorModel.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "ConnectorModel >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\": {},
@@ -39,7 +58,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\ConnectorModel\\ConnectorModel.csproj": {
+              "projectPath": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\ConnectorModel\\ConnectorModel.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

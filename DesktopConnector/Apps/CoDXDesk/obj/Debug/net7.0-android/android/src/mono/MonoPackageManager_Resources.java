@@ -19,7 +19,9 @@ public class MonoPackageManager_Resources {
 		"Microsoft.Extensions.Options.dll",
 		"Microsoft.Extensions.Primitives.dll",
 		"Microsoft.Maui.Graphics.dll",
+		"Microsoft.Office.Interop.Word.dll",
 		"Microsoft.Toolkit.Uwp.Notifications.dll",
+		"Newtonsoft.Json.dll",
 		"PInvoke.Kernel32.dll",
 		"PInvoke.User32.dll",
 		"PInvoke.Windows.Core.dll",
@@ -107,7 +109,7 @@ public class MonoPackageManager_Resources {
 		"Xamarin.Kotlin.StdLib.Jdk8.dll",
 		"Xamarin.KotlinX.Coroutines.Android.dll",
 		"Xamarin.KotlinX.Coroutines.Core.Jvm.dll",
-		"CodxServer.dll",
+		"ConnectorModel.dll",
 		"UIImplements.dll",
 		"UIProviders.dll",
 	};

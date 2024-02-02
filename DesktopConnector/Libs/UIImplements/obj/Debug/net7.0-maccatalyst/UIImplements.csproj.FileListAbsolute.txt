@@ -1,7 +1,3 @@
-C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\bin\Debug\net7.0-maccatalyst\UIImplements.dll
-C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\bin\Debug\net7.0-maccatalyst\UIImplements.pdb
-C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\bin\Debug\net7.0-maccatalyst\UIProviders.dll
-C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\bin\Debug\net7.0-maccatalyst\UIProviders.pdb
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\obj\Debug\net7.0-maccatalyst\actool\_PartialAppManifest.items
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\obj\Debug\net7.0-maccatalyst\actool\_BundleResourceWithLogicalName.items
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\obj\Debug\net7.0-maccatalyst\actool\_ProcessedImageAssetsPath.items
@@ -16,6 +12,12 @@ C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImpleme
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\obj\Debug\net7.0-maccatalyst\UIImplements.AssemblyInfo.cs
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\obj\Debug\net7.0-maccatalyst\UIImplements.csproj.CoreCompileInputs.cache
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\obj\Debug\net7.0-maccatalyst\UIImplements.sourcelink.json
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\bin\Debug\net7.0-maccatalyst\UIImplements.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\bin\Debug\net7.0-maccatalyst\UIImplements.pdb
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\bin\Debug\net7.0-maccatalyst\ConnectorModel.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\bin\Debug\net7.0-maccatalyst\UIProviders.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\bin\Debug\net7.0-maccatalyst\ConnectorModel.pdb
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\bin\Debug\net7.0-maccatalyst\UIProviders.pdb
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\obj\Debug\net7.0-maccatalyst\UIImplements.csproj.CopyComplete
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\obj\Debug\net7.0-maccatalyst\UIImplements.dll
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\obj\Debug\net7.0-maccatalyst\refint\UIImplements.dll

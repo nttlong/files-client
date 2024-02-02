@@ -1,0 +1,16 @@
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxUtils\bin\Debug\net7.0\CodxUtils.deps.json
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxUtils\bin\Debug\net7.0\CodxUtils.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxUtils\bin\Debug\net7.0\CodxUtils.pdb
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxUtils\bin\Debug\net7.0\ConnectorModel.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxUtils\bin\Debug\net7.0\ConnectorModel.pdb
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxUtils\obj\Debug\net7.0\CodxUtils.csproj.AssemblyReference.cache
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxUtils\obj\Debug\net7.0\CodxUtils.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxUtils\obj\Debug\net7.0\CodxUtils.AssemblyInfoInputs.cache
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxUtils\obj\Debug\net7.0\CodxUtils.AssemblyInfo.cs
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxUtils\obj\Debug\net7.0\CodxUtils.csproj.CoreCompileInputs.cache
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxUtils\obj\Debug\net7.0\CodxUtils.sourcelink.json
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxUtils\obj\Debug\net7.0\CodxUtils.csproj.CopyComplete
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxUtils\obj\Debug\net7.0\CodxUtils.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxUtils\obj\Debug\net7.0\refint\CodxUtils.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxUtils\obj\Debug\net7.0\CodxUtils.pdb
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxUtils\obj\Debug\net7.0\ref\CodxUtils.dll

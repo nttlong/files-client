@@ -1,7 +1,3 @@
-C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\bin\Debug\net7.0-ios\UIImplements.dll
-C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\bin\Debug\net7.0-ios\UIImplements.pdb
-C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\bin\Debug\net7.0-ios\UIProviders.dll
-C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\bin\Debug\net7.0-ios\UIProviders.pdb
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\obj\Debug\net7.0-ios\actool\_PartialAppManifest.items
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\obj\Debug\net7.0-ios\actool\_BundleResourceWithLogicalName.items
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\obj\Debug\net7.0-ios\actool\_ProcessedImageAssetsPath.items
@@ -16,6 +12,12 @@ C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImpleme
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\obj\Debug\net7.0-ios\UIImplements.AssemblyInfo.cs
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\obj\Debug\net7.0-ios\UIImplements.csproj.CoreCompileInputs.cache
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\obj\Debug\net7.0-ios\UIImplements.sourcelink.json
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\bin\Debug\net7.0-ios\UIImplements.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\bin\Debug\net7.0-ios\UIImplements.pdb
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\bin\Debug\net7.0-ios\ConnectorModel.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\bin\Debug\net7.0-ios\UIProviders.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\bin\Debug\net7.0-ios\ConnectorModel.pdb
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\bin\Debug\net7.0-ios\UIProviders.pdb
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\obj\Debug\net7.0-ios\UIImplements.csproj.CopyComplete
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\obj\Debug\net7.0-ios\UIImplements.dll
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\obj\Debug\net7.0-ios\refint\UIImplements.dll

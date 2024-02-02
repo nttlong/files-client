@@ -1,0 +1,14 @@
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\DeskConnector\obj\Debug\net7.0-maccatalyst\actool\_PartialAppManifest.items
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\DeskConnector\obj\Debug\net7.0-maccatalyst\actool\_BundleResourceWithLogicalName.items
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\DeskConnector\obj\Debug\net7.0-maccatalyst\actool\_ProcessedImageAssetsPath.items
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\DeskConnector\obj\Debug\net7.0-maccatalyst\coremlc\_PartialAppManifest.items
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\DeskConnector\obj\Debug\net7.0-maccatalyst\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\DeskConnector\obj\Debug\net7.0-maccatalyst\coremlc\_ProcessedCoreMLModelsPath.items
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\DeskConnector\obj\Debug\net7.0-maccatalyst\_ProcessedBundleResourcesPath.items
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\DeskConnector\obj\Debug\net7.0-maccatalyst\_ProcessedContentPath.items
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\DeskConnector\obj\Debug\net7.0-maccatalyst\deleteDeskConnector.csproj.AssemblyReference.cache
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\DeskConnector\obj\Debug\net7.0-maccatalyst\deleteDeskConnector.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\DeskConnector\obj\Debug\net7.0-maccatalyst\deleteDeskConnector.AssemblyInfoInputs.cache
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\DeskConnector\obj\Debug\net7.0-maccatalyst\deleteDeskConnector.AssemblyInfo.cs
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\DeskConnector\obj\Debug\net7.0-maccatalyst\deleteDeskConnector.csproj.CoreCompileInputs.cache
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\DeskConnector\obj\Debug\net7.0-maccatalyst\deleteDeskConnector.sourcelink.json

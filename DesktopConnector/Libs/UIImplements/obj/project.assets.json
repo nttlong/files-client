@@ -163,6 +163,15 @@
           }
         }
       },
+      "Microsoft.Office.Interop.Word/15.0.4797.1004": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Office.Interop.Word.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Office.Interop.Word.dll": {}
+        }
+      },
       "Microsoft.Toolkit.Uwp.Notifications/7.0.1": {
         "type": "package",
         "dependencies": {
@@ -176,6 +185,60 @@
         "runtime": {
           "lib/net5.0/Microsoft.Toolkit.Uwp.Notifications.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "NetOffice.Core/1.7.4.11": {
+        "type": "package",
+        "compile": {
+          "lib/net45/NetOffice.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/OfficeApi.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/VBIDEApi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/NetOffice.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/OfficeApi.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/VBIDEApi.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NetOffice.Word/1.7.4.11": {
+        "type": "package",
+        "dependencies": {
+          "NetOffice.Core": "1.7.4.11"
+        },
+        "compile": {
+          "lib/net45/WordApi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/WordApi.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -300,9 +363,22 @@
           }
         }
       },
+      "ConnectorModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/ConnectorModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ConnectorModel.dll": {}
+        }
+      },
       "UIProviders/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "ConnectorModel": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/UIProviders.dll": {}
         },
@@ -486,6 +562,15 @@
           }
         }
       },
+      "Microsoft.Office.Interop.Word/15.0.4797.1004": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Office.Interop.Word.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Office.Interop.Word.dll": {}
+        }
+      },
       "Microsoft.Toolkit.Uwp.Notifications/7.0.1": {
         "type": "package",
         "dependencies": {
@@ -499,6 +584,60 @@
         "runtime": {
           "lib/net5.0/Microsoft.Toolkit.Uwp.Notifications.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "NetOffice.Core/1.7.4.11": {
+        "type": "package",
+        "compile": {
+          "lib/net45/NetOffice.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/OfficeApi.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/VBIDEApi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/NetOffice.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/OfficeApi.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/VBIDEApi.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NetOffice.Word/1.7.4.11": {
+        "type": "package",
+        "dependencies": {
+          "NetOffice.Core": "1.7.4.11"
+        },
+        "compile": {
+          "lib/net45/WordApi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/WordApi.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -2377,9 +2516,22 @@
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
       },
+      "ConnectorModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/ConnectorModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ConnectorModel.dll": {}
+        }
+      },
       "UIProviders/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "ConnectorModel": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/UIProviders.dll": {}
         },
@@ -2562,6 +2714,15 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Microsoft.Office.Interop.Word/15.0.4797.1004": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Office.Interop.Word.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Office.Interop.Word.dll": {}
+        }
+      },
       "Microsoft.Toolkit.Uwp.Notifications/7.0.1": {
         "type": "package",
         "dependencies": {
@@ -2575,6 +2736,60 @@
         "runtime": {
           "lib/net5.0/Microsoft.Toolkit.Uwp.Notifications.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "NetOffice.Core/1.7.4.11": {
+        "type": "package",
+        "compile": {
+          "lib/net45/NetOffice.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/OfficeApi.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/VBIDEApi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/NetOffice.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/OfficeApi.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/VBIDEApi.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NetOffice.Word/1.7.4.11": {
+        "type": "package",
+        "dependencies": {
+          "NetOffice.Core": "1.7.4.11"
+        },
+        "compile": {
+          "lib/net45/WordApi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/WordApi.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -2699,9 +2914,22 @@
           }
         }
       },
+      "ConnectorModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/ConnectorModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ConnectorModel.dll": {}
+        }
+      },
       "UIProviders/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "ConnectorModel": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/UIProviders.dll": {}
         },
@@ -2884,6 +3112,15 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Microsoft.Office.Interop.Word/15.0.4797.1004": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Office.Interop.Word.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Office.Interop.Word.dll": {}
+        }
+      },
       "Microsoft.Toolkit.Uwp.Notifications/7.0.1": {
         "type": "package",
         "dependencies": {
@@ -2897,6 +3134,60 @@
         "runtime": {
           "lib/net5.0/Microsoft.Toolkit.Uwp.Notifications.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "NetOffice.Core/1.7.4.11": {
+        "type": "package",
+        "compile": {
+          "lib/net45/NetOffice.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/OfficeApi.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/VBIDEApi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/NetOffice.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/OfficeApi.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/VBIDEApi.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NetOffice.Word/1.7.4.11": {
+        "type": "package",
+        "dependencies": {
+          "NetOffice.Core": "1.7.4.11"
+        },
+        "compile": {
+          "lib/net45/WordApi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/WordApi.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -3021,9 +3312,22 @@
           }
         }
       },
+      "ConnectorModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/ConnectorModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ConnectorModel.dll": {}
+        }
+      },
       "UIProviders/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "ConnectorModel": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/UIProviders.dll": {}
         },
@@ -3251,6 +3555,15 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+      "Microsoft.Office.Interop.Word/15.0.4797.1004": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Office.Interop.Word.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Office.Interop.Word.dll": {}
+        }
+      },
       "Microsoft.Toolkit.Uwp.Notifications/7.0.1": {
         "type": "package",
         "dependencies": {
@@ -3407,6 +3720,60 @@
           "runtimes/win10-x86/native/Microsoft.WindowsAppRuntime.Bootstrap.dll": {
             "assetType": "native",
             "rid": "win10-x86"
+          }
+        }
+      },
+      "NetOffice.Core/1.7.4.11": {
+        "type": "package",
+        "compile": {
+          "lib/net45/NetOffice.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/OfficeApi.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/VBIDEApi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/NetOffice.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/OfficeApi.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/VBIDEApi.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NetOffice.Word/1.7.4.11": {
+        "type": "package",
+        "dependencies": {
+          "NetOffice.Core": "1.7.4.11"
+        },
+        "compile": {
+          "lib/net45/WordApi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/WordApi.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -3611,9 +3978,22 @@
           }
         }
       },
+      "ConnectorModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/ConnectorModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ConnectorModel.dll": {}
+        }
+      },
       "UIProviders/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "ConnectorModel": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/UIProviders.dll": {}
         },
@@ -4061,6 +4441,19 @@
         "runtime.json",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "Microsoft.Office.Interop.Word/15.0.4797.1004": {
+      "sha512": "lavTOrMGK/o/t3+gGr7JuVrL8XDdnS0DwPLcYv/StOiysXO4L0C36IXTVtEJo1Mh9Aoxo9a8dgGcPi+faTlv0g==",
+      "type": "package",
+      "path": "microsoft.office.interop.word/15.0.4797.1004",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/Microsoft.Office.Interop.Word.dll",
+        "lib/netstandard2.0/Microsoft.Office.Interop.Word.dll",
+        "microsoft.office.interop.word.15.0.4797.1004.nupkg.sha512",
+        "microsoft.office.interop.word.nuspec"
       ]
     },
     "Microsoft.Toolkit.Uwp.Notifications/7.0.1": {
@@ -5011,6 +5404,102 @@
         "tools/net5.0/zh-TW/Microsoft.Build.Msix.resources.dll",
         "tools/x64/GenXbf.dll",
         "tools/x86/GenXbf.dll"
+      ]
+    },
+    "NetOffice.Core/1.7.4.11": {
+      "sha512": "voWeYFBjBET6y0kugZ7LUCJHBtT/ox/JFEscRdyqDXyooVdY246d19wVMr1ftXXD+30k5ZiClIGZbpOxHLFp0A==",
+      "type": "package",
+      "path": "netoffice.core/1.7.4.11",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/NetOffice.dll",
+        "lib/net20/NetOffice.xml",
+        "lib/net20/OfficeApi.dll",
+        "lib/net20/OfficeApi.xml",
+        "lib/net20/VBIDEApi.dll",
+        "lib/net20/VBIDEApi.xml",
+        "lib/net30/NetOffice.dll",
+        "lib/net30/NetOffice.xml",
+        "lib/net30/OfficeApi.dll",
+        "lib/net30/OfficeApi.xml",
+        "lib/net30/VBIDEApi.dll",
+        "lib/net30/VBIDEApi.xml",
+        "lib/net35/NetOffice.dll",
+        "lib/net35/NetOffice.xml",
+        "lib/net35/OfficeApi.dll",
+        "lib/net35/OfficeApi.xml",
+        "lib/net35/VBIDEApi.dll",
+        "lib/net35/VBIDEApi.xml",
+        "lib/net40/NetOffice.dll",
+        "lib/net40/NetOffice.xml",
+        "lib/net40/OfficeApi.dll",
+        "lib/net40/OfficeApi.xml",
+        "lib/net40/VBIDEApi.dll",
+        "lib/net40/VBIDEApi.xml",
+        "lib/net45/NetOffice.dll",
+        "lib/net45/NetOffice.xml",
+        "lib/net45/OfficeApi.dll",
+        "lib/net45/OfficeApi.xml",
+        "lib/net45/VBIDEApi.dll",
+        "lib/net45/VBIDEApi.xml",
+        "netoffice.core.1.7.4.11.nupkg.sha512",
+        "netoffice.core.nuspec",
+        "tools/install.ps1"
+      ]
+    },
+    "NetOffice.Word/1.7.4.11": {
+      "sha512": "4JdykhEmFfHuf18PbvbP1mKC60RT5D5PIRYyTz85IshjEQVonAmp6fn4k63niM/pliNVYkh/xDENAEQOLQjkJw==",
+      "type": "package",
+      "path": "netoffice.word/1.7.4.11",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/WordApi.dll",
+        "lib/net20/WordApi.xml",
+        "lib/net30/WordApi.dll",
+        "lib/net30/WordApi.xml",
+        "lib/net35/WordApi.dll",
+        "lib/net35/WordApi.xml",
+        "lib/net40/WordApi.dll",
+        "lib/net40/WordApi.xml",
+        "lib/net45/WordApi.dll",
+        "lib/net45/WordApi.xml",
+        "netoffice.word.1.7.4.11.nupkg.sha512",
+        "netoffice.word.nuspec",
+        "tools/install.ps1"
+      ]
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
       ]
     },
     "PInvoke.Kernel32/0.7.124": {
@@ -7491,6 +7980,11 @@
         "xamarin.kotlinx.coroutines.core.jvm.nuspec"
       ]
     },
+    "ConnectorModel/1.0.0": {
+      "type": "project",
+      "path": "../ConnectorModel/ConnectorModel.csproj",
+      "msbuildProject": "../ConnectorModel/ConnectorModel.csproj"
+    },
     "UIProviders/1.0.0": {
       "type": "project",
       "path": "../UIProviders/UIProviders.csproj",
@@ -7499,21 +7993,31 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "ConnectorModel >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.101",
+      "Microsoft.Office.Interop.Word >= 15.0.4797.1004",
       "Microsoft.Toolkit.Uwp.Notifications >= 7.0.1",
+      "NetOffice.Core >= 1.7.4.11",
+      "NetOffice.Word >= 1.7.4.11",
+      "Newtonsoft.Json >= 13.0.3",
       "PInvoke.User32 >= 0.7.124",
       "UIProviders >= 1.0.0",
       "WebSocketSharp-netstandard >= 1.0.1"
     ],
     "net7.0-android33.0": [
+      "ConnectorModel >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.101",
+      "Microsoft.Office.Interop.Word >= 15.0.4797.1004",
       "Microsoft.Toolkit.Uwp.Notifications >= 7.0.1",
+      "NetOffice.Core >= 1.7.4.11",
+      "NetOffice.Word >= 1.7.4.11",
+      "Newtonsoft.Json >= 13.0.3",
       "PInvoke.User32 >= 0.7.124",
       "UIProviders >= 1.0.0",
       "WebSocketSharp-netstandard >= 1.0.1",
@@ -7530,37 +8034,52 @@
       "Xamarin.Google.Crypto.Tink.Android >= 1.7.0.1"
     ],
     "net7.0-ios16.1": [
+      "ConnectorModel >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.101",
       "Microsoft.NET.ILLink.Analyzers >= 7.0.100-1.23211.1",
       "Microsoft.NET.ILLink.Tasks >= 7.0.100-1.23211.1",
+      "Microsoft.Office.Interop.Word >= 15.0.4797.1004",
       "Microsoft.Toolkit.Uwp.Notifications >= 7.0.1",
+      "NetOffice.Core >= 1.7.4.11",
+      "NetOffice.Word >= 1.7.4.11",
+      "Newtonsoft.Json >= 13.0.3",
       "PInvoke.User32 >= 0.7.124",
       "UIProviders >= 1.0.0",
       "WebSocketSharp-netstandard >= 1.0.1"
     ],
     "net7.0-maccatalyst16.1": [
+      "ConnectorModel >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.101",
       "Microsoft.NET.ILLink.Analyzers >= 7.0.100-1.23211.1",
       "Microsoft.NET.ILLink.Tasks >= 7.0.100-1.23211.1",
+      "Microsoft.Office.Interop.Word >= 15.0.4797.1004",
       "Microsoft.Toolkit.Uwp.Notifications >= 7.0.1",
+      "NetOffice.Core >= 1.7.4.11",
+      "NetOffice.Word >= 1.7.4.11",
+      "Newtonsoft.Json >= 13.0.3",
       "PInvoke.User32 >= 0.7.124",
       "UIProviders >= 1.0.0",
       "WebSocketSharp-netstandard >= 1.0.1"
     ],
     "net7.0-windows10.0.19041": [
+      "ConnectorModel >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.101",
       "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop >= 7.0.101",
+      "Microsoft.Office.Interop.Word >= 15.0.4797.1004",
       "Microsoft.Toolkit.Uwp.Notifications >= 7.0.1",
       "Microsoft.WindowsAppSDK >= 1.2.221209.1",
+      "NetOffice.Core >= 1.7.4.11",
+      "NetOffice.Word >= 1.7.4.11",
+      "Newtonsoft.Json >= 13.0.3",
       "PInvoke.User32 >= 0.7.124",
       "UIProviders >= 1.0.0",
       "WebSocketSharp-netstandard >= 1.0.1"
@@ -7604,6 +8123,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\ConnectorModel\\ConnectorModel.csproj": {
+              "projectPath": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\ConnectorModel\\ConnectorModel.csproj"
+            },
             "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\UIProviders\\UIProviders.csproj": {
               "projectPath": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\UIProviders\\UIProviders.csproj"
             }
@@ -7612,6 +8134,9 @@
         "net7.0-android33.0": {
           "targetAlias": "net7.0-android",
           "projectReferences": {
+            "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\ConnectorModel\\ConnectorModel.csproj": {
+              "projectPath": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\ConnectorModel\\ConnectorModel.csproj"
+            },
             "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\UIProviders\\UIProviders.csproj": {
               "projectPath": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\UIProviders\\UIProviders.csproj"
             }
@@ -7620,6 +8145,9 @@
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
           "projectReferences": {
+            "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\ConnectorModel\\ConnectorModel.csproj": {
+              "projectPath": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\ConnectorModel\\ConnectorModel.csproj"
+            },
             "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\UIProviders\\UIProviders.csproj": {
               "projectPath": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\UIProviders\\UIProviders.csproj"
             }
@@ -7628,6 +8156,9 @@
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
           "projectReferences": {
+            "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\ConnectorModel\\ConnectorModel.csproj": {
+              "projectPath": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\ConnectorModel\\ConnectorModel.csproj"
+            },
             "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\UIProviders\\UIProviders.csproj": {
               "projectPath": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\UIProviders\\UIProviders.csproj"
             }
@@ -7636,6 +8167,9 @@
         "net7.0-windows10.0.19041": {
           "targetAlias": "net7.0-windows10.0.19041.0",
           "projectReferences": {
+            "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\ConnectorModel\\ConnectorModel.csproj": {
+              "projectPath": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\ConnectorModel\\ConnectorModel.csproj"
+            },
             "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\UIProviders\\UIProviders.csproj": {
               "projectPath": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\UIProviders\\UIProviders.csproj"
             }
@@ -7676,9 +8210,25 @@
             "version": "[7.0.101, )",
             "autoReferenced": true
           },
+          "Microsoft.Office.Interop.Word": {
+            "target": "Package",
+            "version": "[15.0.4797.1004, )"
+          },
           "Microsoft.Toolkit.Uwp.Notifications": {
             "target": "Package",
             "version": "[7.0.1, )"
+          },
+          "NetOffice.Core": {
+            "target": "Package",
+            "version": "[1.7.4.11, )"
+          },
+          "NetOffice.Word": {
+            "target": "Package",
+            "version": "[1.7.4.11, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.3, )"
           },
           "PInvoke.User32": {
             "target": "Package",
@@ -7769,9 +8319,25 @@
             "version": "[7.0.101, )",
             "autoReferenced": true
           },
+          "Microsoft.Office.Interop.Word": {
+            "target": "Package",
+            "version": "[15.0.4797.1004, )"
+          },
           "Microsoft.Toolkit.Uwp.Notifications": {
             "target": "Package",
             "version": "[7.0.1, )"
+          },
+          "NetOffice.Core": {
+            "target": "Package",
+            "version": "[1.7.4.11, )"
+          },
+          "NetOffice.Word": {
+            "target": "Package",
+            "version": "[1.7.4.11, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.3, )"
           },
           "PInvoke.User32": {
             "target": "Package",
@@ -7935,9 +8501,25 @@
             "version": "[7.0.100-1.23211.1, )",
             "autoReferenced": true
           },
+          "Microsoft.Office.Interop.Word": {
+            "target": "Package",
+            "version": "[15.0.4797.1004, )"
+          },
           "Microsoft.Toolkit.Uwp.Notifications": {
             "target": "Package",
             "version": "[7.0.1, )"
+          },
+          "NetOffice.Core": {
+            "target": "Package",
+            "version": "[1.7.4.11, )"
+          },
+          "NetOffice.Word": {
+            "target": "Package",
+            "version": "[1.7.4.11, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.3, )"
           },
           "PInvoke.User32": {
             "target": "Package",
@@ -8035,9 +8617,25 @@
             "version": "[7.0.100-1.23211.1, )",
             "autoReferenced": true
           },
+          "Microsoft.Office.Interop.Word": {
+            "target": "Package",
+            "version": "[15.0.4797.1004, )"
+          },
           "Microsoft.Toolkit.Uwp.Notifications": {
             "target": "Package",
             "version": "[7.0.1, )"
+          },
+          "NetOffice.Core": {
+            "target": "Package",
+            "version": "[1.7.4.11, )"
+          },
+          "NetOffice.Word": {
+            "target": "Package",
+            "version": "[1.7.4.11, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.3, )"
           },
           "PInvoke.User32": {
             "target": "Package",
@@ -8130,6 +8728,10 @@
             "version": "[7.0.101, )",
             "autoReferenced": true
           },
+          "Microsoft.Office.Interop.Word": {
+            "target": "Package",
+            "version": "[15.0.4797.1004, )"
+          },
           "Microsoft.Toolkit.Uwp.Notifications": {
             "target": "Package",
             "version": "[7.0.1, )"
@@ -8139,6 +8741,18 @@
             "target": "Package",
             "version": "[1.2.221209.1, )",
             "autoReferenced": true
+          },
+          "NetOffice.Core": {
+            "target": "Package",
+            "version": "[1.7.4.11, )"
+          },
+          "NetOffice.Word": {
+            "target": "Package",
+            "version": "[1.7.4.11, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.3, )"
           },
           "PInvoke.User32": {
             "target": "Package",
@@ -8198,5 +8812,27 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'NetOffice.Core 1.7.4.11' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "NetOffice.Core",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'NetOffice.Word 1.7.4.11' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "NetOffice.Word",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

@@ -18,12 +18,17 @@
     <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
   </PropertyGroup>
 	<ItemGroup>
+	  <PackageReference Include="Microsoft.Office.Interop.Word" Version="15.0.4797.1004" />
 	  <PackageReference Include="Microsoft.Toolkit.Uwp.Notifications" Version="7.0.1" />
+	  <PackageReference Include="NetOffice.Core" Version="1.7.4.11" />
+	  <PackageReference Include="NetOffice.Word" Version="1.7.4.11" />
+	  <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 	  <PackageReference Include="PInvoke.User32" Version="0.7.124" />
 	  <PackageReference Include="WebSocketSharp-netstandard" Version="1.0.1" />
 	</ItemGroup>
 
 	<ItemGroup>
+	  <ProjectReference Include="..\ConnectorModel\ConnectorModel.csproj" />
 	  <ProjectReference Include="..\UIProviders\UIProviders.csproj" />
 	</ItemGroup>
 

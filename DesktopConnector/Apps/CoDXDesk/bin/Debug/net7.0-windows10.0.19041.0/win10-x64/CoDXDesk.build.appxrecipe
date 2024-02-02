@@ -9,7 +9,7 @@
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>15e4fcd9-8b59-4cab-9c11-162153b052da</PackageIdentityName>
-    <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
+    <PackageIdentityPublisher>CN=admin</PackageIdentityPublisher>
     <IntermediateOutputPath>C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CoDXDesk\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
@@ -33,9 +33,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CoDXDesk\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\CoDXDesk.dll">
       <PackagePath>CoDXDesk.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\CodxServer\bin\Debug\net7.0-windows10.0.19041.0\CodxServer.dll">
-      <PackagePath>CodxServer.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\bin\Debug\net7.0-windows10.0.19041.0\UIImplements.dll">
       <PackagePath>UIImplements.dll</PackagePath>
@@ -655,6 +652,9 @@
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\.nuget\packages\microsoft.maui.graphics.win2d.winui.desktop\7.0.101\lib\net7.0-windows10.0.19041\Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll">
       <PackagePath>Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\.nuget\packages\microsoft.office.interop.word\15.0.4797.1004\lib\netstandard2.0\Microsoft.Office.Interop.Word.dll">
+      <PackagePath>Microsoft.Office.Interop.Word.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\.nuget\packages\microsoft.toolkit.uwp.notifications\7.0.1\lib\net5.0-windows10.0.17763\Microsoft.Toolkit.Uwp.Notifications.dll">
       <PackagePath>Microsoft.Toolkit.Uwp.Notifications.dll</PackagePath>
     </AppxPackagedFile>
@@ -703,6 +703,21 @@
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\.nuget\packages\netoffice.core\1.7.4.11\lib\net45\NetOffice.dll">
+      <PackagePath>NetOffice.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\.nuget\packages\netoffice.core\1.7.4.11\lib\net45\OfficeApi.dll">
+      <PackagePath>OfficeApi.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\.nuget\packages\netoffice.core\1.7.4.11\lib\net45\VBIDEApi.dll">
+      <PackagePath>VBIDEApi.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\.nuget\packages\netoffice.word\1.7.4.11\lib\net45\WordApi.dll">
+      <PackagePath>WordApi.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\.nuget\packages\newtonsoft.json\13.0.3\lib\net6.0\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\.nuget\packages\pinvoke.kernel32\0.7.124\lib\netstandard2.0\PInvoke.Kernel32.dll">
       <PackagePath>PInvoke.Kernel32.dll</PackagePath>
     </AppxPackagedFile>
@@ -729,6 +744,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\ConnectorModel\bin\Debug\net7.0\ConnectorModel.dll">
+      <PackagePath>ConnectorModel.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIProviders\bin\Debug\net7.0\UIProviders.dll">
       <PackagePath>UIProviders.dll</PackagePath>

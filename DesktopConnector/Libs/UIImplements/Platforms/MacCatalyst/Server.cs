@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using UIProviders;
 using WebSocketSharp;
 using WebSocketSharp.Server;
-using WebSocketSharp;
+
 namespace UIImplements
 {
     public class Server : IServer

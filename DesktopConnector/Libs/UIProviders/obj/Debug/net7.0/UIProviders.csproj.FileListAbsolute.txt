@@ -10,3 +10,7 @@ C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIProvide
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIProviders\obj\Debug\net7.0\refint\UIProviders.dll
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIProviders\obj\Debug\net7.0\UIProviders.pdb
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIProviders\obj\Debug\net7.0\ref\UIProviders.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIProviders\bin\Debug\net7.0\ConnectorModel.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIProviders\bin\Debug\net7.0\ConnectorModel.pdb
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIProviders\obj\Debug\net7.0\UIProviders.csproj.AssemblyReference.cache
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIProviders\obj\Debug\net7.0\UIProviders.csproj.CopyComplete
