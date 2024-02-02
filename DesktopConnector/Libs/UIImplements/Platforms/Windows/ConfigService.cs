@@ -19,6 +19,7 @@ namespace UIImplements
 
         public string GetAppDataDir()
         {
+            
             if(appDataDir == null)
             {
 #if DEBUG
