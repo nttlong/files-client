@@ -18,40 +18,36 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CoDXDesk\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
-    <RegisteredManifestChecksum>CFB7258F5499AB1E2254776DD2DF71BC0CC53C1EC9547B203C4A805121FA22E2</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>15e4fcd9-8b59-4cab-9c11-162153b052da_0.0.1.0_x64__kwmcxzszfer2y</RegisteredPackageMoniker>
+    <RegisteredManifestChecksum>01256F872938BAB4F26D2FC3DA9CA03D8658F7A81F33E233D0A2FEA307E9E42B</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>15e4fcd9-8b59-4cab-9c11-162153b052da_0.0.6.0_x64__kwmcxzszfer2y</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>15e4fcd9-8b59-4cab-9c11-162153b052da_kwmcxzszfer2y!App</RegisteredUserModeAppID>
     <RegisteredPackageID>15e4fcd9-8b59-4cab-9c11-162153b052da</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=admin</RegisteredPackagePublisher>
-    <RegisteredVersion>0.0.1.0</RegisteredVersion>
+    <RegisteredVersion>0.0.6.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CoDXDesk\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-02-02T10:23:26.933</Modified>
+      <Modified>2024-02-05T03:03:33.428</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CoDXDesk\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-02-02T10:23:25.289</Modified>
+      <Modified>2024-02-05T03:03:33.055</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CoDXDesk\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\CoDXDesk.runtimeconfig.json">
       <PackagePath>CoDXDesk.runtimeconfig.json</PackagePath>
-      <Modified>2024-02-02T10:23:25.187</Modified>
+      <Modified>2024-02-05T03:03:32.955</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CoDXDesk\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\CoDXDesk.dll">
       <PackagePath>CoDXDesk.dll</PackagePath>
-      <Modified>2024-02-02T10:23:23.566</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIImplements\bin\Debug\net7.0-windows10.0.19041.0\UIImplements.dll">
-      <PackagePath>UIImplements.dll</PackagePath>
-      <Modified>2024-02-02T10:23:16.811</Modified>
+      <Modified>2024-02-05T03:03:31.196</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CoDXDesk\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>CoDXDesk.exe</PackagePath>
-      <Modified>2024-02-02T10:23:23.626</Modified>
+      <Modified>2024-02-05T03:03:31.274</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CoDXDesk\Platforms\MacCatalyst\app.ico">
       <PackagePath>Platforms\MacCatalyst\app.ico</PackagePath>
@@ -63,7 +59,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CoDXDesk\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\CoDXDesk.deps.json">
       <PackagePath>CoDXDesk.deps.json</PackagePath>
-      <Modified>2024-02-02T10:23:25.040</Modified>
+      <Modified>2024-02-05T03:03:32.934</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.15\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -869,13 +865,9 @@
       <PackagePath>Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll</PackagePath>
       <Modified>2023-11-02T20:38:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\.nuget\packages\microsoft.office.interop.word\15.0.4797.1004\lib\netstandard2.0\Microsoft.Office.Interop.Word.dll">
-      <PackagePath>Microsoft.Office.Interop.Word.dll</PackagePath>
-      <Modified>2016-03-10T22:19:48.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\.nuget\packages\microsoft.toolkit.uwp.notifications\7.1.3\lib\net5.0-windows10.0.17763\Microsoft.Toolkit.Uwp.Notifications.dll">
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\.nuget\packages\microsoft.toolkit.uwp.notifications\7.0.1\lib\net5.0-windows10.0.17763\Microsoft.Toolkit.Uwp.Notifications.dll">
       <PackagePath>Microsoft.Toolkit.Uwp.Notifications.dll</PackagePath>
-      <Modified>2022-11-01T17:32:52.000</Modified>
+      <Modified>2021-03-29T21:42:06.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\.nuget\packages\microsoft.win32.systemevents\4.7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll">
       <PackagePath>Microsoft.Win32.SystemEvents.dll</PackagePath>
@@ -953,22 +945,6 @@
       <PackagePath>ExcelApi.dll</PackagePath>
       <Modified>2020-07-15T00:16:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\.nuget\packages\netoffice.msproject\1.7.4.11\lib\net45\MSHTMLApi.dll">
-      <PackagePath>MSHTMLApi.dll</PackagePath>
-      <Modified>2020-07-15T00:16:34.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\.nuget\packages\netoffice.msproject\1.7.4.11\lib\net45\MSProjectApi.dll">
-      <PackagePath>MSProjectApi.dll</PackagePath>
-      <Modified>2020-07-15T00:16:34.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\.nuget\packages\netoffice.powerpoint\1.7.4.11\lib\net45\PowerPointApi.dll">
-      <PackagePath>PowerPointApi.dll</PackagePath>
-      <Modified>2020-07-15T00:16:36.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\.nuget\packages\netoffice.visio\1.7.4.11\lib\net45\VisioApi.dll">
-      <PackagePath>VisioApi.dll</PackagePath>
-      <Modified>2020-07-15T00:16:36.000</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\.nuget\packages\netoffice.word\1.7.4.11\lib\net45\WordApi.dll">
       <PackagePath>WordApi.dll</PackagePath>
       <Modified>2020-07-15T00:16:38.000</Modified>
@@ -1012,14 +988,6 @@
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2022-11-08T19:31:24.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\ConnectorModel\bin\Debug\net7.0\ConnectorModel.dll">
-      <PackagePath>ConnectorModel.dll</PackagePath>
-      <Modified>2024-02-02T10:01:45.894</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Libs\UIProviders\bin\Debug\net7.0\UIProviders.dll">
-      <PackagePath>UIProviders.dll</PackagePath>
-      <Modified>2024-02-02T10:04:22.266</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\.nuget\packages\microsoft.maui.controls.ref.win\7.0.101\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
