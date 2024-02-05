@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>CoDXDesk</id>
+    <version>1.0.0</version>
+    <authors>CoDXDesk</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="ea84119bdeafee0eb794bcf3a69a4c2429a41ef9" />
+    <dependencies>
+      <group targetFramework="net7.0-maccatalyst16.1">
+        <dependency id="Microsoft.Extensions.Configuration" version="7.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection" version="7.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging" version="7.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Debug" version="7.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Maui.Graphics" version="7.0.101" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Toolkit.Uwp.Notifications" version="7.0.1" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
+        <dependency id="PInvoke.User32" version="0.7.124" exclude="Build,Analyzers" />
+        <dependency id="WebSocketSharp-netstandard" version="1.0.1" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net7.0-windows10.0.19041">
+        <dependency id="Microsoft.Extensions.Configuration" version="7.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection" version="7.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging" version="7.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Debug" version="7.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Maui.Graphics" version="7.0.101" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Maui.Graphics.Win2D.WinUI.Desktop" version="7.0.101" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Toolkit.Uwp.Notifications" version="7.0.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.WindowsAppSDK" version="1.2.221209.1" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
+        <dependency id="PInvoke.User32" version="0.7.124" exclude="Build,Analyzers" />
+        <dependency id="WebSocketSharp-netstandard" version="1.0.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <contentFiles>
+      <files include="any/net7.0-maccatalyst16.1/Platforms/MacCatalyst/app.ico" buildAction="Content" />
+      <files include="any/net7.0-windows10.0.19041/Platforms/MacCatalyst/app.ico" buildAction="Content" />
+      <files include="any/net7.0-maccatalyst16.1/Platforms/Windows/app.ico" buildAction="Content" />
+      <files include="any/net7.0-windows10.0.19041/Platforms/Windows/app.ico" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CoDXDesk\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\CoDXDesk.runtimeconfig.json" target="lib\net7.0-maccatalyst16.1\CoDXDesk.runtimeconfig.json" />
+    <file src="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CoDXDesk\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\CoDXDesk.dll" target="lib\net7.0-maccatalyst16.1\CoDXDesk.dll" />
+    <file src="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CoDXDesk\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\CoDXDesk.runtimeconfig.json" target="lib\net7.0-windows10.0.19041\CoDXDesk.runtimeconfig.json" />
+    <file src="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CoDXDesk\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\CoDXDesk.dll" target="lib\net7.0-windows10.0.19041\CoDXDesk.dll" />
+    <file src="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CoDXDesk\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri" target="lib\net7.0-windows10.0.19041\resources.pri" />
+    <file src="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CoDXDesk\Platforms\MacCatalyst\app.ico" target="content\Platforms\MacCatalyst\app.ico" />
+    <file src="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CoDXDesk\Platforms\MacCatalyst\app.ico" target="contentFiles\any\net7.0-maccatalyst16.1\Platforms\MacCatalyst\app.ico" />
+    <file src="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CoDXDesk\Platforms\MacCatalyst\app.ico" target="contentFiles\any\net7.0-windows10.0.19041\Platforms\MacCatalyst\app.ico" />
+    <file src="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CoDXDesk\Platforms\Windows\app.ico" target="content\Platforms\Windows\app.ico" />
+    <file src="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CoDXDesk\Platforms\Windows\app.ico" target="contentFiles\any\net7.0-maccatalyst16.1\Platforms\Windows\app.ico" />
+    <file src="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CoDXDesk\Platforms\Windows\app.ico" target="contentFiles\any\net7.0-windows10.0.19041\Platforms\Windows\app.ico" />
+  </files>
+</package>

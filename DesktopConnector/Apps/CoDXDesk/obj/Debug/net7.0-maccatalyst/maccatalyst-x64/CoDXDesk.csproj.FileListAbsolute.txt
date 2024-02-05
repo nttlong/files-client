@@ -268,8 +268,3 @@ C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CoDXDesk\
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CoDXDesk\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\CoDXDesk.genruntimeconfig.cache
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CoDXDesk\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\ref\CoDXDesk.dll
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CoDXDesk\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Newtonsoft.Json.dll
-C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CoDXDesk\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\NetOffice.dll
-C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CoDXDesk\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\OfficeApi.dll
-C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CoDXDesk\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\VBIDEApi.dll
-C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CoDXDesk\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\ExcelApi.dll
-C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Apps\CoDXDesk\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\WordApi.dll

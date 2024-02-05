@@ -91,18 +91,6 @@
               "target": "Package",
               "version": "[7.0.1, )"
             },
-            "NetOffice.Core": {
-              "target": "Package",
-              "version": "[1.7.4.11, )"
-            },
-            "NetOffice.Excel": {
-              "target": "Package",
-              "version": "[1.7.4.11, )"
-            },
-            "NetOffice.Word": {
-              "target": "Package",
-              "version": "[1.7.4.11, )"
-            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
@@ -221,18 +209,6 @@
               "target": "Package",
               "version": "[1.2.221209.1, )",
               "autoReferenced": true
-            },
-            "NetOffice.Core": {
-              "target": "Package",
-              "version": "[1.7.4.11, )"
-            },
-            "NetOffice.Excel": {
-              "target": "Package",
-              "version": "[1.7.4.11, )"
-            },
-            "NetOffice.Word": {
-              "target": "Package",
-              "version": "[1.7.4.11, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",

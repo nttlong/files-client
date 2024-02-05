@@ -1,0 +1,128 @@
+{
+  "version": 2,
+  "dgSpecHash": "8HHHVIDWSA9Ia0K6EETSnZ8NPCp5aniR6mcAabudZ1kJtZIiCBuk0wSzHgLGNSwLkPp5I+9XMdAtpHyUFpk7Uw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\CodxClient\\CodxClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.extensions.logging.debug\\7.0.0\\microsoft.extensions.logging.debug.7.0.0.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.graphics.win2d\\1.0.5.1\\microsoft.graphics.win2d.1.0.5.1.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.maui.graphics\\7.0.101\\microsoft.maui.graphics.7.0.101.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\7.0.101\\microsoft.maui.graphics.win2d.winui.desktop.7.0.101.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.net.illink.analyzers\\7.0.100-1.23211.1\\microsoft.net.illink.analyzers.7.0.100-1.23211.1.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.net.illink.tasks\\7.0.100-1.23211.1\\microsoft.net.illink.tasks.7.0.100-1.23211.1.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.toolkit.uwp.notifications\\7.0.1\\microsoft.toolkit.uwp.notifications.7.0.1.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.windowsappsdk\\1.2.221209.1\\microsoft.windowsappsdk.1.2.221209.1.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\netoffice.core\\1.7.4.11\\netoffice.core.1.7.4.11.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\netoffice.excel\\1.7.4.11\\netoffice.excel.1.7.4.11.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\netoffice.msproject\\1.7.4.11\\netoffice.msproject.1.7.4.11.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\netoffice.powerpoint\\1.7.4.11\\netoffice.powerpoint.1.7.4.11.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\netoffice.visio\\1.7.4.11\\netoffice.visio.1.7.4.11.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\netoffice.word\\1.7.4.11\\netoffice.word.1.7.4.11.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\pinvoke.kernel32\\0.7.124\\pinvoke.kernel32.0.7.124.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\pinvoke.user32\\0.7.124\\pinvoke.user32.0.7.124.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\pinvoke.windows.core\\0.7.124\\pinvoke.windows.core.0.7.124.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\pinvoke.windows.shellscalingapi\\0.7.124\\pinvoke.windows.shellscalingapi.0.7.124.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\validation\\2.4.15\\validation.2.4.15.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\websocketsharp-netstandard\\1.0.1\\websocketsharp-netstandard.1.0.1.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.maui.controls.ref.maccatalyst\\7.0.101\\microsoft.maui.controls.ref.maccatalyst.7.0.101.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.maccatalyst.runtime.maccatalyst-x64\\16.4.7129\\microsoft.maccatalyst.runtime.maccatalyst-x64.16.4.7129.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.maui.essentials.ref.maccatalyst\\7.0.101\\microsoft.maui.essentials.ref.maccatalyst.7.0.101.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.maccatalyst.ref\\16.4.7129\\microsoft.maccatalyst.ref.16.4.7129.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.maui.core.runtime.maccatalyst\\7.0.101\\microsoft.maui.core.runtime.maccatalyst.7.0.101.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.maui.controls.runtime.maccatalyst\\7.0.101\\microsoft.maui.controls.runtime.maccatalyst.7.0.101.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.maui.core.ref.maccatalyst\\7.0.101\\microsoft.maui.core.ref.maccatalyst.7.0.101.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.maui.essentials.runtime.maccatalyst\\7.0.101\\microsoft.maui.essentials.runtime.maccatalyst.7.0.101.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.maui.essentials.ref.win\\7.0.101\\microsoft.maui.essentials.ref.win.7.0.101.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.maui.core.runtime.win\\7.0.101\\microsoft.maui.core.runtime.win.7.0.101.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.31\\microsoft.windows.sdk.net.ref.10.0.19041.31.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\7.0.15\\microsoft.aspnetcore.app.runtime.win-x64.7.0.15.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.maui.controls.ref.win\\7.0.101\\microsoft.maui.controls.ref.win.7.0.101.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.maui.core.ref.win\\7.0.101\\microsoft.maui.core.ref.win.7.0.101.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.maui.essentials.runtime.win\\7.0.101\\microsoft.maui.essentials.runtime.win.7.0.101.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.15\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.15.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\7.0.15\\microsoft.netcore.app.runtime.win-x64.7.0.15.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.maui.controls.runtime.win\\7.0.101\\microsoft.maui.controls.runtime.win.7.0.101.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'NetOffice.Core 1.7.4.11' was restored using 'Xamarin.iOS,Version=v1.0, .NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0-maccatalyst16.1'. This package may not be fully compatible with your project.",
+      "libraryId": "NetOffice.Core",
+      "targetGraphs": [
+        "net7.0-maccatalyst16.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'NetOffice.Excel 1.7.4.11' was restored using 'Xamarin.iOS,Version=v1.0, .NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0-maccatalyst16.1'. This package may not be fully compatible with your project.",
+      "libraryId": "NetOffice.Excel",
+      "targetGraphs": [
+        "net7.0-maccatalyst16.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'NetOffice.MSProject 1.7.4.11' was restored using 'Xamarin.iOS,Version=v1.0, .NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0-maccatalyst16.1'. This package may not be fully compatible with your project.",
+      "libraryId": "NetOffice.MSProject",
+      "targetGraphs": [
+        "net7.0-maccatalyst16.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'NetOffice.PowerPoint 1.7.4.11' was restored using 'Xamarin.iOS,Version=v1.0, .NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0-maccatalyst16.1'. This package may not be fully compatible with your project.",
+      "libraryId": "NetOffice.PowerPoint",
+      "targetGraphs": [
+        "net7.0-maccatalyst16.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'NetOffice.Visio 1.7.4.11' was restored using 'Xamarin.iOS,Version=v1.0, .NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0-maccatalyst16.1'. This package may not be fully compatible with your project.",
+      "libraryId": "NetOffice.Visio",
+      "targetGraphs": [
+        "net7.0-maccatalyst16.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'NetOffice.Word 1.7.4.11' was restored using 'Xamarin.iOS,Version=v1.0, .NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0-maccatalyst16.1'. This package may not be fully compatible with your project.",
+      "libraryId": "NetOffice.Word",
+      "targetGraphs": [
+        "net7.0-maccatalyst16.1"
+      ]
+    }
+  ]
+}

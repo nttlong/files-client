@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="15e4fcd9-8b59-4cab-9c11-162153b052da" Publisher="CN=admin" Version="0.0.6.0" ProcessorArchitecture="x64" />
+  <Identity Name="15e4fcd9-8b59-4cab-9c11-162153b052da" Publisher="CN=admin" Version="0.0.10.0" ProcessorArchitecture="x64" />
   <Properties>
     <DisplayName>Codx desktop connector</DisplayName>
     <PublisherDisplayName>User Name</PublisherDisplayName>
