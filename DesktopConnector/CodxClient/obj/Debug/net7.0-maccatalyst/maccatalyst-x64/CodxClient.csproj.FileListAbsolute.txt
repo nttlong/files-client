@@ -276,3 +276,4 @@ C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\bin
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Platforms\Windows\app.ico
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Newtonsoft.Json.dll
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\websocket-sharp.dll
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\AZ.FolderSystemWatcher.dll

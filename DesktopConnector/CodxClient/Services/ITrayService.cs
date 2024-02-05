@@ -11,5 +11,6 @@ namespace CodxClient.Services
         void Initialize();
 
         Action ClickHandler { get; set; }
+        
     }
 }

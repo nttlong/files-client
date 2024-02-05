@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net7.0-maccatalyst16.1": {
+      "AZ.FolderSystemWatcher.Packager/0.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net451/_._": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net451/AZ.FolderSystemWatcher.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -459,6 +472,19 @@
       }
     },
     "net7.0-maccatalyst16.1/maccatalyst-x64": {
+      "AZ.FolderSystemWatcher.Packager/0.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net451/_._": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net451/AZ.FolderSystemWatcher.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -916,6 +942,19 @@
       }
     },
     "net7.0-maccatalyst16.1/win10-x64": {
+      "AZ.FolderSystemWatcher.Packager/0.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net451/_._": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net451/AZ.FolderSystemWatcher.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -1373,6 +1412,19 @@
       }
     },
     "net7.0-windows10.0.19041": {
+      "AZ.FolderSystemWatcher.Packager/0.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net451/_._": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net451/AZ.FolderSystemWatcher.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -2070,6 +2122,18 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
+      "Unofficial.System.Windows.Forms.Legacy/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows7.0/System.Windows.Forms.Legacy.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/System.Windows.Forms.Legacy.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
       "Validation/2.4.15": {
         "type": "package",
         "compile": {
@@ -2098,6 +2162,19 @@
       }
     },
     "net7.0-windows10.0.19041/maccatalyst-x64": {
+      "AZ.FolderSystemWatcher.Packager/0.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net451/_._": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net451/AZ.FolderSystemWatcher.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -2727,6 +2804,18 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
+      "Unofficial.System.Windows.Forms.Legacy/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows7.0/System.Windows.Forms.Legacy.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/System.Windows.Forms.Legacy.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
       "Validation/2.4.15": {
         "type": "package",
         "compile": {
@@ -2755,6 +2844,19 @@
       }
     },
     "net7.0-windows10.0.19041/win10-x64": {
+      "AZ.FolderSystemWatcher.Packager/0.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net451/_._": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net451/AZ.FolderSystemWatcher.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -3390,6 +3492,18 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
+      "Unofficial.System.Windows.Forms.Legacy/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows7.0/System.Windows.Forms.Legacy.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/System.Windows.Forms.Legacy.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
       "Validation/2.4.15": {
         "type": "package",
         "compile": {
@@ -3419,6 +3533,23 @@
     }
   },
   "libraries": {
+    "AZ.FolderSystemWatcher.Packager/0.4.0": {
+      "sha512": "/Q5hxiu2dhYFapxPrbMxTLo8GRgvwxNFtKOxOSk9ehENw50bjk11XIg0I7TCwd7HgS7hleNunJrCweEzOZxkYw==",
+      "type": "package",
+      "path": "az.foldersystemwatcher.packager/0.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "az.foldersystemwatcher.packager.0.4.0.nupkg.sha512",
+        "az.foldersystemwatcher.packager.nuspec",
+        "lib/net40/AZ.FolderSystemWatcher.dll",
+        "lib/net40/AZ.FolderSystemWatcher.pdb",
+        "lib/net45/AZ.FolderSystemWatcher.dll",
+        "lib/net45/AZ.FolderSystemWatcher.pdb",
+        "lib/net451/AZ.FolderSystemWatcher.dll",
+        "lib/net451/AZ.FolderSystemWatcher.pdb"
+      ]
+    },
     "Microsoft.Extensions.Configuration/7.0.0": {
       "sha512": "tldQUBWt/xeH2K7/hMPPo5g8zuLc3Ro9I5d4o/XrxvxOCA2EZBtW7bCHHTc49fcBtvB8tLAb/Qsmfrq+2SJ4vA==",
       "type": "package",
@@ -5386,6 +5517,20 @@
         "version.txt"
       ]
     },
+    "Unofficial.System.Windows.Forms.Legacy/1.0.0": {
+      "sha512": "cPAPypKY0y0+zZhX3pHPnRGqFTR/ueiUr0TXYr7me0kmxu5rw5/IMK2z5i2h1/eRrDNQwG5cq35cMAhrURDBYg==",
+      "type": "package",
+      "path": "unofficial.system.windows.forms.legacy/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "lib/net6.0-windows7.0/System.Windows.Forms.Legacy.dll",
+        "unofficial.system.windows.forms.legacy.1.0.0.nupkg.sha512",
+        "unofficial.system.windows.forms.legacy.nuspec"
+      ]
+    },
     "Validation/2.4.15": {
       "sha512": "KQFOtJKKhaXzuSiZhkFaFzQEdYsA+EN/XqKZDYwsGDOrS0Nxu6qzCvNTsDF4xtkiZbBA6u7I59QnsuP2O2fZgg==",
       "type": "package",
@@ -5439,6 +5584,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0-maccatalyst16.1": [
+      "AZ.FolderSystemWatcher.Packager >= 0.4.0",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -5457,6 +5603,7 @@
       "WebSocketSharp-netstandard >= 1.0.1"
     ],
     "net7.0-windows10.0.19041": [
+      "AZ.FolderSystemWatcher.Packager >= 0.4.0",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -5472,6 +5619,7 @@
       "NetOffice.Word >= 1.7.4.11",
       "Newtonsoft.Json >= 13.0.3",
       "PInvoke.User32 >= 0.7.124",
+      "Unofficial.System.Windows.Forms.Legacy >= 1.0.0",
       "WebSocketSharp-netstandard >= 1.0.1"
     ]
   },
@@ -5526,6 +5674,12 @@
       "net7.0-maccatalyst16.1": {
         "targetAlias": "net7.0-maccatalyst",
         "dependencies": {
+          "AZ.FolderSystemWatcher.Packager": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[0.4.0, )"
+          },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",
             "version": "[7.0.0, )",
@@ -5667,6 +5821,12 @@
       "net7.0-windows10.0.19041": {
         "targetAlias": "net7.0-windows10.0.19041.0",
         "dependencies": {
+          "AZ.FolderSystemWatcher.Packager": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[0.4.0, )"
+          },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",
             "version": "[7.0.0, )",
@@ -5732,6 +5892,10 @@
           "PInvoke.User32": {
             "target": "Package",
             "version": "[0.7.124, )"
+          },
+          "Unofficial.System.Windows.Forms.Legacy": {
+            "target": "Package",
+            "version": "[1.0.0, )"
           },
           "WebSocketSharp-netstandard": {
             "target": "Package",
@@ -5821,6 +5985,16 @@
     }
   },
   "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AZ.FolderSystemWatcher.Packager 0.4.0' was restored using 'Xamarin.iOS,Version=v1.0, .NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0-maccatalyst16.1'. This package may not be fully compatible with your project.",
+      "libraryId": "AZ.FolderSystemWatcher.Packager",
+      "targetGraphs": [
+        "net7.0-maccatalyst16.1"
+      ]
+    },
     {
       "code": "NU1701",
       "level": "Warning",

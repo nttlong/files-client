@@ -30,7 +30,7 @@ namespace CodxClient.ServiceFactory
         NSObject statusBarImage;
 
         public Action ClickHandler { get; set; }
-
+        public Action RightClickHandler { get; set; }
         public void Initialize()
         {
             statusBarObj = Runtime.GetNSObject(Class.GetHandle("NSStatusBar"));

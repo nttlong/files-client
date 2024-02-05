@@ -51,6 +51,12 @@
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
           "dependencies": {
+            "AZ.FolderSystemWatcher.Packager": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.4.0, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[7.0.0, )",
@@ -192,6 +198,12 @@
         "net7.0-windows10.0.19041": {
           "targetAlias": "net7.0-windows10.0.19041.0",
           "dependencies": {
+            "AZ.FolderSystemWatcher.Packager": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.4.0, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[7.0.0, )",
@@ -257,6 +269,10 @@
             "PInvoke.User32": {
               "target": "Package",
               "version": "[0.7.124, )"
+            },
+            "Unofficial.System.Windows.Forms.Legacy": {
+              "target": "Package",
+              "version": "[1.0.0, )"
             },
             "WebSocketSharp-netstandard": {
               "target": "Package",

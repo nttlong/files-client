@@ -1,72 +1,89 @@
 ﻿
+//using CodxClient.Libs;
+using CodxClient.Services;
+using System.ComponentModel;
+
 namespace CodxClient
 {
     public partial class MainPage : ContentPage
     {
         int count = 0;
+        private IUIService uiService;
+        private IBackgroundService backgroundService;
 
         public MainPage()
         {
             InitializeComponent();
-
-            
+            this.uiService = ServiceAssistent.GetService<IUIService>();
+            this.uiService.SetHomePage(this);
+            //this.backgroundService = ServiceAssistent.GetService<IBackgroundService>();
             //this.IsVisible = false;
         }
-
-        
-        protected override void OnAppearing()
+        protected override bool OnBackButtonPressed()
         {
-            var fx = this.Window;
-            //base.OnAppearing();
-#if WINDOWS
-            var win = ((Microsoft.Maui.Controls.Window)this.Window);
-            var hwnd = ((Microsoft.Maui.MauiWinUIWindow)((Microsoft.Maui.Handlers.ElementHandler)win.Handler).PlatformView).WindowHandle;
-            Libs.WinApi.ShowWindow(hwnd, Libs.WinApi.SW_HIDE);
-#endif
-            //((Microsoft.Maui.MauiWinUIWindow)del).WindowHandle
-            //this.IsVisible = false;
+            return base.OnBackButtonPressed();
         }
-        protected override void ChangeVisualState()
+        //protected override void OnAppearing()
+        //{
+        //    base.OnAppearing();
+
+        //    // Subscribe to the BackPressed event
+        //    BackPressed += OnBackPressed;
+        //}
+
+        //protected override void OnDisappearing()
+        //{
+        //    base.OnDisappearing();
+
+        //    // Unsubscribe from the BackPressed event when the page disappears
+        //    BackPressed -= OnBackPressed;
+        //}
+
+        private void OnBackPressed(object sender, EventArgs e)
         {
-            //var fx = this.Window;
-            //base.ChangeVisualState();
-#if WINDOWS
-            var win = ((Microsoft.Maui.Controls.Window)this.Window);
-            var hwnd = ((Microsoft.Maui.MauiWinUIWindow)((Microsoft.Maui.Handlers.ElementHandler)win.Handler).PlatformView).WindowHandle;
-            Libs.WinApi.ShowWindow(hwnd, Libs.WinApi.SW_HIDE);
-#endif
+            // Prevent the application from exiting
+            // You can add your own logic here if needed
+            // For example, show a confirmation dialog before exiting
         }
-        private void OnClosed(object sender, EventArgs e)
-        {
+        //protected override void OnClosing(CancelEventArgs e)
+        //{
+        //    base.OnClosing(e);
 
-        }
-        private void OnClosing(object sender, EventArgs e)
-        {
+        //    // Prompt for confirmation or perform other actions
+        //    e.Cancel = true; // Prevent closing by default
 
-        }
-        private void OnCounterClicked(object sender, EventArgs e)
-        {
-            count++;
+        //    // Example: Show a confirmation dialog
+        //    if (await DisplayAlert("Exit Confirmation", "Are you sure you want to exit?", "Yes", "No"))
+        //    {
+        //        e.Cancel = false; // Allow closing if confirmed
+        //    }
+        //}
 
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
-            else
-                CounterBtn.Text = $"Clicked {count} times";
+        //protected override void ChangeVisualState()
+        //{
+        //    if (this.Window != null)
+        //    {
+        //        ServiceAssistent.GetService<IUIService>().HidePage(this);
+        //    }
+        //    this.uiService.SetHomePage(this);
+        //    //var mp = this.uiService.GetHomePage();
+        //    //if (mp == null)
+        //    //{
+        //    //    ServiceAssistent.GetService<IUIService>().HidePage(this);
+        //    //    this.uiService.SetHomePage(this);
+        //    //}
+        //    //var hwnd = ((Microsoft.Maui.MauiWinUIWindow)((Microsoft.Maui.Handlers.ElementHandler<Microsoft.Maui.IWindow, Microsoft.UI.Xaml.Window>)((Microsoft.Maui.Controls.Element)((Microsoft.Maui.Controls.BaseShellItem)this.Parent.Parent).Window.Handler.VirtualView).Handler).PlatformView).WindowHandle;
 
-            //SemanticScreenReader.Announce(CounterBtn.Text);
-        }
-        private void OnCounterClicked2(object sender, EventArgs e)
-        {
-            count++;
+        //}
+        //private void StartBackgroundService()
+        //{
+        //    backgroundService.Start();
+        //}
 
-            if (count == 1)
-                CounterBtn2.Text = $"Clicked {count} time";
-            else
-                CounterBtn2.Text = $"Clicked {count} times";
-
-            //SemanticScreenReader.Announce(CounterBtn.Text);
-        }
-
+        //private void StopBackgroundService()
+        //{
+        //    backgroundService.Stop();
+        //}
     }
 
 }

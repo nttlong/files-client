@@ -3,13 +3,16 @@ using System.Runtime.InteropServices;
 
 namespace CodxClient.Libs
 {
+    
     /// <summary>
     /// Win32 API imports.
     /// </summary>
     public static class WinApi
     {
         private const string User32 = "user32.dll";
+        
 
+        
         /// <summary>
         /// Creates, updates or deletes the taskbar icon.
         /// </summary>
@@ -86,7 +89,7 @@ namespace CodxClient.Libs
 
 
         [DllImport(User32, SetLastError = true)]
-        public static extern bool GetCursorPos(ref WPoint lpPoint);
+        public static extern bool GetCursorPos(out WPoint lpPoint);
         [DllImport("user32.dll")]
         public static extern int GetWindowLong(IntPtr hWnd, int nIndex);
 
@@ -99,10 +102,51 @@ namespace CodxClient.Libs
         public static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);
 
         public const int SW_HIDE = 0;
+        public const int SW_SHOW = 1;
         [DllImport("user32.dll")]
         public static extern IntPtr SendMessage(IntPtr hWnd, int Msg, IntPtr wParam, IntPtr lParam);
 
         public const int WM_SYSCOMMAND = 0x112;
         public const int SC_MINIMIZE = 0xF020;
+        public const int GWL_STYLE = -16;
+        public const int WS_SYSMENU = 0x80000;
+        private const int CP_NOCLOSE_BUTTON = 0x200;
+        
+        // Import the SetWindowLongPtr function
+        [DllImport("user32.dll", SetLastError = true)]
+        private static extern IntPtr SetWindowLongPtr(IntPtr hWnd, int nIndex, IntPtr dwNewLong);
+
+        [DllImport("user32.dll")]
+        private static extern IntPtr GetWindowLongPtr(IntPtr hWnd, int nIndex);
+
+        
+
+        
+
+        public static void HideCloseButton(IntPtr hWnd)
+        {
+            try
+            {
+                // Get current window styles
+                IntPtr style = GetWindowLongPtr(hWnd, GWL_STYLE);
+                if (style == IntPtr.Zero)
+                {
+                    // Handle error gracefully
+                    Console.WriteLine("Failed to get window styles.");
+                    return;
+                }
+
+                // Remove the WS_SYSMENU style to hide the close button
+                style = (IntPtr)(style.ToInt64() & ~WS_SYSMENU);
+
+                // Apply the modified styles
+                SetWindowLongPtr(hWnd, GWL_STYLE, style);
+            }
+            catch (Exception ex)
+            {
+                // Log or handle exceptions appropriately
+                Console.WriteLine("Error hiding close button: {0}", ex.Message);
+            }
+        }
     }
 }

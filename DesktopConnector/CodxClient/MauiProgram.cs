@@ -1,5 +1,8 @@
 ﻿using Microsoft.Extensions.Logging;
 using Microsoft.Maui.LifecycleEvents;
+using Microsoft.Maui.Controls;
+using Microsoft.Maui.Platform;
+using CodxClient.Libs;
 
 namespace CodxClient
 {
@@ -19,9 +22,24 @@ namespace CodxClient
             builder.ConfigureLifecycleEvents(lifecycle =>
             {
                 Services.ServiceAssistent.GetService<Services.IServer>().RunAsync("ws://127.0.0.1:8765").Start();
+                var trayService = Services.ServiceAssistent.GetService<Services.ITrayService>();
+                var uiService = Services.ServiceAssistent.GetService<Services.IUIService>();
+                if (trayService != null)
+                {
+                    trayService.Initialize();
+
+                }
 #if WINDOWS
                 lifecycle.AddWindows(windows => windows.OnWindowCreated((del) =>
                 {
+                    
+                    del.GetAppWindow().Closing += (s, e) =>
+                    {
+                        e.Cancel= true;
+                        uiService.HidePage(uiService.GetHomePage());
+                    };
+
+
                     del.ExtendsContentIntoTitleBar = true;
                 }));
 
@@ -37,7 +55,8 @@ namespace CodxClient
             services.AddSingleton<Services.IConfigService, ServiceFactory.ConfigService>();
             services.AddSingleton<Services.IContentService, ServiceFactory.ContentService>();
             services.AddSingleton<Services.IOfficeService, ServiceFactory.OfficeService>();
-
+            services.AddSingleton<Services.IUIService, ServiceFactory.UIService>();
+            services.AddSingleton<Services.IBackgroundService, ServiceFactory.BackgroundService>();
 #elif MACCATALYST
             services.AddSingleton<Services.IServer, ServiceFactory.Server>();
             services.AddSingleton<Services.ITrayService, ServiceFactory.TrayService>();
@@ -46,6 +65,8 @@ namespace CodxClient
             services.AddSingleton<Services.IConfigService, ServiceFactory.ConfigService>();
             services.AddSingleton<Services.IContentService, ServiceFactory.ContentService>();
             services.AddSingleton<Services.IOfficeService, ServiceFactory.OfficeService>();
+            services.AddSingleton<Services.IUIService, ServiceFactory.UIService>();
+            services.AddSingleton<Services.IBackgroundService, ServiceFactory.BackgroundService>();
 #endif
 
 #if DEBUG
@@ -59,5 +80,7 @@ namespace CodxClient
 
             return builder.Build();
         }
+
+        
     }
 }
