@@ -3,6 +3,7 @@ using Microsoft.Maui.LifecycleEvents;
 using Microsoft.Maui.Controls;
 using Microsoft.Maui.Platform;
 using CodxClient.Libs;
+using Windows.Graphics;
 
 namespace CodxClient
 {
@@ -33,7 +34,12 @@ namespace CodxClient
 #if WINDOWS
                 lifecycle.AddWindows(windows => windows.OnWindowCreated((del) =>
                 {
-                    
+                SizeInt32 size = new SizeInt32
+                {
+                    Height=500,
+                    Width=500,
+                };
+                    del.GetAppWindow().Resize(size);
                     del.GetAppWindow().Closing += (s, e) =>
                     {
                         e.Cancel= true;

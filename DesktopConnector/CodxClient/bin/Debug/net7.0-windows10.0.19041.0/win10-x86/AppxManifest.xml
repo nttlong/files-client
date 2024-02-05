@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="48c8435c-f3a2-4ddf-9458-137d261ea7de" Publisher="CN=admin" Version="0.0.15.0" ProcessorArchitecture="x86" />
+  <Identity Name="48c8435c-f3a2-4ddf-9458-137d261ea7de" Publisher="CN=admin" Version="0.0.16.0" ProcessorArchitecture="x86" />
   <Properties>
     <DisplayName>CodxClient</DisplayName>
     <PublisherDisplayName>User Name</PublisherDisplayName>

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "bVfu7UCMB9FVtPWloDwRVwfQIeqncvSOWQaqoPS+izV1bg1lvE1jP9wk22+/P57Wc3GJFKn15aq6aBkNyMYdwg==",
+  "dgSpecHash": "UJmObDsEZCHg/AemoS3MyB/UZdlwUHlUbDrC60t8A8U34f8lGd/G1uoVlsUfPaS2gwKZFCLwp1vVHiNm5wDeTw==",
   "success": true,
   "projectFilePath": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\CodxClient\\CodxClient.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\az.foldersystemwatcher.packager\\0.4.0\\az.foldersystemwatcher.packager.0.4.0.nupkg.sha512",
     "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
@@ -40,6 +41,7 @@
     "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
     "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\unofficial.system.windows.forms.legacy\\1.0.0\\unofficial.system.windows.forms.legacy.1.0.0.nupkg.sha512",
     "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\validation\\2.4.15\\validation.2.4.15.nupkg.sha512",
     "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\websocketsharp-netstandard\\1.0.1\\websocketsharp-netstandard.1.0.1.nupkg.sha512",
     "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\7.0.15\\microsoft.netcore.app.runtime.win-x86.7.0.15.nupkg.sha512",
@@ -54,6 +56,16 @@
     "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.31\\microsoft.windows.sdk.net.ref.10.0.19041.31.nupkg.sha512"
   ],
   "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AZ.FolderSystemWatcher.Packager 0.4.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0-windows10.0.19041'. This package may not be fully compatible with your project.",
+      "libraryId": "AZ.FolderSystemWatcher.Packager",
+      "targetGraphs": [
+        "net7.0-windows10.0.19041"
+      ]
+    },
     {
       "code": "NU1701",
       "level": "Warning",

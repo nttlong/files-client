@@ -2,9 +2,11 @@
 <ContentPage
     x:Class="CodxClient.MainPage"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    MaximumHeightRequest="500"
+    MaximumWidthRequest="500">
 
-    <ScrollView>
+    <!--<ScrollView>
         <VerticalStackLayout
             Padding="30,0"
             Spacing="25"
@@ -41,6 +43,6 @@
                 Text="Click me" />
 
         </VerticalStackLayout>
-    </ScrollView>
+    </ScrollView>-->
 
 </ContentPage>

@@ -1,1 +1,1 @@
-C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Publish\codx-client\PackagesCodxClient_0.0.15.0_Debug_Test\CodxClient_0.0.15.0_x86_Debug.msix
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Publish\codx-client\PackagesCodxClient_0.0.16.0_Debug_Test\CodxClient_0.0.16.0_x86_Debug.msix

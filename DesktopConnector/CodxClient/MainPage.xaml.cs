@@ -21,6 +21,7 @@ namespace CodxClient
         }
         protected override bool OnBackButtonPressed()
         {
+            
             return base.OnBackButtonPressed();
         }
         //protected override void OnAppearing()

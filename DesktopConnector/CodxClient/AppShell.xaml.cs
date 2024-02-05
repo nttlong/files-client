@@ -1,4 +1,5 @@
 ﻿using CodxClient.Services;
+using Microsoft.Maui.Controls;
 
 namespace CodxClient
 {
@@ -11,6 +12,16 @@ namespace CodxClient
 
         }
         
+        //protected override void OnAppearing()
+        //{
+        //    base.OnAppearing();
+        //    this.MaximumHeightRequest
+        //    if (NavigationPage.CurrentPage is MyContentPage page)
+        //    {
+        //        NavigationPage.Width = 500;
+        //        NavigationPage.Height = 500;
+        //    }
+        //}
         //private void SetupTrayIcon()
         //{
 
