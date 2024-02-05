@@ -2,8 +2,9 @@
 using Microsoft.Maui.LifecycleEvents;
 using Microsoft.Maui.Controls;
 using Microsoft.Maui.Platform;
-using CodxClient.Libs;
+#if WINDOWS
 using Windows.Graphics;
+#endif
 
 namespace CodxClient
 {
