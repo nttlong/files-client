@@ -52,6 +52,7 @@ namespace CodxClient.Common
             }
             else if (DocSupports.ExcelExtensions.ContainsKey(info.ResourceExt.ToLower()))
             {
+                info = this.DoDownload(Info: info, Data: e.Data);
                 this.officeService.OpenExcel(info.FilePath);
             }
             else
