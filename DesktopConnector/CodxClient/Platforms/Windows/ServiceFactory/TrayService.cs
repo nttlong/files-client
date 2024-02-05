@@ -24,9 +24,9 @@ namespace CodxClient.ServiceFactory
             
             tray.LeftClick = () => {
                 ServiceAssistent.GetService<IUIService>().Show();
-                var app = new TrayIconPage();
-                var navigationPage = new NavigationPage(this.uiSrvice.GetHomePage());
-                navigationPage.PushAsync(app).Wait();
+                //var app = new TrayIconPage();
+                //var navigationPage = new NavigationPage(this.uiSrvice.GetHomePage());
+                //navigationPage.PushAsync(app).Wait();
                 //this.uiSrvice.ShowPage(app);
             };
         }

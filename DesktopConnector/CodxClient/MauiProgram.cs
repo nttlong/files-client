@@ -24,6 +24,7 @@ namespace CodxClient
                 Services.ServiceAssistent.GetService<Services.IServer>().RunAsync("ws://127.0.0.1:8765").Start();
                 var trayService = Services.ServiceAssistent.GetService<Services.ITrayService>();
                 var uiService = Services.ServiceAssistent.GetService<Services.IUIService>();
+                var stathsuOfMainWiwndow = false;
                 if (trayService != null)
                 {
                     trayService.Initialize();
@@ -38,9 +39,29 @@ namespace CodxClient
                         e.Cancel= true;
                         uiService.HidePage(uiService.GetHomePage());
                     };
+                    del.GetAppWindow().Changed += (s, e) =>
+                    {
+                        if(e.DidSizeChange)
+                        {
+                            if (s.Size.Height < 50)
+                            {
+                                if (!stathsuOfMainWiwndow)
+                                {
+                                    uiService.HidePage(uiService.GetHomePage());
+                                    stathsuOfMainWiwndow = true;
+                                }
+                                else
+                                {
+                                    uiService.ShowPage(uiService.GetHomePage());
+                                    stathsuOfMainWiwndow = false;
+                                }
+                            }
+                        }
+                    };
 
 
                     del.ExtendsContentIntoTitleBar = true;
+                    
                 }));
 
 #endif

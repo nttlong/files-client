@@ -54,11 +54,13 @@ namespace CodxClient.ServiceFactory
         public void Show()
         {
             var win = ((Microsoft.Maui.Controls.Window)mainPage.Window);
-
-            var hwnd = ((Microsoft.Maui.MauiWinUIWindow)((Microsoft.Maui.Handlers.ElementHandler)win.Handler).PlatformView).WindowHandle;
-            //WinApi.HideCloseButton(hwnd);
-            Libs.WinApi.ShowWindow(hwnd, Libs.WinApi.SW_SHOW);
-                WinApi.HideCloseButton(hwnd);
+            if (win != null)
+            {
+                var hwnd = ((Microsoft.Maui.MauiWinUIWindow)((Microsoft.Maui.Handlers.ElementHandler)win.Handler).PlatformView).WindowHandle;
+                ////WinApi.HideCloseButton(hwnd);
+                Libs.WinApi.ShowWindow(hwnd, Libs.WinApi.SW_SHOW);
+            }
+            //    WinApi.HideCloseButton(hwnd);
         }
 
         
