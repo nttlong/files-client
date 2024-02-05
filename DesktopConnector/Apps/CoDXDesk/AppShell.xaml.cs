@@ -1,5 +1,4 @@
-﻿using UIProviders;
-using UIImplements;
+﻿
 
 namespace CoDXDesk
 {
@@ -18,13 +17,13 @@ namespace CoDXDesk
         private void SetupTrayIcon()
         {
 
-            var trayService = ServiceAssistent.GetService<ITrayService>();
+            var trayService = Services.ServiceAssistent.GetService<Services.ITrayService>();
             
             if (trayService != null)
             {
                 trayService.Initialize();
                 trayService.ClickHandler = () =>
-                    ServiceAssistent.GetService<INotificationService>()
+                    Services.ServiceAssistent.GetService<Services.INotificationService>()
                         ?.ShowNotification("XXX", "YYY");
             }
             

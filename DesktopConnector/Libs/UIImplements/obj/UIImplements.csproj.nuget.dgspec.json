@@ -84,8 +84,6 @@
         ],
         "originalTargetFrameworks": [
           "net7.0",
-          "net7.0-android",
-          "net7.0-ios",
           "net7.0-maccatalyst",
           "net7.0-windows10.0.19041.0"
         ],
@@ -97,28 +95,6 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {
-              "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\ConnectorModel\\ConnectorModel.csproj": {
-                "projectPath": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\ConnectorModel\\ConnectorModel.csproj"
-              },
-              "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\UIProviders\\UIProviders.csproj": {
-                "projectPath": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\UIProviders\\UIProviders.csproj"
-              }
-            }
-          },
-          "net7.0-android33.0": {
-            "targetAlias": "net7.0-android",
-            "projectReferences": {
-              "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\ConnectorModel\\ConnectorModel.csproj": {
-                "projectPath": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\ConnectorModel\\ConnectorModel.csproj"
-              },
-              "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\UIProviders\\UIProviders.csproj": {
-                "projectPath": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\UIProviders\\UIProviders.csproj"
-              }
-            }
-          },
-          "net7.0-ios16.1": {
-            "targetAlias": "net7.0-ios",
             "projectReferences": {
               "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\ConnectorModel\\ConnectorModel.csproj": {
                 "projectPath": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Libs\\ConnectorModel\\ConnectorModel.csproj"
@@ -201,6 +177,18 @@
               "target": "Package",
               "version": "[1.7.4.11, )"
             },
+            "NetOffice.MSProject": {
+              "target": "Package",
+              "version": "[1.7.4.11, )"
+            },
+            "NetOffice.PowerPoint": {
+              "target": "Package",
+              "version": "[1.7.4.11, )"
+            },
+            "NetOffice.Visio": {
+              "target": "Package",
+              "version": "[1.7.4.11, )"
+            },
             "NetOffice.Word": {
               "target": "Package",
               "version": "[1.7.4.11, )"
@@ -271,300 +259,6 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         },
-        "net7.0-android33.0": {
-          "targetAlias": "net7.0-android",
-          "dependencies": {
-            "Microsoft.Extensions.Configuration": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.0, )",
-              "autoReferenced": true
-            },
-            "Microsoft.Extensions.DependencyInjection": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.0, )",
-              "autoReferenced": true
-            },
-            "Microsoft.Extensions.Logging": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.0, )",
-              "autoReferenced": true
-            },
-            "Microsoft.Maui.Graphics": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.101, )",
-              "autoReferenced": true
-            },
-            "Microsoft.Office.Interop.Word": {
-              "target": "Package",
-              "version": "[15.0.4797.1004, )"
-            },
-            "Microsoft.Toolkit.Uwp.Notifications": {
-              "target": "Package",
-              "version": "[7.0.1, )"
-            },
-            "NetOffice.Core": {
-              "target": "Package",
-              "version": "[1.7.4.11, )"
-            },
-            "NetOffice.Excel": {
-              "target": "Package",
-              "version": "[1.7.4.11, )"
-            },
-            "NetOffice.Word": {
-              "target": "Package",
-              "version": "[1.7.4.11, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.3, )"
-            },
-            "PInvoke.User32": {
-              "target": "Package",
-              "version": "[0.7.124, )"
-            },
-            "WebSocketSharp-netstandard": {
-              "target": "Package",
-              "version": "[1.0.1, )"
-            },
-            "Xamarin.Android.Glide": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[4.13.2.2, )",
-              "autoReferenced": true
-            },
-            "Xamarin.AndroidX.Browser": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[1.4.0.3, )",
-              "autoReferenced": true
-            },
-            "Xamarin.AndroidX.Legacy.Support.V4": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[1.0.0.15, )",
-              "autoReferenced": true
-            },
-            "Xamarin.AndroidX.Lifecycle.LiveData": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.5.1.1, )",
-              "autoReferenced": true
-            },
-            "Xamarin.AndroidX.Navigation.Common": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.5.2.1, )",
-              "autoReferenced": true
-            },
-            "Xamarin.AndroidX.Navigation.Fragment": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.5.2.1, )",
-              "autoReferenced": true
-            },
-            "Xamarin.AndroidX.Navigation.Runtime": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.5.2.1, )",
-              "autoReferenced": true
-            },
-            "Xamarin.AndroidX.Navigation.UI": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.5.2.1, )",
-              "autoReferenced": true
-            },
-            "Xamarin.AndroidX.Security.SecurityCrypto": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[1.1.0-alpha03, )",
-              "autoReferenced": true
-            },
-            "Xamarin.Google.Android.Material": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[1.7.0, )",
-              "autoReferenced": true
-            },
-            "Xamarin.Google.Crypto.Tink.Android": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[1.7.0.1, )",
-              "autoReferenced": true
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.Android.Ref.33",
-              "version": "[33.0.95, 33.0.95]"
-            },
-            {
-              "name": "Microsoft.Maui.Controls.Ref.android",
-              "version": "[7.0.101, 7.0.101]"
-            },
-            {
-              "name": "Microsoft.Maui.Core.Ref.android",
-              "version": "[7.0.101, 7.0.101]"
-            },
-            {
-              "name": "Microsoft.Maui.Essentials.Ref.android",
-              "version": "[7.0.101, 7.0.101]"
-            }
-          ],
-          "frameworkReferences": {
-            "Microsoft.Android": {
-              "privateAssets": "all"
-            },
-            "Microsoft.Maui.Controls": {
-              "privateAssets": "all"
-            },
-            "Microsoft.Maui.Core": {
-              "privateAssets": "all"
-            },
-            "Microsoft.Maui.Essentials": {
-              "privateAssets": "all"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
-        },
-        "net7.0-ios16.1": {
-          "targetAlias": "net7.0-ios",
-          "dependencies": {
-            "Microsoft.Extensions.Configuration": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.0, )",
-              "autoReferenced": true
-            },
-            "Microsoft.Extensions.DependencyInjection": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.0, )",
-              "autoReferenced": true
-            },
-            "Microsoft.Extensions.Logging": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.0, )",
-              "autoReferenced": true
-            },
-            "Microsoft.Maui.Graphics": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.101, )",
-              "autoReferenced": true
-            },
-            "Microsoft.NET.ILLink.Analyzers": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.100-1.23211.1, )",
-              "autoReferenced": true
-            },
-            "Microsoft.NET.ILLink.Tasks": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.100-1.23211.1, )",
-              "autoReferenced": true
-            },
-            "Microsoft.Office.Interop.Word": {
-              "target": "Package",
-              "version": "[15.0.4797.1004, )"
-            },
-            "Microsoft.Toolkit.Uwp.Notifications": {
-              "target": "Package",
-              "version": "[7.0.1, )"
-            },
-            "NetOffice.Core": {
-              "target": "Package",
-              "version": "[1.7.4.11, )"
-            },
-            "NetOffice.Excel": {
-              "target": "Package",
-              "version": "[1.7.4.11, )"
-            },
-            "NetOffice.Word": {
-              "target": "Package",
-              "version": "[1.7.4.11, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.3, )"
-            },
-            "PInvoke.User32": {
-              "target": "Package",
-              "version": "[0.7.124, )"
-            },
-            "WebSocketSharp-netstandard": {
-              "target": "Package",
-              "version": "[1.0.1, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.iOS.Ref",
-              "version": "[16.4.7129, 16.4.7129]"
-            },
-            {
-              "name": "Microsoft.Maui.Controls.Ref.ios",
-              "version": "[7.0.101, 7.0.101]"
-            },
-            {
-              "name": "Microsoft.Maui.Core.Ref.ios",
-              "version": "[7.0.101, 7.0.101]"
-            },
-            {
-              "name": "Microsoft.Maui.Essentials.Ref.ios",
-              "version": "[7.0.101, 7.0.101]"
-            }
-          ],
-          "frameworkReferences": {
-            "Microsoft.iOS": {
-              "privateAssets": "all"
-            },
-            "Microsoft.Maui.Controls": {
-              "privateAssets": "all"
-            },
-            "Microsoft.Maui.Core": {
-              "privateAssets": "all"
-            },
-            "Microsoft.Maui.Essentials": {
-              "privateAssets": "all"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
-        },
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
           "dependencies": {
@@ -617,6 +311,18 @@
               "version": "[1.7.4.11, )"
             },
             "NetOffice.Excel": {
+              "target": "Package",
+              "version": "[1.7.4.11, )"
+            },
+            "NetOffice.MSProject": {
+              "target": "Package",
+              "version": "[1.7.4.11, )"
+            },
+            "NetOffice.PowerPoint": {
+              "target": "Package",
+              "version": "[1.7.4.11, )"
+            },
+            "NetOffice.Visio": {
               "target": "Package",
               "version": "[1.7.4.11, )"
             },
@@ -738,6 +444,18 @@
               "version": "[1.7.4.11, )"
             },
             "NetOffice.Excel": {
+              "target": "Package",
+              "version": "[1.7.4.11, )"
+            },
+            "NetOffice.MSProject": {
+              "target": "Package",
+              "version": "[1.7.4.11, )"
+            },
+            "NetOffice.PowerPoint": {
+              "target": "Package",
+              "version": "[1.7.4.11, )"
+            },
+            "NetOffice.Visio": {
               "target": "Package",
               "version": "[1.7.4.11, )"
             },

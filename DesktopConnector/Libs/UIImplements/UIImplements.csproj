@@ -2,7 +2,7 @@
 
 
   <PropertyGroup>
-    <TargetFrameworks>net7.0;net7.0-android;net7.0-ios;net7.0-maccatalyst</TargetFrameworks>
+    <TargetFrameworks>net7.0;net7.0-maccatalyst</TargetFrameworks>
     <TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">$(TargetFrameworks);net7.0-windows10.0.19041.0</TargetFrameworks>
     <!-- Uncomment to also build the tizen app. You will need to install tizen by following this: https://github.com/Samsung/Tizen.NET -->
     <!-- <TargetFrameworks>$(TargetFrameworks);net7.0-tizen</TargetFrameworks> -->
@@ -22,6 +22,9 @@
 	  <PackageReference Include="Microsoft.Toolkit.Uwp.Notifications" Version="7.0.1" />
 	  <PackageReference Include="NetOffice.Core" Version="1.7.4.11" />
 	  <PackageReference Include="NetOffice.Excel" Version="1.7.4.11" />
+	  <PackageReference Include="NetOffice.MSProject" Version="1.7.4.11" />
+	  <PackageReference Include="NetOffice.PowerPoint" Version="1.7.4.11" />
+	  <PackageReference Include="NetOffice.Visio" Version="1.7.4.11" />
 	  <PackageReference Include="NetOffice.Word" Version="1.7.4.11" />
 	  <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 	  <PackageReference Include="PInvoke.User32" Version="0.7.124" />

@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "dgSpecHash": "MaHF1vvV76iIoOsFfLplzd+TDZEF5pGhNHbJzqTllIsM4lWRlJ2tAWpDWwJRuxbLMhhMqq44u34tco/szK7BXA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\admin.NTTLONG\\source\\repos\\files-client\\DesktopConnector\\Apps\\MauiApp1\\MauiApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.extensions.logging.debug\\7.0.0\\microsoft.extensions.logging.debug.7.0.0.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.graphics.win2d\\1.0.5.1\\microsoft.graphics.win2d.1.0.5.1.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.maui.graphics\\7.0.101\\microsoft.maui.graphics.7.0.101.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\7.0.101\\microsoft.maui.graphics.win2d.winui.desktop.7.0.101.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.windowsappsdk\\1.2.221209.1\\microsoft.windowsappsdk.1.2.221209.1.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\7.0.15\\microsoft.netcore.app.runtime.win-x86.7.0.15.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\7.0.15\\microsoft.windowsdesktop.app.runtime.win-x86.7.0.15.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\7.0.15\\microsoft.aspnetcore.app.runtime.win-x86.7.0.15.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.maui.core.ref.win\\7.0.101\\microsoft.maui.core.ref.win.7.0.101.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.maui.core.runtime.win\\7.0.101\\microsoft.maui.core.runtime.win.7.0.101.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.maui.controls.ref.win\\7.0.101\\microsoft.maui.controls.ref.win.7.0.101.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.maui.controls.runtime.win\\7.0.101\\microsoft.maui.controls.runtime.win.7.0.101.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.maui.essentials.ref.win\\7.0.101\\microsoft.maui.essentials.ref.win.7.0.101.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.maui.essentials.runtime.win\\7.0.101\\microsoft.maui.essentials.runtime.win.7.0.101.nupkg.sha512",
+    "C:\\Users\\admin.NTTLONG\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.31\\microsoft.windows.sdk.net.ref.10.0.19041.31.nupkg.sha512"
+  ],
+  "logs": []
+}

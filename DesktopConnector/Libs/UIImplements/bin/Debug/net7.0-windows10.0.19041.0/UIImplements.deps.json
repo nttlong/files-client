@@ -19,6 +19,9 @@
           "Microsoft.WindowsAppSDK": "1.2.221209.1",
           "NetOffice.Core": "1.7.4.11",
           "NetOffice.Excel": "1.7.4.11",
+          "NetOffice.MSProject": "1.7.4.11",
+          "NetOffice.PowerPoint": "1.7.4.11",
+          "NetOffice.Visio": "1.7.4.11",
           "NetOffice.Word": "1.7.4.11",
           "Newtonsoft.Json": "13.0.3",
           "PInvoke.User32": "0.7.124",
@@ -332,6 +335,43 @@
           }
         }
       },
+      "NetOffice.MSProject/1.7.4.11": {
+        "dependencies": {
+          "NetOffice.Core": "1.7.4.11"
+        },
+        "runtime": {
+          "lib/net45/MSHTMLApi.dll": {
+            "assemblyVersion": "1.7.4.11",
+            "fileVersion": "1.7.3.0"
+          },
+          "lib/net45/MSProjectApi.dll": {
+            "assemblyVersion": "1.7.4.11",
+            "fileVersion": "1.7.3.0"
+          }
+        }
+      },
+      "NetOffice.PowerPoint/1.7.4.11": {
+        "dependencies": {
+          "NetOffice.Core": "1.7.4.11"
+        },
+        "runtime": {
+          "lib/net45/PowerPointApi.dll": {
+            "assemblyVersion": "1.7.4.11",
+            "fileVersion": "1.7.3.0"
+          }
+        }
+      },
+      "NetOffice.Visio/1.7.4.11": {
+        "dependencies": {
+          "NetOffice.Core": "1.7.4.11"
+        },
+        "runtime": {
+          "lib/net45/VisioApi.dll": {
+            "assemblyVersion": "1.7.4.11",
+            "fileVersion": "1.7.3.0"
+          }
+        }
+      },
       "NetOffice.Word/1.7.4.11": {
         "dependencies": {
           "NetOffice.Core": "1.7.4.11"
@@ -617,6 +657,27 @@
       "sha512": "sha512-pEGj7uPzw8M0Dj1qj39f+/Z8cJNqBoosGM4u3OKw7o878MTurFTwfx5U+9VMv8NFB1XeNNuVyv857qZwO9eLKA==",
       "path": "netoffice.excel/1.7.4.11",
       "hashPath": "netoffice.excel.1.7.4.11.nupkg.sha512"
+    },
+    "NetOffice.MSProject/1.7.4.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Gf47YAqglV+VgVUn8BMAq5OlVYFI/FiLf2SkFed0fculobVJ2V/8Z2qvimGsOTJ+vsG0VzlC5ucTqtQ7l5pqsw==",
+      "path": "netoffice.msproject/1.7.4.11",
+      "hashPath": "netoffice.msproject.1.7.4.11.nupkg.sha512"
+    },
+    "NetOffice.PowerPoint/1.7.4.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xWHk5ECpV/CLtlPAwII6WRvMi7qHU8GB63EsvUqAHatokBQWOQD17//GL/eXWmexLzCVTa76rYvvdUZsk1eCpA==",
+      "path": "netoffice.powerpoint/1.7.4.11",
+      "hashPath": "netoffice.powerpoint.1.7.4.11.nupkg.sha512"
+    },
+    "NetOffice.Visio/1.7.4.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-F/18w5tCSA5nWDiEEUYuJ4SbBNG/zG1VNDeS8aaS3C7lWD4mqGrCtyNb8FyXAaFGQeoBLJHV0mXwV/Wev4Smug==",
+      "path": "netoffice.visio/1.7.4.11",
+      "hashPath": "netoffice.visio.1.7.4.11.nupkg.sha512"
     },
     "NetOffice.Word/1.7.4.11": {
       "type": "package",

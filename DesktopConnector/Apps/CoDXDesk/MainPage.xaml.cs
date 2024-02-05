@@ -1,5 +1,4 @@
-﻿using UIImplements;
-using UIProviders;
+﻿
 namespace CoDXDesk
 {
     public partial class MainPage : ContentPage

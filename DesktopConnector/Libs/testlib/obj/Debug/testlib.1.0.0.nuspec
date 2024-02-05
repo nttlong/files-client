@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>testlib</id>
+    <version>1.0.0</version>
+    <authors>testlib</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="458be1a7b64d8a1a6cce8a3221d6699ad4daf980" />
+    <dependencies>
+      <group targetFramework="net7.0" />
+      <group targetFramework="net7.0-maccatalyst16.1" />
+      <group targetFramework="net7.0-windows10.0.19041" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\libs\testlib\bin\Debug\net7.0\testlib.dll" target="lib\net7.0\testlib.dll" />
+    <file src="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\libs\testlib\bin\Debug\net7.0-maccatalyst\testlib.dll" target="lib\net7.0-maccatalyst16.1\testlib.dll" />
+    <file src="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\libs\testlib\bin\Debug\net7.0-windows10.0.19041.0\testlib.dll" target="lib\net7.0-windows10.0.19041\testlib.dll" />
+  </files>
+</package>

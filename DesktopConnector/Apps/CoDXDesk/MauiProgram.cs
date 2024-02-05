@@ -1,6 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
-using UIImplements;
-using UIProviders;
+
 using Microsoft.Maui.LifecycleEvents;
 using System.Xml;
 using CodxDesk;
@@ -21,7 +20,7 @@ namespace CoDXDesk
                     fonts.AddFont("OpenSans-SemiBold.ttf", "OpenSansSemiBold");
                 });
             builder.ConfigureLifecycleEvents(lifecycle => {
-                ServiceAssistent.GetService<IServer>().RunAsync("ws://127.0.0.1:8765").Start();
+                Services.ServiceAssistent.GetService<Services.IServer>().RunAsync("ws://127.0.0.1:8765").Start();
 #if WINDOWS
                 lifecycle.AddWindows(windows => windows.OnWindowCreated((del) => {
                     del.ExtendsContentIntoTitleBar = true;
@@ -32,22 +31,22 @@ namespace CoDXDesk
 
             var services = builder.Services;
 #if WINDOWS
-            services.AddSingleton<IServer, Server>();
-            services.AddSingleton<ITrayService, TrayService>();
-            services.AddSingleton<INotificationService, NotificationService>();
-            services.AddSingleton<ILoggingService,LoggingService>();
-            services.AddSingleton<IConfigService,ConfigService>();
-            services.AddSingleton<IContentService,ContentService>();
-            services.AddSingleton<IOfficeService,OfficeService>();
-            
+            services.AddSingleton<Services.IServer, ServiceFactory.Server>();
+            services.AddSingleton<Services.ITrayService, ServiceFactory.TrayService>();
+            services.AddSingleton<Services.INotificationService, ServiceFactory.NotificationService>();
+            services.AddSingleton<Services.ILoggingService, ServiceFactory.LoggingService>();
+            services.AddSingleton<Services.IConfigService, ServiceFactory.ConfigService>();
+            services.AddSingleton<Services.IContentService, ServiceFactory.ContentService>();
+            services.AddSingleton<Services.IOfficeService, ServiceFactory.OfficeService>();
+
 #elif MACCATALYST
-            services.AddSingleton<ITrayService, TrayService>();
-            services.AddSingleton<INotificationService, NotificationService>();
-            services.AddSingleton<IServer, Server>();
-            services.AddSingleton<ILoggingService,LoggingService>();
-            services.AddSingleton<IConfigService,ConfigService>();
-            services.AddSingleton<IContentService,ContentService>();
-            services.AddSingleton<IOfficeService,OfficeService>();
+            services.AddSingleton<Services.IServer, ServiceFactory.Server>();
+            services.AddSingleton<Services.ITrayService, ServiceFactory.TrayService>();
+            services.AddSingleton<Services.INotificationService, ServiceFactory.NotificationService>();
+            services.AddSingleton<Services.ILoggingService, ServiceFactory.LoggingService>();
+            services.AddSingleton<Services.IConfigService, ServiceFactory.ConfigService>();
+            services.AddSingleton<Services.IContentService, ServiceFactory.ContentService>();
+            services.AddSingleton<Services.IOfficeService, ServiceFactory.OfficeService>();
 #endif
 
 #if DEBUG

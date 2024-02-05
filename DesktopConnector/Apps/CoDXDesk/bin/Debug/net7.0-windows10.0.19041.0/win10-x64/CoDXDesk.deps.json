@@ -17,8 +17,12 @@
           "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop": "7.0.101",
           "Microsoft.Toolkit.Uwp.Notifications": "7.0.1",
           "Microsoft.WindowsAppSDK": "1.2.221209.1",
-          "UIImplements": "1.0.0",
-          "UIProviders": "1.0.0",
+          "NetOffice.Core": "1.7.4.11",
+          "NetOffice.Excel": "1.7.4.11",
+          "NetOffice.Word": "1.7.4.11",
+          "Newtonsoft.Json": "13.0.3",
+          "PInvoke.User32": "0.7.124",
+          "WebSocketSharp-netstandard": "1.0.1",
           "runtimepack.Microsoft.NETCore.App.Runtime.win-x64": "7.0.15",
           "runtimepack.Microsoft.Maui.Core.Runtime.win": "7.0.101",
           "runtimepack.Microsoft.Maui.Controls.Runtime.win": "7.0.101",
@@ -929,14 +933,6 @@
         }
       },
       "Microsoft.NETCore.Platforms/3.1.0": {},
-      "Microsoft.Office.Interop.Word/15.0.4797.1004": {
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Office.Interop.Word.dll": {
-            "assemblyVersion": "15.0.0.0",
-            "fileVersion": "15.0.4797.1003"
-          }
-        }
-      },
       "Microsoft.Toolkit.Uwp.Notifications/7.0.1": {
         "dependencies": {
           "Microsoft.Win32.Registry": "4.7.0",
@@ -1169,36 +1165,6 @@
             "fileVersion": "1.0.1.0"
           }
         }
-      },
-      "ConnectorModel/1.0.0": {
-        "runtime": {
-          "ConnectorModel.dll": {}
-        }
-      },
-      "UIImplements/1.0.0": {
-        "dependencies": {
-          "ConnectorModel": "1.0.0",
-          "Microsoft.Office.Interop.Word": "15.0.4797.1004",
-          "Microsoft.Toolkit.Uwp.Notifications": "7.0.1",
-          "NetOffice.Core": "1.7.4.11",
-          "NetOffice.Excel": "1.7.4.11",
-          "NetOffice.Word": "1.7.4.11",
-          "Newtonsoft.Json": "13.0.3",
-          "PInvoke.User32": "0.7.124",
-          "UIProviders": "1.0.0",
-          "WebSocketSharp-netstandard": "1.0.1"
-        },
-        "runtime": {
-          "UIImplements.dll": {}
-        }
-      },
-      "UIProviders/1.0.0": {
-        "dependencies": {
-          "ConnectorModel": "1.0.0"
-        },
-        "runtime": {
-          "UIProviders.dll": {}
-        }
       }
     }
   },
@@ -1323,13 +1289,6 @@
       "sha512": "sha512-z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w==",
       "path": "microsoft.netcore.platforms/3.1.0",
       "hashPath": "microsoft.netcore.platforms.3.1.0.nupkg.sha512"
-    },
-    "Microsoft.Office.Interop.Word/15.0.4797.1004": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-lavTOrMGK/o/t3+gGr7JuVrL8XDdnS0DwPLcYv/StOiysXO4L0C36IXTVtEJo1Mh9Aoxo9a8dgGcPi+faTlv0g==",
-      "path": "microsoft.office.interop.word/15.0.4797.1004",
-      "hashPath": "microsoft.office.interop.word.15.0.4797.1004.nupkg.sha512"
     },
     "Microsoft.Toolkit.Uwp.Notifications/7.0.1": {
       "type": "package",
@@ -1484,21 +1443,6 @@
       "sha512": "sha512-knoinAv31vbdxXdypnzN2MPX5hyntVLWceq6OdWRXkr9zzqp/RWbxSuLFGbkW8De1061URgNAN43BUTlgMx1CA==",
       "path": "websocketsharp-netstandard/1.0.1",
       "hashPath": "websocketsharp-netstandard.1.0.1.nupkg.sha512"
-    },
-    "ConnectorModel/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "UIImplements/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "UIProviders/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     }
   },
   "runtimes": {

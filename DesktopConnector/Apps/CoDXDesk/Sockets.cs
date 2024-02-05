@@ -12,7 +12,7 @@ namespace CodxDesk
         public static async Task RunAsync()
         {
             var server = new WebSocketServer("ws://localhost:8765");
-            server.AddWebSocketService<UIImplements.CodXDeskWebSocketBehavior>("/");
+            server.AddWebSocketService<CodXDeskWebSocketBehavior>("/");
             server.Start();
 
             await Task.Delay(-1); // Run forever until stopped
