@@ -1,5 +1,6 @@
 ﻿using CodxClient.Models;
 using CodxClient.Services;
+using Microsoft.UI.Xaml.Markup;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -58,7 +59,7 @@ namespace CodxClient.ServiceFactory
             {
                 if (this.Cacher.ContainsKey(id))
                 {
-                    if (e.ChangeType != WatcherChangeTypes.Deleted)
+                    if (e.ChangeType == WatcherChangeTypes.Created)
                     {
                         RequestInfo requestInfo = this.Cacher[id];
                         this.syncContentService.DoSync(requestInfo);
@@ -72,7 +73,18 @@ namespace CodxClient.ServiceFactory
                         if (File.Exists(trackFilePath))
                         {
                             RequestInfo requestInfo = this.contentService.LoadRequestInfoFromFile(TrackFilePath: trackFilePath,SourceFilePath:e.FullPath);
-                            this.syncContentService.DoSync(requestInfo);
+                            try
+                            {
+                                this.syncContentService.DoSync(requestInfo);
+                            }
+                            catch (System.IO.IOException ex)
+                            {
+
+                                
+                            }
+
+
+
                         }
                         
                     }

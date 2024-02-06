@@ -10,7 +10,9 @@ namespace CodxClient.Utils
 {
     public class ContentManager
     {
-
+#if WINDOWS
+        [System.Diagnostics.DebuggerStepThrough]
+#endif
         static HttpResponseMessage CreateRequest(string url, string method, Dictionary<string, string> header, object data, string filepathToDownload, string filePathtoUpload)
         {
             HttpClient httpClient = new HttpClient();
@@ -40,29 +42,32 @@ namespace CodxClient.Utils
             {
                 using (var stream = new FileStream(filePathtoUpload, FileMode.Open, FileAccess.Read))
                 {
-                    var fileContent = new StreamContent(stream);
-                    var fileName = Path.GetFileName(filePathtoUpload);
-                    if (data != null)
+                    using (var fileContent = new StreamContent(stream))
                     {
-                        var dataContent = Newtonsoft.Json.JsonConvert.SerializeObject(data);
-                        var postDict = Newtonsoft.Json.JsonConvert.DeserializeObject<Dictionary<string, string>>(dataContent);
-                        MultipartFormDataContent formDataContent = new MultipartFormDataContent();
-                        formDataContent.Add(fileContent, "content", fileName);
-
-                        foreach (KeyValuePair<string, string> entry in postDict)
+                        var fileName = Path.GetFileName(filePathtoUpload);
+                        if (data != null)
                         {
-                            formDataContent.Add(new StringContent(entry.Value), entry.Key);
+                            var dataContent = Newtonsoft.Json.JsonConvert.SerializeObject(data);
+                            var postDict = Newtonsoft.Json.JsonConvert.DeserializeObject<Dictionary<string, string>>(dataContent);
+                            MultipartFormDataContent formDataContent = new MultipartFormDataContent();
+                            formDataContent.Add(fileContent, "content", fileName);
+
+                            foreach (KeyValuePair<string, string> entry in postDict)
+                            {
+                                formDataContent.Add(new StringContent(entry.Value), entry.Key);
+                            }
+                            request.Content = formDataContent;
                         }
-                        request.Content = formDataContent;
-                    }
-                    else { 
+                        else
+                        {
                             request.Content = new MultipartFormDataContent
                             {
                                 { fileContent, "content", fileName }
                             };
+                        }
+                        var ret = httpClient.SendAsync(request).Result;
+                        return ret;
                     }
-                    var ret = httpClient.SendAsync(request).Result;
-                    return ret;
                 }
             }
             else if (filepathToDownload != null)
@@ -81,12 +86,17 @@ namespace CodxClient.Utils
 
 
         }
+#if WINDOWS
+        [System.Diagnostics.DebuggerStepThrough]
+#endif
         internal static void Download(Models.DelelegateInfo Src, string SaveToFile)
         {
             CreateRequest(Src.Url, Src.Method, Src.Header, Src.data, SaveToFile, null);
 
         }
-
+#if WINDOWS
+        [System.Diagnostics.DebuggerStepThrough]
+#endif
         internal static void Upload(DelelegateInfo Dst, string UploadFile)
         {
             CreateRequest(Dst.Url, Dst.Method, Dst.Header, Dst.data, null, UploadFile);

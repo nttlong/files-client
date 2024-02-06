@@ -11,6 +11,7 @@ namespace CodxClient.ServiceFactory
 {
     public class ContentService : Services.IContentService
     {
+        [System.Diagnostics.DebuggerStepThrough]
         public void Download(Models.DelelegateInfo Src, string SaveToFile )
         {
             Utils.ContentManager.Download(Src, SaveToFile);

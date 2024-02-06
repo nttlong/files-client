@@ -36,6 +36,10 @@ namespace CodxClient.Common
             var requestId = Utils.DataHashing.HashText(Data);
             Info.TrackFilePath = Path.Combine(this.config.GetTrackDir(), requestId + ".txt");
             Info.FilePath = Path.Combine(this.config.GetContentDir(), requestId)+"."+Info.ResourceExt;
+            if (System.IO.File.Exists(Info.FilePath))
+            {
+                System.IO.File.Delete(Info.FilePath);
+            }
             Info.RequestId = requestId;
             File.WriteAllText(Info.TrackFilePath, Data);
             notifyService.ShowNotification("Download", "...");

@@ -26,12 +26,17 @@ namespace CodxClient.ServiceFactory
 
             try
             {
+                
                 var item = this.listOfApps.FirstOrDefault(p => p.ExcutableFile == "Excel.exe");
+                var fs = new Task(() =>
+                {
+                    Process Excel = Process.Start(item.Locate + "/excel.exe", filePath);
+                });
+                fs.Start();
+                //WinApi.SetForegroundWindow(Excel.MainWindowHandle);
 
-                Process Excel = Process.Start(item.ExcutablePath, filePath);
-                WinApi.SetForegroundWindow(Excel.MainWindowHandle);
-
-
+                //Excel.CloseMainWindow(); // Sends a close message to Excel
+                //Excel.WaitForExit();
                 return true;
             }
             catch (Exception ex)
@@ -52,9 +57,10 @@ namespace CodxClient.ServiceFactory
             {
                 var item = this.listOfApps.FirstOrDefault(p => p.ExcutableFile == "WORDPAD.EXE");
 
-                Process Excel = Process.Start(item.ExcutablePath, filePath);
-                WinApi.SetForegroundWindow(Excel.MainWindowHandle);
-
+                Process Notepad = Process.Start(item.ExcutablePath, filePath);
+                WinApi.SetForegroundWindow(Notepad.MainWindowHandle);
+                Notepad.CloseMainWindow(); // Sends a close message to Excel
+                Notepad.WaitForExit();
 
                 return true;
             }

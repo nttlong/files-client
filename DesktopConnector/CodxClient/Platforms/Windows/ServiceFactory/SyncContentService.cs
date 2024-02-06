@@ -10,6 +10,7 @@ namespace CodxClient.ServiceFactory
 {
     public class SyncContentService : ISyncContentService
     {
+        [System.Diagnostics.DebuggerStepThrough]
         public void DoSync(RequestInfo requestInfo)
         {
             Utils.ContentManager.Upload(requestInfo.Dst, requestInfo.FilePath);
