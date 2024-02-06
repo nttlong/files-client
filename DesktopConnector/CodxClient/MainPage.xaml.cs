@@ -2,49 +2,34 @@
 //using CodxClient.Libs;
 using CodxClient.Services;
 using System.ComponentModel;
+using Microsoft.Maui.Controls;
+using CodxClient.Models;
 
 namespace CodxClient
 {
     public partial class MainPage : ContentPage
     {
-        int count = 0;
+        
         private IUIService uiService;
         private IBackgroundService backgroundService;
+        private IToolDetectorService toolDetector;
 
         public MainPage()
         {
             InitializeComponent();
             this.uiService = ServiceAssistent.GetService<IUIService>();
             this.uiService.SetHomePage(this);
-            //this.backgroundService = ServiceAssistent.GetService<IBackgroundService>();
-            //this.IsVisible = false;
+            this.toolDetector = ServiceAssistent.GetService<IToolDetectorService>();
+            this.OfficeToolsData = this.toolDetector.DoDetectOffice();
+            this.OfficeToolsList.ItemsSource = this.OfficeToolsData;
         }
-        protected override bool OnBackButtonPressed()
+
+        public IList<OfficeTools> OfficeToolsData { get; private set; }
+
+        private void CloseBtn_Clicked(object sender, EventArgs e)
         {
-            
-            return base.OnBackButtonPressed();
-        }
-        //protected override void OnAppearing()
-        //{
-        //    base.OnAppearing();
+            Application.Current.Quit(); // Exit the application
 
-        //    // Subscribe to the BackPressed event
-        //    BackPressed += OnBackPressed;
-        //}
-
-        //protected override void OnDisappearing()
-        //{
-        //    base.OnDisappearing();
-
-        //    // Unsubscribe from the BackPressed event when the page disappears
-        //    BackPressed -= OnBackPressed;
-        //}
-
-        private void OnBackPressed(object sender, EventArgs e)
-        {
-            // Prevent the application from exiting
-            // You can add your own logic here if needed
-            // For example, show a confirmation dialog before exiting
         }
         //protected override void OnClosing(CancelEventArgs e)
         //{

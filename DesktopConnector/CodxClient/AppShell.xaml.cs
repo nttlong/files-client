@@ -1,5 +1,6 @@
 ﻿using CodxClient.Services;
 using Microsoft.Maui.Controls;
+using System.Globalization;
 
 namespace CodxClient
 {
@@ -8,6 +9,7 @@ namespace CodxClient
         public AppShell()
         {
             InitializeComponent();
+            Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
             //SetupTrayIcon();
 
         }

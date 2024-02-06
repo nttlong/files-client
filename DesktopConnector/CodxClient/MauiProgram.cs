@@ -85,6 +85,7 @@ namespace CodxClient
             services.AddSingleton<Services.IOfficeService, ServiceFactory.OfficeService>();
             services.AddSingleton<Services.IUIService, ServiceFactory.UIService>();
             services.AddSingleton<Services.IBackgroundService, ServiceFactory.BackgroundService>();
+            services.AddSingleton<Services.IToolDetectorService, ServiceFactory.ToolDetectorService>();
 #elif MACCATALYST
             services.AddSingleton<Services.IServer, ServiceFactory.Server>();
             services.AddSingleton<Services.ITrayService, ServiceFactory.TrayService>();
@@ -95,6 +96,7 @@ namespace CodxClient
             services.AddSingleton<Services.IOfficeService, ServiceFactory.OfficeService>();
             services.AddSingleton<Services.IUIService, ServiceFactory.UIService>();
             services.AddSingleton<Services.IBackgroundService, ServiceFactory.BackgroundService>();
+            services.AddSingleton<Services.IToolDetectorService, ServiceFactory.ToolDetectorService>();
 #endif
 
 #if DEBUG
