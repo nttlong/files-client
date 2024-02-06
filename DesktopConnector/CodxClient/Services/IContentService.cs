@@ -10,6 +10,6 @@ namespace CodxClient.Services
     public interface IContentService
     {
         void Download(Models.DelelegateInfo src,string SaveToFile);
-        RequestInfo LoadRequestInfoFromFile(string trackFilePath);
+        RequestInfo LoadRequestInfoFromFile(string TrackFilePath, string SourceFilePath);
     }
 }

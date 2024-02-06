@@ -15,11 +15,13 @@ namespace CodxClient.ServiceFactory
         private INotificationService notificationService;
         private IContentService contentService;
         private IConfigService configService;
+        private ISyncContentService syncContentService;
 
         public ObserveContentService() {
             this.notificationService = ServiceAssistent.GetService<Services.INotificationService>();
             this.contentService = ServiceAssistent.GetService<Services.IContentService>();
             this.configService = ServiceAssistent.GetService<Services.IConfigService>();
+            this.syncContentService = ServiceAssistent.GetService<Services.ISyncContentService>();
         }
         public void RegisterRequestInfo(RequestInfo info)
         {
@@ -58,8 +60,8 @@ namespace CodxClient.ServiceFactory
                 {
                     if (e.ChangeType != WatcherChangeTypes.Deleted)
                     {
-                        RequestInfo requestInfo = this.Cacher[id]; 
-                        this.notificationService.ShowNotification("File", "Checking ...");
+                        RequestInfo requestInfo = this.Cacher[id];
+                        this.syncContentService.DoSync(requestInfo);
                     }
                 }
                 else
@@ -69,9 +71,10 @@ namespace CodxClient.ServiceFactory
                         var trackFilePath = Path.Combine(this.configService.GetTrackDir(), id + ".txt");
                         if (File.Exists(trackFilePath))
                         {
-                            RequestInfo requestInfo = this.contentService.LoadRequestInfoFromFile(trackFilePath: trackFilePath);
+                            RequestInfo requestInfo = this.contentService.LoadRequestInfoFromFile(TrackFilePath: trackFilePath,SourceFilePath:e.FullPath);
+                            this.syncContentService.DoSync(requestInfo);
                         }
-                        this.notificationService.ShowNotification("File", "Checking ...");
+                        
                     }
                 }
             }

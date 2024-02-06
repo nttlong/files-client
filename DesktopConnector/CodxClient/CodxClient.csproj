@@ -118,6 +118,9 @@
 	  <Compile Update="Platforms\MacCatalyst\ServiceFactory\ObserveContentService.cs">
 	    <ExcludeFromCurrentConfiguration>true</ExcludeFromCurrentConfiguration>
 	  </Compile>
+	  <Compile Update="Platforms\MacCatalyst\ServiceFactory\SyncContentService.cs">
+	    <ExcludeFromCurrentConfiguration>true</ExcludeFromCurrentConfiguration>
+	  </Compile>
 	  <Compile Update="Platforms\MacCatalyst\ServiceFactory\ToolDetectorService.cs">
 	    <ExcludeFromCurrentConfiguration>true</ExcludeFromCurrentConfiguration>
 	  </Compile>

@@ -18,12 +18,13 @@ namespace CodxClient.ServiceFactory
             Utils.ContentManager.Download(Src, SaveToFile);
         }
 
-        public RequestInfo LoadRequestInfoFromFile(string trackFilePath)
+        public RequestInfo LoadRequestInfoFromFile(string TrackFilePath, string SourceFilePath)
         {
-            using (StreamReader reader = File.OpenText(trackFilePath))
+            using (StreamReader reader = File.OpenText(TrackFilePath))
             {
                 
                 RequestInfo requestInfo = JsonConvert.DeserializeObject<RequestInfo>(reader.ReadToEnd());
+                requestInfo.FilePath=SourceFilePath;
                 return requestInfo;
             }
             // Deserialize JSON into RequestInfo object
