@@ -12,5 +12,9 @@ namespace CodxClient.Models
         public string Description { get; internal set; }
         public bool IsInstalled { get; internal set; }
         public string ImageUrl { get; set; }
+        public object Locate { get; internal set; }
+        public string ExcutableFile { get; internal set; }
+        public string ExcutablePath { get; internal set; }
+        public string AppId { get; internal set; }
     }
 }

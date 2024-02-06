@@ -102,11 +102,6 @@
 		</PackageReference>
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
 		<PackageReference Include="Microsoft.Toolkit.Uwp.Notifications" Version="7.0.1" />
-		<PackageReference Include="NetOffice.Excel" Version="1.7.4.11" />
-		<PackageReference Include="NetOffice.MSProject" Version="1.7.4.11" />
-		<PackageReference Include="NetOffice.PowerPoint" Version="1.7.4.11" />
-		<PackageReference Include="NetOffice.Visio" Version="1.7.4.11" />
-		<PackageReference Include="NetOffice.Word" Version="1.7.4.11" />
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 		<PackageReference Include="PInvoke.User32" Version="0.7.124" />
 		<PackageReference Include="WebSocketSharp-netstandard" Version="1.0.1" />

@@ -6,6 +6,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Diagnostics;
 using Microsoft.Win32;
+using CodxClient.WinUI;
+using Microsoft.Maui.Controls.PlatformConfiguration;
 namespace CodxClient.ServiceFactory
 {
     public class ToolDetectorService : IToolDetectorService
@@ -19,7 +21,9 @@ namespace CodxClient.ServiceFactory
             string[] officePaths = {
                 @"SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Winword.exe",
                 @"SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Excel.exe",
-                @"SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Powerpnt.exe"
+                @"SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Powerpnt.exe",
+                @"SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\pbrush.exe",
+                @"SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\WORDPAD.EXE"
             };
 
             foreach (string path in officePaths)
@@ -36,7 +40,10 @@ namespace CodxClient.ServiceFactory
                         ret.Add(new Models.OfficeTools
                         {
                             AppName = appNameDislplay,
-                            Description="",
+                            Locate= key.GetValue("Path"),
+                            ExcutableFile= path.Split('\\').Last(),
+                            ExcutablePath = key.GetValue("").ToString(),
+                            Description ="",
                             IsInstalled=true,
                             ImageUrl = $"Resources/Images/{appNameDislplay.ToLower()}.png"
                         });

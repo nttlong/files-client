@@ -119,9 +119,13 @@ namespace CodxClient.Libs
         [DllImport("user32.dll")]
         private static extern IntPtr GetWindowLongPtr(IntPtr hWnd, int nIndex);
 
-        
 
-        
+        [DllImport("user32.dll")]
+        static extern bool ShowWindowAsync(IntPtr hWnd, int nCmdShow);
+
+        const int SW_SHOWMINIMIZED = 2;
+        const int SW_RESTORE = 9;
+
 
         public static void HideCloseButton(IntPtr hWnd)
         {

@@ -8,7 +8,10 @@ namespace CodxClient.Services
 {
     public interface IOfficeService
     {
-        void OpenExcel(string filePath);
-        void OpenWord(string filePath);
+        bool OpenExcel(string filePath);
+        bool OpenNotepad(string filePath);
+        bool OpenPaint(string filePath);
+        bool OpenPowerPoint(string filePath);
+        bool OpenWord(string filePath);
     }
 }

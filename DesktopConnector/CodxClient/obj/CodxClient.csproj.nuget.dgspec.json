@@ -97,26 +97,6 @@
               "target": "Package",
               "version": "[7.0.1, )"
             },
-            "NetOffice.Excel": {
-              "target": "Package",
-              "version": "[1.7.4.11, )"
-            },
-            "NetOffice.MSProject": {
-              "target": "Package",
-              "version": "[1.7.4.11, )"
-            },
-            "NetOffice.PowerPoint": {
-              "target": "Package",
-              "version": "[1.7.4.11, )"
-            },
-            "NetOffice.Visio": {
-              "target": "Package",
-              "version": "[1.7.4.11, )"
-            },
-            "NetOffice.Word": {
-              "target": "Package",
-              "version": "[1.7.4.11, )"
-            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
@@ -241,26 +221,6 @@
               "target": "Package",
               "version": "[1.2.221209.1, )",
               "autoReferenced": true
-            },
-            "NetOffice.Excel": {
-              "target": "Package",
-              "version": "[1.7.4.11, )"
-            },
-            "NetOffice.MSProject": {
-              "target": "Package",
-              "version": "[1.7.4.11, )"
-            },
-            "NetOffice.PowerPoint": {
-              "target": "Package",
-              "version": "[1.7.4.11, )"
-            },
-            "NetOffice.Visio": {
-              "target": "Package",
-              "version": "[1.7.4.11, )"
-            },
-            "NetOffice.Word": {
-              "target": "Package",
-              "version": "[1.7.4.11, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",

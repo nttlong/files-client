@@ -32,7 +32,7 @@ namespace CodxClient.Common
         {
             var requestId = Utils.DataHashing.HashText(Data);
             Info.TrackFilePath = Path.Combine(this.config.GetTrackDir(), requestId + ".txt");
-            Info.FilePath = Path.Combine(this.config.GetContentDir(), requestId);
+            Info.FilePath = Path.Combine(this.config.GetContentDir(), requestId)+"."+Info.ResourceExt;
             Info.RequestId = requestId;
             File.WriteAllText(Info.TrackFilePath, Data);
             notifyService.ShowNotification("Download", "...");
@@ -44,16 +44,32 @@ namespace CodxClient.Common
 
 
             var info = Newtonsoft.Json.JsonConvert.DeserializeObject<Models.RequestInfo>(e.Data);
+            bool openOK = false;
             if (DocSupports.AppWordMappingDict.ContainsKey(info.ResourceExt.ToLower()))
             {
                 info = this.DoDownload(Info: info, Data: e.Data);
 
-                this.officeService.OpenWord(info.FilePath);
+                openOK=this.officeService.OpenWord(info.FilePath);
             }
             else if (DocSupports.ExcelExtensions.ContainsKey(info.ResourceExt.ToLower()))
             {
                 info = this.DoDownload(Info: info, Data: e.Data);
-                this.officeService.OpenExcel(info.FilePath);
+                openOK = this.officeService.OpenExcel(info.FilePath);
+            }
+            else if (DocSupports.PowerpointExtensions.ContainsKey(info.ResourceExt.ToLower()))
+            {
+                info = this.DoDownload(Info: info, Data: e.Data);
+                openOK = this.officeService.OpenPowerPoint(info.FilePath);
+            }
+            else if (DocSupports.PaintExtensions.ContainsKey(info.ResourceExt.ToLower()))
+            {
+                info = this.DoDownload(Info: info, Data: e.Data);
+                openOK = this.officeService.OpenPaint(info.FilePath);
+            }
+            else if (DocSupports.NotepadExtensions.ContainsKey(info.ResourceExt.ToLower()))
+            {
+                info = this.DoDownload(Info: info, Data: e.Data);
+                openOK = this.officeService.OpenNotepad(info.FilePath);
             }
             else
             {

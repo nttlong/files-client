@@ -1,31 +1,126 @@
-﻿using System;
+﻿using CodxClient.Services;
+using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using Excel = NetOffice.ExcelApi;
-using Word = NetOffice.WordApi;
+using System.Collections;
+using System.Linq;
+using CodxClient.Models;
+using CodxClient.Libs;
 namespace CodxClient.ServiceFactory
 {
     public class OfficeService : Services.IOfficeService
     {
-        public void OpenExcel(string filePath)
-        {
-            Excel.Application wordApp = new Excel.Application();
-            wordApp.Visible = true;
+        private IToolDetectorService toolDetector;
+        private IList<OfficeTools> listOfApps;
 
-            Excel.Workbook doc = wordApp.Workbooks.Open(filePath);
-            doc.Activate();
+        public OfficeService() {
+            this.toolDetector = ServiceAssistent.GetService<IToolDetectorService>();
+            this.listOfApps = this.toolDetector.DoDetectOffice();
+        }
+        public bool OpenExcel(string filePath)
+        {
+
+            try
+            {
+                var item = this.listOfApps.FirstOrDefault(p => p.ExcutableFile == "Excel.exe");
+
+                Process Excel = Process.Start(item.ExcutablePath, filePath);
+                WinApi.SetForegroundWindow(Excel.MainWindowHandle);
+
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+            
+        }
+        /// <summary>
+        /// WORDPAD.EXE
+        /// </summary>
+        /// <param name="filePath"></param>
+        /// <returns></returns>
+        /// <exception cref="NotImplementedException"></exception>
+        public bool OpenNotepad(string filePath)
+        {
+            try
+            {
+                var item = this.listOfApps.FirstOrDefault(p => p.ExcutableFile == "WORDPAD.EXE");
+
+                Process Excel = Process.Start(item.ExcutablePath, filePath);
+                WinApi.SetForegroundWindow(Excel.MainWindowHandle);
+
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
         }
 
-        public void OpenWord(string filePath)
+        /// <summary>
+        /// pbrush.exe
+        /// </summary>
+        /// <param name="filePath"></param>
+        /// <returns></returns>
+        /// <exception cref="NotImplementedException"></exception>
+        public bool OpenPaint(string filePath)
         {
-            Word.Application wordApp = new Word.Application();
-            wordApp.Visible = true;
 
-            Word.Document doc = wordApp.Documents.Open(filePath);
-            doc.Activate();
+            try
+            {
+                var item = this.listOfApps.FirstOrDefault(p => p.ExcutableFile == "pbrush.exe");
+
+                Process Excel = Process.Start(item.ExcutablePath, filePath);
+                WinApi.SetForegroundWindow(Excel.MainWindowHandle);
+
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+        }
+
+        public bool OpenPowerPoint(string filePath)
+        {
+            try
+            {
+                var item = this.listOfApps.FirstOrDefault(p => p.ExcutableFile == "Powerpnt.exe");
+
+                Process Powerpnt = Process.Start(item.ExcutablePath, filePath);
+                WinApi.SetForegroundWindow(Powerpnt.MainWindowHandle);
+
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+        }
+
+        public bool OpenWord(string filePath)
+        {
+            try
+            {
+                var item = this.listOfApps.FirstOrDefault(p => p.ExcutableFile == "Winword.exe");
+
+                Process Word = Process.Start(item.ExcutablePath, filePath);
+                WinApi.SetForegroundWindow(Word.MainWindowHandle);
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
         }
     }
 }

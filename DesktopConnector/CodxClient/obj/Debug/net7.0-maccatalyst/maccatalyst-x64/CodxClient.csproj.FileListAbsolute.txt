@@ -264,15 +264,6 @@ C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\CodxClient.genruntimeconfig.cache
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\ref\CodxClient.dll
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Toolkit.Uwp.Notifications.dll
-C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\NetOffice.dll
-C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\OfficeApi.dll
-C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\VBIDEApi.dll
-C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\WordApi.dll
-C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\ExcelApi.dll
-C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\MSHTMLApi.dll
-C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\MSProjectApi.dll
-C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\PowerPointApi.dll
-C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\VisioApi.dll
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Platforms\Windows\app.ico
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Newtonsoft.Json.dll
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\websocket-sharp.dll

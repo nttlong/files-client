@@ -7,14 +7,29 @@ using System.Threading.Tasks;
 
 namespace CodxClient.ServiceFactory
 {
-    public class OfficeService :  Services.IOfficeService
+    public class OfficeService : Services.IOfficeService
     {
-        public void OpenExcel(string filePath)
+        public bool OpenExcel(string filePath)
         {
             throw new NotImplementedException();
         }
 
-        public void OpenWord(string filePath)
+        public bool OpenNotepad(string filePath)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool OpenPaint(string filePath)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool OpenPowerPoint(string filePath)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool OpenWord(string filePath)
         {
             throw new NotImplementedException();
         }
