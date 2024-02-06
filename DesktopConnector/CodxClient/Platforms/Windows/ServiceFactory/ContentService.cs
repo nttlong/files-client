@@ -1,4 +1,6 @@
-﻿using System;
+﻿using CodxClient.Models;
+using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,6 +16,16 @@ namespace CodxClient.ServiceFactory
             Utils.ContentManager.Download(Src, SaveToFile);
         }
 
-        
+        public RequestInfo LoadRequestInfoFromFile(string trackFilePath)
+        {
+            using (StreamReader reader = File.OpenText(trackFilePath))
+            {
+
+                RequestInfo requestInfo = JsonConvert.DeserializeObject<RequestInfo>(reader.ReadToEnd());
+                return requestInfo;
+            }
+            // Deserialize JSON into RequestInfo object
+
+        }
     }
 }

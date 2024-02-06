@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace CodxClient.Services
 {
-    public interface IContentService
+    public interface IObserveContentService
     {
-        void Download(Models.DelelegateInfo src,string SaveToFile);
-        RequestInfo LoadRequestInfoFromFile(string trackFilePath);
+        void RegisterRequestInfo(RequestInfo info);
+        void Start(string v);
     }
 }

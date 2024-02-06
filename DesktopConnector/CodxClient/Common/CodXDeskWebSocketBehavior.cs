@@ -8,6 +8,7 @@ using WebSocketSharp;
 //using NetOffice.OfficeApi.Tools.Informations;
 
 using System.IO;
+using CodxClient.Services;
 
 
 namespace CodxClient.Common
@@ -18,7 +19,8 @@ namespace CodxClient.Common
         private Services.INotificationService notifyService;
         private Services.IContentService contentService;
         private Services.IOfficeService officeService;
-        
+        private IObserveContentService observeContentService;
+
         public CodXDeskWebSocketBehavior()
         {
             
@@ -26,6 +28,7 @@ namespace CodxClient.Common
             notifyService = Services.ServiceAssistent.GetService<Services.INotificationService>();
             contentService = Services.ServiceAssistent.GetService<Services.IContentService>();
             officeService = Services.ServiceAssistent.GetService<Services.IOfficeService>();
+            observeContentService = Services.ServiceAssistent.GetService<Services.IObserveContentService>();
 
         }
         private Models.RequestInfo DoDownload(Models.RequestInfo Info, string Data)
@@ -50,26 +53,46 @@ namespace CodxClient.Common
                 info = this.DoDownload(Info: info, Data: e.Data);
 
                 openOK=this.officeService.OpenWord(info.FilePath);
+                if(openOK)
+                {
+                    observeContentService.RegisterRequestInfo(info);
+                }
             }
             else if (DocSupports.ExcelExtensions.ContainsKey(info.ResourceExt.ToLower()))
             {
                 info = this.DoDownload(Info: info, Data: e.Data);
                 openOK = this.officeService.OpenExcel(info.FilePath);
+                if (openOK)
+                {
+                    observeContentService.RegisterRequestInfo(info);
+                }
             }
             else if (DocSupports.PowerpointExtensions.ContainsKey(info.ResourceExt.ToLower()))
             {
                 info = this.DoDownload(Info: info, Data: e.Data);
                 openOK = this.officeService.OpenPowerPoint(info.FilePath);
+                if (openOK)
+                {
+                    observeContentService.RegisterRequestInfo(info);
+                }
             }
             else if (DocSupports.PaintExtensions.ContainsKey(info.ResourceExt.ToLower()))
             {
                 info = this.DoDownload(Info: info, Data: e.Data);
                 openOK = this.officeService.OpenPaint(info.FilePath);
+                if (openOK)
+                {
+                    observeContentService.RegisterRequestInfo(info);
+                }
             }
             else if (DocSupports.NotepadExtensions.ContainsKey(info.ResourceExt.ToLower()))
             {
                 info = this.DoDownload(Info: info, Data: e.Data);
                 openOK = this.officeService.OpenNotepad(info.FilePath);
+                if (openOK)
+                {
+                    observeContentService.RegisterRequestInfo(info);
+                }
             }
             else
             {

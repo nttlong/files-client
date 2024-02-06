@@ -62,6 +62,7 @@ namespace CodxClient.Utils
         internal static void Download(Models.DelelegateInfo Src, string SaveToFile)
         {
             CreateRequest(Src.Url, Src.Method, Src.Header, Src.data, SaveToFile, null);
+
         }
 
         

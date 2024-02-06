@@ -32,5 +32,22 @@ namespace CodxClient.Utils
             byte[] jsonBytes = Encoding.UTF8.GetBytes(jsonText);
             return HashBytes(jsonBytes);
         }
+
+        public static bool IsValidHashKey(string HashkeyValue)
+        {
+            int expectedHashLength = 64;
+
+            // Regular expression pattern for hexadecimal characters (modify for other bases)
+            string pattern = @"^[0-9a-fA-F]+$";
+
+            if (HashkeyValue.Length == expectedHashLength && System.Text.RegularExpressions.Regex.IsMatch(HashkeyValue, pattern))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
     }
 }

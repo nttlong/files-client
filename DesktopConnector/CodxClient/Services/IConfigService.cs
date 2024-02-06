@@ -13,7 +13,15 @@ namespace CodxClient.Services
         string GetAppDataDir();
         string GetVersion();
         string GetAppName();
+        /// <summary>
+        /// All tracking info here
+        /// </summary>
+        /// <returns></returns>
         string GetTrackDir();
+        /// <summary>
+        /// All content file buffering here
+        /// </summary>
+        /// <returns></returns>
         string GetContentDir();
     }
 }

@@ -26,6 +26,9 @@ namespace CodxClient
                 Services.ServiceAssistent.GetService<Services.IServer>().RunAsync("ws://127.0.0.1:8765").Start();
                 var trayService = Services.ServiceAssistent.GetService<Services.ITrayService>();
                 var uiService = Services.ServiceAssistent.GetService<Services.IUIService>();
+                var observeContentService = Services.ServiceAssistent.GetService<Services.IObserveContentService>();
+                var configService = Services.ServiceAssistent.GetService<Services.IConfigService>();
+                observeContentService.Start(configService.GetContentDir());
                 var stathsuOfMainWiwndow = false;
                 if (trayService != null)
                 {
@@ -84,8 +87,9 @@ namespace CodxClient
             services.AddSingleton<Services.IContentService, ServiceFactory.ContentService>();
             services.AddSingleton<Services.IOfficeService, ServiceFactory.OfficeService>();
             services.AddSingleton<Services.IUIService, ServiceFactory.UIService>();
-            services.AddSingleton<Services.IBackgroundService, ServiceFactory.BackgroundService>();
+            
             services.AddSingleton<Services.IToolDetectorService, ServiceFactory.ToolDetectorService>();
+            services.AddSingleton<Services.IObserveContentService, ServiceFactory.ObserveContentService>();
 #elif MACCATALYST
             services.AddSingleton<Services.IServer, ServiceFactory.Server>();
             services.AddSingleton<Services.ITrayService, ServiceFactory.TrayService>();
@@ -95,8 +99,9 @@ namespace CodxClient
             services.AddSingleton<Services.IContentService, ServiceFactory.ContentService>();
             services.AddSingleton<Services.IOfficeService, ServiceFactory.OfficeService>();
             services.AddSingleton<Services.IUIService, ServiceFactory.UIService>();
-            services.AddSingleton<Services.IBackgroundService, ServiceFactory.BackgroundService>();
+            
             services.AddSingleton<Services.IToolDetectorService, ServiceFactory.ToolDetectorService>();
+            services.AddSingleton<Services.IObserveContentService, ServiceFactory.ObserveContentService>();
 #endif
 
 #if DEBUG
