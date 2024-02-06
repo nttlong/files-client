@@ -6,7 +6,29 @@
     xmlns:local="clr-namespace:CodxClient"
     MaximumHeightRequest="500"
     MaximumWidthRequest="500"
-    Shell.FlyoutBehavior="Disabled">
+    Shell.FlyoutBehavior="Flyout">
+
+    <Shell.FlyoutHeader>
+        <!--  Optionally, you can add a header to the flyout  -->
+        <Label
+            FontAttributes="Bold"
+            FontSize="20"
+            Text="Codx desktop application connector" />
+    </Shell.FlyoutHeader>
+
+    <!--  Your existing FlyoutItems go here  -->
+
+    <Shell.FlyoutFooter>
+        <!--  Add an Exit button in the FlyoutFooter  -->
+        <StackLayout Padding="10">
+            <Button
+                x:Name="CloseBtn"
+                Clicked="CloseBtn_Clicked"
+                HorizontalOptions="End"
+                SemanticProperties.Hint="{DynamicResource ExitHint}"
+                Text="{DynamicResource Exit}" />
+        </StackLayout>
+    </Shell.FlyoutFooter>
 
     <ShellContent ContentTemplate="{DataTemplate local:MainPage}" Route="MainPage" />
 

@@ -6,7 +6,60 @@
     MaximumHeightRequest="500"
     MaximumWidthRequest="500">
 
-    <ScrollView>
+    <StackLayout Padding="10">
+        <!--  Top Panel with CollectionView  -->
+        <CollectionView x:Name="OfficeToolsList">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Image
+                            Grid.Column="0"
+                            HeightRequest="50"
+                            Source="{Binding ImageUrl}"
+                            VerticalOptions="Center" />
+                        <StackLayout
+                            Grid.Column="1"
+                            Padding="4"
+                            Spacing="4"
+                            VerticalOptions="Fill">
+                            <Label
+                                FontAttributes="Bold"
+                                LineBreakMode="NoWrap"
+                                Style="{StaticResource BoldLabelStyle}"
+                                Text="{Binding AppName}" />
+                            <Label
+                                LineBreakMode="NoWrap"
+                                Style="{StaticResource RegularLabelStyle}"
+                                Text="{Binding Description}" />
+                        </StackLayout>
+                    </Grid>
+                    <!--<VerticalStackLayout Padding="2">
+                        <Image Source="{Binding ImageUrl}" />
+                        <Label FontAttributes="Bold" Text="{Binding AppName}" />
+                        <Label Margin="0,5,0,0" Text="{Binding Description}" />
+                    </VerticalStackLayout>-->
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <!--  Bottom Panel with Exit Button  -->
+        <!--<StackLayout VerticalOptions="EndAndExpand">
+            <Button
+                x:Name="CloseBtn"
+                Clicked="CloseBtn_Clicked"
+                HorizontalOptions="End"
+                SemanticProperties.Hint="{DynamicResource ExitHint}"
+                Text="{DynamicResource Exit}" />
+        </StackLayout>-->
+    </StackLayout>
+
+    <!--<ScrollView>
+
         <VerticalStackLayout
             Padding="30,0"
             Spacing="25"
@@ -22,17 +75,27 @@
                 </CollectionView.ItemTemplate>
             </CollectionView>
 
-            <Button
-                x:Name="CloseBtn"
-                Clicked="CloseBtn_Clicked"
-                HorizontalOptions="End"
-                SemanticProperties.Hint="{DynamicResource ExitHint}"
-                Text="{DynamicResource Exit}" />
 
 
         </VerticalStackLayout>
     </ScrollView>
-
+    <Picker Title="Select a monkey">
+        <Picker.Items>
+            <x:String>Baboon</x:String>
+            <x:String>Capuchin Monkey</x:String>
+            <x:String>Blue Monkey</x:String>
+            <x:String>Squirrel Monkey</x:String>
+            <x:String>Golden Lion Tamarin</x:String>
+            <x:String>Howler Monkey</x:String>
+            <x:String>Japanese Macaque</x:String>
+        </Picker.Items>
+    </Picker>
+    <Button
+        x:Name="CloseBtn"
+        Clicked="CloseBtn_Clicked"
+        HorizontalOptions="End"
+        SemanticProperties.Hint="{DynamicResource ExitHint}"
+        Text="{DynamicResource Exit}" />-->
 
 </ContentPage>
 

@@ -25,6 +25,7 @@ namespace CodxClient
         }
 
         public IList<OfficeTools> OfficeToolsData { get; private set; }
+       
 
         private void CloseBtn_Clicked(object sender, EventArgs e)
         {

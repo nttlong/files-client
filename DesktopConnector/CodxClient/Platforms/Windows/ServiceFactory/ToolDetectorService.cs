@@ -25,25 +25,27 @@ namespace CodxClient.ServiceFactory
             foreach (string path in officePaths)
             {
                 string appName = path.Split('\\').Last().Split('.').First();
-
+                var appNameDislplay = path.Split(@"\")[path.Split(@"\").Length - 1].Split('.')[0].ToLower();
                 try
                 {
                     RegistryKey key = Registry.LocalMachine.OpenSubKey(path);
+                    
                     if (key != null)
                     {
                         string installPath = key.GetValue("(Default)") as string;
                         ret.Add(new Models.OfficeTools
                         {
-                            AppName = path.Split(@"\")[path.Split(@"\").Length - 1],
+                            AppName = appNameDislplay,
                             Description="",
-                            IsInstalled=true
+                            IsInstalled=true,
+                            ImageUrl = $"Resources/Images/{appNameDislplay.ToLower()}.png"
                         });
                     }
                     else
                     {
                         ret.Add(new Models.OfficeTools
                         {
-                            AppName = path.Split(@"\")[path.Split(@"\").Length - 1],
+                            AppName = $"Resources/Images/{appNameDislplay.ToLower()}.png",
                             Description = "",
                             IsInstalled = false
                         });
@@ -53,7 +55,7 @@ namespace CodxClient.ServiceFactory
                 {
                     ret.Add(new Models.OfficeTools
                     {
-                        AppName = path.Split(@"\")[path.Split(@"\").Length - 1],
+                        AppName = $"Resources/Images/{appNameDislplay.ToLower()}.png",
                         Description = "",
                         IsInstalled = false
                     });
@@ -64,11 +66,13 @@ namespace CodxClient.ServiceFactory
             ret.Add(new Models.OfficeTools
             {
                 AppName = "Visio",
+                ImageUrl = $"Resources/Images/visio.png",
                 IsInstalled = visioInstalled
             });
             ret.Add(new Models.OfficeTools
             {
                 AppName = "MS Project",
+                ImageUrl = $"Resources/Images/msproject.png",
                 IsInstalled = msProjectInstalled
             });
             return ret;

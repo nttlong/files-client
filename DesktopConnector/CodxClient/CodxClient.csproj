@@ -56,11 +56,30 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiImage Remove="Resources\Images\excel.png" />
+	  <MauiImage Remove="Resources\Images\msproject.png" />
+	  <MauiImage Remove="Resources\Images\powerpnt.png" />
+	  <MauiImage Remove="Resources\Images\visio.png" />
+	  <MauiImage Remove="Resources\Images\winword.png" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <None Remove="Platforms\Windows\app.ico" />
 	  <None Remove="Resources\AppIcon\appicon.svg" />
 	  <None Remove="Resources\Fonts\OpenSans-Regular.ttf" />
 	  <None Remove="Resources\Fonts\OpenSans-Semibold.ttf" />
 	  <None Remove="Resources\Images\dotnet_bot.svg" />
+	  <None Remove="Resources\Images\excel.png" />
+	  <None Remove="Resources\Images\excel.svg" />
+	  <None Remove="Resources\Images\msproject.png" />
+	  <None Remove="Resources\Images\msproject.svg" />
+	  <None Remove="Resources\Images\msword.svg" />
+	  <None Remove="Resources\Images\powerpnt.png" />
+	  <None Remove="Resources\Images\powerpoint.svg" />
+	  <None Remove="Resources\Images\visio.png" />
+	  <None Remove="Resources\Images\visio.svg" />
+	  <None Remove="Resources\Images\winword.png" />
+	  <None Remove="Resources\Images\word.svg" />
 	  <None Remove="Resources\Raw\AboutAssets.txt" />
 	  <None Remove="Resources\Splash\splash.svg" />
 	</ItemGroup>
@@ -69,6 +88,11 @@
 	  <Content Include="Platforms\Windows\app.ico">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </Content>
+	  <Content Include="Resources\Images\excel.png" />
+	  <Content Include="Resources\Images\msproject.png" />
+	  <Content Include="Resources\Images\powerpnt.png" />
+	  <Content Include="Resources\Images\visio.png" />
+	  <Content Include="Resources\Images\winword.png" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -111,6 +135,9 @@
 	  <MauiImage Update="Resources\Images\dotnet_bot.svg">
 	    <BaseSize>168,208</BaseSize>
 	  </MauiImage>
+	  <MauiImage Update="Resources\Images\word.svg">
+	    <BaseSize>168,208</BaseSize>
+	  </MauiImage>
 	</ItemGroup>
 
 	<ItemGroup>
@@ -131,6 +158,9 @@
 	  </MauiXaml>
 	  <MauiXaml Update="Resources\Styles\Colors.xaml">
 	    <SubType>Designer</SubType>
+	  </MauiXaml>
+	  <MauiXaml Update="Resources\Styles\MainPageItemStyles.xaml">
+	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Resources\Styles\Styles.xaml">
 	    <SubType>Designer</SubType>

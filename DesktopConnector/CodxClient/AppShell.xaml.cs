@@ -13,7 +13,12 @@ namespace CodxClient
             //SetupTrayIcon();
 
         }
-        
+
+        private void CloseBtn_Clicked(object sender, EventArgs e)
+        {
+            Application.Current.Quit();
+        }
+
         //protected override void OnAppearing()
         //{
         //    base.OnAppearing();

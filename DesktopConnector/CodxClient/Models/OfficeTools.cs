@@ -11,5 +11,6 @@ namespace CodxClient.Models
         public string AppName { get; internal set; }
         public string Description { get; internal set; }
         public bool IsInstalled { get; internal set; }
+        public string ImageUrl { get; set; }
     }
 }

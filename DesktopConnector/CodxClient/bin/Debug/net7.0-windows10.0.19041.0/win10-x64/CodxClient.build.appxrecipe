@@ -1768,6 +1768,120 @@
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\excel.scale-100.png">
+      <PackagePath>excel.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\excel.scale-125.png">
+      <PackagePath>excel.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\excel.scale-150.png">
+      <PackagePath>excel.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\excel.scale-200.png">
+      <PackagePath>excel.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\excel.scale-400.png">
+      <PackagePath>excel.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\msproject.scale-100.png">
+      <PackagePath>msproject.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\msproject.scale-125.png">
+      <PackagePath>msproject.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\msproject.scale-150.png">
+      <PackagePath>msproject.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\msproject.scale-200.png">
+      <PackagePath>msproject.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\msproject.scale-400.png">
+      <PackagePath>msproject.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\msword.scale-100.png">
+      <PackagePath>msword.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\msword.scale-125.png">
+      <PackagePath>msword.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\msword.scale-150.png">
+      <PackagePath>msword.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\msword.scale-200.png">
+      <PackagePath>msword.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\msword.scale-400.png">
+      <PackagePath>msword.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\powerpnt.scale-100.png">
+      <PackagePath>powerpnt.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\powerpoint.scale-100.jfif">
+      <PackagePath>powerpoint.scale-100.jfif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\powerpoint.scale-100.png">
+      <PackagePath>powerpoint.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\powerpoint.scale-125.png">
+      <PackagePath>powerpoint.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\powerpoint.scale-150.png">
+      <PackagePath>powerpoint.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\powerpoint.scale-200.png">
+      <PackagePath>powerpoint.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\powerpoint.scale-400.png">
+      <PackagePath>powerpoint.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\visio.scale-100.jfif">
+      <PackagePath>visio.scale-100.jfif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\visio.scale-100.png">
+      <PackagePath>visio.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\visio.scale-125.png">
+      <PackagePath>visio.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\visio.scale-150.png">
+      <PackagePath>visio.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\visio.scale-200.png">
+      <PackagePath>visio.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\visio.scale-400.png">
+      <PackagePath>visio.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\word.scale-100.png">
+      <PackagePath>word.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\word.scale-125.png">
+      <PackagePath>word.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\word.scale-150.png">
+      <PackagePath>word.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\word.scale-200.png">
+      <PackagePath>word.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\word.scale-400.png">
+      <PackagePath>word.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\Resources\Images\excel.png">
+      <PackagePath>Resources\Images\excel.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\Resources\Images\msproject.png">
+      <PackagePath>Resources\Images\msproject.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\Resources\Images\powerpnt.png">
+      <PackagePath>Resources\Images\powerpnt.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\Resources\Images\visio.png">
+      <PackagePath>Resources\Images\visio.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\Resources\Images\winword.png">
+      <PackagePath>Resources\Images\winword.png</PackagePath>
+    </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
     <ResolvedSDKReference Include="C:\Users\admin.NTTLONG\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.2.msix">

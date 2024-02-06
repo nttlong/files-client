@@ -29,13 +29,13 @@
     <AppXManifest Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-02-06T03:31:29.789</Modified>
+      <Modified>2024-02-06T06:56:23.434</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-02-06T03:31:28.921</Modified>
+      <Modified>2024-02-06T06:46:12.965</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\CodxClient.runtimeconfig.json">
       <PackagePath>CodxClient.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\CodxClient.dll">
       <PackagePath>CodxClient.dll</PackagePath>
-      <Modified>2024-02-06T03:31:27.756</Modified>
+      <Modified>2024-02-06T06:56:21.225</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>CodxClient.exe</PackagePath>
-      <Modified>2024-02-06T03:31:27.765</Modified>
+      <Modified>2024-02-06T06:56:21.234</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\Platforms\Windows\app.ico">
       <PackagePath>Platforms\Windows\app.ico</PackagePath>
@@ -2103,7 +2103,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\CodxClient.deps.json">
       <PackagePath>CodxClient.deps.json</PackagePath>
-      <Modified>2024-02-06T03:27:27.536</Modified>
+      <Modified>2024-02-06T06:46:13.678</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\.nuget\packages\az.foldersystemwatcher.packager\0.4.0\lib\net451\AZ.FolderSystemWatcher.dll">
       <PackagePath>AZ.FolderSystemWatcher.dll</PackagePath>
@@ -2155,207 +2155,359 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2024-02-05T03:54:01.678</Modified>
+      <Modified>2024-02-06T06:23:43.905</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2024-02-05T03:54:02.174</Modified>
+      <Modified>2024-02-06T06:23:44.159</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2024-02-05T03:54:02.197</Modified>
+      <Modified>2024-02-06T06:23:44.171</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2024-02-05T03:54:02.218</Modified>
+      <Modified>2024-02-06T06:23:44.187</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2024-02-05T03:54:02.247</Modified>
+      <Modified>2024-02-06T06:23:44.211</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2024-02-05T03:54:02.352</Modified>
+      <Modified>2024-02-06T06:23:44.313</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2024-02-05T03:54:01.883</Modified>
+      <Modified>2024-02-06T06:23:43.969</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2024-02-05T03:54:01.888</Modified>
+      <Modified>2024-02-06T06:23:43.970</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2024-02-05T03:54:01.911</Modified>
+      <Modified>2024-02-06T06:23:43.980</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2024-02-05T03:54:01.893</Modified>
+      <Modified>2024-02-06T06:23:43.972</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2024-02-05T03:54:01.897</Modified>
+      <Modified>2024-02-06T06:23:43.974</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2024-02-05T03:54:01.824</Modified>
+      <Modified>2024-02-06T06:23:43.955</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2024-02-05T03:54:01.839</Modified>
+      <Modified>2024-02-06T06:23:43.957</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2024-02-05T03:54:01.876</Modified>
+      <Modified>2024-02-06T06:23:43.967</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2024-02-05T03:54:01.849</Modified>
+      <Modified>2024-02-06T06:23:43.959</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2024-02-05T03:54:01.863</Modified>
+      <Modified>2024-02-06T06:23:43.960</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2024-02-05T03:54:01.693</Modified>
+      <Modified>2024-02-06T06:23:43.920</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2024-02-05T03:54:01.698</Modified>
+      <Modified>2024-02-06T06:23:43.923</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2024-02-05T03:54:01.702</Modified>
+      <Modified>2024-02-06T06:23:43.926</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2024-02-05T03:54:01.707</Modified>
+      <Modified>2024-02-06T06:23:43.929</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2024-02-05T03:54:01.727</Modified>
+      <Modified>2024-02-06T06:23:43.932</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2024-02-05T03:54:01.742</Modified>
+      <Modified>2024-02-06T06:23:43.934</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2024-02-05T03:54:01.754</Modified>
+      <Modified>2024-02-06T06:23:43.936</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2024-02-05T03:54:01.813</Modified>
+      <Modified>2024-02-06T06:23:43.953</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2024-02-05T03:54:01.775</Modified>
+      <Modified>2024-02-06T06:23:43.937</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2024-02-05T03:54:01.789</Modified>
+      <Modified>2024-02-06T06:23:43.945</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2024-02-05T03:54:01.989</Modified>
+      <Modified>2024-02-06T06:23:44.018</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2024-02-05T03:54:01.997</Modified>
+      <Modified>2024-02-06T06:23:44.023</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2024-02-05T03:54:02.007</Modified>
+      <Modified>2024-02-06T06:23:44.028</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2024-02-05T03:54:02.033</Modified>
+      <Modified>2024-02-06T06:23:44.037</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2024-02-05T03:54:02.061</Modified>
+      <Modified>2024-02-06T06:23:44.059</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2024-02-05T03:54:01.942</Modified>
+      <Modified>2024-02-06T06:23:43.997</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2024-02-05T03:54:01.948</Modified>
+      <Modified>2024-02-06T06:23:43.999</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2024-02-05T03:54:01.956</Modified>
+      <Modified>2024-02-06T06:23:44.003</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2024-02-05T03:54:01.965</Modified>
+      <Modified>2024-02-06T06:23:44.007</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2024-02-05T03:54:01.981</Modified>
+      <Modified>2024-02-06T06:23:44.014</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2024-02-05T03:54:01.916</Modified>
+      <Modified>2024-02-06T06:23:43.982</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2024-02-05T03:54:01.920</Modified>
+      <Modified>2024-02-06T06:23:43.986</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2024-02-05T03:54:01.925</Modified>
+      <Modified>2024-02-06T06:23:43.988</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2024-02-05T03:54:01.930</Modified>
+      <Modified>2024-02-06T06:23:43.991</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2024-02-05T03:54:01.937</Modified>
+      <Modified>2024-02-06T06:23:43.995</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2024-02-05T03:54:02.070</Modified>
+      <Modified>2024-02-06T06:23:44.066</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2024-02-05T03:54:02.084</Modified>
+      <Modified>2024-02-06T06:23:44.074</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2024-02-05T03:54:02.098</Modified>
+      <Modified>2024-02-06T06:23:44.084</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2024-02-05T03:54:02.119</Modified>
+      <Modified>2024-02-06T06:23:44.100</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2024-02-05T03:54:02.159</Modified>
+      <Modified>2024-02-06T06:23:44.150</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-02-05T03:54:01.778</Modified>
+      <Modified>2024-02-06T06:23:43.591</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-02-05T03:54:01.819</Modified>
+      <Modified>2024-02-06T06:23:43.595</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-02-05T03:54:01.840</Modified>
+      <Modified>2024-02-06T06:23:43.600</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-02-05T03:54:01.869</Modified>
+      <Modified>2024-02-06T06:23:43.609</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-02-05T03:54:01.942</Modified>
+      <Modified>2024-02-06T06:23:43.625</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\excel.scale-100.png">
+      <PackagePath>excel.scale-100.png</PackagePath>
+      <Modified>2024-02-06T06:23:44.134</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\excel.scale-125.png">
+      <PackagePath>excel.scale-125.png</PackagePath>
+      <Modified>2024-02-06T06:23:44.353</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\excel.scale-150.png">
+      <PackagePath>excel.scale-150.png</PackagePath>
+      <Modified>2024-02-06T06:23:44.692</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\excel.scale-200.png">
+      <PackagePath>excel.scale-200.png</PackagePath>
+      <Modified>2024-02-06T06:23:45.137</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\excel.scale-400.png">
+      <PackagePath>excel.scale-400.png</PackagePath>
+      <Modified>2024-02-06T06:23:47.346</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\msproject.scale-100.png">
+      <PackagePath>msproject.scale-100.png</PackagePath>
+      <Modified>2024-02-06T06:23:43.719</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\msproject.scale-125.png">
+      <PackagePath>msproject.scale-125.png</PackagePath>
+      <Modified>2024-02-06T06:23:43.935</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\msproject.scale-150.png">
+      <PackagePath>msproject.scale-150.png</PackagePath>
+      <Modified>2024-02-06T06:23:44.169</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\msproject.scale-200.png">
+      <PackagePath>msproject.scale-200.png</PackagePath>
+      <Modified>2024-02-06T06:23:44.548</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\msproject.scale-400.png">
+      <PackagePath>msproject.scale-400.png</PackagePath>
+      <Modified>2024-02-06T06:23:46.307</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\msword.scale-100.png">
+      <PackagePath>msword.scale-100.png</PackagePath>
+      <Modified>2024-02-06T06:23:44.716</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\msword.scale-125.png">
+      <PackagePath>msword.scale-125.png</PackagePath>
+      <Modified>2024-02-06T06:23:44.902</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\msword.scale-150.png">
+      <PackagePath>msword.scale-150.png</PackagePath>
+      <Modified>2024-02-06T06:23:45.145</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\msword.scale-200.png">
+      <PackagePath>msword.scale-200.png</PackagePath>
+      <Modified>2024-02-06T06:23:45.765</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\msword.scale-400.png">
+      <PackagePath>msword.scale-400.png</PackagePath>
+      <Modified>2024-02-06T06:23:47.915</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\powerpnt.scale-100.png">
+      <PackagePath>powerpnt.scale-100.png</PackagePath>
+      <Modified>2024-02-06T04:54:55.687</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\powerpoint.scale-100.jfif">
+      <PackagePath>powerpoint.scale-100.jfif</PackagePath>
+      <Modified>2024-02-06T04:42:11.654</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\powerpoint.scale-100.png">
+      <PackagePath>powerpoint.scale-100.png</PackagePath>
+      <Modified>2024-02-06T06:23:43.708</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\powerpoint.scale-125.png">
+      <PackagePath>powerpoint.scale-125.png</PackagePath>
+      <Modified>2024-02-06T06:23:43.910</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\powerpoint.scale-150.png">
+      <PackagePath>powerpoint.scale-150.png</PackagePath>
+      <Modified>2024-02-06T06:23:44.138</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\powerpoint.scale-200.png">
+      <PackagePath>powerpoint.scale-200.png</PackagePath>
+      <Modified>2024-02-06T06:23:44.529</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\powerpoint.scale-400.png">
+      <PackagePath>powerpoint.scale-400.png</PackagePath>
+      <Modified>2024-02-06T06:23:46.351</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\visio.scale-100.jfif">
+      <PackagePath>visio.scale-100.jfif</PackagePath>
+      <Modified>2024-02-06T04:42:22.116</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\visio.scale-100.png">
+      <PackagePath>visio.scale-100.png</PackagePath>
+      <Modified>2024-02-06T06:23:46.700</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\visio.scale-125.png">
+      <PackagePath>visio.scale-125.png</PackagePath>
+      <Modified>2024-02-06T06:23:47.073</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\visio.scale-150.png">
+      <PackagePath>visio.scale-150.png</PackagePath>
+      <Modified>2024-02-06T06:23:47.308</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\visio.scale-200.png">
+      <PackagePath>visio.scale-200.png</PackagePath>
+      <Modified>2024-02-06T06:23:47.831</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\visio.scale-400.png">
+      <PackagePath>visio.scale-400.png</PackagePath>
+      <Modified>2024-02-06T06:23:49.480</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\word.scale-100.png">
+      <PackagePath>word.scale-100.png</PackagePath>
+      <Modified>2024-02-06T06:23:43.599</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\word.scale-125.png">
+      <PackagePath>word.scale-125.png</PackagePath>
+      <Modified>2024-02-06T06:23:43.650</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\word.scale-150.png">
+      <PackagePath>word.scale-150.png</PackagePath>
+      <Modified>2024-02-06T06:23:43.709</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\word.scale-200.png">
+      <PackagePath>word.scale-200.png</PackagePath>
+      <Modified>2024-02-06T06:23:43.761</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\word.scale-400.png">
+      <PackagePath>word.scale-400.png</PackagePath>
+      <Modified>2024-02-06T06:23:43.849</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\Resources\Images\excel.png">
+      <PackagePath>Resources\Images\excel.png</PackagePath>
+      <Modified>2024-02-06T04:41:58.433</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\Resources\Images\msproject.png">
+      <PackagePath>Resources\Images\msproject.png</PackagePath>
+      <Modified>2024-02-06T04:42:33.345</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\Resources\Images\powerpnt.png">
+      <PackagePath>Resources\Images\powerpnt.png</PackagePath>
+      <Modified>2024-02-06T04:54:55.687</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\Resources\Images\visio.png">
+      <PackagePath>Resources\Images\visio.png</PackagePath>
+      <Modified>2024-02-06T04:55:43.720</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\Resources\Images\winword.png">
+      <PackagePath>Resources\Images\winword.png</PackagePath>
+      <Modified>2024-02-06T04:41:43.192</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
