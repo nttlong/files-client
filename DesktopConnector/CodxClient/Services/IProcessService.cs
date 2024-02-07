@@ -9,6 +9,7 @@ namespace CodxClient.Services
 {
     public interface IProcessService
     {
+        void ClearAll();
         void KillProcessByRequestId(string requestId);
         Task ResovleAsync(RequestInfo info, OfficeTools item);
     }

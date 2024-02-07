@@ -23,6 +23,13 @@ namespace CodxClient
                 });
             builder.ConfigureLifecycleEvents(lifecycle =>
             {
+                if (Application.Current != null)
+                {
+                    Application.Current.HandlerChanged += (s, e) =>
+                    {
+
+                    };
+                }
                 Services.ServiceAssistent.GetService<Services.IServer>().RunAsync("ws://127.0.0.1:8765").Start();
                 var trayService = Services.ServiceAssistent.GetService<Services.ITrayService>();
                 var uiService = Services.ServiceAssistent.GetService<Services.IUIService>();
@@ -92,6 +99,7 @@ namespace CodxClient
             services.AddSingleton<Services.IObserveContentService, ServiceFactory.ObserveContentService>();
             services.AddSingleton<Services.ISyncContentService, ServiceFactory.SyncContentService>();
             services.AddSingleton<Services.IProcessService, ServiceFactory.ProcessService>();
+            services.AddSingleton<Services.ICacheService, ServiceFactory.CacheService>();
 #elif MACCATALYST
             services.AddSingleton<Services.IServer, ServiceFactory.Server>();
             services.AddSingleton<Services.ITrayService, ServiceFactory.TrayService>();
@@ -106,6 +114,7 @@ namespace CodxClient
             services.AddSingleton<Services.IObserveContentService, ServiceFactory.ObserveContentService>();
             services.AddSingleton<Services.ISyncContentService, ServiceFactory.SyncContentService>();
             services.AddSingleton<Services.IProcessService, ServiceFactory.ProcessService>();
+            services.AddSingleton<Services.ICacheService, ServiceFactory.CacheService>();
 #endif
 
 #if DEBUG

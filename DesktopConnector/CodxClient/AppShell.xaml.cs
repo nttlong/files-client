@@ -6,14 +6,21 @@ namespace CodxClient
 {
     public partial class AppShell : Shell
     {
+        private IProcessService processService;
+
         public AppShell()
         {
             InitializeComponent();
             Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
+            this.processService= ServiceAssistent.GetService<Services.IProcessService>();
             //SetupTrayIcon();
 
         }
-
+        protected override void OnDisappearing()
+        {
+            this.processService.ClearAll();
+            base.OnDisappearing();
+        }
         private void CloseBtn_Clicked(object sender, EventArgs e)
         {
             Application.Current.Quit();

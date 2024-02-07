@@ -14,6 +14,35 @@ namespace CodxClient.ServiceFactory
 
         public ProcessService() { 
             this.processList=new Dictionary<string, Process>();
+            this.StartWatch();
+        }
+
+        private void StartWatch()
+        {
+            var run = new Task(() =>
+            {
+                foreach (var x in this.processList)
+                {
+                    if (x.Value.MainWindowHandle == 0)
+                    {
+                        x.Value.CloseMainWindow();
+                        //x.Value.Close();
+                        x.Value.Kill();
+                        x.Value.Dispose();
+                    }
+                }
+            });
+        }
+
+        public void ClearAll()
+        {
+            foreach( var x in this.processList)
+            {
+                x.Value.CloseMainWindow();
+                //x.Value.Close();
+                x.Value.Kill();
+                x.Value.Dispose();
+            }
         }
 
         public void KillProcessByRequestId(string RequestId)
@@ -21,6 +50,7 @@ namespace CodxClient.ServiceFactory
             if (this.processList.ContainsKey(RequestId))
             {
                 this.processList[RequestId].CloseMainWindow();
+                //this.processList[RequestId].Close();
                 this.processList[RequestId].Kill();
                 this.processList[RequestId].Dispose();
                 this.processList.Remove(RequestId);
@@ -32,6 +62,7 @@ namespace CodxClient.ServiceFactory
             if (this.processList.ContainsKey(Info.RequestId))
             {
                 this.processList[Info.RequestId].CloseMainWindow();
+                //this.processList[Info.RequestId].Close();
                 this.processList[Info.RequestId].Kill();
                 this.processList[Info.RequestId].Dispose();
                 this.processList.Remove(Info.RequestId);

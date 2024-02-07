@@ -12,7 +12,7 @@ namespace CodxClient.ServiceFactory
     public class ObserveContentService : Services.IObserveContentService
     {
         private FileSystemWatcher _fileWatcher;
-        private Dictionary<string,RequestInfo> Cacher=new Dictionary<string, RequestInfo>();
+        private ICacheService cacheService = null;
         private INotificationService notificationService;
         private IContentService contentService;
         private IConfigService configService;
@@ -23,14 +23,12 @@ namespace CodxClient.ServiceFactory
             this.contentService = ServiceAssistent.GetService<Services.IContentService>();
             this.configService = ServiceAssistent.GetService<Services.IConfigService>();
             this.syncContentService = ServiceAssistent.GetService<Services.ISyncContentService>();
+            this.cacheService = ServiceAssistent.GetService<ICacheService>();
         }
         public void RegisterRequestInfo(RequestInfo info)
         {
-            if (this.Cacher.ContainsKey(info.RequestId))
-            {
-                this.Cacher.Remove(info.RequestId);
-            }
-            this.Cacher.Add(info.RequestId, info);
+            this.cacheService.AddRequestInfo(info);
+            
         }
         public void Start1(string ObervePath)
         {
@@ -69,11 +67,11 @@ namespace CodxClient.ServiceFactory
             var id = e.Name.Split(".").FirstOrDefault();
             if (Utils.DataHashing.IsValidHashKey(id))
             {
-                if (this.Cacher.ContainsKey(id))
+                if (this.cacheService.IsContainsRequestInfoById(id))
                 {
                     if (e.ChangeType != WatcherChangeTypes.Deleted)
                     {
-                        RequestInfo requestInfo = this.Cacher[id];
+                        RequestInfo requestInfo = this.cacheService.GetRequestInfoById(id);
                         Task.Run(async  () => await this.syncContentService.DoUploadContentAsync(requestInfo));
                         
                     }

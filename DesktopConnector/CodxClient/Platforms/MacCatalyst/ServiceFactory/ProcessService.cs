@@ -9,6 +9,11 @@ namespace CodxClient.ServiceFactory
 {
     public class ProcessService : Services.IProcessService
     {
+        public void ClearAll()
+        {
+            throw new NotImplementedException();
+        }
+
         public void KillProcessByRequestId(string requestId)
         {
             throw new NotImplementedException();
