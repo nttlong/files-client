@@ -134,6 +134,33 @@ namespace CodxClient.Models
             var jsonData = Newtonsoft.Json.JsonConvert.SerializeObject(this);
             await File.WriteAllTextAsync(this.TrackFilePath, jsonData);
         }
+
+        internal void Delete()
+        {
+            try
+            {
+                if(File.Exists(this.TrackFilePath))
+                {
+                    File.Delete(this.TrackFilePath);
+                }
+                
+            }
+            catch (Exception ex)
+            {
+
+            }
+            try
+            {
+                if(File.Exists(this.FilePath)) {
+                    File.Delete(this.FilePath);
+                }
+                
+            }
+            catch (Exception ex)
+            {
+
+            }
+        }
     }
 }
     

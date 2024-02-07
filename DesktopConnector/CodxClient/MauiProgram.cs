@@ -99,7 +99,7 @@ namespace CodxClient
             services.AddSingleton<Services.IObserveContentService, ServiceFactory.ObserveContentService>();
             services.AddSingleton<Services.ISyncContentService, ServiceFactory.SyncContentService>();
             services.AddSingleton<Services.IProcessService, ServiceFactory.ProcessService>();
-            services.AddSingleton<Services.ICacheService, ServiceFactory.CacheService>();
+            services.AddSingleton<Services.IRequestManagerService, ServiceFactory.RequestManagerService>();
 #elif MACCATALYST
             services.AddSingleton<Services.IServer, ServiceFactory.Server>();
             services.AddSingleton<Services.ITrayService, ServiceFactory.TrayService>();
@@ -114,7 +114,7 @@ namespace CodxClient
             services.AddSingleton<Services.IObserveContentService, ServiceFactory.ObserveContentService>();
             services.AddSingleton<Services.ISyncContentService, ServiceFactory.SyncContentService>();
             services.AddSingleton<Services.IProcessService, ServiceFactory.ProcessService>();
-            services.AddSingleton<Services.ICacheService, ServiceFactory.CacheService>();
+            services.AddSingleton<Services.IRequestManagerService, ServiceFactory.RequestManagerService>();
 #endif
 
 #if DEBUG

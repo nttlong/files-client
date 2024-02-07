@@ -1,4 +1,5 @@
 ﻿using CodxClient.Models;
+using CodxClient.Services;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -10,10 +11,14 @@ namespace CodxClient.ServiceFactory
 {
     public class ProcessService : Services.IProcessService
     {
-        private Dictionary<string, Process> processList;
+        private Dictionary<string,Tuple<Process,DateTime>> processList;
+        private IRequestManagerService requestManagerService;
 
         public ProcessService() { 
-            this.processList=new Dictionary<string, Process>();
+            this.processList=new Dictionary<string, Tuple<Process, DateTime>>();
+            this.requestManagerService= ServiceAssistent.GetService<IRequestManagerService>();
+
+
             this.StartWatch();
         }
 
@@ -21,27 +26,48 @@ namespace CodxClient.ServiceFactory
         {
             var run = new Task(() =>
             {
-                foreach (var x in this.processList)
+                while (true)
                 {
-                    if (x.Value.MainWindowHandle == 0)
+                    foreach (var x in this.processList)
                     {
-                        x.Value.CloseMainWindow();
-                        //x.Value.Close();
-                        x.Value.Kill();
-                        x.Value.Dispose();
+                        var (process, time) = x.Value;
+                        if ((DateTime.UtcNow.Subtract(time).TotalMinutes>30) &&  (process.MainWindowHandle == 0))
+                        {
+                            var info = this.requestManagerService.GetRequestInfoById(x.Key);
+                            process.CloseMainWindow();
+                            //x.Value.Close();
+                            process.Kill();
+                            process.Dispose();
+                            if(info != null)
+                            {
+                                info.Delete();
+                                this.requestManagerService.RemoveRequestByRequestId(x.Key);
+                            }
+                            Task.Delay(300);
+
+                        }
                     }
+                    Task.Delay(300);
                 }
+                
             });
+            run.Start();
         }
 
         public void ClearAll()
         {
             foreach( var x in this.processList)
             {
-                x.Value.CloseMainWindow();
+                var (process, time) = x.Value;
+                var info = this.requestManagerService.GetRequestInfoById(x.Key);
+                process.CloseMainWindow();
                 //x.Value.Close();
-                x.Value.Kill();
-                x.Value.Dispose();
+                process.Kill();
+                process.Dispose();
+                if (info != null)
+                {
+                    info.Delete();
+                }
             }
         }
 
@@ -49,10 +75,11 @@ namespace CodxClient.ServiceFactory
         {
             if (this.processList.ContainsKey(RequestId))
             {
-                this.processList[RequestId].CloseMainWindow();
+                var (process,_)= this.processList[RequestId];
+                process.CloseMainWindow();
                 //this.processList[RequestId].Close();
-                this.processList[RequestId].Kill();
-                this.processList[RequestId].Dispose();
+                process.Kill();
+                process.Dispose();
                 this.processList.Remove(RequestId);
             }
         }
@@ -61,10 +88,11 @@ namespace CodxClient.ServiceFactory
         {
             if (this.processList.ContainsKey(Info.RequestId))
             {
-                this.processList[Info.RequestId].CloseMainWindow();
+                var (_process, _) = this.processList[Info.RequestId];
+                _process.CloseMainWindow();
                 //this.processList[Info.RequestId].Close();
-                this.processList[Info.RequestId].Kill();
-                this.processList[Info.RequestId].Dispose();
+                _process.Kill();
+                _process.Dispose();
                 this.processList.Remove(Info.RequestId);
 
             }
@@ -72,7 +100,7 @@ namespace CodxClient.ServiceFactory
             Info.Status = RequestInfoStatusEnum.Unknown;
             //process.Exited += Excel_Exited;
             //process.Disposed += Process_Disposed;
-            processList.Add(Info.RequestId, process);
+            processList.Add(Info.RequestId, new Tuple<Process, DateTime>(process,DateTime.UtcNow));
             await process.WaitForExitAsync();
             //Info.Applicaion = process;
         }

@@ -115,7 +115,7 @@
 	  <Compile Update="Platforms\MacCatalyst\ServiceFactory\BackgroundService.cs">
 	    <ExcludeFromCurrentConfiguration>true</ExcludeFromCurrentConfiguration>
 	  </Compile>
-	  <Compile Update="Platforms\MacCatalyst\ServiceFactory\CacheService.cs">
+	  <Compile Update="Platforms\MacCatalyst\ServiceFactory\RequestManager.cs">
 	    <ExcludeFromCurrentConfiguration>true</ExcludeFromCurrentConfiguration>
 	  </Compile>
 	  <Compile Update="Platforms\MacCatalyst\ServiceFactory\ObserveContentService.cs">

@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace CodxClient.ServiceFactory
 {
-    public class CacheService : ICacheService
+    public class RequestManagerService : IRequestManagerService
     {
         private Dictionary<string, RequestInfo> _cacheRequestInfo;
 
-        public CacheService() {
+        public RequestManagerService() {
             this._cacheRequestInfo = new Dictionary<string, RequestInfo>();
         }
 
@@ -40,6 +40,15 @@ namespace CodxClient.ServiceFactory
         public bool IsContainsRequestInfoById(string RequestId)
         {
             return _cacheRequestInfo.ContainsKey(RequestId);
+        }
+
+        public void RemoveRequestByRequestId(string RequestId)
+        {
+            if (this._cacheRequestInfo.ContainsKey(RequestId))
+            {
+                this._cacheRequestInfo.Remove(RequestId);
+            }
+            
         }
     }
 }

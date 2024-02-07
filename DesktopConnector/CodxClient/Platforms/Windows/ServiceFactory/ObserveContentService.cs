@@ -12,7 +12,7 @@ namespace CodxClient.ServiceFactory
     public class ObserveContentService : Services.IObserveContentService
     {
         private FileSystemWatcher _fileWatcher;
-        private ICacheService cacheService = null;
+        private IRequestManagerService cacheService = null;
         private INotificationService notificationService;
         private IContentService contentService;
         private IConfigService configService;
@@ -23,7 +23,7 @@ namespace CodxClient.ServiceFactory
             this.contentService = ServiceAssistent.GetService<Services.IContentService>();
             this.configService = ServiceAssistent.GetService<Services.IConfigService>();
             this.syncContentService = ServiceAssistent.GetService<Services.ISyncContentService>();
-            this.cacheService = ServiceAssistent.GetService<ICacheService>();
+            this.cacheService = ServiceAssistent.GetService<IRequestManagerService>();
         }
         public void RegisterRequestInfo(RequestInfo info)
         {
