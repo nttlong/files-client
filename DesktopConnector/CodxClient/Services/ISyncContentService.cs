@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace CodxClient.Services
 {
-    internal interface ISyncContentService
+    public interface ISyncContentService
     {
-        void DoSync(RequestInfo requestInfo);
+        public Task DoUploadContentAsync(RequestInfo requestInfo);
     }
 }

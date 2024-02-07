@@ -12,22 +12,28 @@ namespace CodxClient.ServiceFactory
     public class ContentService : Services.IContentService
     {
         [System.Diagnostics.DebuggerStepThrough]
-        public void Download(Models.DelelegateInfo Src, string SaveToFile )
+        public async Task DownloadAsync(Models.DelelegateInfo Src, string SaveToFile )
         {
-            Utils.ContentManager.Download(Src, SaveToFile);
+           await Utils.ContentManager.DownloadAsync(Src, SaveToFile);
         }
 
         
 
-        public RequestInfo LoadRequestInfoFromFile(string TrackFilePath, string SourceFilePath)
+        public async Task<RequestInfo> LoadRequestInfoFromFileAsync(string TrackFilePath, string SourceFilePath)
         {
-            using (StreamReader reader = File.OpenText(TrackFilePath))
+            var syncFunctionResult = await Task.Run(() =>
             {
+                using (StreamReader reader = File.OpenText(TrackFilePath))
+                {
 
-                RequestInfo requestInfo = JsonConvert.DeserializeObject<RequestInfo>(reader.ReadToEnd());
-                requestInfo.FilePath = SourceFilePath;
-                return requestInfo;
-            }
+                    RequestInfo requestInfo = JsonConvert.DeserializeObject<RequestInfo>(reader.ReadToEnd());
+                    requestInfo.FilePath = SourceFilePath;
+                    requestInfo.RequestId = System.IO.Path.GetFileNameWithoutExtension(TrackFilePath);
+                    return requestInfo;
+                }
+            });
+            return syncFunctionResult;
+            
         }
     }
 }

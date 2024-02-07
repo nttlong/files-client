@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CodxClient.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,10 +9,10 @@ namespace CodxClient.Services
 {
     public interface IOfficeService
     {
-        bool OpenExcel(string filePath);
-        bool OpenNotepad(string filePath);
-        bool OpenPaint(string filePath);
-        bool OpenPowerPoint(string filePath);
-        bool OpenWord(string filePath);
+        Task<bool> OpenExcelAsync(RequestInfo info);
+        Task<bool> OpenNotepadAsync(RequestInfo info);
+        Task<bool> OpenPaintAsync(RequestInfo info);
+        Task<bool> OpenPowerPointAsync(RequestInfo info);
+        Task<bool> OpenWordAsync(RequestInfo info);
     }
 }

@@ -52,7 +52,7 @@ namespace CodxClient.ServiceFactory
             _fileWatcher.EnableRaisingEvents = true;
         }
 
-        private void _fileWatcher_Changed(object sender, FileSystemEventArgs e)
+        private async void _fileWatcher_Changed(object sender, FileSystemEventArgs e)
         {
             var id = e.Name.Split(".").FirstOrDefault();
             if (Utils.DataHashing.IsValidHashKey(id))
@@ -62,7 +62,7 @@ namespace CodxClient.ServiceFactory
                     if (e.ChangeType != WatcherChangeTypes.Deleted)
                     {
                         RequestInfo requestInfo = this.Cacher[id];
-                        this.syncContentService.DoSync(requestInfo);
+                        await this.syncContentService.DoUploadContentAsync(requestInfo);
                     }
                 }
                 else
@@ -72,8 +72,8 @@ namespace CodxClient.ServiceFactory
                         var trackFilePath = Path.Combine(this.configService.GetTrackDir(), id + ".txt");
                         if (File.Exists(trackFilePath))
                         {
-                            RequestInfo requestInfo = this.contentService.LoadRequestInfoFromFile(TrackFilePath: trackFilePath, SourceFilePath: e.FullPath);
-                            this.syncContentService.DoSync(requestInfo);
+                            RequestInfo requestInfo = await this.contentService.LoadRequestInfoFromFileAsync(TrackFilePath: trackFilePath, SourceFilePath: e.FullPath);
+                            await this.syncContentService.DoUploadContentAsync(requestInfo);
                         }
 
                     }

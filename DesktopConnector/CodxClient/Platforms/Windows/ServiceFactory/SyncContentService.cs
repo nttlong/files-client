@@ -10,10 +10,34 @@ namespace CodxClient.ServiceFactory
 {
     public class SyncContentService : ISyncContentService
     {
-        [System.Diagnostics.DebuggerStepThrough]
-        public void DoSync(RequestInfo requestInfo)
+        private INotificationService notificationService;
+
+        public SyncContentService() { 
+            this.notificationService=ServiceAssistent.GetService<INotificationService>(); 
+        }
+        
+
+        public async Task DoUploadContentAsync(RequestInfo requestInfo)
         {
-            Utils.ContentManager.Upload(requestInfo.Dst, requestInfo.FilePath);
+
+            if (requestInfo.Status != RequestInfoStatusEnum.IsUploading)
+            {
+                try
+                {
+                    requestInfo.Status = RequestInfoStatusEnum.IsUploading;
+                    await Utils.ContentManager.UploadAsync(requestInfo.Dst, requestInfo.FilePath);
+                    this.notificationService.ShowNotification("File", "Uploaded");
+                    requestInfo.Status = RequestInfoStatusEnum.Unknown;
+                }
+                catch(Exception e)
+                {
+                    this.notificationService.ShowNotification("Error", "Uploaded");
+                }
+                finally
+                {
+                    requestInfo.Status = RequestInfoStatusEnum.Unknown;
+                }
+            }
         }
     }
 }

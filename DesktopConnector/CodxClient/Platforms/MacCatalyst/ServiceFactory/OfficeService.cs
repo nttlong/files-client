@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CodxClient.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,27 +10,27 @@ namespace CodxClient.ServiceFactory
 {
     public class OfficeService : Services.IOfficeService
     {
-        public bool OpenExcel(string filePath)
+        public async Task<bool> OpenExcelAsync(RequestInfo info)
         {
             throw new NotImplementedException();
         }
 
-        public bool OpenNotepad(string filePath)
+        public async Task<bool> OpenNotepadAsync(RequestInfo info)
         {
             throw new NotImplementedException();
         }
 
-        public bool OpenPaint(string filePath)
+        public async Task<bool> OpenPaintAsync(RequestInfo info)
         {
             throw new NotImplementedException();
         }
 
-        public bool OpenPowerPoint(string filePath)
+        public async Task<bool> OpenPowerPointAsync(RequestInfo info)
         {
             throw new NotImplementedException();
         }
 
-        public bool OpenWord(string filePath)
+        public async Task<bool> OpenWordAsync(RequestInfo info)
         {
             throw new NotImplementedException();
         }

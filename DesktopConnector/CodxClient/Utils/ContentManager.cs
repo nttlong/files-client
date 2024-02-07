@@ -10,10 +10,10 @@ namespace CodxClient.Utils
 {
     public class ContentManager
     {
-#if WINDOWS
-        [System.Diagnostics.DebuggerStepThrough]
-#endif
-        static HttpResponseMessage CreateRequest(string url, string method, Dictionary<string, string> header, object data, string filepathToDownload, string filePathtoUpload)
+//#if WINDOWS
+//        [System.Diagnostics.DebuggerStepThrough]
+//#endif
+        public static async Task<HttpResponseMessage> CreateRequestAsync(string url, string method, Dictionary<string, string> header, object data, string filepathToDownload, string filePathtoUpload)
         {
             HttpClient httpClient = new HttpClient();
             HttpMethod httpMethod = new HttpMethod(method);
@@ -40,7 +40,7 @@ namespace CodxClient.Utils
 
             if (filePathtoUpload != null)
             {
-                using (var stream = new FileStream(filePathtoUpload, FileMode.Open, FileAccess.Read))
+                using (var stream = new FileStream(filePathtoUpload, FileMode.Open, FileAccess.Read, FileShare.Read))
                 {
                     using (var fileContent = new StreamContent(stream))
                     {
@@ -65,7 +65,7 @@ namespace CodxClient.Utils
                                 { fileContent, "content", fileName }
                             };
                         }
-                        var ret = httpClient.SendAsync(request).Result;
+                        var ret = await httpClient.SendAsync(request);
                         return ret;
                     }
                 }
@@ -77,7 +77,7 @@ namespace CodxClient.Utils
                 {
                     using (Stream contentStream = ret.Content.ReadAsStreamAsync().Result, fileStream = new FileStream(filepathToDownload, FileMode.Create, FileAccess.Write, FileShare.None, 8192, true))
                     {
-                        contentStream.CopyToAsync(fileStream).Wait();
+                        await contentStream.CopyToAsync(fileStream);
                     }
                 }
                 return ret;
@@ -89,17 +89,17 @@ namespace CodxClient.Utils
 #if WINDOWS
         [System.Diagnostics.DebuggerStepThrough]
 #endif
-        internal static void Download(Models.DelelegateInfo Src, string SaveToFile)
+        public async static Task DownloadAsync(Models.DelelegateInfo Src, string SaveToFile)
         {
-            CreateRequest(Src.Url, Src.Method, Src.Header, Src.data, SaveToFile, null);
+            await CreateRequestAsync(Src.Url, Src.Method, Src.Header, Src.data, SaveToFile, null);
 
         }
-#if WINDOWS
-        [System.Diagnostics.DebuggerStepThrough]
-#endif
-        internal static void Upload(DelelegateInfo Dst, string UploadFile)
+//#if WINDOWS
+//        [System.Diagnostics.DebuggerStepThrough]
+//#endif
+        public async static Task UploadAsync(DelelegateInfo Dst, string UploadFile)
         {
-            CreateRequest(Dst.Url, Dst.Method, Dst.Header, Dst.data, null, UploadFile);
+            await CreateRequestAsync(Dst.Url, Dst.Method, Dst.Header, Dst.data, null, UploadFile);
         }
     }
 }

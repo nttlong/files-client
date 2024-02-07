@@ -26,7 +26,14 @@ namespace CodxClient.ServiceFactory
         }
         public void RegisterRequestInfo(RequestInfo info)
         {
+            if (this.Cacher.ContainsKey(info.RequestId))
+            {
+                this.Cacher.Remove(info.RequestId);
+            }
             this.Cacher.Add(info.RequestId, info);
+        }
+        public void Start1(string ObervePath)
+        {
         }
         public void Start(string ObervePath)
         {
@@ -51,18 +58,24 @@ namespace CodxClient.ServiceFactory
             // Enable watching
             _fileWatcher.EnableRaisingEvents = true;
         }
-
+        private async Task HandleFileChangeAsync(object sender, FileSystemEventArgs e)
+        {
+            
+        }
         private void _fileWatcher_Changed(object sender, FileSystemEventArgs e)
         {
+            
+            
             var id = e.Name.Split(".").FirstOrDefault();
             if (Utils.DataHashing.IsValidHashKey(id))
             {
                 if (this.Cacher.ContainsKey(id))
                 {
-                    if (e.ChangeType == WatcherChangeTypes.Created)
+                    if (e.ChangeType != WatcherChangeTypes.Deleted)
                     {
                         RequestInfo requestInfo = this.Cacher[id];
-                        this.syncContentService.DoSync(requestInfo);
+                        Task.Run(() => this.syncContentService.DoUploadContentAsync(requestInfo));
+                        
                     }
                 }
                 else
@@ -72,25 +85,16 @@ namespace CodxClient.ServiceFactory
                         var trackFilePath = Path.Combine(this.configService.GetTrackDir(), id + ".txt");
                         if (File.Exists(trackFilePath))
                         {
-                            RequestInfo requestInfo = this.contentService.LoadRequestInfoFromFile(TrackFilePath: trackFilePath,SourceFilePath:e.FullPath);
-                            try
-                            {
-                                this.syncContentService.DoSync(requestInfo);
-                            }
-                            catch (System.IO.IOException ex)
-                            {
+                            Task.Run(async () => {
 
-                                
-                            }
-
-
-
+                                RequestInfo requestInfo = await this.contentService.LoadRequestInfoFromFileAsync(TrackFilePath: trackFilePath, SourceFilePath: e.FullPath);
+                                await this.syncContentService.DoUploadContentAsync(requestInfo);
+                            });
                         }
-                        
+
                     }
                 }
             }
-            //throw new NotImplementedException();
         }
     }
 }

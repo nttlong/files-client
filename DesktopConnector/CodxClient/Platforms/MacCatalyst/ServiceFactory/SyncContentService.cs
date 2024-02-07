@@ -10,7 +10,9 @@ namespace CodxClient.ServiceFactory
 {
     public class SyncContentService : ISyncContentService
     {
-        public void DoSync(RequestInfo requestInfo)
+        
+
+        public async Task DoUploadContentAsync(RequestInfo requestInfo)
         {
             throw new NotImplementedException();
         }

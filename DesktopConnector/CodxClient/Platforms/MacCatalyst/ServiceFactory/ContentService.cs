@@ -13,21 +13,25 @@ namespace CodxClient.ServiceFactory
 {
     public class ContentService : Services.IContentService
     {
-        public void Download(Models.DelelegateInfo Src,string SaveToFile)
+        public  async  Task DownloadAsync(Models.DelelegateInfo Src,string SaveToFile)
         {
-            Utils.ContentManager.Download(Src, SaveToFile);
+            await Utils.ContentManager.DownloadAsync(Src, SaveToFile);
         }
 
-        public RequestInfo LoadRequestInfoFromFile(string TrackFilePath, string SourceFilePath)
+        public async Task<RequestInfo> LoadRequestInfoFromFileAsync(string TrackFilePath, string SourceFilePath)
         {
-            using (StreamReader reader = File.OpenText(TrackFilePath))
+            var ret = new Task<RequestInfo>(() =>
             {
-                
-                RequestInfo requestInfo = JsonConvert.DeserializeObject<RequestInfo>(reader.ReadToEnd());
-                requestInfo.FilePath=SourceFilePath;
-                return requestInfo;
-            }
-            // Deserialize JSON into RequestInfo object
+                using (StreamReader reader = File.OpenText(TrackFilePath))
+                {
+
+                    RequestInfo requestInfo = JsonConvert.DeserializeObject<RequestInfo>(reader.ReadToEnd());
+                    requestInfo.FilePath = SourceFilePath;
+                    return requestInfo;
+                }
+            });
+
+            return await ret;
             
         }
     }

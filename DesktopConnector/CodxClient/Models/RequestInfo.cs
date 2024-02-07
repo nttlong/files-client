@@ -1,5 +1,11 @@
 ﻿namespace CodxClient.Models
 {
+    public enum RequestInfoStatusEnum
+    {
+        IsUploading,
+        Unknown,
+        Opening
+    }
     /// <summary>
     /// {
     /// "resourceExt":"pdf",
@@ -13,6 +19,9 @@
     /// </summary>
     public class RequestInfo
     {
+        public RequestInfo() {
+            this.Status = RequestInfoStatusEnum.Unknown;
+        }
         public DelelegateInfo? Src { get; set; }
         public DelelegateInfo? Dst { get; set; }
         public string? ResourceExt { get; set; }
@@ -20,5 +29,7 @@
         public string? FilePath { get; set; }
         public string? TrackFilePath { get; set; }
         public string? RequestId { get; set; }
+        public RequestInfoStatusEnum Status { get;  set; }
     }
+    
 }

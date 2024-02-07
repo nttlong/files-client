@@ -43,10 +43,10 @@ namespace CodxClient.Common
             Info.RequestId = requestId;
             File.WriteAllText(Info.TrackFilePath, Data);
             notifyService.ShowNotification("Download", "...");
-            contentService.Download(Info.Src, Info.FilePath);
+            contentService.DownloadAsync(Info.Src, Info.FilePath);
             return Info;
         }
-        protected override void OnMessage(MessageEventArgs e)
+        protected async override void OnMessage(MessageEventArgs e)
         {
 
 
@@ -56,7 +56,7 @@ namespace CodxClient.Common
             {
                 info = this.DoDownload(Info: info, Data: e.Data);
 
-                openOK=this.officeService.OpenWord(info.FilePath);
+                openOK=await this.officeService.OpenWordAsync(info);
                 if(openOK)
                 {
                     observeContentService.RegisterRequestInfo(info);
@@ -65,7 +65,7 @@ namespace CodxClient.Common
             else if (DocSupports.ExcelExtensions.ContainsKey(info.ResourceExt.ToLower()))
             {
                 info = this.DoDownload(Info: info, Data: e.Data);
-                openOK = this.officeService.OpenExcel(info.FilePath);
+                openOK = await this.officeService.OpenExcelAsync(info);
                 if (openOK)
                 {
                     observeContentService.RegisterRequestInfo(info);
@@ -74,7 +74,7 @@ namespace CodxClient.Common
             else if (DocSupports.PowerpointExtensions.ContainsKey(info.ResourceExt.ToLower()))
             {
                 info = this.DoDownload(Info: info, Data: e.Data);
-                openOK = this.officeService.OpenPowerPoint(info.FilePath);
+                openOK = await this.officeService.OpenPowerPointAsync(info);
                 if (openOK)
                 {
                     observeContentService.RegisterRequestInfo(info);
@@ -83,7 +83,7 @@ namespace CodxClient.Common
             else if (DocSupports.PaintExtensions.ContainsKey(info.ResourceExt.ToLower()))
             {
                 info = this.DoDownload(Info: info, Data: e.Data);
-                openOK = this.officeService.OpenPaint(info.FilePath);
+                openOK = await this.officeService.OpenPaintAsync(info);
                 if (openOK)
                 {
                     observeContentService.RegisterRequestInfo(info);
@@ -92,7 +92,7 @@ namespace CodxClient.Common
             else if (DocSupports.NotepadExtensions.ContainsKey(info.ResourceExt.ToLower()))
             {
                 info = this.DoDownload(Info: info, Data: e.Data);
-                openOK = this.officeService.OpenNotepad(info.FilePath);
+                openOK = await this.officeService.OpenNotepadAsync(info);
                 if (openOK)
                 {
                     observeContentService.RegisterRequestInfo(info);

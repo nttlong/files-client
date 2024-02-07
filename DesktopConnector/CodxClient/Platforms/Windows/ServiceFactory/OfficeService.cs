@@ -21,30 +21,19 @@ namespace CodxClient.ServiceFactory
             this.toolDetector = ServiceAssistent.GetService<IToolDetectorService>();
             this.listOfApps = this.toolDetector.DoDetectOffice();
         }
-        public bool OpenExcel(string filePath)
+        
+
+        public async Task<bool> OpenExcelAsync(RequestInfo info)
         {
-
-            try
-            {
-                
-                var item = this.listOfApps.FirstOrDefault(p => p.ExcutableFile == "Excel.exe");
-                var fs = new Task(() =>
-                {
-                    Process Excel = Process.Start(item.Locate + "/excel.exe", filePath);
-                });
-                fs.Start();
-                //WinApi.SetForegroundWindow(Excel.MainWindowHandle);
-
-                //Excel.CloseMainWindow(); // Sends a close message to Excel
-                //Excel.WaitForExit();
-                return true;
-            }
-            catch (Exception ex)
-            {
-                return false;
-            }
-            
+            info.Status = RequestInfoStatusEnum.Opening;
+            var item = this.listOfApps.FirstOrDefault(p => p.ExcutableFile == "Excel.exe");
+            Process Excel = Process.Start(item.ExcutablePath, info.FilePath);
+            //Excel.CloseMainWindow();
+            await Excel.WaitForExitAsync();
+            info.Status = RequestInfoStatusEnum.Unknown;
+            return true;
         }
+
         /// <summary>
         /// WORDPAD.EXE
         /// </summary>
@@ -68,6 +57,11 @@ namespace CodxClient.ServiceFactory
             {
                 return false;
             }
+        }
+
+        public Task<bool> OpenNotepadAsync(RequestInfo info)
+        {
+            throw new NotImplementedException();
         }
 
         /// <summary>
@@ -95,6 +89,11 @@ namespace CodxClient.ServiceFactory
             }
         }
 
+        public Task<bool> OpenPaintAsync(RequestInfo info)
+        {
+            throw new NotImplementedException();
+        }
+
         public bool OpenPowerPoint(string filePath)
         {
             try
@@ -113,6 +112,11 @@ namespace CodxClient.ServiceFactory
             }
         }
 
+        public Task<bool> OpenPowerPointAsync(RequestInfo info)
+        {
+            throw new NotImplementedException();
+        }
+
         public bool OpenWord(string filePath)
         {
             try
@@ -127,6 +131,11 @@ namespace CodxClient.ServiceFactory
             {
                 return false;
             }
+        }
+
+        public Task<bool> OpenWordAsync(RequestInfo info)
+        {
+            throw new NotImplementedException();
         }
     }
 }
