@@ -86,12 +86,11 @@ namespace CodxClient.Common
                 if (DocSupports.AppWordMappingDict.ContainsKey(info.ResourceExt.ToLower()))
                 {
                     info = await this.DoDownloadAsync(Info: info, Data: e.Data);
-
-                    openOK = await this.officeService.OpenWordAsync(info);
-                    if (openOK)
-                    {
+                    if (info != null) {
                         observeContentService.RegisterRequestInfo(info);
+                        openOK = await this.officeService.OpenWordAsync(info);
                     }
+                    
                 }
                 else if (DocSupports.ExcelExtensions.ContainsKey(info.ResourceExt.ToLower()))
                 {
@@ -107,29 +106,35 @@ namespace CodxClient.Common
                 else if (DocSupports.PowerpointExtensions.ContainsKey(info.ResourceExt.ToLower()))
                 {
                     info = await this.DoDownloadAsync(Info: info, Data: e.Data);
-                    openOK = await this.officeService.OpenPowerPointAsync(info);
-                    if (openOK)
+                    if (info != null)
                     {
                         observeContentService.RegisterRequestInfo(info);
+                        openOK = await this.officeService.OpenPowerPointAsync(info);
+
                     }
+                    
                 }
                 else if (DocSupports.PaintExtensions.ContainsKey(info.ResourceExt.ToLower()))
                 {
                     info = await this.DoDownloadAsync(Info: info, Data: e.Data);
-                    openOK = await this.officeService.OpenPaintAsync(info);
-                    if (openOK)
+                    if (info != null)
                     {
                         observeContentService.RegisterRequestInfo(info);
+                        openOK = await this.officeService.OpenPaintAsync(info);
+
                     }
+                    
                 }
                 else if (DocSupports.NotepadExtensions.ContainsKey(info.ResourceExt.ToLower()))
                 {
                     info = await this.DoDownloadAsync(Info: info, Data: e.Data);
-                    openOK = await this.officeService.OpenNotepadAsync(info);
-                    if (openOK)
+                    if (info != null)
                     {
                         observeContentService.RegisterRequestInfo(info);
+                        openOK = await this.officeService.OpenNotepadAsync(info);
+
                     }
+                    
                 }
                 else
                 {
