@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>CodxClient</id>
+    <version>1.0.0</version>
+    <authors>CodxClient</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="c6ad6cb17b4a16f1f52636970cde14953a29602a" />
+    <dependencies>
+      <group targetFramework="net7.0-maccatalyst16.1">
+        <dependency id="Microsoft.Extensions.Configuration" version="7.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection" version="7.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging" version="7.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Debug" version="7.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Maui.Graphics" version="7.0.101" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Toolkit.Uwp.Notifications" version="7.0.1" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
+        <dependency id="PInvoke.User32" version="0.7.124" exclude="Build,Analyzers" />
+        <dependency id="WebSocketSharp-netstandard" version="1.0.1" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net7.0-windows10.0.19041">
+        <dependency id="Microsoft.Extensions.Configuration" version="7.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection" version="7.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging" version="7.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Debug" version="7.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Maui.Graphics" version="7.0.101" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Maui.Graphics.Win2D.WinUI.Desktop" version="7.0.101" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Toolkit.Uwp.Notifications" version="7.0.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.WindowsAppSDK" version="1.2.221209.1" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
+        <dependency id="PInvoke.User32" version="0.7.124" exclude="Build,Analyzers" />
+        <dependency id="Unofficial.System.Windows.Forms.Legacy" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="WebSocketSharp-netstandard" version="1.0.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <contentFiles>
+      <files include="any/net7.0-maccatalyst16.1/Platforms/Windows/app.ico" buildAction="Content" />
+      <files include="any/net7.0-windows10.0.19041/Platforms/Windows/app.ico" buildAction="Content" />
+      <files include="any/net7.0-maccatalyst16.1/Resources/Images/excel.png" buildAction="Content" />
+      <files include="any/net7.0-windows10.0.19041/Resources/Images/excel.png" buildAction="Content" />
+      <files include="any/net7.0-maccatalyst16.1/Resources/Images/msproject.png" buildAction="Content" />
+      <files include="any/net7.0-windows10.0.19041/Resources/Images/msproject.png" buildAction="Content" />
+      <files include="any/net7.0-maccatalyst16.1/Resources/Images/powerpnt.png" buildAction="Content" />
+      <files include="any/net7.0-windows10.0.19041/Resources/Images/powerpnt.png" buildAction="Content" />
+      <files include="any/net7.0-maccatalyst16.1/Resources/Images/visio.png" buildAction="Content" />
+      <files include="any/net7.0-windows10.0.19041/Resources/Images/visio.png" buildAction="Content" />
+      <files include="any/net7.0-maccatalyst16.1/Resources/Images/winword.png" buildAction="Content" />
+      <files include="any/net7.0-windows10.0.19041/Resources/Images/winword.png" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\CodxClient.runtimeconfig.json" target="lib\net7.0-maccatalyst16.1\CodxClient.runtimeconfig.json" />
+    <file src="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\CodxClient.dll" target="lib\net7.0-maccatalyst16.1\CodxClient.dll" />
+    <file src="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\CodxClient.runtimeconfig.json" target="lib\net7.0-windows10.0.19041\CodxClient.runtimeconfig.json" />
+    <file src="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\CodxClient.dll" target="lib\net7.0-windows10.0.19041\CodxClient.dll" />
+    <file src="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri" target="lib\net7.0-windows10.0.19041\resources.pri" />
+    <file src="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\Platforms\Windows\app.ico" target="content\Platforms\Windows\app.ico" />
+    <file src="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\Platforms\Windows\app.ico" target="contentFiles\any\net7.0-maccatalyst16.1\Platforms\Windows\app.ico" />
+    <file src="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\Platforms\Windows\app.ico" target="contentFiles\any\net7.0-windows10.0.19041\Platforms\Windows\app.ico" />
+    <file src="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\Resources\Images\excel.png" target="content\Resources\Images\excel.png" />
+    <file src="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\Resources\Images\excel.png" target="contentFiles\any\net7.0-maccatalyst16.1\Resources\Images\excel.png" />
+    <file src="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\Resources\Images\excel.png" target="contentFiles\any\net7.0-windows10.0.19041\Resources\Images\excel.png" />
+    <file src="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\Resources\Images\msproject.png" target="content\Resources\Images\msproject.png" />
+    <file src="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\Resources\Images\msproject.png" target="contentFiles\any\net7.0-maccatalyst16.1\Resources\Images\msproject.png" />
+    <file src="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\Resources\Images\msproject.png" target="contentFiles\any\net7.0-windows10.0.19041\Resources\Images\msproject.png" />
+    <file src="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\Resources\Images\powerpnt.png" target="content\Resources\Images\powerpnt.png" />
+    <file src="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\Resources\Images\powerpnt.png" target="contentFiles\any\net7.0-maccatalyst16.1\Resources\Images\powerpnt.png" />
+    <file src="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\Resources\Images\powerpnt.png" target="contentFiles\any\net7.0-windows10.0.19041\Resources\Images\powerpnt.png" />
+    <file src="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\Resources\Images\visio.png" target="content\Resources\Images\visio.png" />
+    <file src="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\Resources\Images\visio.png" target="contentFiles\any\net7.0-maccatalyst16.1\Resources\Images\visio.png" />
+    <file src="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\Resources\Images\visio.png" target="contentFiles\any\net7.0-windows10.0.19041\Resources\Images\visio.png" />
+    <file src="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\Resources\Images\winword.png" target="content\Resources\Images\winword.png" />
+    <file src="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\Resources\Images\winword.png" target="contentFiles\any\net7.0-maccatalyst16.1\Resources\Images\winword.png" />
+    <file src="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\Resources\Images\winword.png" target="contentFiles\any\net7.0-windows10.0.19041\Resources\Images\winword.png" />
+  </files>
+</package>
