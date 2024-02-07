@@ -91,6 +91,7 @@ namespace CodxClient
             services.AddSingleton<Services.IToolDetectorService, ServiceFactory.ToolDetectorService>();
             services.AddSingleton<Services.IObserveContentService, ServiceFactory.ObserveContentService>();
             services.AddSingleton<Services.ISyncContentService, ServiceFactory.SyncContentService>();
+            services.AddSingleton<Services.IProcessService, ServiceFactory.ProcessService>();
 #elif MACCATALYST
             services.AddSingleton<Services.IServer, ServiceFactory.Server>();
             services.AddSingleton<Services.ITrayService, ServiceFactory.TrayService>();
@@ -104,6 +105,7 @@ namespace CodxClient
             services.AddSingleton<Services.IToolDetectorService, ServiceFactory.ToolDetectorService>();
             services.AddSingleton<Services.IObserveContentService, ServiceFactory.ObserveContentService>();
             services.AddSingleton<Services.ISyncContentService, ServiceFactory.SyncContentService>();
+            services.AddSingleton<Services.IProcessService, ServiceFactory.ProcessService>();
 #endif
 
 #if DEBUG

@@ -118,6 +118,9 @@
 	  <Compile Update="Platforms\MacCatalyst\ServiceFactory\ObserveContentService.cs">
 	    <ExcludeFromCurrentConfiguration>true</ExcludeFromCurrentConfiguration>
 	  </Compile>
+	  <Compile Update="Platforms\MacCatalyst\ServiceFactory\ProcessService.cs">
+	    <ExcludeFromCurrentConfiguration>true</ExcludeFromCurrentConfiguration>
+	  </Compile>
 	  <Compile Update="Platforms\MacCatalyst\ServiceFactory\SyncContentService.cs">
 	    <ExcludeFromCurrentConfiguration>true</ExcludeFromCurrentConfiguration>
 	  </Compile>

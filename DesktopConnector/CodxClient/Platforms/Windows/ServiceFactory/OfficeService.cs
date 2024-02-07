@@ -16,126 +16,92 @@ namespace CodxClient.ServiceFactory
     {
         private IToolDetectorService toolDetector;
         private IList<OfficeTools> listOfApps;
+        private IProcessService processService;
 
         public OfficeService() {
             this.toolDetector = ServiceAssistent.GetService<IToolDetectorService>();
             this.listOfApps = this.toolDetector.DoDetectOffice();
+            this.processService = ServiceAssistent.GetService<Services.IProcessService>();
         }
         
 
         public async Task<bool> OpenExcelAsync(RequestInfo info)
         {
             info.Status = RequestInfoStatusEnum.Opening;
-            var item = this.listOfApps.FirstOrDefault(p => p.ExcutableFile == "Excel.exe");
-            Process Excel = Process.Start(item.ExcutablePath, info.FilePath);
+            var item = this.listOfApps.FirstOrDefault(p => p.ExcutableFile.ToLower() == "excel.exe");
+            if (item != null)
+            {
+                await this.processService.ResovleAsync(info, item);
+                return true;
+            }
+            return false;
+            
+            
+           
             //Excel.CloseMainWindow();
-            await Excel.WaitForExitAsync();
-            info.Status = RequestInfoStatusEnum.Unknown;
+            
+            
             return true;
         }
-
         /// <summary>
         /// WORDPAD.EXE
         /// </summary>
         /// <param name="filePath"></param>
         /// <returns></returns>
         /// <exception cref="NotImplementedException"></exception>
-        public bool OpenNotepad(string filePath)
+        public async Task<bool> OpenNotepadAsync(RequestInfo info)
         {
-            try
+            info.Status = RequestInfoStatusEnum.Opening;
+            var item = this.listOfApps.FirstOrDefault(p => p.ExcutableFile.ToLower() == "WORDPAD.EXE".ToLower());
+            if (item != null)
             {
-                var item = this.listOfApps.FirstOrDefault(p => p.ExcutableFile == "WORDPAD.EXE");
-
-                Process Notepad = Process.Start(item.ExcutablePath, filePath);
-                WinApi.SetForegroundWindow(Notepad.MainWindowHandle);
-                Notepad.CloseMainWindow(); // Sends a close message to Excel
-                Notepad.WaitForExit();
-
+                await this.processService.ResovleAsync(info, item);
                 return true;
             }
-            catch (Exception ex)
-            {
-                return false;
-            }
+            return false;
         }
 
-        public Task<bool> OpenNotepadAsync(RequestInfo info)
-        {
-            throw new NotImplementedException();
-        }
-
+        
+        
         /// <summary>
         /// pbrush.exe
         /// </summary>
         /// <param name="filePath"></param>
         /// <returns></returns>
         /// <exception cref="NotImplementedException"></exception>
-        public bool OpenPaint(string filePath)
+        public async Task<bool> OpenPaintAsync(RequestInfo info)
         {
-
-            try
+            info.Status = RequestInfoStatusEnum.Opening;
+            var item = this.listOfApps.FirstOrDefault(p => p.ExcutableFile.ToLower() == "pbrush.exe");
+            if (item != null)
             {
-                var item = this.listOfApps.FirstOrDefault(p => p.ExcutableFile == "pbrush.exe");
-
-                Process Excel = Process.Start(item.ExcutablePath, filePath);
-                WinApi.SetForegroundWindow(Excel.MainWindowHandle);
-
-
+                await this.processService.ResovleAsync(info, item);
                 return true;
             }
-            catch (Exception ex)
-            {
-                return false;
-            }
+            return false;
         }
 
-        public Task<bool> OpenPaintAsync(RequestInfo info)
+        public async Task<bool> OpenPowerPointAsync(RequestInfo info)
         {
-            throw new NotImplementedException();
-        }
-
-        public bool OpenPowerPoint(string filePath)
-        {
-            try
+            info.Status = RequestInfoStatusEnum.Opening;
+            var item = this.listOfApps.FirstOrDefault(p => p.ExcutableFile.ToLower() == "Powerpnt.exe".ToLower());
+            if (item != null)
             {
-                var item = this.listOfApps.FirstOrDefault(p => p.ExcutableFile == "Powerpnt.exe");
-
-                Process Powerpnt = Process.Start(item.ExcutablePath, filePath);
-                WinApi.SetForegroundWindow(Powerpnt.MainWindowHandle);
-
-
+                await this.processService.ResovleAsync(info, item);
                 return true;
             }
-            catch (Exception ex)
-            {
-                return false;
-            }
+            return false;
         }
-
-        public Task<bool> OpenPowerPointAsync(RequestInfo info)
+        public async Task<bool> OpenWordAsync(RequestInfo info)
         {
-            throw new NotImplementedException();
-        }
-
-        public bool OpenWord(string filePath)
-        {
-            try
+            info.Status = RequestInfoStatusEnum.Opening;
+            var item = this.listOfApps.FirstOrDefault(p => p.ExcutableFile.ToLower() == "Winword.exe".ToLower());
+            if (item != null)
             {
-                var item = this.listOfApps.FirstOrDefault(p => p.ExcutableFile == "Winword.exe");
-
-                Process Word = Process.Start(item.ExcutablePath, filePath);
-                WinApi.SetForegroundWindow(Word.MainWindowHandle);
+                await this.processService.ResovleAsync(info, item);
                 return true;
             }
-            catch (Exception ex)
-            {
-                return false;
-            }
-        }
-
-        public Task<bool> OpenWordAsync(RequestInfo info)
-        {
-            throw new NotImplementedException();
+            return false;
         }
     }
 }

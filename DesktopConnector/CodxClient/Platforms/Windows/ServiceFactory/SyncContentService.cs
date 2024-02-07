@@ -19,8 +19,8 @@ namespace CodxClient.ServiceFactory
 
         public async Task DoUploadContentAsync(RequestInfo requestInfo)
         {
-
-            if (requestInfo.Status != RequestInfoStatusEnum.IsUploading)
+            bool isChange = await requestInfo.CheckIsChangeAsync();
+            if (isChange)
             {
                 try
                 {
@@ -28,10 +28,16 @@ namespace CodxClient.ServiceFactory
                     await Utils.ContentManager.UploadAsync(requestInfo.Dst, requestInfo.FilePath);
                     this.notificationService.ShowNotification("File", "Uploaded");
                     requestInfo.Status = RequestInfoStatusEnum.Unknown;
+                    await requestInfo.CommitAsync();
+                    await requestInfo.SaveAsync();
                 }
-                catch(Exception e)
+                catch(System.IO.IOException)
                 {
-                    this.notificationService.ShowNotification("Error", "Uploaded");
+                    this.notificationService.ShowNotification("File", "is saving ...");
+                }
+                catch (Exception e)
+                {
+                    this.notificationService.ShowNotification(e.GetType().FullName, "Error");
                 }
                 finally
                 {

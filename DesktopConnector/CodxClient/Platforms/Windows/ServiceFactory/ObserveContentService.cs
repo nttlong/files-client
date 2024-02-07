@@ -74,7 +74,7 @@ namespace CodxClient.ServiceFactory
                     if (e.ChangeType != WatcherChangeTypes.Deleted)
                     {
                         RequestInfo requestInfo = this.Cacher[id];
-                        Task.Run(() => this.syncContentService.DoUploadContentAsync(requestInfo));
+                        Task.Run(async  () => await this.syncContentService.DoUploadContentAsync(requestInfo));
                         
                     }
                 }
