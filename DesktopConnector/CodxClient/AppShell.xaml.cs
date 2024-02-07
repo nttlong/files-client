@@ -6,14 +6,26 @@ namespace CodxClient
 {
     public partial class AppShell : Shell
     {
+        //const string HasRunKey = "HasRunKey";
         private IProcessService processService;
+        private INotificationService notifcationService;
 
         public AppShell()
         {
             InitializeComponent();
             Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
             this.processService= ServiceAssistent.GetService<Services.IProcessService>();
+            this.notifcationService = ServiceAssistent.GetService<Services.INotificationService>();
             //SetupTrayIcon();
+            //bool hasRunBefore = Preferences.Get(HasRunKey, false);
+            //if(hasRunBefore)
+            //{
+            //    this.notifcationService.ShowNotification("You!", "Please, do not run twice.");
+            //}
+            //else
+            //{
+            //    Preferences.Set(HasRunKey, true);
+            //}
 
         }
         protected override void OnDisappearing()
