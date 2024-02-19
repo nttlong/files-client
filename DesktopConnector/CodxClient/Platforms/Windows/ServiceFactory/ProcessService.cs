@@ -22,32 +22,43 @@ namespace CodxClient.ServiceFactory
             this.StartWatch();
         }
 
-        private void StartWatch()
+        private void StartWatch(double t=1)
         {
             var run = new Task(() =>
             {
                 while (true)
                 {
-                    foreach (var x in this.processList)
+                    var lst = this.processList.Keys.ToList();
+                    var i = 0;
+                    while (i< lst.Count)
                     {
-                        var (process, time) = x.Value;
-                        if ((DateTime.UtcNow.Subtract(time).TotalMinutes>30) &&  (process.MainWindowHandle == 0))
+                        var x = this.processList[lst[i]];
+                        var (process, time) = x;
+                        if ((DateTime.UtcNow.Subtract(time).TotalMinutes > t) && (process.MainWindowHandle == 0))
                         {
-                            var info = this.requestManagerService.GetRequestInfoById(x.Key);
-                            process.CloseMainWindow();
-                            //x.Value.Close();
-                            process.Kill();
-                            process.Dispose();
-                            if(info != null)
+                            var info = this.requestManagerService.GetRequestInfoById(lst[i]);
+                            if (!process.HasExited)
+                            {
+                                process.CloseMainWindow();
+                                //x.Value.Close();
+                                process.Kill();
+                                process.Dispose();
+                            }
+                            if (info != null)
                             {
                                 info.Delete();
-                                this.requestManagerService.RemoveRequestByRequestId(x.Key);
+                                this.requestManagerService.RemoveRequestByRequestId(lst[i]);
                             }
-                            Task.Delay(300);
+                            Task.Delay(1);
 
                         }
+                        else
+                        {
+                            i++;
+                        }
                     }
-                    Task.Delay(300);
+                    
+                    Task.Delay(1);
                 }
                 
             });

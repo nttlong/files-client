@@ -1786,12 +1786,6 @@
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\msword.scale-400.png">
       <PackagePath>msword.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\powerpnt.scale-100.png">
-      <PackagePath>powerpnt.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\powerpoint.scale-100.jfif">
-      <PackagePath>powerpoint.scale-100.jfif</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\powerpoint.scale-100.png">
       <PackagePath>powerpoint.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -1806,9 +1800,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\powerpoint.scale-400.png">
       <PackagePath>powerpoint.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\visio.scale-100.jfif">
-      <PackagePath>visio.scale-100.jfif</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\visio.scale-100.png">
       <PackagePath>visio.scale-100.png</PackagePath>

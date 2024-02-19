@@ -41,53 +41,66 @@ namespace CodxClient.Models
 
         public async Task<List<string>> GetHashContentOnlineAsync(int StepSize=5)
         {
-            var ret = await Task.Run(() =>
+            if (new FileInfo(this.FilePath).Length == 0)
             {
-                if (new FileInfo(this.FilePath).Length == 0)
+                return new List<string>();
+            }
+
+            var hashSize = 1024; // Consider adjusting based on hashing algorithm and performance needs
+            var hashAlgorithm = SHA256.Create(); // Replace with suitable hashing algorithm if necessary
+
+            List<string> retList = new List<string>();
+            long bytesRead = 0;
+            long totalLength = new FileInfo(FilePath).Length;
+            var  skipSize = (int)(totalLength / StepSize);
+            long skipTo = 0;
+            long readStep = 0;
+            try
+            {
+                using (var fileStream = File.OpenRead(FilePath))
                 {
-                    return new List<string>();
-                }
-
-                var hashSize = 1024; // Consider adjusting based on hashing algorithm and performance needs
-                var hashAlgorithm = SHA256.Create(); // Replace with suitable hashing algorithm if necessary
-
-                List<string> retList = new List<string>();
-                long bytesRead = 0;
-                long totalLength = new FileInfo(FilePath).Length;
-
-                try
-                {
-                    using (var fileStream = File.OpenRead(FilePath))
+                   
+                    skipTo = readStep * skipSize;
+                    fileStream.Seek(skipTo, SeekOrigin.Begin);
+                    long bytesToRead = Math.Min(hashSize, totalLength - bytesRead);
+                    var buffer = new byte[bytesToRead];
+                    int bytesReadThisTime = fileStream.Read(buffer, 0, (int)bytesToRead);
+                    
+                    while ((bytesReadThisTime > 0)&&(readStep< StepSize))
                     {
-                        while (bytesRead < totalLength)
-                        {
-                            long bytesToRead = Math.Min(hashSize, totalLength - bytesRead);
-                            var buffer = new byte[bytesToRead];
-                            int bytesReadThisTime = fileStream.Read(buffer, 0, (int)bytesToRead);
-
-                            if (bytesReadThisTime == 0)
-                            {
-                                break;
-                            }
-
-                            bytesRead += bytesReadThisTime;
-                            long skipTo = (bytesRead / StepSize) * StepSize;
-                            fileStream.Seek(skipTo, SeekOrigin.Begin);
-
-                            var hash = hashAlgorithm.ComputeHash(buffer);
-                            retList.Add(Convert.ToHexString(hash));
-                        }
+                        var hash = hashAlgorithm.ComputeHash(buffer);
+                        retList.Add(Convert.ToHexString(hash));
+                        readStep++;
+                        skipTo = readStep * skipSize;
+                        fileStream.Seek(skipTo, SeekOrigin.Begin);
+                        bytesReadThisTime = fileStream.Read(buffer, 0, (int)bytesToRead);
                     }
-                }
-                catch (Exception ex)
-                {
-                    // Handle file access exceptions appropriately (e.g., log the error)
-                    Console.WriteLine($"Error occurred while hashing file: {ex.Message}");
-                }
+                    //if (bytesReadThisTime == 0)
+                    //{
+                    //    break;
+                    //}
 
-                return retList;
-            });
-            return ret;
+                    //while (bytesRead < totalLength)
+                    //{
+                        
+                        
+
+                    //    bytesRead += bytesReadThisTime;
+                    //    long skipTo = (bytesRead / StepSize) * StepSize;
+                    //    fileStream.Seek(skipTo, SeekOrigin.Begin);
+
+                    //    var hash = hashAlgorithm.ComputeHash(buffer);
+                    //    retList.Add(Convert.ToHexString(hash));
+                    //}
+                }
+            }
+            catch (Exception ex)
+            {
+                // Handle file access exceptions appropriately (e.g., log the error)
+                Console.WriteLine($"Error occurred while hashing file: {ex.Message}");
+            }
+
+            return retList;
         }
         public long GetSizeOnline()
         {
