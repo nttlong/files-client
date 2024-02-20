@@ -3,11 +3,21 @@ using System.Security.Cryptography;
 
 namespace CodxClient.Models
 {
+    public enum ChangeTypeEnum
+    {
+        None,
+        Size,
+        CheckContentFail,
+        Content
+    }
+    
     public enum RequestInfoStatusEnum
     {
         IsUploading,
         Unknown,
-        Opening
+        Opening,
+        Loading,
+        Ready
     }
     /// <summary>
     /// {
@@ -24,7 +34,8 @@ namespace CodxClient.Models
     {
         internal Process Applicaion;
 
-        public RequestInfo() {
+        public RequestInfo()
+        {
             this.Status = RequestInfoStatusEnum.Unknown;
         }
         public DelelegateInfo? Src { get; set; }
@@ -34,12 +45,18 @@ namespace CodxClient.Models
         public string? FilePath { get; set; }
         public string? TrackFilePath { get; set; }
         public string? RequestId { get; set; }
-        public RequestInfoStatusEnum Status { get;  set; }
-        public List<string> HashContentList { get;  set; }
-        public string RequestData { get;  set; }
-        public long SizeOfFile { get;  set; }
+        public RequestInfoStatusEnum Status { get; set; }
+        public List<string> HashContentList { get; set; }
+        public string RequestData { get; set; }
+        public long SizeOfFile { get; set; }
 
-        public async Task<List<string>> GetHashContentOnlineAsync(int StepSize=5)
+        public async Task<List<string>> GetHashContentOnlineAsync(int StepSize = 5)
+        {
+            return await this.tryGetHashContents(StepSize);
+
+        }
+
+        private async Task<List<string>> tryGetHashContents(int StepSize = 5)
         {
             if (new FileInfo(this.FilePath).Length == 0)
             {
@@ -52,87 +69,86 @@ namespace CodxClient.Models
             List<string> retList = new List<string>();
             long bytesRead = 0;
             long totalLength = new FileInfo(FilePath).Length;
-            var  skipSize = (int)(totalLength / StepSize);
+            var skipSize = (int)(totalLength / StepSize);
             long skipTo = 0;
             long readStep = 0;
-            try
+            var mode = new FileStreamOptions();
+            mode.Options = FileOptions.Asynchronous;
+            mode.Access = FileAccess.Read;
+            mode.BufferSize = 1024 * 100;
+            mode.Share = FileShare.Read;
+
+            FileStream fileStream = new FileStream(this.FilePath, mode);
+            //BinaryReader reader = new BinaryReader(fileStream);
+            //byte[] data = reader.ReadBytes(1024);
+            retList = new List<string>();
+            skipTo = readStep * skipSize;
+            fileStream.Seek(skipTo, SeekOrigin.Begin);
+            long bytesToRead = Math.Min(hashSize, totalLength - bytesRead);
+            var buffer = new byte[bytesToRead];
+            int bytesReadThisTime = await fileStream.ReadAsync(buffer, 0, (int)bytesToRead);
+
+            while ((bytesReadThisTime > 0) && (readStep < StepSize))
             {
-                using (var fileStream = File.OpenRead(FilePath))
-                {
-                   
-                    skipTo = readStep * skipSize;
-                    fileStream.Seek(skipTo, SeekOrigin.Begin);
-                    long bytesToRead = Math.Min(hashSize, totalLength - bytesRead);
-                    var buffer = new byte[bytesToRead];
-                    int bytesReadThisTime = fileStream.Read(buffer, 0, (int)bytesToRead);
-                    
-                    while ((bytesReadThisTime > 0)&&(readStep< StepSize))
-                    {
-                        var hash = hashAlgorithm.ComputeHash(buffer);
-                        retList.Add(Convert.ToHexString(hash));
-                        readStep++;
-                        skipTo = readStep * skipSize;
-                        fileStream.Seek(skipTo, SeekOrigin.Begin);
-                        bytesReadThisTime = fileStream.Read(buffer, 0, (int)bytesToRead);
-                    }
-                    //if (bytesReadThisTime == 0)
-                    //{
-                    //    break;
-                    //}
-
-                    //while (bytesRead < totalLength)
-                    //{
-                        
-                        
-
-                    //    bytesRead += bytesReadThisTime;
-                    //    long skipTo = (bytesRead / StepSize) * StepSize;
-                    //    fileStream.Seek(skipTo, SeekOrigin.Begin);
-
-                    //    var hash = hashAlgorithm.ComputeHash(buffer);
-                    //    retList.Add(Convert.ToHexString(hash));
-                    //}
-                }
+                var hash = hashAlgorithm.ComputeHash(buffer);
+                retList.Add(Convert.ToHexString(hash));
+                readStep++;
+                skipTo = readStep * skipSize;
+                fileStream.Seek(skipTo, SeekOrigin.Begin);
+                bytesReadThisTime = await fileStream.ReadAsync(buffer, 0, (int)bytesToRead);
             }
-            catch (Exception ex)
-            {
-                // Handle file access exceptions appropriately (e.g., log the error)
-                Console.WriteLine($"Error occurred while hashing file: {ex.Message}");
-            }
+            fileStream.Close();
+            //using (var fileStream = File.Open(FilePath, FileMode.Open, FileAccess.Read, FileShare.Read))
+            //{
 
+
+            //}
             return retList;
         }
+
         public long GetSizeOnline()
         {
             return new FileInfo(this.FilePath).Length;
         }
 
-        public async Task<bool> CheckIsChangeAsync()
+        public async Task<ChangeTypeEnum> CheckIsChangeAsync()
         {
             if (this.SizeOfFile == 0)
             {
-                return false;
+                return ChangeTypeEnum.None;
             }
-            if(this.Status!=RequestInfoStatusEnum.Unknown)
+            if (this.Status != RequestInfoStatusEnum.Ready)
             {
-                return false;
+                return ChangeTypeEnum.None;
             }
             if (this.SizeOfFile != this.GetSizeOnline())
             {
-                return true;
+                return ChangeTypeEnum.Size;
             }
-            var onlineHashes = await this.GetHashContentOnlineAsync();
+            var onlineHashes = new List<string>();
+            try
+            {
+                onlineHashes = await this.GetHashContentOnlineAsync();
+            }
+            catch (IOException)
+            {
+                return ChangeTypeEnum.CheckContentFail; 
+            }
+            if (onlineHashes.Count == 0)
+            {
+                return ChangeTypeEnum.None;
+            }
             if (onlineHashes.Count != this.HashContentList.Count)
-                return true;
-            for(var i=0;i<onlineHashes.Count;i++)
+                return ChangeTypeEnum.Content;
+            for (var i = 0; i < onlineHashes.Count; i++)
             {
                 var onlineHash = onlineHashes[i];
                 if (onlineHash != this.HashContentList[i])
                 {
-                    return true;
+                    return ChangeTypeEnum.Content;
                 }
             }
-            return false;
+            return ChangeTypeEnum.None;
         }
 
         public async Task CommitAsync()
@@ -152,11 +168,11 @@ namespace CodxClient.Models
         {
             try
             {
-                if(File.Exists(this.TrackFilePath))
+                if (File.Exists(this.TrackFilePath))
                 {
                     File.Delete(this.TrackFilePath);
                 }
-                
+
             }
             catch (Exception ex)
             {
@@ -164,16 +180,24 @@ namespace CodxClient.Models
             }
             try
             {
-                if(File.Exists(this.FilePath)) {
+                if (File.Exists(this.FilePath))
+                {
                     File.Delete(this.FilePath);
                 }
-                
+
             }
             catch (Exception ex)
             {
 
             }
         }
+
+        internal void Reset()
+        {
+            this.SizeOfFile = 0;
+            //this.HashContentList = null;
+
+        }
     }
 }
-    
+

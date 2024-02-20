@@ -62,36 +62,37 @@ namespace CodxClient.ServiceFactory
         }
         private void _fileWatcher_Changed(object sender, FileSystemEventArgs e)
         {
-            
-            
+            if (!(new[] { WatcherChangeTypes.Renamed,WatcherChangeTypes.Created }).Contains(e.ChangeType)) { return; }   
+            //if(e.ChangeType!=WatcherChangeTypes.Renamed) return;
+            if ((new FileInfo(e.FullPath)).Name.StartsWith("~")) return;
             var id = e.Name.Split(".").FirstOrDefault();
             if (Utils.DataHashing.IsValidHashKey(id))
             {
                 if (this.cacheService.IsContainsRequestInfoById(id))
                 {
-                    if (e.ChangeType != WatcherChangeTypes.Deleted)
+                    RequestInfo requestInfo = this.cacheService.GetRequestInfoById(id);
+                    var checkChangeType = requestInfo.CheckIsChangeAsync().Result;
+                    if (checkChangeType!=ChangeTypeEnum.None)
                     {
-                        RequestInfo requestInfo = this.cacheService.GetRequestInfoById(id);
-                        Task.Run(async  () => await this.syncContentService.DoUploadContentAsync(requestInfo));
-                        
+                        this.syncContentService.DoUploadContentAsync(requestInfo).Wait();
                     }
                 }
-                else
-                {
-                    if (e.ChangeType != WatcherChangeTypes.Deleted)
-                    {
-                        var trackFilePath = Path.Combine(this.configService.GetTrackDir(), id + ".txt");
-                        if (File.Exists(trackFilePath))
-                        {
-                            Task.Run(async () => {
+                //else
+                //{
+                //    if (e.ChangeType != WatcherChangeTypes.Deleted)
+                //    {
+                //        var trackFilePath = Path.Combine(this.configService.GetTrackDir(), id + ".txt");
+                //        if (File.Exists(trackFilePath))
+                //        {
+                //            Task.Run(async () => {
 
-                                RequestInfo requestInfo = await this.contentService.LoadRequestInfoFromFileAsync(TrackFilePath: trackFilePath, SourceFilePath: e.FullPath);
-                                await this.syncContentService.DoUploadContentAsync(requestInfo);
-                            });
-                        }
+                //                RequestInfo requestInfo = await this.contentService.LoadRequestInfoFromFileAsync(TrackFilePath: trackFilePath, SourceFilePath: e.FullPath);
+                //                await this.syncContentService.DoUploadContentAsync(requestInfo);
+                //            });
+                //        }
 
-                    }
-                }
+                //    }
+                //}
             }
         }
     }

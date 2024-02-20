@@ -1,6 +1,7 @@
 ﻿using CodxClient.Models;
 using CodxClient.Services;
 using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,11 +11,11 @@ namespace CodxClient.ServiceFactory
 {
     public class RequestManagerService : IRequestManagerService
     {
-        private Dictionary<string, RequestInfo> _cacheRequestInfo;
+        private ConcurrentDictionary<string, RequestInfo> _cacheRequestInfo;
 
         public RequestManagerService()
         {
-            this._cacheRequestInfo = new Dictionary<string, RequestInfo>();
+            this._cacheRequestInfo = new ConcurrentDictionary<string, RequestInfo>();
         }
 
 
@@ -23,9 +24,12 @@ namespace CodxClient.ServiceFactory
         {
             if (this._cacheRequestInfo.ContainsKey(Info.RequestId))
             {
-                this._cacheRequestInfo.Remove(Info.RequestId);
+                var req=new RequestInfo();
+                this._cacheRequestInfo.Remove(Info.RequestId,out req);
+                req = null;
+                GC.Collect();
             }
-            this._cacheRequestInfo.Add(Info.RequestId, Info);
+            this._cacheRequestInfo.TryAdd(Info.RequestId, Info);
         }
 
         public RequestInfo GetRequestInfoById(string RequestId)
@@ -47,7 +51,10 @@ namespace CodxClient.ServiceFactory
         {
             if (this._cacheRequestInfo.ContainsKey(RequestId))
             {
-                this._cacheRequestInfo.Remove(RequestId);
+                var req=new RequestInfo();
+                this._cacheRequestInfo.Remove(RequestId, out req);
+                req = null;
+                GC.Collect();
             }
 
         }

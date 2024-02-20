@@ -41,6 +41,7 @@ namespace CodxClient.Common
             
             Info.TrackFilePath = Path.Combine(this.config.GetTrackDir(), requestId + ".txt");
             Info.FilePath = Path.Combine(this.config.GetContentDir(), requestId)+"."+Info.ResourceExt;
+            Info.Status = Models.RequestInfoStatusEnum.Loading;
             var IsExisting = false;
             if (System.IO.File.Exists(Info.FilePath))
             {
@@ -49,6 +50,8 @@ namespace CodxClient.Common
                 {
                     System.IO.File.Delete(Info.FilePath);
                     IsExisting = false;
+                    processService.KillProcessByRequestId(Info.RequestId);
+                    Info.Reset();
                 }
                 catch {
                     IsExisting = true;
@@ -59,13 +62,17 @@ namespace CodxClient.Common
             {
                 Info.RequestId = requestId;
 
-                notifyService.ShowNotification("Download", "...");
+                var notifier=notifyService.ShowNotificationWithWithProgressBar("File","Load file","loading ...",silent:true);
+                Info.Status= Models.RequestInfoStatusEnum.Loading;
                 await contentService.DownloadAsync(Info.Src, Info.FilePath);
                 Info.HashContentList = await Info.GetHashContentOnlineAsync();
                 Info.SizeOfFile = Info.GetSizeOnline();
                 Info.RequestData = Data;
                 await Info.CommitAsync();
                 await Info.SaveAsync();
+                notifyService.UpdateNotifier(notifier,"progressStatus","Loaded");
+                notifyService.UpdateNotifier(notifier, "progressValue", "1");
+                Info.Status = Models.RequestInfoStatusEnum.Ready;
                 return Info;
             }
             else
@@ -138,13 +145,13 @@ namespace CodxClient.Common
                 }
                 else
                 {
-                    notifyService.ShowNotification("Error", "File type is not support");
+                    notifyService.ShowNotification("Error", "File type is not support",silent:false);
                 }
             }
             catch (Exception ex)
             {
 
-                notifyService.ShowNotification("error", ex.Message);
+                notifyService.ShowNotification("error", ex.Message, silent: false);
             }
 
 

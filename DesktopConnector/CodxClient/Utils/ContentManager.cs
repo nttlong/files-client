@@ -1,5 +1,6 @@
 ﻿
 using CodxClient.Models;
+using Microsoft.Toolkit.Uwp.Notifications;
 using System.IO;
 using System.IO.Pipes;
 using System.Reflection;
@@ -40,34 +41,39 @@ namespace CodxClient.Utils
 
             if (filePathtoUpload != null)
             {
-                using (var stream = new FileStream(filePathtoUpload, FileMode.Open, FileAccess.Read, FileShare.Read))
-                {
-                    using (var fileContent = new StreamContent(stream))
-                    {
-                        var fileName = Path.GetFileName(filePathtoUpload);
-                        if (data != null)
-                        {
-                            var dataContent = Newtonsoft.Json.JsonConvert.SerializeObject(data);
-                            var postDict = Newtonsoft.Json.JsonConvert.DeserializeObject<Dictionary<string, string>>(dataContent);
-                            MultipartFormDataContent formDataContent = new MultipartFormDataContent();
-                            formDataContent.Add(fileContent, "content", fileName);
+                var mode = new FileStreamOptions();
+                mode.Options = FileOptions.Asynchronous;
+                mode.Access = FileAccess.Read;
+                mode.BufferSize = 1024 * 100;
+                mode.Share = FileShare.Read;
 
-                            foreach (KeyValuePair<string, string> entry in postDict)
-                            {
-                                formDataContent.Add(new StringContent(entry.Value), entry.Key);
-                            }
-                            request.Content = formDataContent;
-                        }
-                        else
+                //FileStream fileStream = new FileStream(filePathtoUpload, mode);
+
+                using (var stream =  new FileStream(filePathtoUpload,FileMode.Open, FileAccess.Read))
+                //using (var stream = new FileStream(filePathtoUpload, FileMode.Open,FileAccess.Read,FileShare.Read,1024,false))
+                {
+                    var fileName = Path.GetFileName(filePathtoUpload);
+                    if (data != null)
+                    {
+                        var dataContent = Newtonsoft.Json.JsonConvert.SerializeObject(data);
+                        var postDict = Newtonsoft.Json.JsonConvert.DeserializeObject<Dictionary<string, string>>(dataContent);
+                        MultipartFormDataContent formDataContent = new MultipartFormDataContent();
+                        formDataContent.Add(new StreamContent(stream), "content", fileName);
+
+                        foreach (KeyValuePair<string, string> entry in postDict)
                         {
-                            request.Content = new MultipartFormDataContent
-                            {
-                                { fileContent, "content", fileName }
-                            };
+                            formDataContent.Add(new StringContent(entry.Value), entry.Key);
                         }
-                        var ret = await httpClient.SendAsync(request);
-                        return ret;
+                        request.Content = formDataContent;
                     }
+                    else
+                    {
+                        MultipartFormDataContent formDataContent = new MultipartFormDataContent();
+                        formDataContent.Add(new StreamContent(stream), "content", fileName);
+                        request.Content = formDataContent;
+                    }
+                    var ret = await httpClient.SendAsync(request);
+                    return ret;
                 }
             }
             else if (filepathToDownload != null)
@@ -100,6 +106,7 @@ namespace CodxClient.Utils
         public async static Task UploadAsync(DelelegateInfo Dst, string UploadFile)
         {
             await CreateRequestAsync(Dst.Url, Dst.Method, Dst.Header, Dst.data, null, UploadFile);
+
         }
     }
 }

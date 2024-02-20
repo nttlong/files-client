@@ -19,30 +19,26 @@ namespace CodxClient.ServiceFactory
 
         public async Task DoUploadContentAsync(RequestInfo requestInfo)
         {
-            bool isChange = await requestInfo.CheckIsChangeAsync();
-            if (isChange)
+            
+            try
             {
-                try
-                {
-                    requestInfo.Status = RequestInfoStatusEnum.IsUploading;
-                    await Utils.ContentManager.UploadAsync(requestInfo.Dst, requestInfo.FilePath);
-                    this.notificationService.ShowNotification("File", "Uploaded");
-                    requestInfo.Status = RequestInfoStatusEnum.Unknown;
-                    await requestInfo.CommitAsync();
-                    await requestInfo.SaveAsync();
-                }
-                catch(System.IO.IOException)
-                {
-                    this.notificationService.ShowNotification("File", "is saving ...");
-                }
-                catch (Exception e)
-                {
-                    this.notificationService.ShowNotification(e.GetType().FullName, "Error");
-                }
-                finally
-                {
-                    requestInfo.Status = RequestInfoStatusEnum.Unknown;
-                }
+                requestInfo.Status = RequestInfoStatusEnum.IsUploading;
+                await Utils.ContentManager.UploadAsync(requestInfo.Dst, requestInfo.FilePath);
+                var notifier = this.notificationService.ShowNotificationWithWithProgressBar("File", "...", "File is saving ...", silent: true);
+                this.notificationService.UpdateNotifier(notifier, "progressStatus", "File was saved.");
+                this.notificationService.UpdateNotifier(notifier, "progressValue", "1");
+                await requestInfo.CommitAsync();
+                await requestInfo.SaveAsync();
+
+                requestInfo.Status = RequestInfoStatusEnum.Ready;
+            }
+            catch (System.IO.IOException e)
+            {
+                this.notificationService.ShowNotification("Error", e.Message, silent: false);
+            }
+            catch (Exception e)
+            {
+                this.notificationService.ShowNotification(e.GetType().FullName, "Error", silent: false);
             }
         }
     }
