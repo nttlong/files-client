@@ -4,6 +4,7 @@ using CodxClient.Services;
 using System.ComponentModel;
 using Microsoft.Maui.Controls;
 using CodxClient.Models;
+using System.Reflection;
 
 namespace CodxClient
 {
@@ -13,6 +14,8 @@ namespace CodxClient
         private IUIService uiService;
         private IBackgroundService backgroundService;
         private IToolDetectorService toolDetector;
+        private INotificationService notificationService;
+        private IConfigService configService;
 
         public MainPage()
         {
@@ -22,16 +25,42 @@ namespace CodxClient
             this.toolDetector = ServiceAssistent.GetService<IToolDetectorService>();
             this.OfficeToolsData = this.toolDetector.DoDetectOffice();
             this.OfficeToolsList.ItemsSource = this.OfficeToolsData;
+            this.notificationService = ServiceAssistent.GetService<INotificationService>();
+            this.configService = ServiceAssistent.GetService<IConfigService>();
+            
+            
+            
         }
 
         public IList<OfficeTools> OfficeToolsData { get; private set; }
-       
+        
+        public bool IsAutoStartUp { get;  set; }
+
+        private void OnClickAutoStartUpLabel(object sender, EventArgs e)
+        {
+            this.IsAutoStartUp = !IsAutoStartUp;
+            this.chkAutoStartUp.IsChecked = this.IsAutoStartUp;
+            //this.confirmAutoStart();
+        }
+        private void OnChkAutoStartUpChanged(object s, CheckedChangedEventArgs e)
+        {
+            this.IsAutoStartUp = e.Value;
+            this.configService.SetAutoStartUp(this.IsAutoStartUp);
+            //this.chkAutoStartUp.IsChecked = this.IsAutoStartUp;
+        }
+
+        private void confirmAutoStart()
+        {
+            App.Current.MainPage.DisplayAlert("??", "Are you sure?","OK","Cancel");
+            //var ret= this.notificationService.ShowConfirmBoxAsync("??", "Are you sure?").Result;
+        }
 
         private void CloseBtn_Clicked(object sender, EventArgs e)
         {
             Application.Current.Quit(); // Exit the application
 
         }
+        
         //protected override void OnClosing(CancelEventArgs e)
         //{
         //    base.OnClosing(e);

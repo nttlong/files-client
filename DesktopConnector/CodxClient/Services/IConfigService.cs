@@ -23,5 +23,6 @@ namespace CodxClient.Services
         /// </summary>
         /// <returns></returns>
         string GetContentDir();
+        void SetAutoStartUp(bool IsAuto);
     }
 }

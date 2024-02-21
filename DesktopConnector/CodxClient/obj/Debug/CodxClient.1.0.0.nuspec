@@ -5,7 +5,7 @@
     <version>1.0.0</version>
     <authors>CodxClient</authors>
     <description>Package Description</description>
-    <repository type="git" commit="c6ad6cb17b4a16f1f52636970cde14953a29602a" />
+    <repository type="git" commit="d8723a6a06553af5319a2c5252d4ce4378afb486" />
     <dependencies>
       <group targetFramework="net7.0-maccatalyst16.1">
         <dependency id="Microsoft.Extensions.Configuration" version="7.0.0" exclude="Build,Analyzers" />

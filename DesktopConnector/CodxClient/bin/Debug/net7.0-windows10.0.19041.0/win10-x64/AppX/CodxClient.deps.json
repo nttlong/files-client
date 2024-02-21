@@ -31,6 +31,14 @@
         },
         "runtime": {
           "CodxClient.dll": {}
+        },
+        "resources": {
+          "vi-VN/CodxClient.resources.dll": {
+            "locale": "vi-VN"
+          },
+          "vi/CodxClient.resources.dll": {
+            "locale": "vi"
+          }
         }
       },
       "runtimepack.Microsoft.NETCore.App.Runtime.win-x64/7.0.15": {

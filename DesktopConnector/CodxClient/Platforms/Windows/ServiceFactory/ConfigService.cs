@@ -1,7 +1,9 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -95,6 +97,23 @@ namespace CodxClient.ServiceFactory
                 Directory.CreateDirectory(contentDir);
             }
             return contentDir;
+        }
+
+        public void SetAutoStartUp(bool IsAuto)
+        {
+            //App.Current.MainPage.DisplayAlert("test", Assembly.GetEntryAssembly().Location, "OK");
+            //using (var key = Registry.CurrentUser.OpenSubKey(@"SOFTWARE\Microsoft\Windows\CurrentVersion\Run", true))
+            //{
+            //    if (IsAuto)
+            //    {
+            //        key.SetValue(Assembly.GetExecutingAssembly().GetName().Name,
+            //                    Assembly.GetEntryAssembly().Location);
+            //    }
+            //    else
+            //    {
+            //        key.DeleteValue(Assembly.GetExecutingAssembly().GetName().Name, false);
+            //    }
+            //}
         }
     }
 }

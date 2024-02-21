@@ -4,9 +4,11 @@
   xmlns:controls="using:Microsoft.Toolkit.Uwp.UI.Controls"
   xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
   xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"
+  xmlns:uap5="http://schemas.microsoft.com/appx/manifest/uap/windows10/5"
+
   IgnorableNamespaces="uap rescap">
 
-  <Identity Name="maui-package-name-placeholder" Publisher="CN=admin" Version="0.0.17.0" />
+  <Identity Name="maui-package-name-placeholder" Publisher="CN=admin" Version="0.0.32.0" />
 
   
 
@@ -22,7 +24,8 @@
   </Dependencies>
 
   <Resources>
-    <Resource Language="x-generate" />
+    <Resource Language="vi"/>
+    <Resource Language="en-US"/>
   </Resources>
 
   <Applications>
@@ -36,6 +39,17 @@
         <uap:DefaultTile Square71x71Logo="$placeholder$.png" Wide310x150Logo="$placeholder$.png" Square310x310Logo="$placeholder$.png" />
         <uap:SplashScreen Image="$placeholder$.png" />
       </uap:VisualElements>
+      <Extensions>
+        <uap5:Extension
+          Category="windows.startupTask"
+          Executable="CodxClient.exe"
+          EntryPoint="Windows.FullTrustApplication">
+          <uap5:StartupTask
+            TaskId="3276"
+            Enabled="true"
+            DisplayName="CodX desktop connector" />
+        </uap5:Extension>
+      </Extensions>
     </Application>
   </Applications>
 

@@ -19,6 +19,7 @@ namespace CodxClient.Services
         /// <returns></returns>
         object ShowNotificationWithWithProgressBar(string title, string body,string status, bool silent);
         void UpdateNotifier(object notifier, string key, string value);
+        Task<bool> ShowConfirmBoxAsync(string Title, string ConfirmMessage);
 
 
     }

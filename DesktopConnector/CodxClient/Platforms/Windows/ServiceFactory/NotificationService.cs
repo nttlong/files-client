@@ -1,16 +1,36 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Resources;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using CodxClient.Models;
 using Microsoft.Toolkit.Uwp.Notifications;
 using Windows.UI.Notifications;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace CodxClient.ServiceFactory
 {
     public class NotificationService : Services.INotificationService
     {
+        public async Task<bool> ShowConfirmBoxAsync(string Title, string ConfirmMessage)
+        {
+            
+            
+            var okCaption = Utils.Res.Get("Ok");
+            var result = await Shell.Current.DisplayAlert(Title, ConfirmMessage, Utils.Res.Get("Ok"), Utils.Res.Get("Close"));
+
+            if (result)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
         public void ShowNotification(string title,string body, bool silent=true)
         {
             var ret = new ToastContentBuilder()
@@ -35,10 +55,10 @@ namespace CodxClient.ServiceFactory
 
             // Construct the toast content with data bound fields
             var content = new ToastContentBuilder();
-            content.AddText(body);
+            content.AddText(Utils.Res.Get(body));
             content.AddVisualChild(new AdaptiveProgressBar()
                 {
-                    Title = title,
+                    Title = Utils.Res.Get(title),
                     Value = new BindableProgressBarValue("progressValue"),
                     ValueStringOverride = new BindableString("progressValueString"),
                     Status = new BindableString("progressStatus")
@@ -98,6 +118,11 @@ namespace CodxClient.ServiceFactory
                         {
                             throw new Exception($"The key {key} was not found.");
                         }
+                        if (!double.TryParse(value, out double number))
+                        {
+                            value = Utils.Res.Get(value);
+                        }
+                        
                         toastNotification.Data.Values[key] = value;
 
                         toastNotifier.Update(toastNotification.Data, toastNotification.Tag);

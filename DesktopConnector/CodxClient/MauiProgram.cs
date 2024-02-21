@@ -2,6 +2,10 @@
 using Microsoft.Maui.LifecycleEvents;
 using Microsoft.Maui.Controls;
 using Microsoft.Maui.Platform;
+using System.Globalization;
+using CodxClient.Properties.Resources;
+
+
 #if WINDOWS
 using Windows.Graphics;
 #endif
@@ -12,6 +16,8 @@ namespace CodxClient
     {
         public static MauiApp CreateMauiApp()
         {
+            //Thread.CurrentThread.CurrentCulture = new CultureInfo("vi-VN");
+            
             var builder = MauiApp.CreateBuilder();
             builder
                 .UseMauiApp<App>()

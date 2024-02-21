@@ -86,5 +86,10 @@ namespace CodxClient.ServiceFactory
         {
             this.GetAppDataLocal();
         }
+
+        public void SetAutoStartUp(bool IsAuto)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

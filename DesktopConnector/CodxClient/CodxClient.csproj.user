@@ -11,6 +11,14 @@
     <AppxBuildConfigurationSelection>neutral</AppxBuildConfigurationSelection>
   </PropertyGroup>
   <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources\AppResources.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Resource Update="Properties\Resources\AppResources.vi.resx">
+      <SubType>Designer</SubType>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
     <MauiXaml Update="App.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

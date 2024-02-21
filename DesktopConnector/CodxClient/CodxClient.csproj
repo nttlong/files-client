@@ -33,9 +33,11 @@
 		<AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
 		<AppxSymbolPackageEnabled>False</AppxSymbolPackageEnabled>
 		<GenerateTestArtifacts>True</GenerateTestArtifacts>
-		<AppInstallerUri>C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Publish\codx-client\installer</AppInstallerUri>
+		<AppInstallerUri>C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\Publish\installer</AppInstallerUri>
 		<HoursBetweenUpdateChecks>0</HoursBetweenUpdateChecks>
-	</PropertyGroup>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    
+  </PropertyGroup>
 
 	<ItemGroup>
 		<!-- App Icon -->
@@ -53,6 +55,10 @@
 
 		<!-- Raw Assets (also remove the "Resources\Raw" prefix) -->
 		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Remove="Properties\Resources\AppResources.vi.resx" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -96,6 +102,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Resource Include="Properties\Resources\AppResources.vi.resx" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="AZ.FolderSystemWatcher.Packager" Version="0.4.0">
 		  <PrivateAssets>all</PrivateAssets>
 		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -136,6 +146,18 @@
 	  <Compile Update="Platforms\MacCatalyst\ServiceFactory\XApplication.cs">
 	    <ExcludeFromCurrentConfiguration>true</ExcludeFromCurrentConfiguration>
 	  </Compile>
+	  <Compile Update="Properties\Resources\AppResources.Designer.cs">
+	    <DesignTime>True</DesignTime>
+	    <AutoGen>True</AutoGen>
+	    <DependentUpon>AppResources.resx</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Update="Properties\Resources\AppResources.resx">
+	    <Generator>ResXFileCodeGenerator</Generator>
+	    <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
+	  </EmbeddedResource>
 	</ItemGroup>
 
 	<ItemGroup>

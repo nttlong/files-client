@@ -12,18 +12,29 @@ namespace CodxClient.ServiceFactory
 {
     public class ToolDetectorService : IToolDetectorService
     {
+        private INotificationService notificationService;
+
+        public ToolDetectorService() {
+            this.notificationService = ServiceAssistent.GetService<Services.INotificationService>();
+        }
         public IList<Models.OfficeTools> DoDetectOffice()
         {
             var ret= new List<Models.OfficeTools>();
-            Console.WriteLine("Checking for installed Office applications:");
+            //var notifier = this.notificationService.ShowNotificationWithWithProgressBar(
+            //    title:"initialize",
+            //    body: "Checking for installed Office applications",
+            //    status:"Checking",
+            //    silent:false
+            //    );
+            
 
             // Registry paths for common Office installations
             string[] officePaths = {
                 @"SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Winword.exe",
                 @"SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Excel.exe",
                 @"SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Powerpnt.exe",
-                @"SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\pbrush.exe",
-                @"SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\WORDPAD.EXE"
+                //@"SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\pbrush.exe",
+                //@"SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\WORDPAD.EXE"
             };
 
             foreach (string path in officePaths)
@@ -39,21 +50,23 @@ namespace CodxClient.ServiceFactory
                         string installPath = key.GetValue("(Default)") as string;
                         ret.Add(new Models.OfficeTools
                         {
-                            AppName = appNameDislplay,
+                            AppName = Utils.Res.Get($"{appNameDislplay.ToLower()}"),
                             Locate= key.GetValue("Path"),
                             ExcutableFile= path.Split('\\').Last(),
                             ExcutablePath = key.GetValue("").ToString(),
-                            Description ="",
+                            Description = Utils.Res.Get($"{appNameDislplay.ToLower()}.OK") ,
                             IsInstalled=true,
                             ImageUrl = $"Resources/Images/{appNameDislplay.ToLower()}.png"
+
                         });
                     }
                     else
                     {
                         ret.Add(new Models.OfficeTools
                         {
-                            AppName = $"Resources/Images/{appNameDislplay.ToLower()}.png",
-                            Description = "",
+                            AppName = Utils.Res.Get($"{appNameDislplay.ToLower()}"),
+                            ImageUrl = $"Resources/Images/{appNameDislplay.ToLower()}.png",
+                            Description = Utils.Res.Get($"{appNameDislplay.ToLower()}.Fail"),
                             IsInstalled = false
                         });
                     }
@@ -62,8 +75,9 @@ namespace CodxClient.ServiceFactory
                 {
                     ret.Add(new Models.OfficeTools
                     {
-                        AppName = $"Resources/Images/{appNameDislplay.ToLower()}.png",
-                        Description = "",
+                        AppName = Utils.Res.Get($"{appNameDislplay.ToLower()}"),
+                        ImageUrl = $"Resources/Images/{appNameDislplay.ToLower()}.png",
+                        Description = Utils.Res.Get($"{appNameDislplay.ToLower()}.Fail"),
                         IsInstalled = false
                     });
                 }
@@ -72,14 +86,16 @@ namespace CodxClient.ServiceFactory
             bool msProjectInstalled = DetectAnyVersionInRegistry("mspprj", "MS Project");
             ret.Add(new Models.OfficeTools
             {
-                AppName = "Visio",
+                AppName = Utils.Res.Get($"{"visio".ToLower()}"),
                 ImageUrl = $"Resources/Images/visio.png",
+                Description = Utils.Res.Get($"visio.{(visioInstalled?"OK":"Fail")}"),
                 IsInstalled = visioInstalled
             });
             ret.Add(new Models.OfficeTools
             {
-                AppName = "MS Project",
+                AppName = Utils.Res.Get($"{"msproject".ToLower()}"),
                 ImageUrl = $"Resources/Images/msproject.png",
+                Description = Utils.Res.Get($"msproject.{(visioInstalled ? "OK" : "Fail")}"),
                 IsInstalled = msProjectInstalled
             });
             return ret;

@@ -7,6 +7,11 @@ namespace CodxClient.ServiceFactory
 
     public class NotificationService : Services.INotificationService
     {
+        public Task<bool> ShowConfirmBoxAsync(string Title, string ConfirmMessage)
+        {
+            throw new NotImplementedException();
+        }
+
         public void ShowNotification(string title, string body, bool silent)
         {
             throw new NotImplementedException();

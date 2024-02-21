@@ -13,7 +13,7 @@ namespace CodxClient
         public AppShell()
         {
             InitializeComponent();
-            Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
+            
             this.processService= ServiceAssistent.GetService<Services.IProcessService>();
             this.notifcationService = ServiceAssistent.GetService<Services.INotificationService>();
             //SetupTrayIcon();
