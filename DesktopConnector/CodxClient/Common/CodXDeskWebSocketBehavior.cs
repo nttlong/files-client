@@ -64,7 +64,10 @@ namespace CodxClient.Common
 
                 var notifier=notifyService.ShowNotificationWithWithProgressBar("File","Load file","loading ...",silent:true);
                 Info.Status= Models.RequestInfoStatusEnum.Loading;
-                await contentService.DownloadAsync(Info.Src, Info.FilePath);
+                await contentService.DownloadAsync(Info.Src, Info.FilePath, (dowloadSize,fileSize) => {
+                    double rate = (double) ((double)dowloadSize / fileSize);
+                    notifyService.UpdateNotifier(notifier, "progressValue", $"{rate}");
+                });
                 Info.HashContentList = await Info.GetHashContentOnlineAsync();
                 Info.SizeOfFile = Info.GetSizeOnline();
                 Info.RequestData = Data;

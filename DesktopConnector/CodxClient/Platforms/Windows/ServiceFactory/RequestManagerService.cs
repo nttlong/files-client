@@ -1,5 +1,6 @@
 ﻿using CodxClient.Models;
 using CodxClient.Services;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
@@ -12,10 +13,12 @@ namespace CodxClient.ServiceFactory
     public class RequestManagerService : IRequestManagerService
     {
         private ConcurrentDictionary<string, RequestInfo> _cacheRequestInfo;
+        private IConfigService configService;
 
         public RequestManagerService()
         {
             this._cacheRequestInfo = new ConcurrentDictionary<string, RequestInfo>();
+            this.configService = ServiceAssistent.GetService<IConfigService>();
         }
 
 
@@ -38,7 +41,17 @@ namespace CodxClient.ServiceFactory
             {
                 return _cacheRequestInfo[RequestId];
             }
-            else { return null; }
+            else {
+                var infoPath = Path.Combine(this.configService.GetTrackDir(), $"{RequestId}.txt");
+                if(File.Exists(infoPath))
+                {
+                    string jsonString = File.ReadAllText(infoPath);
+                    var ret = JsonConvert.DeserializeObject<RequestInfo>(jsonString);
+                    this._cacheRequestInfo.TryAdd(RequestId,ret);
+                    return ret;
+                }
+                return null;
+            }
 
         }
 

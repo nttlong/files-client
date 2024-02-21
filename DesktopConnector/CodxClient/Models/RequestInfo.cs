@@ -43,16 +43,24 @@ namespace CodxClient.Models
         public string? ResourceExt { get; set; }
         public string? HashContent { get; set; }
         public string? FilePath { get; set; }
+        public string OriginalFilePath { get; private set; }
         public string? TrackFilePath { get; set; }
         public string? RequestId { get; set; }
         public RequestInfoStatusEnum Status { get; set; }
         public List<string> HashContentList { get; set; }
         public string RequestData { get; set; }
         public long SizeOfFile { get; set; }
+        public DateTime? LastModified { get; internal set; }
 
         public async Task<List<string>> GetHashContentOnlineAsync(int StepSize = 5)
         {
-            return await this.tryGetHashContents(StepSize);
+            try
+            {
+                return await this.tryGetHashContents(StepSize);
+            }
+            catch {
+                return new List<string>();
+            }
 
         }
 
@@ -78,32 +86,34 @@ namespace CodxClient.Models
             mode.BufferSize = 1024 * 100;
             mode.Share = FileShare.Read;
 
-            FileStream fileStream = new FileStream(this.FilePath, mode);
-            //BinaryReader reader = new BinaryReader(fileStream);
-            //byte[] data = reader.ReadBytes(1024);
-            retList = new List<string>();
-            skipTo = readStep * skipSize;
-            fileStream.Seek(skipTo, SeekOrigin.Begin);
-            long bytesToRead = Math.Min(hashSize, totalLength - bytesRead);
-            var buffer = new byte[bytesToRead];
-            int bytesReadThisTime = await fileStream.ReadAsync(buffer, 0, (int)bytesToRead);
-
-            while ((bytesReadThisTime > 0) && (readStep < StepSize))
+            using (var fileStream = new FileStream(this.FilePath, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
             {
-                var hash = hashAlgorithm.ComputeHash(buffer);
-                retList.Add(Convert.ToHexString(hash));
-                readStep++;
+                //BinaryReader reader = new BinaryReader(fileStream);
+                //byte[] data = reader.ReadBytes(1024);
+                retList = new List<string>();
                 skipTo = readStep * skipSize;
                 fileStream.Seek(skipTo, SeekOrigin.Begin);
-                bytesReadThisTime = await fileStream.ReadAsync(buffer, 0, (int)bytesToRead);
+                long bytesToRead = Math.Min(hashSize, totalLength - bytesRead);
+                var buffer = new byte[bytesToRead];
+                int bytesReadThisTime = await fileStream.ReadAsync(buffer, 0, (int)bytesToRead);
+
+                while ((bytesReadThisTime > 0) && (readStep < StepSize))
+                {
+                    var hash = hashAlgorithm.ComputeHash(buffer);
+                    retList.Add(Convert.ToHexString(hash));
+                    readStep++;
+                    skipTo = readStep * skipSize;
+                    fileStream.Seek(skipTo, SeekOrigin.Begin);
+                    bytesReadThisTime = await fileStream.ReadAsync(buffer, 0, (int)bytesToRead);
+                }
+                fileStream.Close();
+                //using (var fileStream = File.Open(FilePath, FileMode.Open, FileAccess.Read, FileShare.Read))
+                //{
+
+
+                //}
+                return retList;
             }
-            fileStream.Close();
-            //using (var fileStream = File.Open(FilePath, FileMode.Open, FileAccess.Read, FileShare.Read))
-            //{
-
-
-            //}
-            return retList;
         }
 
         public long GetSizeOnline()
@@ -113,6 +123,10 @@ namespace CodxClient.Models
 
         public async Task<ChangeTypeEnum> CheckIsChangeAsync()
         {
+            if (!this.CheckIsReadyAccessing())
+            {
+                return ChangeTypeEnum.None;
+            }
             if (this.SizeOfFile == 0)
             {
                 return ChangeTypeEnum.None;
@@ -149,6 +163,22 @@ namespace CodxClient.Models
                 }
             }
             return ChangeTypeEnum.None;
+        }
+
+        private bool CheckIsReadyAccessing()
+        {
+            //try
+            //{
+            //    using (FileStream stream = File.Open(this.FilePath, FileMode.Open, FileAccess.Read, FileShare.None))
+            //    {
+            //        return true;
+            //    }
+            //}
+            //catch (IOException)
+            //{
+            //    return false;
+            //}
+            return true;
         }
 
         public async Task CommitAsync()
@@ -197,6 +227,25 @@ namespace CodxClient.Models
             this.SizeOfFile = 0;
             //this.HashContentList = null;
 
+        }
+
+        internal void CloneToTempFile(string TmpDir)
+        {
+            var tempFilePath = Path.Combine(TmpDir, Guid.NewGuid().ToString());
+            using (FileStream originalStream = new FileStream(this.FilePath, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
+            using (FileStream tempStream = File.OpenWrite(tempFilePath))
+            {
+                // Read from original file and write to temporary file
+                byte[] buffer = new byte[4096];
+                int bytesRead;
+                while ((bytesRead = originalStream.Read(buffer, 0, buffer.Length)) > 0)
+                {
+                    tempStream.Write(buffer, 0, bytesRead);
+                }
+            }
+            
+            this.OriginalFilePath = FilePath;
+            this.FilePath = tempFilePath;
         }
     }
 }

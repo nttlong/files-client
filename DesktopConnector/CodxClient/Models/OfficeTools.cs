@@ -16,5 +16,6 @@ namespace CodxClient.Models
         public string ExcutableFile { get; internal set; }
         public string ExcutablePath { get; internal set; }
         public string AppId { get; internal set; }
+        public bool IsHidden { get; internal set; }
     }
 }

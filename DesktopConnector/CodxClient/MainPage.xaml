@@ -47,36 +47,7 @@
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
-        <Grid VerticalOptions="EndAndExpand">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="Auto" />
 
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-
-                <ColumnDefinition Width="Auto" />
-                <ColumnDefinition Width="*" />
-
-            </Grid.ColumnDefinitions>
-            <Label
-                Grid.Row="0"
-                Grid.Column="0"
-                HorizontalOptions="EndAndExpand"
-                Text="{x:Static resx:AppResources.AutoStartUp}"
-                VerticalOptions="Center"
-                VerticalTextAlignment="End">
-                <Label.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="OnClickAutoStartUpLabel" />
-                </Label.GestureRecognizers>
-                
-            </Label>
-            <CheckBox
-                x:Name="chkAutoStartUp"
-                Grid.Row="0"
-                Grid.Column="1"
-                CheckedChanged="OnChkAutoStartUpChanged"
-                HorizontalOptions="Start" />
-        </Grid>
         <Grid VerticalOptions="EndAndExpand">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*" />

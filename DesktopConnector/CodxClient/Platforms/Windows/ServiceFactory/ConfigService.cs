@@ -18,6 +18,7 @@ namespace CodxClient.ServiceFactory
         private string appDataLocal;
         private string trackDir;
         private string contentDir;
+        private string tempDir;
 
         public string GetAppDataDir()
         {
@@ -114,6 +115,25 @@ namespace CodxClient.ServiceFactory
             //        key.DeleteValue(Assembly.GetExecutingAssembly().GetName().Name, false);
             //    }
             //}
+        }
+
+        public string GetTempDir()
+        {
+            if (this.tempDir == null)
+            {
+                this.tempDir = Path.Combine(this.GetAppDataLocal(), "tmp");
+                Directory.CreateDirectory(tempDir);
+            } 
+            return this.tempDir;
+        }
+
+        public long GetUploadBufferSize()
+        {
+            return 1024 * 10;
+        }
+        public long GetDownLoadBufferSize()
+        {
+            return 1024 * 10;
         }
     }
 }

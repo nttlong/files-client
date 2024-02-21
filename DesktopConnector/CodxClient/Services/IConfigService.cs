@@ -24,5 +24,8 @@ namespace CodxClient.Services
         /// <returns></returns>
         string GetContentDir();
         void SetAutoStartUp(bool IsAuto);
+        string GetTempDir();
+        long GetDownLoadBufferSize();
+        long GetUploadBufferSize();
     }
 }

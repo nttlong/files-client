@@ -33,7 +33,7 @@ namespace CodxClient.ServiceFactory
                 @"SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Winword.exe",
                 @"SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Excel.exe",
                 @"SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Powerpnt.exe",
-                //@"SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\pbrush.exe",
+                @"SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\pbrush.exe",
                 //@"SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\WORDPAD.EXE"
             };
 
@@ -56,7 +56,8 @@ namespace CodxClient.ServiceFactory
                             ExcutablePath = key.GetValue("").ToString(),
                             Description = Utils.Res.Get($"{appNameDislplay.ToLower()}.OK") ,
                             IsInstalled=true,
-                            ImageUrl = $"Resources/Images/{appNameDislplay.ToLower()}.png"
+                            ImageUrl = $"Resources/Images/{appNameDislplay.ToLower()}.png",
+                            IsHidden=appNameDislplay.ToLower()== "pbrush"
 
                         });
                     }
@@ -97,6 +98,15 @@ namespace CodxClient.ServiceFactory
                 ImageUrl = $"Resources/Images/msproject.png",
                 Description = Utils.Res.Get($"msproject.{(visioInstalled ? "OK" : "Fail")}"),
                 IsInstalled = msProjectInstalled
+            });
+            ret.Add(new Models.OfficeTools
+            {
+                AppName="",
+                ImageUrl="",
+                Description="",
+                ExcutableFile= "notepad.exe",
+                ExcutablePath = @"notepad",
+                IsHidden=true
             });
             return ret;
         }

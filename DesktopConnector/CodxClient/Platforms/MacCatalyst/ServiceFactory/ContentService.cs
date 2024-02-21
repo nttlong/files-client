@@ -1,5 +1,6 @@
 ﻿
 using CodxClient.Models;
+using CodxClient.Services;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -13,9 +14,14 @@ namespace CodxClient.ServiceFactory
 {
     public class ContentService : Services.IContentService
     {
-        public  async  Task DownloadAsync(Models.DelelegateInfo Src,string SaveToFile)
+        private IConfigService configService;
+
+        public ContentService() { 
+            this.configService = ServiceAssistent.GetService<IConfigService>();
+        }
+        public  async  Task DownloadAsync(Models.DelelegateInfo Src,string SaveToFile, Action<long,long> OnRun)
         {
-            await Utils.ContentManager.DownloadAsync(Src, SaveToFile);
+            await Utils.ContentManager.DownloadAsync(Src, SaveToFile,this.configService.GetDownLoadBufferSize(), OnRun);
         }
 
         public async Task<RequestInfo> LoadRequestInfoFromFileAsync(string TrackFilePath, string SourceFilePath)

@@ -208,4 +208,8 @@
 	  </PackageReference>
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Folder Include="ServiceFactory\" />
+	</ItemGroup>
+
 </Project>

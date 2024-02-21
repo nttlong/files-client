@@ -52,7 +52,7 @@ namespace CodxClient.ServiceFactory
         public async Task<bool> OpenNotepadAsync(RequestInfo info)
         {
             info.Status = RequestInfoStatusEnum.Opening;
-            var item = this.listOfApps.FirstOrDefault(p => p.ExcutableFile.ToLower() == "WORDPAD.EXE".ToLower());
+            var item = this.listOfApps.FirstOrDefault(p =>(p.ExcutableFile!=null)&&(p.ExcutableFile.ToLower() == "notepad.exe".ToLower()));
             if (item != null)
             {
                 await this.processService.ResovleAsync(info, item);

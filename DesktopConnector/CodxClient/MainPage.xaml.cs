@@ -23,31 +23,20 @@ namespace CodxClient
             this.uiService = ServiceAssistent.GetService<IUIService>();
             this.uiService.SetHomePage(this);
             this.toolDetector = ServiceAssistent.GetService<IToolDetectorService>();
-            this.OfficeToolsData = this.toolDetector.DoDetectOffice();
+            this.OfficeToolsData = this.toolDetector.DoDetectOffice().Where(p=>!p.IsHidden).ToList();
             this.OfficeToolsList.ItemsSource = this.OfficeToolsData;
             this.notificationService = ServiceAssistent.GetService<INotificationService>();
             this.configService = ServiceAssistent.GetService<IConfigService>();
-            
-            
-            
+            Services.ServiceAssistent.GetService<Services.IServer>().RunAsync("ws://127.0.0.1:8765").Start();
+
+
         }
 
         public IList<OfficeTools> OfficeToolsData { get; private set; }
         
         public bool IsAutoStartUp { get;  set; }
 
-        private void OnClickAutoStartUpLabel(object sender, EventArgs e)
-        {
-            this.IsAutoStartUp = !IsAutoStartUp;
-            this.chkAutoStartUp.IsChecked = this.IsAutoStartUp;
-            //this.confirmAutoStart();
-        }
-        private void OnChkAutoStartUpChanged(object s, CheckedChangedEventArgs e)
-        {
-            this.IsAutoStartUp = e.Value;
-            this.configService.SetAutoStartUp(this.IsAutoStartUp);
-            //this.chkAutoStartUp.IsChecked = this.IsAutoStartUp;
-        }
+        
 
         private void confirmAutoStart()
         {

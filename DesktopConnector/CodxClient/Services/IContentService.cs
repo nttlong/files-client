@@ -9,7 +9,7 @@ namespace CodxClient.Services
 {
     public interface IContentService
     {
-        Task DownloadAsync(Models.DelelegateInfo src,string SaveToFile);
+        Task DownloadAsync(Models.DelelegateInfo src,string SaveToFile, Action<long,long> OnRun);
         Task<RequestInfo> LoadRequestInfoFromFileAsync(string TrackFilePath, string SourceFilePath);
     }
 }

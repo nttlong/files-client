@@ -16,6 +16,7 @@ namespace CodxClient.ServiceFactory
         private string appDataLocal;
         private string trackDir;
         private string contentDir;
+        private string tempDir;
 
         public string GetAppDataDir()
         {
@@ -60,6 +61,18 @@ namespace CodxClient.ServiceFactory
             return contentDir;
         }
 
+        
+
+        public string GetTempDir()
+        {
+            if (this.tempDir == null)
+            {
+                this.tempDir = Path.Combine(this.GetAppDataLocal(), "tmp");
+                Directory.CreateDirectory(tempDir);
+            }
+            return this.tempDir;
+        }
+
         public string GetTrackDir()
         {
             if(trackDir == null)
@@ -70,6 +83,14 @@ namespace CodxClient.ServiceFactory
             return trackDir;
         }
 
+        public long GetUploadBufferSize()
+        {
+            return 1024 * 1024;
+        }
+        public long GetDownLoadBufferSize()
+        {
+            return 1024 * 1024;
+        }
         public string GetVersion()
         {
             if (builnumber == null)
