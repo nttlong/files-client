@@ -1,6 +1,7 @@
 ﻿using CodxClient.Services;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,6 +16,7 @@ namespace CodxClient.ServiceFactory
         public TempFileService() { 
             this.configService=Services.ServiceAssistent.GetService<Services.IConfigService>();
             this.notificationService = ServiceAssistent.GetService<Services.INotificationService>();
+            
         }
         public void Start1() { }
         public void Start()
@@ -28,24 +30,35 @@ namespace CodxClient.ServiceFactory
                     var totalDeleteFile = 0;
                     foreach (string file in Directory.EnumerateFiles(dataPath, "*", SearchOption.AllDirectories))
                     {
-                        var fileName = new FileInfo(file).Name;
+                        var isFileDelete = false;
+                        FileInfo fileInfo = new FileInfo(file);
+                        var fileName = fileInfo.Name;
+                        DateTime lastModified = fileInfo.LastWriteTime;
                         var id = fileName.Split(".").FirstOrDefault();
                         if (Utils.DataHashing.IsValidHashKey(id))
                         {
-                            var isFileDelete=false;
-                            try
+                         
+                             
+                            // Check if the file was modified more than 2 hours ago
+                            if (DateTime.Now.Subtract(lastModified).TotalDays >= 2 )
                             {
-                                if (File.Exists(file))
+                                try
                                 {
-                                    File.Delete(file);
+                                    // Attempt to delete the file
+                                    fileInfo.Delete();
                                     isFileDelete = true;
                                     totalDeleteFile++;
                                 }
+                                catch (Exception ex)
+                                {
+                                    
+                                }
                             }
-                            catch
+                            else
                             {
-
+                                Console.WriteLine($"File was last modified less than 2 hours ago: {lastModified.ToString("yyyy-MM-dd HH:mm:ss")}");
                             }
+
                             if (isFileDelete)
                             {
                                 var trackFile = Path.Combine(trackPath, $"{id}.txt");
@@ -62,6 +75,7 @@ namespace CodxClient.ServiceFactory
                                 }
 
                             }
+
 
                         }
                         Task.Delay(5).Wait();

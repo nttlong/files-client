@@ -12,12 +12,15 @@ namespace CodxClient.ServiceFactory
 {
     public class ProcessService : Services.IProcessService
     {
-        private ConcurrentDictionary<string,Tuple<Process,DateTime>> processList;
+        /// <summary>
+        /// processList: requestId, filepath, process is holding filepath
+        /// </summary>
+        private ConcurrentDictionary<string,Tuple<Process,DateTime,string>> processList;
         private IRequestManagerService requestManagerService;
         private INotificationService notificationService;
 
         public ProcessService() { 
-            this.processList=new ConcurrentDictionary<string, Tuple<Process, DateTime>>();
+            this.processList=new ConcurrentDictionary<string, Tuple<Process, DateTime, string>>();
             this.requestManagerService= ServiceAssistent.GetService<IRequestManagerService>();
             this.notificationService = ServiceAssistent.GetService<INotificationService>(); 
 
@@ -33,8 +36,8 @@ namespace CodxClient.ServiceFactory
                     Task.Delay(100).Wait();
                     foreach(var x in this.processList)
                     {
-                        
-                        var (process, time) = x.Value;
+                        var isKillOK=false;
+                        var (process, time,filePath) = x.Value;
                         if ((DateTime.UtcNow.Subtract(time).TotalSeconds > t) && (process.MainWindowHandle == 0))
                         {
                             try
@@ -43,6 +46,7 @@ namespace CodxClient.ServiceFactory
                                 //x.Value.Close();
                                 process.Kill();
                                 process.Dispose();
+                                isKillOK=true;
                             }
                             catch (Exception ex)
                             {
@@ -51,6 +55,14 @@ namespace CodxClient.ServiceFactory
                             this.processList.TryRemove(x);
                             requestManagerService.RemoveRequestByRequestId(x.Key);
                             this.notificationService.ShowNotification("Clear cache", $"{this.processList.Count}", false);
+                            if (isKillOK)
+                            {
+                                try
+                                {
+                                    File.Delete(filePath);
+                                }
+                                catch (Exception ex) { }
+                            }
                             GC.Collect();
                         }
                         Task.Delay(100).Wait();
@@ -103,16 +115,25 @@ namespace CodxClient.ServiceFactory
         {
             foreach( var x in this.processList)
             {
-                var (process, time) = x.Value;
+                var (process, time,filePath) = x.Value;
                 var info = this.requestManagerService.GetRequestInfoById(x.Key);
-                process.CloseMainWindow();
-                //x.Value.Close();
-                process.Kill();
-                process.Dispose();
-                if (info != null)
+                try
                 {
-                    info.Delete();
+                    process.CloseMainWindow();
+                    //x.Value.Close();
+                    process.Kill();
+                    process.Dispose();
+                    if (info != null)
+                    {
+                        info.Delete();
+                    }
                 }
+                catch { }
+                try
+                {
+                    File.Delete(filePath);
+                }
+                catch { }
             }
         }
 
@@ -121,8 +142,8 @@ namespace CodxClient.ServiceFactory
             if(this.processList.Count==0) return;
             if (this.processList.ContainsKey(RequestId))
             {
-                
-                Tuple<Process, DateTime> t = new Tuple<Process, DateTime>(null,DateTime.Now);
+                var isKillOK = false;
+                Tuple<Process, DateTime,string> t = new Tuple<Process, DateTime,string>(null,DateTime.Now,"");
                 this.processList.Remove(RequestId,out t);
                 if ((t != null )&&(t.Item1!=null))
                 {
@@ -130,8 +151,17 @@ namespace CodxClient.ServiceFactory
                     {
                         t.Item1.Kill();
                         t.Item1.Dispose();
+                        isKillOK=true;
                     }
                     catch { }
+                    if (isKillOK)
+                    {
+                        try
+                        {
+                            File.Delete(t.Item3);
+                        }
+                        catch { }
+                    }
                 }
             }
         }
@@ -140,12 +170,22 @@ namespace CodxClient.ServiceFactory
         {
             if (this.processList.ContainsKey(Info.RequestId))
             {
-                Tuple<Process, DateTime> t = new Tuple<Process, DateTime>(null, DateTime.Now);
+                Tuple<Process, DateTime,string> t = new Tuple<Process, DateTime,string>(null, DateTime.Now,"");
                 this.processList.Remove(Info.RequestId, out t);
                 if ((t != null) && (t.Item1 != null))
                 {
-                    t.Item1.Kill();
-                    t.Item1.Dispose();
+                    var isKillOK = false;
+                    try
+                    {
+                        t.Item1.Kill();
+                        t.Item1.Dispose();
+                        isKillOK = true;
+                    }
+                    catch { }
+                    if(isKillOK)
+                    {
+                        File.Delete(t.Item3);
+                    }
                 }
 
             }
@@ -155,10 +195,11 @@ namespace CodxClient.ServiceFactory
             //process.Disposed += Process_Disposed;
             processList.AddOrUpdate(Info.RequestId, (addKey) =>
             {
-                return new Tuple<Process, DateTime>(process, DateTime.UtcNow);
+                return new Tuple<Process, DateTime,string>(process, DateTime.UtcNow,Info.FilePath);
             }, (updateKey, updateValue) =>
             {
-                Tuple<Process, DateTime> oldValue = null;
+                var killOK = false;
+                Tuple<Process, DateTime,string> oldValue = null;
                 if (processList.TryGetValue(updateKey, out oldValue))
                 {
                     if ((oldValue != null) && (oldValue.Item1 != null))
@@ -167,14 +208,23 @@ namespace CodxClient.ServiceFactory
                         {
                             oldValue.Item1.Kill();
                             oldValue.Item1.Dispose();
+                            killOK=true;
                         }
                         catch (Exception ex)
                         {
 
                         }
+                        if (killOK)
+                        {
+                            try
+                            {
+                                File.Delete(oldValue.Item3);
+                            }
+                            catch { }
+                        }
                     }
                 }
-                return new Tuple<Process, DateTime>(process, DateTime.UtcNow);
+                return new Tuple<Process, DateTime,string>(process, DateTime.UtcNow,Info.FilePath);
 
             }); ;
             Info.Status = RequestInfoStatusEnum.Ready;

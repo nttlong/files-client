@@ -74,6 +74,7 @@ namespace CodxClient.Common
                 await contentService.DownloadAsync(Info.Src, Info.FilePath, (dowloadSize,fileSize) => {
                     double rate = (double) ((double)dowloadSize / fileSize);
                     notifyService.UpdateNotifier(notifier, "progressValue", $"{rate}");
+                    notifyService.UpdateNotifier(notifier, "progressValueString", $"{Math.Round(rate)}%");
                 });
                 Info.HashContentList = await Info.GetHashContentOnlineAsync();
                 Info.SizeOfFile = Info.GetSizeOnline();
@@ -81,7 +82,7 @@ namespace CodxClient.Common
                 await Info.CommitAsync();
                 await Info.SaveAsync();
                 notifyService.UpdateNotifier(notifier,"progressStatus","Loaded");
-                notifyService.UpdateNotifier(notifier, "progressValue", "1");
+                
                 Info.Status = Models.RequestInfoStatusEnum.Ready;
                 return Info;
             }
