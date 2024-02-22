@@ -10,6 +10,6 @@ namespace CodxClient.Services
     public interface IObserveContentService
     {
         void RegisterRequestInfo(RequestInfo info);
-        void Start(string v);
+        void Start(string LocalStorageDir);
     }
 }

@@ -1,5 +1,6 @@
 ﻿
 using CodxClient.Models;
+using CodxClient.Models.Exceptions;
 using Microsoft.Toolkit.Uwp.Notifications;
 using System.IO;
 using System.IO.Pipes;
@@ -61,6 +62,7 @@ namespace CodxClient.Utils
 //#endif
         public static async Task<HttpResponseMessage> CreateRequestAsync(string url, string method, Dictionary<string, string> header, object data, string filepathToDownload, string filePathtoUpload,long BufferSize,Action<long,long> OnRun)
         {
+            //url = "http://172.16.7.99/lvfile/api/files/check_out_source";
             HttpClient httpClient = new HttpClient();
             HttpMethod httpMethod = new HttpMethod(method);
             HttpRequestMessage request = new HttpRequestMessage(httpMethod, url);
@@ -69,7 +71,7 @@ namespace CodxClient.Utils
             //request.Headers.Add("mac_address_id", $"{Guid.NewGuid():N}");
             //request.Headers.Add("hash_contents", hashToServer);
             //request.Headers.Add("hash_len", hashLen);
-
+            
             if (data != null && filePathtoUpload == null)
             {
                 //request.Headers.Add("Content-Type", "application/json");
@@ -127,7 +129,13 @@ namespace CodxClient.Utils
                     }
                     
                     var ret = await httpClient.SendAsync(request);
-                    
+                    if (ret.StatusCode != HttpStatusCode.OK)
+                    {
+                        throw new RequestError(
+                            Message: ret.Content.ReadAsStringAsync().Result, 
+                            Code: ret.StatusCode,
+                            Url:request.RequestUri.ToString());
+                    }
                     return ret;
                 }
                 
@@ -140,12 +148,20 @@ namespace CodxClient.Utils
                 int bytesRead;
                 using (var fileStream = new FileStream(filepathToDownload, FileMode.Create, FileAccess.Write, FileShare.ReadWrite, (int)BufferSize, true))
                 {
+                    if (ret.StatusCode != HttpStatusCode.OK)
+                    {
+                        throw new RequestError(
+                            Message: ret.Content.ReadAsStringAsync().Result,
+                            Code: ret.StatusCode,
+                            Url: request.RequestUri.ToString());
+                        
+                    }
                     while ((bytesRead = ret.Content.ReadAsStream().Read(buffer, 0, buffer.Length)) > 0)
                     {
                         // Send the buffer to the server (assuming you have logic for that)
                         fileStream.Write(buffer, 0, bytesRead);
                         bytesSent += bytesRead;
-                        OnRun(bytesSent, ret.Content.Headers.ContentLength??0);
+                        OnRun(bytesSent, ret.Content.Headers.ContentLength ?? 0);
                     }
                 }
                 return ret;
@@ -154,9 +170,9 @@ namespace CodxClient.Utils
 
 
         }
-#if WINDOWS
-        [System.Diagnostics.DebuggerStepThrough]
-#endif
+//#if WINDOWS
+//        [System.Diagnostics.DebuggerStepThrough]
+//#endif
         public async static Task DownloadAsync(Models.DelelegateInfo Src, string SaveToFile,long BufferSize,Action<long,long> OnRun)
         {
             var response = await CreateRequestAsync(Src.Url, Src.Method, Src.Header, Src.data, SaveToFile, null, BufferSize,OnRun);

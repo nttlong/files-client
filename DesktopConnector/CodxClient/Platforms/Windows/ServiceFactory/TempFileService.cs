@@ -16,6 +16,7 @@ namespace CodxClient.ServiceFactory
             this.configService=Services.ServiceAssistent.GetService<Services.IConfigService>();
             this.notificationService = ServiceAssistent.GetService<Services.INotificationService>();
         }
+        public void Start1() { }
         public void Start()
         {
             var dataPath = this.configService.GetContentDir();

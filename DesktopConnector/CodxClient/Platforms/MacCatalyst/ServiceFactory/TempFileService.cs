@@ -8,5 +8,9 @@ namespace CodxClient.ServiceFactory
 {
     public class TempFileService : Services.ITempFileService
     {
+        public void Start()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

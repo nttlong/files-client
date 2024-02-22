@@ -34,6 +34,13 @@ namespace CodxClient.Common
             processService = Services.ServiceAssistent.GetService<Services.IProcessService>();
 
         }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="Info"></param>
+        /// <param name="Data"></param>
+        /// <exception cref="Models.Exceptions.RequestError"></exception>
+        /// <returns></returns>
         private async Task<Models.RequestInfo?> DoDownloadAsync(Models.RequestInfo Info, string Data)
         {
             var requestId = Utils.DataHashing.HashText(Data);
@@ -150,6 +157,10 @@ namespace CodxClient.Common
                 {
                     notifyService.ShowNotification("Error", "File type is not support",silent:false);
                 }
+            }
+            catch(Models.Exceptions.RequestError ex)
+            {
+                this.notifyService.ShowError(ex);
             }
             catch (Exception ex)
             {

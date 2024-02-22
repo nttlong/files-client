@@ -1,4 +1,5 @@
 using CodxClient.Models;
+using CodxClient.Models.Exceptions;
 using UserNotifications;
 
 
@@ -8,6 +9,11 @@ namespace CodxClient.ServiceFactory
     public class NotificationService : Services.INotificationService
     {
         public Task<bool> ShowConfirmBoxAsync(string Title, string ConfirmMessage)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void ShowError(RequestError ex)
         {
             throw new NotImplementedException();
         }

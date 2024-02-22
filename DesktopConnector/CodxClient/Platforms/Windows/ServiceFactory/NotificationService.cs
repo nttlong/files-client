@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using CodxClient.Models;
+using CodxClient.Models.Exceptions;
 using Microsoft.Toolkit.Uwp.Notifications;
 using Windows.UI.Notifications;
 using static System.Net.Mime.MediaTypeNames;
@@ -28,6 +29,34 @@ namespace CodxClient.ServiceFactory
             else
             {
                 return false;
+            }
+        }
+
+        public void ShowError(RequestError ex)
+        {
+            if (ex.Code == System.Net.HttpStatusCode.Unauthorized)
+            {
+                ShowNotification(Utils.Res.Get("Error"), Utils.Res.Get("Request is unauthorized"), silent: false);
+            }
+            else if (ex.Code == System.Net.HttpStatusCode.NotFound)
+            {
+                ShowNotification(Utils.Res.Get("Error"), Utils.Res.Get("Request was not found"), silent: false);
+            }
+            else if (ex.Code == System.Net.HttpStatusCode.BadRequest)
+            {
+                ShowNotification(Utils.Res.Get("Error"), Utils.Res.Get("Bad Request was receive"), silent: false);
+            }
+            else if (ex.Code == System.Net.HttpStatusCode.Forbidden)
+            {
+                ShowNotification(Utils.Res.Get("Error"), Utils.Res.Get("Forbidden was receive"), silent: false);
+            }
+            else if (ex.Code == System.Net.HttpStatusCode.MethodNotAllowed)
+            {
+                ShowNotification(Utils.Res.Get("Error"), Utils.Res.Get("Error request"), silent: false);
+            }
+            else
+            {
+                ShowNotification(Utils.Res.Get("Error"), ex.Message+",Error="+ex.Code.ToString(), silent: false);
             }
         }
 

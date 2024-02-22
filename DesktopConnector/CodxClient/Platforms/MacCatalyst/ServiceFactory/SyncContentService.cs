@@ -10,11 +10,12 @@ namespace CodxClient.ServiceFactory
 {
     public class SyncContentService : ISyncContentService
     {
-        
-
-        public async Task DoUploadContentAsync(RequestInfo requestInfo)
+        public async Task DoUploadContentAsync(RequestInfo requestInfo, long BufferSize, Action<long, long> OnRun)
         {
-            throw new NotImplementedException();
+
+            requestInfo.Status = RequestInfoStatusEnum.IsUploading;
+            await Utils.ContentManager.UploadAsync(requestInfo.Dst, requestInfo.FilePath, BufferSize, OnRun);
+            requestInfo.Status = RequestInfoStatusEnum.Ready;
         }
     }
 }
