@@ -98,7 +98,8 @@ namespace CodxClient.ServiceFactory
                                 OnRun: (sizeUploaded, fileSize) =>
                                     {
                                         var rate=(double)sizeUploaded/fileSize;
-                                        this.notificationService.UpdateNotifier(notifier, "progressValueString", $"{rate}");
+                                        this.notificationService.UpdateNotifier(notifier, "progressValue", $"{rate}");
+                                        this.notificationService.UpdateNotifier(notifier, "progressValueString", $"{Math.Round(rate*100)}%");
                                     }).Wait();
                         }
                         else
@@ -118,7 +119,8 @@ namespace CodxClient.ServiceFactory
                                     OnRun: (sizeUploaded, fileSize) =>
                                     {
                                         var rate = (double)sizeUploaded / fileSize;
-                                        this.notificationService.UpdateNotifier(notifier, "progressValueString", $"{rate}");
+                                        this.notificationService.UpdateNotifier(notifier, "progressValue", $"{rate}");
+                                        this.notificationService.UpdateNotifier(notifier, "progressValueString", $"{Math.Round(rate * 100)}%");
                                     }).Wait();
                             }
                         }
