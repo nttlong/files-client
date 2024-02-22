@@ -86,12 +86,19 @@ namespace CodxClient.ServiceFactory
                     {
                         if (!isInCache)
                         {
+                            var notifier = this.notificationService.ShowNotificationWithWithProgressBar(
+                                title: Utils.Res.Get("File upload"),
+                                body: Utils.Res.Get("Content of file is synchronizing .."),
+                                status: "0",
+                                silent: true
+                                );
                             this.syncContentService.DoUploadContentAsync(
                                 requestInfo: requestInfo,
                                 BufferSize: this.configService.GetUploadBufferSize(),
                                 OnRun: (sizeUploaded, fileSize) =>
                                     {
-
+                                        var rate=(double)sizeUploaded/fileSize;
+                                        this.notificationService.UpdateNotifier(notifier, "progressValueString", $"{rate}");
                                     }).Wait();
                         }
                         else
@@ -99,12 +106,19 @@ namespace CodxClient.ServiceFactory
                             var checkChangeType = requestInfo.CheckIsChangeAsync().Result;
                             if (checkChangeType != ChangeTypeEnum.None)
                             {
+                                var notifier = this.notificationService.ShowNotificationWithWithProgressBar(
+                                title: Utils.Res.Get("File upload"),
+                                body: Utils.Res.Get("Content of file is synchronizing .."),
+                                status: "0",
+                                silent: true
+                                );
                                 this.syncContentService.DoUploadContentAsync(
                                     requestInfo: requestInfo,
                                     BufferSize: this.configService.GetUploadBufferSize(),
                                     OnRun: (sizeUploaded, fileSize) =>
                                     {
-
+                                        var rate = (double)sizeUploaded / fileSize;
+                                        this.notificationService.UpdateNotifier(notifier, "progressValueString", $"{rate}");
                                     }).Wait();
                             }
                         }
