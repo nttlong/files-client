@@ -1,10 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <BundleResource Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Release\net7.0-maccatalyst\resizetizer\r\dotnet_bot.png" />
-    <BundleResource Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Release\net7.0-maccatalyst\resizetizer\r\dotnet_bot@2x.png" />
-    <BundleResource Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Release\net7.0-maccatalyst\resizetizer\r\dotnet_bot@3x.png" />
-    <BundleResource Include="obj\Release\net7.0-maccatalyst\resizetizer\f\OpenSans-Regular.ttf" />
-    <BundleResource Include="obj\Release\net7.0-maccatalyst\resizetizer\f\OpenSans-Semibold.ttf" />
+    <BundleResource Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Release\net7.0-maccatalyst\resizetizer\r\excel.png" />
+    <BundleResource Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Release\net7.0-maccatalyst\resizetizer\r\excel@2x.png" />
+    <BundleResource Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Release\net7.0-maccatalyst\resizetizer\r\excel@3x.png" />
+    <BundleResource Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Release\net7.0-maccatalyst\resizetizer\r\msproject.png" />
+    <BundleResource Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Release\net7.0-maccatalyst\resizetizer\r\msproject@2x.png" />
+    <BundleResource Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Release\net7.0-maccatalyst\resizetizer\r\msproject@3x.png" />
+    <BundleResource Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Release\net7.0-maccatalyst\resizetizer\r\msword.png" />
+    <BundleResource Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Release\net7.0-maccatalyst\resizetizer\r\msword@2x.png" />
+    <BundleResource Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Release\net7.0-maccatalyst\resizetizer\r\msword@3x.png" />
+    <BundleResource Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Release\net7.0-maccatalyst\resizetizer\r\powerpoint.png" />
+    <BundleResource Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Release\net7.0-maccatalyst\resizetizer\r\powerpoint@2x.png" />
+    <BundleResource Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Release\net7.0-maccatalyst\resizetizer\r\powerpoint@3x.png" />
+    <BundleResource Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Release\net7.0-maccatalyst\resizetizer\r\visio.png" />
+    <BundleResource Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Release\net7.0-maccatalyst\resizetizer\r\visio@2x.png" />
+    <BundleResource Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Release\net7.0-maccatalyst\resizetizer\r\visio@3x.png" />
+    <BundleResource Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Release\net7.0-maccatalyst\resizetizer\r\word.png" />
+    <BundleResource Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Release\net7.0-maccatalyst\resizetizer\r\word@2x.png" />
+    <BundleResource Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Release\net7.0-maccatalyst\resizetizer\r\word@3x.png" />
+    <BundleResource Include="obj\Release\net7.0-maccatalyst\resizetizer\f\MauiInfo.plist" />
   </ItemGroup>
 </Project>

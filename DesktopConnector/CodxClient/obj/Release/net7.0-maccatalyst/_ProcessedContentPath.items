@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Content Include="Resources\Raw\AboutAssets.txt" />
+    <Content Include="Platforms\Windows\app.ico" />
+    <Content Include="Resources\Images\excel.png" />
+    <Content Include="Resources\Images\msproject.png" />
+    <Content Include="Resources\Images\powerpnt.png" />
+    <Content Include="Resources\Images\visio.png" />
+    <Content Include="Resources\Images\winword.png" />
   </ItemGroup>
 </Project>

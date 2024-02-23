@@ -5,7 +5,7 @@
     <version>1.0.0</version>
     <authors>CodxClient</authors>
     <description>Package Description</description>
-    <repository type="git" commit="79310e23fe973f9d35e41c3c46601c3461974c1d" />
+    <repository type="git" commit="3e9b995a06a4e76716cc8af27c042c2e1fa7ce38" />
     <dependencies>
       <group targetFramework="net7.0-maccatalyst16.1">
         <dependency id="Microsoft.Extensions.Configuration" version="7.0.0" exclude="Build,Analyzers" />
@@ -72,5 +72,6 @@
     <file src="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\Resources\Images\winword.png" target="content\Resources\Images\winword.png" />
     <file src="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\Resources\Images\winword.png" target="contentFiles\any\net7.0-maccatalyst16.1\Resources\Images\winword.png" />
     <file src="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\Resources\Images\winword.png" target="contentFiles\any\net7.0-windows10.0.19041\Resources\Images\winword.png" />
+    <file src="C:\Users\admin.NTTLONG\Desktop\Huy-tyest\appicon-256.png" target="\appicon-256.png" />
   </files>
 </package>

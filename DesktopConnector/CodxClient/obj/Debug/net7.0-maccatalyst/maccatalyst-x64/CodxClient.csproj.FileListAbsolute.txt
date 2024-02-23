@@ -2,7 +2,6 @@ C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\bin
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\CodxClient.runtimeconfig.json
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\CodxClient.dll
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\CodxClient.pdb
-C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\AZ.FolderSystemWatcher.dll
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Configuration.dll
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.DependencyInjection.dll
@@ -274,6 +273,8 @@ C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\_ProcessedBundleResourcesPath.items
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\_ProcessedContentPath.items
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\CodxClient.csproj.AssemblyReference.cache
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\CodxClient.Properties.Resources.AppResources.resources
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\CodxClient.csproj.GenerateResource.cache
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\CodxClient.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\CodxClient.AssemblyInfoInputs.cache
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\CodxClient.AssemblyInfo.cs
@@ -286,5 +287,3 @@ C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\CodxClient.pdb
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\CodxClient.genruntimeconfig.cache
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\ref\CodxClient.dll
-C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\CodxClient.Properties.Resources.AppResources.resources
-C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\CodxClient.csproj.GenerateResource.cache

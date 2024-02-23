@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="DeskCnn.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:resx="clr-namespace:DeskCnn.Properties.Resources"
+    MaximumHeightRequest="500"
+    MaximumWidthRequest="500">
+
+    <StackLayout Padding="10">
+        <!--  Top Panel with CollectionView  -->
+        <CollectionView x:Name="OfficeToolsList">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Image
+                            Grid.Column="0"
+                            HeightRequest="50"
+                            Source="{Binding ImageUrl}"
+                            VerticalOptions="Center" />
+                        <StackLayout
+                            Grid.Column="1"
+                            Padding="4"
+                            Spacing="4"
+                            VerticalOptions="Fill">
+                            <Label
+                                FontAttributes="Bold"
+                                LineBreakMode="NoWrap"
+                                Style="{StaticResource BoldLabelStyle}"
+                                Text="{Binding AppName}" />
+                            <Label
+                                LineBreakMode="NoWrap"
+                                Style="{StaticResource RegularLabelStyle}"
+                                Text="{Binding Description}" />
+                        </StackLayout>
+                    </Grid>
+                    <!--<VerticalStackLayout Padding="2">
+                        <Image Source="{Binding ImageUrl}" />
+                        <Label FontAttributes="Bold" Text="{Binding AppName}" />
+                        <Label Margin="0,5,0,0" Text="{Binding Description}" />
+                    </VerticalStackLayout>-->
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <Grid VerticalOptions="EndAndExpand">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+
+            </Grid.ColumnDefinitions>
+
+            <!--<Label Grid.Column="0" Text="Dissatisfy?" />-->
+            <Button
+                x:Name="CloseBtn"
+                Grid.Row="1"
+                Grid.Column="1"
+                BackgroundColor="Transparent"
+                BorderWidth="0"
+                Clicked="CloseBtn_Clicked"
+                SemanticProperties.Hint="{DynamicResource ExitHint}"
+                Text="{x:Static resx:AppResources.Exit}"
+                TextColor="Black" />
+
+        </Grid>
+        <!--  Bottom Panel with Exit Button  -->
+        <!--<StackLayout VerticalOptions="EndAndExpand">
+            <Label
+                FontAttributes="Bold"
+                HorizontalOptions="End"
+                LineBreakMode="NoWrap"
+                Style="{StaticResource BoldLabelStyle}"
+                Text="Dissatisfy?"
+                VerticalOptions="Center" />
+            <Button
+                x:Name="CloseBtn"
+                Clicked="CloseBtn_Clicked"
+                HorizontalOptions="End"
+                SemanticProperties.Hint="{DynamicResource ExitHint}"
+                Text="{DynamicResource Exit}" />
+        </StackLayout>-->
+    </StackLayout>
+
+
+
+</ContentPage>
+

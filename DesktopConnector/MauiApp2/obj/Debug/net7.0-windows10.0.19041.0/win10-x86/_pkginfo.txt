@@ -1,0 +1,1 @@
+C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\MauiApp2\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppPackages\MauiApp2_0.0.1.0_Debug_Test\MauiApp2_0.0.1.0_x86_Debug.msix

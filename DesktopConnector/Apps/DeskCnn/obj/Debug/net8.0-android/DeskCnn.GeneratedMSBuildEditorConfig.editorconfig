@@ -1,0 +1,65 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = DeskCnn
+build_property.ProjectDir = C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\apps\DeskCnn\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/admin.NTTLONG/source/repos/files-client/DesktopConnector/apps/DeskCnn/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DeskCnn.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/admin.NTTLONG/source/repos/files-client/DesktopConnector/apps/DeskCnn/AppResources.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DeskCnn.AppResources.xaml
+build_metadata.AdditionalFiles.TargetPath = AppResources.xaml
+build_metadata.AdditionalFiles.RelativePath = AppResources.xaml
+
+[C:/Users/admin.NTTLONG/source/repos/files-client/DesktopConnector/apps/DeskCnn/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DeskCnn.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/admin.NTTLONG/source/repos/files-client/DesktopConnector/apps/DeskCnn/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DeskCnn.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/admin.NTTLONG/source/repos/files-client/DesktopConnector/apps/DeskCnn/Resources/i18n/AppResources.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DeskCnn.Resources.i18n.AppResources.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\i18n\AppResources.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\i18n\AppResources.xaml
+
+[C:/Users/admin.NTTLONG/source/repos/files-client/DesktopConnector/apps/DeskCnn/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DeskCnn.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/admin.NTTLONG/source/repos/files-client/DesktopConnector/apps/DeskCnn/Resources/Styles/MainPageItemStyles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DeskCnn.Resources.Styles.MainPageItemStyles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\MainPageItemStyles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\MainPageItemStyles.xaml
+
+[C:/Users/admin.NTTLONG/source/repos/files-client/DesktopConnector/apps/DeskCnn/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DeskCnn.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

@@ -14,11 +14,10 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CodxClient")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+79310e23fe973f9d35e41c3c46601c3461974c1d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+3e9b995a06a4e76716cc8af27c042c2e1fa7ce38")]
 [assembly: System.Reflection.AssemblyProductAttribute("CodxClient")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CodxClient")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
-[assembly: System.Resources.NeutralResourcesLanguageAttribute("en-US")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("MacCatalyst16.1")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("MacCatalyst13.1")]
 

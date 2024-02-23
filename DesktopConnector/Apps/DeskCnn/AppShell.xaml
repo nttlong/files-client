@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="DeskCnn.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:DeskCnn"
+    xmlns:resx="clr-namespace:DeskCnn.Properties.Resources"
+    MaximumHeightRequest="500"
+    MaximumWidthRequest="500"
+    Shell.FlyoutBehavior="Disabled">
+
+    <Shell.FlyoutHeader>
+        <!--  Optionally, you can add a header to the flyout  -->
+        <Label
+            FontAttributes="Bold"
+            FontSize="20"
+            Text="Codx desktop application connector" />
+    </Shell.FlyoutHeader>
+
+    <!--  Your existing FlyoutItems go here  -->
+
+    <Shell.FlyoutFooter>
+        <!--  Add an Exit button in the FlyoutFooter  -->
+        <StackLayout Padding="10">
+            <Button
+                x:Name="CloseBtn"
+                Clicked="CloseBtn_Clicked"
+                HorizontalOptions="End"
+                SemanticProperties.Hint="{DynamicResource ExitHint}"
+                Text="{x:Static resx:AppResources.Exit}" />
+        </StackLayout>
+    </Shell.FlyoutFooter>
+
+    <ShellContent ContentTemplate="{DataTemplate local:MainPage}" Route="MainPage" />
+
+
+</Shell>

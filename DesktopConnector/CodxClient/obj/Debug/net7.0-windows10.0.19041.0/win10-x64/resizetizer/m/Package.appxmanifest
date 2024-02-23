@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:controls="using:Microsoft.Toolkit.Uwp.UI.Controls" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" xmlns:uap5="http://schemas.microsoft.com/appx/manifest/uap/windows10/5" IgnorableNamespaces="uap rescap">
-  <Identity Name="48c8435c-f3a2-4ddf-9458-137d261ea7de" Publisher="CN=admin" Version="0.0.33.0" />
+  <Identity Name="25c3a79d-3e27-420d-9331-6ced1357b82e" Publisher="CN=admin" Version="0.0.43.0" />
   <Properties>
     <DisplayName>CodxClient</DisplayName>
     <PublisherDisplayName>User Name</PublisherDisplayName>

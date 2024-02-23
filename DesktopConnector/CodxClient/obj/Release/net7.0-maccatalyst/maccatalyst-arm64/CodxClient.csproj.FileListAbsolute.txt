@@ -268,4 +268,3 @@ C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Release\net7.0-maccatalyst\maccatalyst-arm64\resizetizer\r\word@3x.png
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Release\net7.0-maccatalyst\maccatalyst-arm64\CodxClient.Properties.Resources.AppResources.resources
 C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Release\net7.0-maccatalyst\maccatalyst-arm64\CodxClient.csproj.GenerateResource.cache
-C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\bin\Release\net7.0-maccatalyst\maccatalyst-arm64\Platforms\Windows\app.ico

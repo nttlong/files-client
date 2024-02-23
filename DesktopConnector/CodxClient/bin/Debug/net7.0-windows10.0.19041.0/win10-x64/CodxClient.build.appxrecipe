@@ -8,7 +8,7 @@
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>x64</PackageArchitecture>
-    <PackageIdentityName>48c8435c-f3a2-4ddf-9458-137d261ea7de</PackageIdentityName>
+    <PackageIdentityName>25c3a79d-3e27-420d-9331-6ced1357b82e</PackageIdentityName>
     <PackageIdentityPublisher>CN=admin</PackageIdentityPublisher>
     <IntermediateOutputPath>C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
@@ -39,6 +39,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\Platforms\Windows\app.ico">
       <PackagePath>Platforms\Windows\app.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\CodxClient.deps.json">
+      <PackagePath>CodxClient.deps.json</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.15\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1548,12 +1551,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\source\repos\files-client\DesktopConnector\CodxClient\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\CodxClient.deps.json">
-      <PackagePath>CodxClient.deps.json</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\admin.NTTLONG\.nuget\packages\az.foldersystemwatcher.packager\0.4.0\lib\net451\AZ.FolderSystemWatcher.dll">
-      <PackagePath>AZ.FolderSystemWatcher.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin.NTTLONG\.nuget\packages\microsoft.maui.controls.ref.win\7.0.101\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
